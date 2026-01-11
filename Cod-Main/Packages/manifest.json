@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "com.cod.audioplayer": "https://github.com/Marcolino3000/AudioPlayer-Package.git",
+    "com.cod.csvmanager": "https://github.com/Marcolino3000/CsvManager.git",
+    "com.cod.dialog-builder": "https://github.com/Marcolino3000/DialogBuilder-Package.git",
+    "com.cod.interactionbuilder": "https://github.com/Marcolino3000/InteractionBuilder-Package.git",
     "com.cod.playerinput": "https://github.com/Marcolino3000/PlayerInput.git",
     "com.unity.ai.navigation": "2.0.8",
     "com.unity.collab-proxy": "2.10.2",
