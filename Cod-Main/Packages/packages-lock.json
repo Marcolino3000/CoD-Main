@@ -1,5 +1,42 @@
 {
   "dependencies": {
+    "com.cod.audioplayer": {
+      "version": "https://github.com/Marcolino3000/AudioPlayer-Package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "21d99a84fb9935b93c628287ad727c71396c4504"
+    },
+    "com.cod.csvmanager": {
+      "version": "https://github.com/Marcolino3000/CsvManager.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cod.dialog-builder": "0.9.3",
+        "com.cod.audioplayer": "0.0.1"
+      },
+      "hash": "b9b16afff382ee59deaa02a1a4b837b8072a7c67"
+    },
+    "com.cod.dialog-builder": {
+      "version": "https://github.com/Marcolino3000/DialogBuilder-Package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6"
+      },
+      "hash": "9a7413483effbc95f3d6de9afa0b8eb44ad75dd1"
+    },
+    "com.cod.interactionbuilder": {
+      "version": "https://github.com/Marcolino3000/InteractionBuilder-Package.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6",
+        "com.cod.dialog-builder": "0.9.3",
+        "com.cod.playerinput": "1.0.0"
+      },
+      "hash": "ebdf23c0d185e12a8bc6f114e810225f78cb2bbf"
+    },
     "com.cod.playerinput": {
       "version": "https://github.com/Marcolino3000/PlayerInput.git",
       "depth": 0,
@@ -8,7 +45,7 @@
         "com.unity.cinemachine": "3.1.4",
         "com.unity.inputsystem": "1.14.2"
       },
-      "hash": "7185551be9555d820fd24d64ec900aac036025f6"
+      "hash": "a2d512d72bb7bce698956cb622759a1a2fc28084"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.8",
@@ -210,6 +247,14 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.textmeshpro": {
+      "version": "5.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0"
+      }
     },
     "com.unity.timeline": {
       "version": "1.8.9",
