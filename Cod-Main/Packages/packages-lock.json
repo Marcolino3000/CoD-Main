@@ -35,7 +35,7 @@
         "com.cod.dialog-builder": "0.9.3",
         "com.cod.playerinput": "1.0.0"
       },
-      "hash": "ebdf23c0d185e12a8bc6f114e810225f78cb2bbf"
+      "hash": "16b6c3e524901f01dde98e478d3cbe368a99d82d"
     },
     "com.cod.playerinput": {
       "version": "https://github.com/Marcolino3000/PlayerInput.git",
@@ -46,6 +46,12 @@
         "com.unity.inputsystem": "1.14.2"
       },
       "hash": "a2d512d72bb7bce698956cb622759a1a2fc28084"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.ai.navigation": {
       "version": "2.0.8",
