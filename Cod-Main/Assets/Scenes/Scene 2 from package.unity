@@ -62243,7 +62243,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1907664648}
   - component: {fileID: 1907664652}
-  - component: {fileID: 1907664649}
   m_Layer: 0
   m_Name: Prob Boden
   m_TagString: Untagged
@@ -62266,18 +62265,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1754907949}
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
---- !u!114 &1907664649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907664647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de917fffd0a474e35a5dc76e0bfb7ef5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1907664652
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -66004,7 +65991,8 @@ PrefabInstance:
       propertyPath: statusDisplay
       value: 
       objectReference: {fileID: 238622888}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 498356063106215794, guid: 4015cb0b3f03c40bca7c8d7d5b7ea03b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
