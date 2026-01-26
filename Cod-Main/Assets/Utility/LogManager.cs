@@ -13,6 +13,7 @@ namespace Utility
 
     void OnEnable()
     {
+        Debug.Log("loghandler onenable");
         defaultLogHandler = Debug.unityLogger.logHandler;
 
         Debug.unityLogger.logHandler = new CustomLogHandler(defaultLogHandler, toExclude);
