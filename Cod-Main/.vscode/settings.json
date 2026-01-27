@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "Cod-Main_WwiseIntegrationTemp.sln"
+    "dotnet.defaultSolution": "Cod-Main.sln"
 }
