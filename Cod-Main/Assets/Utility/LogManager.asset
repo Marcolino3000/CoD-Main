@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08cf08cb6fb54a21959257cda6c2564e, type: 3}
   m_Name: LogManager
   m_EditorClassIdentifier: Assembly-CSharp::Utility.LogManager
-  toExclude:
-  - 'WwiseUnity: (ERROR) '
-  - 'WwiseUnity: (LOG) '
+  toExclude: []
+  setupButton: 0

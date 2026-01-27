@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: (AWKWARD PAUSE)
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 5a96dbf70abea457297ec5b94868ed8d
   Position: {x: -450.00006, y: 980.00006}
@@ -80,7 +80,7 @@ MonoBehaviour:
   DialogLine: "\u201EIst es nicht schade, dass es\nmit uns damals nicht geklappt
     hat?\u201C"
   TextPreview: "\u201EIst es nicht sc..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 423226309dfdb4810ad92d03b37db095, type: 3}
   Children:
   - {fileID: -1600501599739012494}
   - {fileID: -6702725831772840009}
@@ -174,7 +174,7 @@ MonoBehaviour:
   TextPreview: "\u201EDU WARST SCHON ..."
   AudioClip: {fileID: 8300000, guid: d067cde39ad8e46b59f8b9c66537ed6f, type: 3}
   Children:
-  - {fileID: -5073194425529699079}
+  - {fileID: 881381899927406145}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: (Wenn man in ein...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 89a65773f4351412392284a16be46654
   Position: {x: 899.9999, y: 3778.5}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: PlayerDialogOption
+  m_Name: "DIE T\xDCR ZUKNALLE..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 2f20d1651b2c34712aeae74cae598367
   Position: {x: 450, y: 1960}
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Name: "\u201EN\xC4.\u201C"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: ea7d17f3f4a4741bc937a5b7b2610ea6
-  Position: {x: 750, y: 1960}
+  Position: {x: 750, y: 1959.9998}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -365,36 +365,6 @@ MonoBehaviour:
   BlockerNodes: []
   answerType: 0
   _popularityModifier: 0
---- !u!114 &-5073194425529699079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
-  m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
-  Guid: e2b9c268792b14c578544072346b3583
-  Position: {x: 450, y: 980}
-  customPreview: 0
-  Blackboard:
-    CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "\u201EJa, du hast doch fr\xFCher immer so gerne Computerspiele gespielt.
-    Ich bin Programmierer geworden.\u201C"
-  TextPreview: "\u201EJa, du hast doc..."
-  AudioClip: {fileID: 0}
-  Children:
-  - {fileID: -1503223051100332278}
-  FallThrough: 0
-  IsAvailable: 1
-  IsTrustOption: 0
-  IsBondingOption: 0
-  RequiredNodes: []
-  BlockerNodes: []
-  PopularityValue: 0
 --- !u!114 &-3435150297062889729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -435,7 +405,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: "\u201E10 Jahre, 4 Mon..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: fa4bb34ba45f24061885eed88681940f
   Position: {x: 300, y: 420}
@@ -444,7 +414,7 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201E10 Jahre, 4 Monate und 6 Tage.\u201C"
   TextPreview: "\u201E10 Jahre, 4 Mon..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 301bdf1b5d5364c0c8bcc210633709e7, type: 3}
   Children:
   - {fileID: 1541576438378975776}
   - {fileID: 3756732392108303437}
@@ -475,7 +445,7 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201EIch heirate jetzt die Betina.\u201C"
   TextPreview: "\u201EIch heirate jet..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 8a9c8154b97bc46bdae477197276dfa1, type: 3}
   Children:
   - {fileID: -275529220216256865}
   FallThrough: 0
@@ -624,7 +594,7 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: (Nickt stolz.)
   TextPreview: (Nickt stolz.)
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: adcdc9dcb7b4844eaaa520d7b1019c9a, type: 3}
   Children:
   - {fileID: -7883615724754657593}
   FallThrough: 0
@@ -716,7 +686,6 @@ MonoBehaviour:
   - {fileID: -6243992479677621749}
   - {fileID: -849873840544271081}
   - {fileID: -7883615724754657593}
-  - {fileID: -5073194425529699079}
   - {fileID: 5254817813119203349}
   - {fileID: -1503223051100332278}
   - {fileID: 6196282135479607636}
@@ -743,7 +712,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: "\u201EWenn ich irgend..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 9d41b100e47b0461596f33fc20ae1d2c
   Position: {x: -600, y: 700}
@@ -754,7 +723,7 @@ MonoBehaviour:
     ja trotzdem zur Hochzeit kommen wenn du eh schon da bist. Der Pastor fragt ja
     immer ob jemand Einw\xE4nde hat.\u201C\n(zwinkert)"
   TextPreview: "\u201EWenn ich irgend..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 0e6952438bccb4ae5a6396918a18d430, type: 3}
   Children:
   - {fileID: 5511699159215835287}
   - {fileID: 3641933868899977488}
@@ -775,7 +744,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: "\u201EDu hast doch fr..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 71f119f3b55ef49f3b055cfac4c9bd67
   Position: {x: 150, y: 980}
@@ -785,9 +754,10 @@ MonoBehaviour:
   DialogLine: "\u201EDu hast doch fr\xFCher immer so gerne Computerspiele gespielt.
     Ich bin Programmierer geworden.\u201C"
   TextPreview: "\u201EDu hast doch fr..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: c005390ed611848ab860efd6ca0d16f3, type: 3}
   Children:
   - {fileID: 4953375580226594808}
+  - {fileID: -1503223051100332278}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -805,7 +775,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: "\u201EBist du dir sic..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: a12f5da514af9454cb1c9afbc0153746
   Position: {x: 900, y: 2378.348}
@@ -816,7 +786,7 @@ MonoBehaviour:
     du es nicht wusstest. Du erinnerst mich so an deine Mutter\u2026 Ich hatte immer
     ein Auge auf sie.\u201C"
   TextPreview: "\u201EBist du dir sic..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 4b3f5e310154140628c8c5fe3a734fcb, type: 3}
   Children:
   - {fileID: 6875389852493755261}
   FallThrough: 0
@@ -927,7 +897,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: "\u201EDie Betina ist ..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 46747af2943e04adaa9d583733a92c24
   Position: {x: 899.9999, y: 3225.5}
@@ -938,7 +908,7 @@ MonoBehaviour:
     vielleicht hast du davon schon mal geh\xF6rt. Gibt\u2019s sogar im L\xE4dle.
     Wie l\xE4uft\u2019s bei dir?\u201C"
   TextPreview: "\u201EDie Betina ist ..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 2274a1ad3cc824affbb523812fcf31e3, type: 3}
   Children:
   - {fileID: -1096461864694491758}
   FallThrough: 0
@@ -988,16 +958,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: "\u201EIch heirate jet..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 4bf45eebe0a604c198901ffeb350e7a8
-  Position: {x: 300, y: 1540}
+  Position: {x: 766, y: 1538.9996}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201EIch heirate jetzt die Betina.\u201C"
   TextPreview: "\u201EIch heirate jet..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 8a9c8154b97bc46bdae477197276dfa1, type: 3}
   Children:
   - {fileID: -6774432438998130026}
   - {fileID: 9055006247765936032}
@@ -1081,7 +1051,7 @@ MonoBehaviour:
   m_Name: Ah.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 78c6ff388a8564efd975c8bf72ca665c
-  Position: {x: 150.00003, y: 1120}
+  Position: {x: 150.00006, y: 1120}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1149,7 +1119,7 @@ MonoBehaviour:
   DialogLine: "\u201ESchade, dass du nicht nur wegen mir gekommen bist. Ich bin jetzt
     sogar Programmierer geworden.\u201C"
   TextPreview: "\u201ESchade, dass du..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: e7b1ad30bd24c456fbd279349eba8dd2, type: 3}
   Children:
   - {fileID: -1503223051100332278}
   FallThrough: 0
@@ -1169,10 +1139,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: "\u201EDu kannst immer..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 8b5b42c7577f34f6494ccd5891e5ec76
-  Position: {x: 600, y: 2100}
+  Position: {x: 749.9999, y: 2091.3794}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1180,7 +1150,7 @@ MonoBehaviour:
     ne S\xE4ngerin engagiert \u2013 ich darf noch nicht verraten wer. Nur so viel:
     Es wird Schlager! Boa, du tust mir echt so leid.\u201C"
   TextPreview: "\u201EDu kannst immer..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 5e220faf2a1b04232b1c41fa71566906, type: 3}
   Children:
   - {fileID: 7850994930647803619}
   - {fileID: 6875389852493755261}
@@ -1231,7 +1201,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: (AWKWARD PAUSE)
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 83b7bd3a300d54f12a882317b81d640a
   Position: {x: -750, y: 980.00006}
@@ -1270,7 +1240,7 @@ MonoBehaviour:
   DialogLine: "\u201EJa also ich hab son \xDCberwachungsprogramm geschrieben. Das\nerkennt
     dein Gesicht und verfolgt dich mit den Kameras in der Stadt.\u201C"
   TextPreview: "\u201EJa also ich hab..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 578a24a1eebee43bc88b4f091283c90c, type: 3}
   Children:
   - {fileID: 2119531869593192666}
   FallThrough: 0
@@ -1320,7 +1290,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: "\u201EIch wollte dich..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 3db766beed35345b097dbff482176832
   Position: {x: 600, y: 1820}
@@ -1351,7 +1321,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: "\u201EWenn ich irgend..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: a8eee34d19a7b467084977b8f2b171e5
   Position: {x: 449.99994, y: 1260}
@@ -1360,7 +1330,7 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201EWenn ich irgendwas f\xFCr dich tun kann sag Bescheid.\u201C"
   TextPreview: "\u201EWenn ich irgend..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 3c8742920aff44a4ba09ea389d1c9105, type: 3}
   Children:
   - {fileID: 7490700113216988996}
   - {fileID: 6360827891949690812}
@@ -1451,7 +1421,7 @@ MonoBehaviour:
   DialogLine: "\u201EBist du jetzt Autorin geworden, wie du immer gesagt hast? Das\nIntellektuelle
     macht dich bisschen s\xFC\xDF.\u201C"
   TextPreview: "\u201EBist du jetzt A..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: bb04b006eb7a743e5bdc4a6ed7ce8fd3, type: 3}
   Children:
   - {fileID: 7088238573424941475}
   - {fileID: -3435150297062889729}
@@ -1593,7 +1563,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: NpcDialogOption
+  m_Name: "\u201EHaha(geht einen..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 1731b337217e94f91b265846086df34d
   Position: {x: -450, y: 1260}
@@ -1603,7 +1573,7 @@ MonoBehaviour:
   DialogLine: "\u201EHaha(geht einen Schritt zur\xFCck) Hahaha (l\xE4uft ein paar
     weitere Schritte r\xFCckw\xE4rts) Ha (eilt r\xFCckw\xE4rts durchs Gartentor)\u201C"
   TextPreview: "\u201EHaha(geht einen..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 8cf363dd1cebf423184ac13c131cd7da, type: 3}
   Children: []
   FallThrough: 0
   IsAvailable: 1
