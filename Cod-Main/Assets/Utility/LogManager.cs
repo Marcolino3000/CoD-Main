@@ -16,7 +16,7 @@ namespace Utility
 
     void OnEnable()
     {
-        Setup();
+        // Setup();
     }
 
     private void Setup()

@@ -877,7 +877,7 @@ MonoBehaviour:
     die hat \u201EJa\u201C gesagt\u2026. Oh mannnn, du tust mir soo leid, ey.  Du
     tust mir so leid.\u201C"
   TextPreview: "\u201E\xC4h\u2026 also ich ha..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: e6fa9e8f09c4340c29bc3c20969b8a0d, type: 3}
   Children:
   - {fileID: 6053068395865335089}
   FallThrough: 0
@@ -909,8 +909,7 @@ MonoBehaviour:
     Wie l\xE4uft\u2019s bei dir?\u201C"
   TextPreview: "\u201EDie Betina ist ..."
   AudioClip: {fileID: 8300000, guid: 2274a1ad3cc824affbb523812fcf31e3, type: 3}
-  Children:
-  - {fileID: -1096461864694491758}
+  Children: []
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
