@@ -73,7 +73,7 @@ MonoBehaviour:
   m_Name: "\u201EIst es nicht sc..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: e9e184520f6cb4121ae8dc54b63516b2
-  Position: {x: 0, y: 140}
+  Position: {x: 0.0000038146973, y: 141.08635}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -255,16 +255,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: PlayerDialogOption
+  m_Name: "\u201ENE.\u201C"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: de6f09c7e0a3c499295433079ea7bdec
-  Position: {x: 0, y: 280}
+  Position: {x: 0.00003695488, y: 279.99988}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201ENE.\u201C"
   TextPreview: "\u201ENE.\u201C"
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: cb05be0cd8e5d41db9ffda7959f03b6f, type: 3}
   Children:
   - {fileID: -2013252312785916954}
   FallThrough: 0
@@ -318,14 +318,14 @@ MonoBehaviour:
   m_Name: "\u201EICH H\xC4TTE GEDAC..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: dad3da50f402f4516bfc9ad19bbad66d
-  Position: {x: 600, y: 560}
+  Position: {x: 749.9999, y: 559.99976}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201EICH H\xC4TTE GEDACHT, DASS ES MINDESTENS 30 JAHRE, 6 MONATE
     UND 8 TAGE DAUERN W\xDCRDE.\u201C"
   TextPreview: "\u201EICH H\xC4TTE GEDAC..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 15178d314285245c99c9ecd8dea061eb, type: 3}
   Children:
   - {fileID: 5254817813119203349}
   FallThrough: 0
@@ -897,10 +897,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: PlayerDialogOption
+  m_Name: "\u201EOKAY. COOL.\u201C"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: f672bbcad597f47a9b40a500f355c44a
-  Position: {x: 0, y: 560}
+  Position: {x: 149.99991, y: 559.99976}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1079,16 +1079,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: PlayerDialogOption
+  m_Name: "\u201EDA HAST DU ABER..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 0e4954c1e736f453abbdc00e29a34b22
-  Position: {x: 300, y: 560}
+  Position: {x: 449.99988, y: 559.99976}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201EDA HAST DU ABER GANZ GENAU MITGEZ\xC4HLT.\u201C"
   TextPreview: "\u201EDA HAST DU ABER..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: e1ac2e9d11b3c4f798b4f6f84c822d81, type: 3}
   Children:
   - {fileID: -849873840544271081}
   FallThrough: 0
@@ -1442,7 +1442,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: PlayerDialogOption
+  m_Name: "\u201EMENSCH PAUL. WI..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 16b96fe1d9f24467f88fa1cef3df7082
   Position: {x: 300, y: 280}
@@ -1451,7 +1451,7 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201EMENSCH PAUL. WIE LANGE HABEN IWR UNS JETZT NICHT MEHR GESEHEN?\u201C"
   TextPreview: "\u201EMENSCH PAUL. WI..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: c004af6f089f444e1ad2f09003ad4407, type: 3}
   Children:
   - {fileID: -2145826980142033560}
   FallThrough: 0
@@ -1653,10 +1653,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: PlayerDialogOption
+  m_Name: "\u201EWOW.\u201C"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: b25704d10d225476e8f5c3670681befb
-  Position: {x: 750, y: 1680}
+  Position: {x: 600.00006, y: 1688.2611}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
