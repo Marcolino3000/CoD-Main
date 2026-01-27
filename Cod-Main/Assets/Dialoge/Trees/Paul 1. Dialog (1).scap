@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="AB624AC2-3BDC-4F20-8C71-F1E36CE57AC5">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="820.8,207.5" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Ist es nicht schade, dass es
+mit uns damals nicht geklappt hat?“
+</String>
+      <ConnectedNoteIDs>1-3,30,32</ConnectedNoteIDs>
+      <PointsToNoteIDs>2,3,32</PointsToNoteIDs>
+    </Note>
+    <Note ID="1" FontSize="12.0" Position="1367.6,1259.0" Width="144.9">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>DIE TÜR ZUKNALLEN</String>
+      <ConnectedNoteIDs>0,4-6,10-12,15,17,20,22,29,38,40,41,43</ConnectedNoteIDs>
+      <PointsToNoteIDs>4</PointsToNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="836.6,340.4" Width="125.1">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>(ironisch)
+„BITTE GIB MIR NOCH NE CHANCE!“</String>
+      <ConnectedNoteIDs>0,5</ConnectedNoteIDs>
+      <PointsToNoteIDs>5</PointsToNoteIDs>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="639.3,367.6" Width="53.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„NE.“</String>
+      <ConnectedNoteIDs>0,48</ConnectedNoteIDs>
+      <PointsToNoteIDs>48</PointsToNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="1355.2,1366.3" Width="167.2">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>Man hört nur noch Pauls Gemurmel von draußen</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+    </Note>
+    <Note ID="5" FontSize="12.0" Position="760.6,435.0" Width="239.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Äh… also ich hab jetzt schon die Betina gefragt und die hat „Ja“ gesagt…. Oh mannnn, du tust mir soo leid, ey.  Du tust mir so leid.“</String>
+      <ConnectedNoteIDs>1,2,8</ConnectedNoteIDs>
+      <PointsToNoteIDs>8</PointsToNoteIDs>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="1690.6,1341.3" Width="150.1">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Ich heirate jetzt die Betina.“
+</String>
+      <ConnectedNoteIDs>1,7,44,45</ConnectedNoteIDs>
+      <PointsToNoteIDs>1,7</PointsToNoteIDs>
+    </Note>
+    <Note ID="7" FontSize="12.0" Position="1715.0,1456.2" Width="60.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„WOW.“</String>
+      <ConnectedNoteIDs>6,10</ConnectedNoteIDs>
+      <PointsToNoteIDs>10</PointsToNoteIDs>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="814.6,546.3" Width="119.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„DAS WAR NUR IRONISCH… ALSO DAS…“</String>
+      <ConnectedNoteIDs>5,11</ConnectedNoteIDs>
+      <PointsToNoteIDs>11</PointsToNoteIDs>
+    </Note>
+    <Note ID="10" FontSize="12.0" Position="1695.6,1507.5" Width="150.1">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Ich wollte dich einladen!!“
+</String>
+      <ConnectedNoteIDs>1,7,18,19</ConnectedNoteIDs>
+      <PointsToNoteIDs>1,18,19</PointsToNoteIDs>
+    </Note>
+    <Note ID="11" FontSize="12.0" Position="775.9,609.9" Width="196.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Wenn ich irgendwas für dich tun kann, sag Bescheid. Du kannst ja trotzdem zur Hochzeit kommen wenn du eh schon da bist. Der Pastor fragt ja immer ob jemand Einwände hat.“
+(zwinkert)</String>
+      <ConnectedNoteIDs>1,8,13,14</ConnectedNoteIDs>
+      <PointsToNoteIDs>13,14</PointsToNoteIDs>
+    </Note>
+    <Note ID="12" FontSize="12.0" Position="222.3,1415.2" Width="238.7">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Du kannst immer zu mir kommen, das weißt du. Wir haben übrigens ne Sängerin engagiert – ich darf noch nicht verraten wer. Nur so viel: Es wird Schlager! Boa, du tust mir echt so leid.“
+</String>
+      <ConnectedNoteIDs>1,18,19,28</ConnectedNoteIDs>
+      <PointsToNoteIDs>18,28</PointsToNoteIDs>
+    </Note>
+    <Note ID="13" FontSize="12.0" Position="707.3,1025.5" Width="119.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>WÜRGGERÄUSCH MACHEN</String>
+      <ConnectedNoteIDs>11,17</ConnectedNoteIDs>
+      <PointsToNoteIDs>17</PointsToNoteIDs>
+    </Note>
+    <Note ID="14" FontSize="12.0" Position="879.4,791.2" Width="140.2">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„WILLST DU BETINA (Hand-Hals-Durschneide-Zeichen) ODER SOLL ICH?“</String>
+      <ConnectedNoteIDs>11,15</ConnectedNoteIDs>
+      <PointsToNoteIDs>15</PointsToNoteIDs>
+    </Note>
+    <Note ID="15" FontSize="12.0" Position="879.0,896.7" Width="150.1">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+(AWKWARD PAUSE)
+„Ha haha hahaha! Du und deine Geschichten immer. Fand ich schon immer süß.“</String>
+      <ConnectedNoteIDs>1,14,16</ConnectedNoteIDs>
+      <PointsToNoteIDs>16</PointsToNoteIDs>
+    </Note>
+    <Note ID="16" FontSize="12.0" Position="878.6,1035.4" Width="140.2">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„ALSO JA ODER JA?“</String>
+      <ConnectedNoteIDs>15,27</ConnectedNoteIDs>
+      <PointsToNoteIDs>27</PointsToNoteIDs>
+    </Note>
+    <Note ID="17" FontSize="12.0" Position="677.5,1141.1" Width="125.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+(AWKWARD PAUSE)
+„Ha haha.“</String>
+      <ConnectedNoteIDs>1,13,18</ConnectedNoteIDs>
+      <PointsToNoteIDs>18</PointsToNoteIDs>
+    </Note>
+    <Note ID="18" FontSize="12.0" Position="643.9,1910.2" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„WOHER WEISST DU EIGENTLICH, DASS ICH IN DER STADT BIN?“</String>
+      <ConnectedNoteIDs>10,12,17,20,29,49</ConnectedNoteIDs>
+      <PointsToNoteIDs>20</PointsToNoteIDs>
+    </Note>
+    <Note ID="19" FontSize="12.0" Position="317.6,1365.1" Width="53.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„NÄ.“</String>
+      <ConnectedNoteIDs>10,12,49</ConnectedNoteIDs>
+      <PointsToNoteIDs>12</PointsToNoteIDs>
+    </Note>
+    <Note ID="20" FontSize="12.0" Position="628.7,1983.5" Width="246.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Ja also ich hab son Überwachungsprogramm geschrieben. Das
+erkennt dein Gesicht und verfolgt dich mit den Kameras in der Stadt.“</String>
+      <ConnectedNoteIDs>1,18,21</ConnectedNoteIDs>
+      <PointsToNoteIDs>21</PointsToNoteIDs>
+    </Note>
+    <Note ID="21" FontSize="12.0" Position="749.1,2125.4" Width="67.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„O—KAY“</String>
+      <ConnectedNoteIDs>20,22</ConnectedNoteIDs>
+      <PointsToNoteIDs>22</PointsToNoteIDs>
+    </Note>
+    <Note ID="22" FontSize="12.0" Position="729.1,2165.9" Width="223.6">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Bist du jetzt Autorin geworden, wie du immer gesagt hast? Das
+Intellektuelle macht dich bisschen süß.“</String>
+      <ConnectedNoteIDs>1,21,23,24</ConnectedNoteIDs>
+      <PointsToNoteIDs>23,24</PointsToNoteIDs>
+    </Note>
+    <Note ID="23" FontSize="12.0" Position="732.7,2283.9" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„ICH WEISS GAR NICHT WARUM ICH DICH DAMALS SO UNANGENEHM FAND.“</String>
+      <ConnectedNoteIDs>22,25</ConnectedNoteIDs>
+      <PointsToNoteIDs>25</PointsToNoteIDs>
+    </Note>
+    <Note ID="24" FontSize="12.0" Position="950.4,2264.6" Width="86.2">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„GENAU. JA. AUTORIN, GENAU.“</String>
+      <ConnectedNoteIDs>22,25</ConnectedNoteIDs>
+      <PointsToNoteIDs>25</PointsToNoteIDs>
+    </Note>
+    <Note ID="25" FontSize="12.0" Position="858.4,2369.6" Width="285.7">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Die Betina ist ja auch Autorin. „Verloren im Kuss der Sehnsucht“ vielleicht hast du davon schon mal gehört. Gibt’s sogar im Lädle. Wie läuft’s bei dir?“</String>
+      <ConnectedNoteIDs>23,24,26</ConnectedNoteIDs>
+      <PointsToNoteIDs>26</PointsToNoteIDs>
+    </Note>
+    <Note ID="26" FontSize="12.0" Position="901.5,2495.5" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>DIE TÜR LANGSAM WORTLOS SCHLIESSEN</String>
+      <ConnectedNoteIDs>25,60</ConnectedNoteIDs>
+      <PointsToNoteIDs>60</PointsToNoteIDs>
+    </Note>
+    <Note ID="27" FontSize="12.0" Position="871.7,1084.7" Width="255.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Haha(geht einen Schritt zurück) Hahaha (läuft ein paar weitere Schritte rückwärts) Ha (eilt rückwärts durchs Gartentor)“</String>
+      <ConnectedNoteIDs>16</ConnectedNoteIDs>
+    </Note>
+    <Note ID="28" FontSize="12.0" Position="328.9,1712.8" Width="85.4">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„ÄH, GEHT SCHON.“</String>
+      <ConnectedNoteIDs>12,29</ConnectedNoteIDs>
+      <PointsToNoteIDs>29</PointsToNoteIDs>
+    </Note>
+    <Note ID="29" FontSize="12.0" Position="370.5,1763.2" Width="152.3">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Bist du dir sicher? Ich war immer für dich da, auch wenn du es nicht wusstest. Du erinnerst mich so an deine Mutter… Ich hatte immer ein Auge auf sie.“</String>
+      <ConnectedNoteIDs>1,18,28</ConnectedNoteIDs>
+      <PointsToNoteIDs>18</PointsToNoteIDs>
+    </Note>
+    <Note ID="30" FontSize="12.0" Position="862.3,135.0" Width="125.1">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>(Pause. Blick von Marlene.)</String>
+      <ConnectedNoteIDs>0,31</ConnectedNoteIDs>
+      <PointsToNoteIDs>0</PointsToNoteIDs>
+    </Note>
+    <Note ID="31" FontSize="12.0" Position="820.9,40.1" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL 
+„Hey Marlene, schön dich zu sehen.“
+</String>
+      <ConnectedNoteIDs>30</ConnectedNoteIDs>
+      <PointsToNoteIDs>30</PointsToNoteIDs>
+    </Note>
+    <Note ID="32" FontSize="12.0" Position="1033.2,334.7" Width="163.6">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>(Themenwechsel)
+„MENSCH PAUL. WIE LANGE HABEN IWR UNS JETZT NICHT MEHR GESEHEN?“</String>
+      <ConnectedNoteIDs>0,33</ConnectedNoteIDs>
+      <PointsToNoteIDs>33</PointsToNoteIDs>
+    </Note>
+    <Note ID="33" FontSize="12.0" Position="1095.4,441.5" Width="239.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„10 Jahre, 4 Monate und 6 Tage.“</String>
+      <ConnectedNoteIDs>32,34,36,37</ConnectedNoteIDs>
+      <PointsToNoteIDs>34,36,37</PointsToNoteIDs>
+    </Note>
+    <Note ID="34" FontSize="12.0" Position="549.2,602.2" Width="110.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„OKAY. COOL.“</String>
+      <ConnectedNoteIDs>33,48</ConnectedNoteIDs>
+      <PointsToNoteIDs>48</PointsToNoteIDs>
+    </Note>
+    <Note ID="36" FontSize="12.0" Position="1241.0,511.9" Width="135.2">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„DA HAST DU ABER GANZ GENAU MITGEZÄHLT.“</String>
+      <ConnectedNoteIDs>33,38</ConnectedNoteIDs>
+      <PointsToNoteIDs>38</PointsToNoteIDs>
+    </Note>
+    <Note ID="37" FontSize="12.0" Position="1403.9,499.4" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„ICH HÄTTE GEDACHT, DASS ES MINDESTENS 30 JAHRE, 6 MONATE UND 8 TAGE DAUERN WÜRDE.“</String>
+      <ConnectedNoteIDs>33,41</ConnectedNoteIDs>
+      <PointsToNoteIDs>41</PointsToNoteIDs>
+    </Note>
+    <Note ID="38" FontSize="12.0" Position="1231.9,577.6" Width="117.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+(Nickt stolz.)</String>
+      <ConnectedNoteIDs>1,36,39</ConnectedNoteIDs>
+      <PointsToNoteIDs>39</PointsToNoteIDs>
+    </Note>
+    <Note ID="39" FontSize="12.0" Position="1324.1,626.4" Width="135.2">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„DU WARST SCHON IMMER GUT IN MATHE.“</String>
+      <ConnectedNoteIDs>38,40</ConnectedNoteIDs>
+      <PointsToNoteIDs>40</PointsToNoteIDs>
+    </Note>
+    <Note ID="40" FontSize="12.0" Position="1346.9,693.8" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Ja, du hast doch früher immer so gerne Computerspiele gespielt. Ich bin Programmierer geworden.“</String>
+      <ConnectedNoteIDs>1,39,42</ConnectedNoteIDs>
+      <PointsToNoteIDs>42</PointsToNoteIDs>
+    </Note>
+    <Note ID="41" FontSize="12.0" Position="1508.7,590.1" Width="239.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Schade, dass du nicht nur wegen mir gekommen bist. Ich bin jetzt sogar Programmierer geworden.“</String>
+      <ConnectedNoteIDs>1,37,42</ConnectedNoteIDs>
+      <PointsToNoteIDs>42</PointsToNoteIDs>
+    </Note>
+    <Note ID="42" FontSize="12.0" Position="1622.9,800.9" Width="135.2">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„HAT SICH JA GAR NICHT SO VIEL VERÄNDERT HIER.“</String>
+      <ConnectedNoteIDs>40,41,43</ConnectedNoteIDs>
+      <PointsToNoteIDs>43</PointsToNoteIDs>
+    </Note>
+    <Note ID="43" FontSize="12.0" Position="1528.9,877.4" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Wenn ich irgendwas für dich tun kann sag Bescheid.“</String>
+      <ConnectedNoteIDs>1,42,44,45</ConnectedNoteIDs>
+      <PointsToNoteIDs>44,45</PointsToNoteIDs>
+    </Note>
+    <Note ID="44" FontSize="12.0" Position="1597.4,1086.7" Width="74.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„PASST.“</String>
+      <ConnectedNoteIDs>6,43</ConnectedNoteIDs>
+      <PointsToNoteIDs>6</PointsToNoteIDs>
+    </Note>
+    <Note ID="45" FontSize="12.0" Position="1687.5,1112.0" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„ICH HAB DA SO NEN NERVIGEN NACHBARN, DER IST PROGRAMMIERER, KANNSTE DEN MAL….“</String>
+      <ConnectedNoteIDs>6,43</ConnectedNoteIDs>
+      <PointsToNoteIDs>6</PointsToNoteIDs>
+    </Note>
+    <Note ID="48" FontSize="12.0" Position="305.1,510.1" Width="150.1">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Ich heirate jetzt die Betina.“
+</String>
+      <ConnectedNoteIDs>3,34,50</ConnectedNoteIDs>
+      <PointsToNoteIDs>50</PointsToNoteIDs>
+    </Note>
+    <Note ID="49" FontSize="12.0" Position="289.4,937.0" Width="150.1">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Und ich wollte dich einladen!! Zur Hochzeit.“
+</String>
+      <ConnectedNoteIDs>18,19,53</ConnectedNoteIDs>
+      <PointsToNoteIDs>18,19</PointsToNoteIDs>
+    </Note>
+    <Note ID="50" FontSize="12.0" Position="352.1,607.3" Width="60.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>„WOW.“</String>
+      <ConnectedNoteIDs>48,52</ConnectedNoteIDs>
+      <PointsToNoteIDs>52</PointsToNoteIDs>
+    </Note>
+    <Note ID="52" FontSize="12.0" Position="283.2,677.2" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>PAUL
+„Du hast doch früher immer so gerne Computerspiele gespielt. Ich bin Programmierer geworden.“</String>
+      <ConnectedNoteIDs>50,53</ConnectedNoteIDs>
+      <PointsToNoteIDs>53</PointsToNoteIDs>
+    </Note>
+    <Note ID="53" FontSize="12.0" Position="336.0,804.0" Width="38.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>Ah.</String>
+      <ConnectedNoteIDs>49,52</ConnectedNoteIDs>
+      <PointsToNoteIDs>49</PointsToNoteIDs>
+    </Note>
+    <Note ID="60" FontSize="12.0" Position="864.1,2564.0" Width="285.7">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.851 0.851</Fill>
+      </Appearance>
+      <String>Bevor die Tür ganz geschlossen ist hält er ihr eine Kopie von „Verloren im Kuss der Sehnsucht“ hin. Marlene quetscht den Arm ein in der Tür, das Buch fällt zu Boden, Paul zieht seinen Arm zurück, Tür schließt.
+Man kann nun das Buch aufheben.
+Auf der Rückseite ist ein Bild von Betina Senkrecht, die aussieht wie Marlene in blond, jung, lächelnd, geschminkt, 0-8-15-esquer. Mit Klappentext.  </String>
+      <ConnectedNoteIDs>26,61,62</ConnectedNoteIDs>
+      <PointsToNoteIDs>61</PointsToNoteIDs>
+    </Note>
+    <Note ID="61" FontSize="12.0" Position="909.0,2775.9" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>(beim durchs Haus gehen)
+DAS WÄRE ICH WENN ICH HIER GEBLIEBEN WÄRE</String>
+      <ConnectedNoteIDs>60,63</ConnectedNoteIDs>
+      <PointsToNoteIDs>63</PointsToNoteIDs>
+    </Note>
+    <Note ID="62" FontSize="12.0" Position="1174.3,2676.1" Width="200.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Man kann ab jetzt mit Betina auf dem Buch sprechen</String>
+      <ConnectedNoteIDs>60</ConnectedNoteIDs>
+    </Note>
+    <Note ID="63" FontSize="12.0" Position="902.4,2862.2" Width="217.7">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+      </Appearance>
+      <String>HIER IST ALLES GENAU SO KOMISCH WIE PAUL. DER SCHREIN, DIE SPIELSACHEN. ALLES SO SELTSAM WIE DAS GANZE DORF.
+(Wenn man in einen anderen Raum geht.)
+ODER IST ALLES NOCH SCHLIMMER GEWORDEN?</String>
+      <ConnectedNoteIDs>61,64</ConnectedNoteIDs>
+      <PointsToNoteIDs>64</PointsToNoteIDs>
+    </Note>
+    <Note ID="64" FontSize="12.0" Position="892.0,3032.1" Width="234.9">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+      </Appearance>
+      <String>DIE LAMPE STARRT MICH AN.  DIE BIRKENSTOCKS LAUFEN AUF MICH ZU. HAT SICH DIE ZIGARETTE GERADE ZU MIR UMGEDREHT? DIE DIELE KNARZT DIE GANZE ZEIT ALS OB NOCH JEMAND HIER IST.</String>
+      <ConnectedNoteIDs>63</ConnectedNoteIDs>
+    </Note>
+    <Note ID="68" FontSize="12.0" Position="837.4,145.7" Width="20.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>2</String>
+    </Note>
+    <Note ID="69" FontSize="12.0" Position="793.0,59.0" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>1</String>
+    </Note>
+    <Note ID="70" FontSize="12.0" Position="796.1,244.7" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>3</String>
+    </Note>
+    <Note ID="71" FontSize="12.0" Position="613.6,368.7" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>4</String>
+    </Note>
+    <Note ID="72" FontSize="12.0" Position="274.0,530.0" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>5</String>
+    </Note>
+    <Note ID="73" FontSize="12.0" Position="326.1,608.6" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>6</String>
+    </Note>
+    <Note ID="74" FontSize="12.0" Position="254.0,712.0" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>7</String>
+    </Note>
+    <Note ID="75" FontSize="12.0" Position="306.1,806.9" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>8</String>
+    </Note>
+    <Note ID="76" FontSize="12.0" Position="262.5,963.6" Width="24.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>9</String>
+    </Note>
+    <Note ID="77" FontSize="12.0" Position="287.0,1366.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>10</String>
+    </Note>
+    <Note ID="78" FontSize="12.0" Position="292.0,1721.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>11</String>
+    </Note>
+    <Note ID="79" FontSize="12.0" Position="333.0,1827.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>12</String>
+    </Note>
+    <Note ID="80" FontSize="12.0" Position="609.0,1922.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>13</String>
+    </Note>
+    <Note ID="81" FontSize="12.0" Position="595.0,2031.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>14</String>
+    </Note>
+    <Note ID="82" FontSize="12.0" Position="715.3,2124.6" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>15</String>
+    </Note>
+    <Note ID="83" FontSize="12.0" Position="696.0,2203.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>16</String>
+    </Note>
+    <Note ID="84" FontSize="12.0" Position="698.0,2300.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>17</String>
+    </Note>
+    <Note ID="85" FontSize="12.0" Position="1042.0,2286.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>18</String>
+    </Note>
+    <Note ID="86" FontSize="12.0" Position="818.0,2403.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>19</String>
+    </Note>
+    <Note ID="87" FontSize="12.0" Position="865.0,2504.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>20</String>
+    </Note>
+    <Note ID="88" FontSize="12.0" Position="876.5,2791.1" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>21</String>
+    </Note>
+    <Note ID="89" FontSize="12.0" Position="806.3,359.3" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>22</String>
+    </Note>
+    <Note ID="90" FontSize="12.0" Position="729.0,472.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>23</String>
+    </Note>
+    <Note ID="91" FontSize="12.0" Position="518.6,601.9" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>25</String>
+    </Note>
+    <Note ID="92" FontSize="12.0" Position="740.0,671.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>26</String>
+    </Note>
+    <Note ID="93" FontSize="12.0" Position="645.5,1155.9" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>28</String>
+    </Note>
+    <Note ID="94" FontSize="12.0" Position="673.0,1034.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>27</String>
+    </Note>
+    <Note ID="95" FontSize="12.0" Position="848.0,824.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>29</String>
+    </Note>
+    <Note ID="96" FontSize="12.0" Position="846.0,941.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>30</String>
+    </Note>
+    <Note ID="97" FontSize="12.0" Position="847.0,1042.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>31</String>
+    </Note>
+    <Note ID="98" FontSize="12.0" Position="840.0,1118.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>32</String>
+    </Note>
+    <Note ID="99" FontSize="12.0" Position="1002.7,362.3" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>33</String>
+    </Note>
+    <Note ID="100" FontSize="12.0" Position="1064.0,457.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>34</String>
+    </Note>
+    <Note ID="101" FontSize="12.0" Position="1288.0,643.0" Width="33.6">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>37</String>
+    </Note>
+    <Note ID="102" FontSize="12.0" Position="1209.6,527.2" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>35</String>
+    </Note>
+    <Note ID="103" FontSize="12.0" Position="1200.0,586.0" Width="31.0">
+      <Appearance>
+        <Alignment>Right</Alignment>
+      </Appearance>
+      <String>36</String>
+    </Note>
+    <Note ID="104" FontSize="12.0" Position="1314.0,729.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>38</String>
+    </Note>
+    <Note ID="105" FontSize="12.0" Position="1609.0,523.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>39</String>
+    </Note>
+    <Note ID="106" FontSize="12.0" Position="1750.6,619.9" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>40</String>
+    </Note>
+    <Note ID="107" FontSize="12.0" Position="1760.7,817.8" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>41</String>
+    </Note>
+    <Note ID="108" FontSize="12.0" Position="1730.0,899.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>42</String>
+    </Note>
+    <Note ID="109" FontSize="12.0" Position="1562.0,1087.1" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>43</String>
+    </Note>
+    <Note ID="110" FontSize="12.0" Position="1892.0,1137.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>44</String>
+    </Note>
+    <Note ID="111" FontSize="12.0" Position="1849.0,1365.0" Width="31.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>45</String>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>3,7,17,19,21,34,38,44,50,53,69-100,102-111</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="30CBBC73-DECC-4570-932B-10F99B54F0B8" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.722101628780365 0.8462901711463928 0.9162386655807495</BorderColor>
+      <FillColor>0.786 0.9204 0.9961</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="7F55CA99-E8A4-4B9E-897F-87F29EA6CC85" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.7199764847755432 0.8974809646606445 0.633672833442688</BorderColor>
+      <FillColor>0.7837 0.9758 0.6903</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="98901285-D9DE-402D-857E-9797E62E7916" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.9189181923866272 0.7627586722373962 0.7658078670501709</BorderColor>
+      <FillColor>0.9948 0.8577 0.9998</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="FDEF7C41-C5DF-48DC-AF8F-550D286E51FA" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.9189181923866272 0.7627586722373962 0.7658078670501709</BorderColor>
+      <FillColor>0.999 0.83 0.8333</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="68DD0A55-0AA6-4DAB-954B-8DC3D43F5D32" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.9024707674980164 0.8555303812026978 0.628868043422699</BorderColor>
+      <FillColor>0.9812 0.9304 0.6851</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="61AD72B2-0676-49BB-848A-D5918F29860B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>1.0 0.0 0.0</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="1013AEAA-68DC-44D3-9CBB-745BFE66D934" AffectFontStyle="Yes" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>1.0 0.99 0.96</BackgroundColor>
+    <DefaultFont>CourierNewPSMT</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

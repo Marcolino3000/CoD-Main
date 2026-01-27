@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Runtime.Scripts.Utility;
 using UnityEngine;
 
 namespace Utility
@@ -11,7 +12,14 @@ namespace Utility
         
         private ILogHandler defaultLogHandler;
 
+        [InspectorButton("Setup")] public bool setupButton;
+
     void OnEnable()
+    {
+        Setup();
+    }
+
+    private void Setup()
     {
         Debug.Log("loghandler onenable");
         defaultLogHandler = Debug.unityLogger.logHandler;
