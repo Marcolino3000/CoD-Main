@@ -1078,7 +1078,7 @@ MonoBehaviour:
   m_Name: Hilde 1. Dialog
   m_EditorClassIdentifier: cod.dialogbuilder::Tree.DialogTree
   StartNodes:
-  - {fileID: 2047312449197680100}
+  - {fileID: 5348820743433113756}
   nodes:
   - {fileID: 5348820743433113756}
   - {fileID: 289074022344142230}

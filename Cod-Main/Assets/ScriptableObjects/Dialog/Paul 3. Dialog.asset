@@ -192,7 +192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e86e6013fb5415d9fc88ab06a37cd42, type: 3}
   m_Name: Paul 3. Dialog
   m_EditorClassIdentifier: cod.dialogbuilder::Tree.DialogTree
-  StartNodes: []
+  StartNodes:
+  - {fileID: -5082479047280663852}
   nodes:
   - {fileID: -5082479047280663852}
   - {fileID: -3702696036395977871}

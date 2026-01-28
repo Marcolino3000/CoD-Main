@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 623fa79c384042e3bb49a575d178c3c0, type: 3}
   m_Name: Scene 2 - SecondDialogWithPaulSuccessReaction
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.Reaction
-  DialogTree: {fileID: 11400000, guid: 8186397504c314ed2a6328bf5d4d9e53, type: 2}
+  DialogTree: {fileID: 11400000, guid: f819047d60be24cc685a4813004b811a, type: 2}
   Interactable: {fileID: 0}
   ObjectToMoveIn: {fileID: 0}
   ObjectToMoveOut: {fileID: 0}
   CancelCurrentDialog: 0
+  DebugMessage: 
+  ScriptedSequence: {fileID: 0}

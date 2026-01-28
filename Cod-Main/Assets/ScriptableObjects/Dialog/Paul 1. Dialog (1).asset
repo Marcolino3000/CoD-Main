@@ -364,7 +364,7 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: (Pause. Blick von Marlene.)
   TextPreview: (Pause. Blick vo...
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 6e06c0ae19c5543a1bcffd9ff2a95480, type: 3}
   PauseAfter: 0.5
   Children:
   - {fileID: -8245545863014915247}
@@ -741,7 +741,7 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201EWenn ich irgendwas f\xFCr dich tun kann, sag Bescheid. Du kannst
     ja trotzdem zur Hochzeit kommen wenn du eh schon da bist. Der Pastor fragt ja
-    immer ob jemand Einw\xE4nde hat.\u201C\n(zwinkert)"
+    immer ob jemand Einw\xE4nde hat.\""
   TextPreview: "\u201EWenn ich irgend..."
   AudioClip: {fileID: 8300000, guid: 0e6952438bccb4ae5a6396918a18d430, type: 3}
   PauseAfter: 0.5
@@ -1236,16 +1236,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: (AWKWARD PAUSE)
+  m_Name: "\u201EHa haha.\u201C"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 83b7bd3a300d54f12a882317b81d640a
-  Position: {x: -750, y: 980.00006}
+  Position: {x: -749.9999, y: 980.0001}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "(AWKWARD PAUSE)\n\u201EHa haha.\u201C"
-  TextPreview: (AWKWARD PAUSE)
-  AudioClip: {fileID: 0}
+  DialogLine: "\u201EHa haha.\u201C"
+  TextPreview: "\u201EHa haha.\u201C"
+  AudioClip: {fileID: 8300000, guid: 1cc8a19540cc5405c802da09e2c681f8, type: 3}
   PauseAfter: 0.5
   Children:
   - {fileID: 6875389852493755261}
@@ -1273,8 +1273,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "\u201EJa also ich hab son \xDCberwachungsprogramm geschrieben. Das\nerkennt
-    dein Gesicht und verfolgt dich mit den Kameras in der Stadt.\u201C"
+  DialogLine: "\u201EJa also ich hab son \xDCberwachungsprogramm geschrieben. Das
+    erkennt dein Gesicht und verfolgt dich mit den Kameras in der Stadt.\u201C"
   TextPreview: "\u201EJa also ich hab..."
   AudioClip: {fileID: 8300000, guid: 578a24a1eebee43bc88b4f091283c90c, type: 3}
   PauseAfter: 0.5
@@ -1307,7 +1307,7 @@ MonoBehaviour:
   DialogLine: "\u201EDAS WAR NUR IRONISCH\u2026 ALSO DAS\u2026\u201C"
   TextPreview: "\u201EDAS WAR NUR IRO..."
   AudioClip: {fileID: 8300000, guid: 46043729620aa423a9be1ba817a9abfb, type: 3}
-  PauseAfter: 0.5
+  PauseAfter: 0
   Children:
   - {fileID: 66253715089037191}
   FallThrough: 0
@@ -1456,12 +1456,12 @@ MonoBehaviour:
   m_Name: "\u201EBist du jetzt A..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: be3674a6492d7421591dbd3f25dc89ff
-  Position: {x: 899.9999, y: 2949.5}
+  Position: {x: 900, y: 2949.9998}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "\u201EBist du jetzt Autorin geworden, wie du immer gesagt hast? Das\nIntellektuelle
-    macht dich bisschen s\xFC\xDF.\u201C"
+  DialogLine: "\u201EBist du jetzt Autorin geworden, wie du immer gesagt hast? Das
+    Intellektuelle macht dich bisschen s\xFC\xDF.\u201C"
   TextPreview: "\u201EBist du jetzt A..."
   AudioClip: {fileID: 8300000, guid: bb04b006eb7a743e5bdc4a6ed7ce8fd3, type: 3}
   PauseAfter: 0.5
