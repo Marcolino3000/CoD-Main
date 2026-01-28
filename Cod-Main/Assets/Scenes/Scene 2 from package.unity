@@ -1123,7 +1123,7 @@ Transform:
   m_GameObject: {fileID: 64915469}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.12542064, z: -0, w: 0.9921037}
-  m_LocalPosition: {x: -4.8499994, y: 6.1689606, z: -10.04}
+  m_LocalPosition: {x: -4.8499994, y: 6.1689606, z: -10.28}
   m_LocalScale: {x: 0.15999995, y: 0.16, z: 0.15999995}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -13602,7 +13602,7 @@ Transform:
   m_GameObject: {fileID: 582497245}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.12541975, z: -0, w: 0.99210376}
-  m_LocalPosition: {x: 10.259999, y: 1.6989601, z: -10.04}
+  m_LocalPosition: {x: 10.259999, y: 1.6989601, z: -10.28}
   m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -16162,7 +16162,6 @@ Transform:
   - {fileID: 1714781868}
   - {fileID: 637317116}
   - {fileID: 985970617}
-  - {fileID: 1923405044}
   - {fileID: 621538926}
   m_Father: {fileID: 1451757449}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16192,7 +16191,7 @@ Transform:
   m_GameObject: {fileID: 716614239}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.12542064, z: -0, w: 0.9921037}
-  m_LocalPosition: {x: -4.54, y: 1.6789601, z: -10.04}
+  m_LocalPosition: {x: -4.54, y: 1.6789601, z: -10.28}
   m_LocalScale: {x: 0.15999995, y: 0.16, z: 0.15999995}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -23183,7 +23182,7 @@ GameObject:
   - component: {fileID: 985970619}
   - component: {fileID: 985970618}
   m_Layer: 0
-  m_Name: Wand r Platzhalter (3)
+  m_Name: Wand Keller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23307,7 +23306,7 @@ Transform:
   m_GameObject: {fileID: 988968546}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.12542064, z: -0, w: 0.9921037}
-  m_LocalPosition: {x: 7.3899994, y: 1.7489603, z: -10.04}
+  m_LocalPosition: {x: 7.3899994, y: 1.7489603, z: -10.28}
   m_LocalScale: {x: 0.15999995, y: 0.16, z: 0.15999995}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -23751,7 +23750,7 @@ Transform:
   m_GameObject: {fileID: 1024433473}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.12541975, z: -0, w: 0.99210376}
-  m_LocalPosition: {x: -1.6100016, y: 1.6789601, z: -10.04}
+  m_LocalPosition: {x: -1.6100016, y: 1.6789601, z: -10.28}
   m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -27207,7 +27206,7 @@ Transform:
   m_GameObject: {fileID: 1260095153}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.12541975, z: -0, w: 0.99210376}
-  m_LocalPosition: {x: 10.14, y: 6.1589603, z: -10.04}
+  m_LocalPosition: {x: 10.14, y: 6.1589603, z: -10.28}
   m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -36440,7 +36439,7 @@ Transform:
   m_GameObject: {fileID: 1590324126}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.12542064, z: -0, w: 0.9921037}
-  m_LocalPosition: {x: 6.6699996, y: 6.1589603, z: -10.04}
+  m_LocalPosition: {x: 6.6699996, y: 6.1589603, z: -10.28}
   m_LocalScale: {x: 0.15999995, y: 0.16, z: 0.15999995}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -64564,6 +64563,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 695218763}
+  - {fileID: 1923405044}
   m_Father: {fileID: 1451757449}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1742647987 stripped
@@ -66662,7 +66662,7 @@ Transform:
   m_GameObject: {fileID: 1913439515}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 4.00436, y: 2.81896, z: -23.01}
+  m_LocalPosition: {x: 4.00436, y: 2.794, z: -23.01}
   m_LocalScale: {x: 4.67, y: 4.67, z: 4.67}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -66716,7 +66716,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: bd5e1255b6a1e48c8ac3197f966d658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -66919,7 +66919,7 @@ GameObject:
   - component: {fileID: 1923405046}
   - component: {fileID: 1923405045}
   m_Layer: 0
-  m_Name: Wand r Platzhalter (4)
+  m_Name: Wand Toilette
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66934,11 +66934,11 @@ Transform:
   m_GameObject: {fileID: 1923405043}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -2.8905, y: 4.1331, z: -6.68}
-  m_LocalScale: {x: 0.10000001, y: 8.468155, z: 4.9540334}
+  m_LocalPosition: {x: -9.932891, y: 3.7831001, z: -2.6204295}
+  m_LocalScale: {x: 0.10000002, y: 8.468155, z: 4.9540334}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 707221408}
+  m_Father: {fileID: 1736500319}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &1923405045
 BoxCollider:
