@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="B7C90A20-9985-4C7C-9475-71B0039C8677">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="411.0,25.0" Width="89.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>1.0 0.945 0.831</Fill>
+      </Appearance>
+      <String>1– MARLENE
+Hi.</String>
+      <ConnectedNoteIDs>2</ConnectedNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="352.1,103.4" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>5– PAUL
+Hi Marlene, hast du’s dir doch noch mal überlegt?</String>
+      <ConnectedNoteIDs>0,3,5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="500.0,219.0" Width="121.1">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>2– MARLENE
+Lass mich überlegen…Nö.</String>
+      <ConnectedNoteIDs>2,8</ConnectedNoteIDs>
+    </Note>
+    <Note ID="5" FontSize="12.0" Position="250.0,249.0" Width="202.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>3– MARLENE
+Welche regionale Legende kommt nochmal zur Hochzeit?</String>
+      <ConnectedNoteIDs>2,6</ConnectedNoteIDs>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="262.0,347.0" Width="182.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>6– PAUL
+Ich kanns dir gerne nochmal vorsingen, ja?</String>
+      <ConnectedNoteIDs>5,9,10</ConnectedNoteIDs>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="469.4,348.6" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>7– PAUL
+Wer nicht will der hat schon. </String>
+      <ConnectedNoteIDs>3,12</ConnectedNoteIDs>
+    </Note>
+    <Note ID="9" FontSize="12.0" Position="384.4,518.0" Width="103.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>4– MARLENE
+Ja hau raus.</String>
+      <ConnectedNoteIDs>6,11</ConnectedNoteIDs>
+    </Note>
+    <Note ID="10" FontSize="12.0" Position="213.9,513.2" Width="103.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>5– MARLENE
+Auf gar keinen Fall.</String>
+      <ConnectedNoteIDs>6,13</ConnectedNoteIDs>
+    </Note>
+    <Note ID="11" FontSize="12.0" Position="342.8,609.0" Width="182.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>8– PAUL
+(singt)… (awkward Lachen)</String>
+      <ConnectedNoteIDs>9,12</ConnectedNoteIDs>
+    </Note>
+    <Note ID="12" FontSize="12.0" Position="462.4,813.8" Width="96.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+      </Appearance>
+      <String>Dialog Ende</String>
+      <ConnectedNoteIDs>8,11,13</ConnectedNoteIDs>
+    </Note>
+    <Note ID="13" FontSize="12.0" Position="104.7,653.5" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.999 0.83 0.8333</Fill>
+      </Appearance>
+      <String>7– PAUL
+Wer nicht will der hat schon. </String>
+      <ConnectedNoteIDs>10,12</ConnectedNoteIDs>
+    </Note>
+    <Note ID="14" FontSize="12.0" Position="642.1,500.9" Width="132.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+      </Appearance>
+      <String>Dialog abbrechen</String>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>0,9,12,14</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="1F5CB2CF-4414-4161-BAD2-94EF4A717543" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.722101628780365 0.8462901711463928 0.9162386655807495</BorderColor>
+      <FillColor>0.786 0.9204 0.9961</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="D1590990-242B-47F1-9523-A51013C48D02" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.7199764847755432 0.8974809646606445 0.633672833442688</BorderColor>
+      <FillColor>0.7837 0.9758 0.6903</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="D2786423-1AE9-4207-B6B8-6202FF97D520" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.9189181923866272 0.7627586722373962 0.7658078670501709</BorderColor>
+      <FillColor>0.9948 0.8577 0.9998</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="FB0AB23B-3BDE-423D-97BA-2AD29C4BA2A6" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.9189181923866272 0.7627586722373962 0.7658078670501709</BorderColor>
+      <FillColor>0.999 0.83 0.8333</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="EBFBFC91-28F4-4588-A60D-1CAED05DA875" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.9024707674980164 0.8555303812026978 0.628868043422699</BorderColor>
+      <FillColor>0.9812 0.9304 0.6851</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="5D7E29F9-936C-4137-8B63-D23DAA0680C5" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>1.0 0.0 0.0</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="B8DD7FBF-7115-45E9-9A9B-09671668D18A" AffectFontStyle="Yes" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>1.0 0.99 0.96</BackgroundColor>
+    <DefaultFont>CourierNewPSMT</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

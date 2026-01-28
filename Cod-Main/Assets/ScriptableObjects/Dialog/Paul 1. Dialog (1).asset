@@ -20,6 +20,7 @@ MonoBehaviour:
   DialogLine: "\u201EALSO JA ODER JA?\u201C"
   TextPreview: "\u201EALSO JA ODER JA..."
   AudioClip: {fileID: 8300000, guid: 87264863974264fafaa1dc368eccaab8, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 8913147520454539442}
   FallThrough: 0
@@ -51,6 +52,7 @@ MonoBehaviour:
     Fand ich schon immer s\xFC\xDF.\u201C"
   TextPreview: (AWKWARD PAUSE)
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: -8911805849535664412}
   FallThrough: 0
@@ -77,10 +79,10 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "\u201EIst es nicht schade, dass es\nmit uns damals nicht geklappt
-    hat?\u201C"
+  DialogLine: "\u201EIst es nicht schade, dass es mit uns damals nicht geklappt hat?\u201C"
   TextPreview: "\u201EIst es nicht sc..."
   AudioClip: {fileID: 8300000, guid: 423226309dfdb4810ad92d03b37db095, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -1600501599739012494}
   - {fileID: -6702725831772840009}
@@ -114,6 +116,7 @@ MonoBehaviour:
     0-8-15-esquer. Mit Klappentext."
   TextPreview: Man kann nun das...
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1495247353798713498}
   FallThrough: 0
@@ -144,6 +147,7 @@ MonoBehaviour:
   DialogLine: "\u201EHey Marlene, sch\xF6n dich zu sehen.\u201C"
   TextPreview: "\u201EHey Marlene, sc..."
   AudioClip: {fileID: 8300000, guid: b2c591320716c429ba7053626b310b98, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -6086575097862058501}
   FallThrough: 0
@@ -173,6 +177,7 @@ MonoBehaviour:
   DialogLine: "\u201EDU WARST SCHON IMMER GUT IN MATHE.\u201C"
   TextPreview: "\u201EDU WARST SCHON ..."
   AudioClip: {fileID: 8300000, guid: d067cde39ad8e46b59f8b9c66537ed6f, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 881381899927406145}
   FallThrough: 0
@@ -206,6 +211,7 @@ MonoBehaviour:
     GEWORDEN?'
   TextPreview: (Wenn man in ein...
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 5211256606313165173}
   FallThrough: 0
@@ -228,13 +234,14 @@ MonoBehaviour:
   m_Name: "DIE T\xDCR ZUKNALLE..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 2f20d1651b2c34712aeae74cae598367
-  Position: {x: 450, y: 1960}
+  Position: {x: 441.739, y: 1960.0002}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "DIE T\xDCR ZUKNALLEN"
   TextPreview: "DIE T\xDCR ZUKNALLE..."
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children: []
   FallThrough: 0
   IsAvailable: 1
@@ -264,6 +271,7 @@ MonoBehaviour:
   DialogLine: "\u201ENE.\u201C"
   TextPreview: "\u201ENE.\u201C"
   AudioClip: {fileID: 8300000, guid: cb05be0cd8e5d41db9ffda7959f03b6f, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -2013252312785916954}
   FallThrough: 0
@@ -294,6 +302,7 @@ MonoBehaviour:
   DialogLine: "\u201EN\xC4.\u201C"
   TextPreview: "\u201EN\xC4.\u201C"
   AudioClip: {fileID: 8300000, guid: 1d3bf9dab66254afba080739bfe6fd89, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 5481460174314994002}
   FallThrough: 0
@@ -325,6 +334,7 @@ MonoBehaviour:
     UND 8 TAGE DAUERN W\xDCRDE.\u201C"
   TextPreview: "\u201EICH H\xC4TTE GEDAC..."
   AudioClip: {fileID: 8300000, guid: 15178d314285245c99c9ecd8dea061eb, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 5254817813119203349}
   FallThrough: 0
@@ -355,6 +365,7 @@ MonoBehaviour:
   DialogLine: (Pause. Blick von Marlene.)
   TextPreview: (Pause. Blick vo...
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: -8245545863014915247}
   FallThrough: 0
@@ -385,6 +396,7 @@ MonoBehaviour:
   DialogLine: "\u201EGENAU. JA. AUTORIN, GENAU.\u201C"
   TextPreview: "\u201EGENAU. JA. AUTO..."
   AudioClip: {fileID: 8300000, guid: 62c991c2d2975472bad8f7a57c72e67a, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1784098564715049949}
   FallThrough: 0
@@ -415,6 +427,7 @@ MonoBehaviour:
   DialogLine: "\u201E10 Jahre, 4 Monate und 6 Tage.\u201C"
   TextPreview: "\u201E10 Jahre, 4 Mon..."
   AudioClip: {fileID: 8300000, guid: 301bdf1b5d5364c0c8bcc210633709e7, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1541576438378975776}
   - {fileID: 3756732392108303437}
@@ -446,6 +459,7 @@ MonoBehaviour:
   DialogLine: "\u201EIch heirate jetzt die Betina.\u201C"
   TextPreview: "\u201EIch heirate jet..."
   AudioClip: {fileID: 8300000, guid: 8a9c8154b97bc46bdae477197276dfa1, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -275529220216256865}
   FallThrough: 0
@@ -474,7 +488,8 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201EUnd ich wollte dich einladen!! Zur Hochzeit.\u201C"
   TextPreview: "\u201EUnd ich wollte ..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 7a28e339c5c8541028a01ee0ed1026c3, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -6648979402943904713}
   - {fileID: 6875389852493755261}
@@ -505,6 +520,7 @@ MonoBehaviour:
   DialogLine: "\u201EBITTE GIB MIR NOCH NE CHANCE!\u201C"
   TextPreview: "\u201EBITTE GIB MIR N..."
   AudioClip: {fileID: 8300000, guid: 9912876ca6539498a969b1d63066976f, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1544928024140289721}
   FallThrough: 0
@@ -535,6 +551,7 @@ MonoBehaviour:
   DialogLine: "\u201EHAT SICH JA GAR NICHT SO VIEL VER\xC4NDERT HIER.\u201C"
   TextPreview: "\u201EHAT SICH JA GAR..."
   AudioClip: {fileID: 8300000, guid: 4a22deb68f7f640f6ba0f5b186966a95, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 6196282135479607636}
   FallThrough: 0
@@ -565,6 +582,7 @@ MonoBehaviour:
   DialogLine: "DIE T\xDCR LANGSAM WORTLOS SCHLIESSEN"
   TextPreview: "DIE T\xDCR LANGSAM ..."
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: -8049279454160730164}
   FallThrough: 0
@@ -595,6 +613,7 @@ MonoBehaviour:
   DialogLine: (Nickt stolz.)
   TextPreview: (Nickt stolz.)
   AudioClip: {fileID: 8300000, guid: adcdc9dcb7b4844eaaa520d7b1019c9a, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -7883615724754657593}
   FallThrough: 0
@@ -624,6 +643,7 @@ MonoBehaviour:
   DialogLine: "\u201EWOW.\u201C"
   TextPreview: "\u201EWOW.\u201C"
   AudioClip: {fileID: 8300000, guid: 6f82101e5724f488dbffe7098123af67, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 881381899927406145}
   FallThrough: 0
@@ -724,6 +744,7 @@ MonoBehaviour:
     immer ob jemand Einw\xE4nde hat.\u201C\n(zwinkert)"
   TextPreview: "\u201EWenn ich irgend..."
   AudioClip: {fileID: 8300000, guid: 0e6952438bccb4ae5a6396918a18d430, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 5511699159215835287}
   - {fileID: 3641933868899977488}
@@ -754,7 +775,8 @@ MonoBehaviour:
   DialogLine: "\u201EDu hast doch fr\xFCher immer so gerne Computerspiele gespielt.
     Ich bin Programmierer geworden.\u201C"
   TextPreview: "\u201EDu hast doch fr..."
-  AudioClip: {fileID: 8300000, guid: c005390ed611848ab860efd6ca0d16f3, type: 3}
+  AudioClip: {fileID: 8300000, guid: 13faef967b298403aa5f6ad761adf84e, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 4953375580226594808}
   - {fileID: -1503223051100332278}
@@ -787,6 +809,7 @@ MonoBehaviour:
     ein Auge auf sie.\u201C"
   TextPreview: "\u201EBist du dir sic..."
   AudioClip: {fileID: 8300000, guid: 4b3f5e310154140628c8c5fe3a734fcb, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 6875389852493755261}
   FallThrough: 0
@@ -816,6 +839,7 @@ MonoBehaviour:
   DialogLine: "DAS W\xC4RE ICH WENN ICH HIER GEBLIEBEN W\xC4RE"
   TextPreview: "DAS W\xC4RE ICH WEN..."
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: -7590506583836445822}
   FallThrough: 0
@@ -846,6 +870,7 @@ MonoBehaviour:
   DialogLine: "\u201EOKAY. COOL.\u201C"
   TextPreview: "\u201EOKAY. COOL.\u201C"
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: -2013252312785916954}
   FallThrough: 0
@@ -878,6 +903,7 @@ MonoBehaviour:
     tust mir so leid.\u201C"
   TextPreview: "\u201E\xC4h\u2026 also ich ha..."
   AudioClip: {fileID: 8300000, guid: e6fa9e8f09c4340c29bc3c20969b8a0d, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 6053068395865335089}
   FallThrough: 0
@@ -909,6 +935,7 @@ MonoBehaviour:
     Wie l\xE4uft\u2019s bei dir?\u201C"
   TextPreview: "\u201EDie Betina ist ..."
   AudioClip: {fileID: 8300000, guid: 2274a1ad3cc824affbb523812fcf31e3, type: 3}
+  PauseAfter: 0.5
   Children: []
   FallThrough: 0
   IsAvailable: 1
@@ -937,6 +964,7 @@ MonoBehaviour:
   DialogLine: "\u201EO\u2014KAY\u201C"
   TextPreview: "\u201EO\u2014KAY\u201C"
   AudioClip: {fileID: 8300000, guid: 2d56cf64eb49e448e92ad3252fbd7bec, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 6607801333488790986}
   FallThrough: 0
@@ -967,6 +995,7 @@ MonoBehaviour:
   DialogLine: "\u201EIch heirate jetzt die Betina.\u201C"
   TextPreview: "\u201EIch heirate jet..."
   AudioClip: {fileID: 8300000, guid: 8a9c8154b97bc46bdae477197276dfa1, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -6774432438998130026}
   - {fileID: 9055006247765936032}
@@ -997,6 +1026,7 @@ MonoBehaviour:
   DialogLine: "\u201EWILLST DU BETINA (Hand-Hals-Durschneide-Zeichen) ODER SOLL ICH?\u201C"
   TextPreview: "\u201EWILLST DU BETIN..."
   AudioClip: {fileID: 8300000, guid: 00f0041cde2ad4652a5a7d603a39ba19, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -8638680092421313994}
   FallThrough: 0
@@ -1027,6 +1057,7 @@ MonoBehaviour:
   DialogLine: "\u201EDA HAST DU ABER GANZ GENAU MITGEZ\xC4HLT.\u201C"
   TextPreview: "\u201EDA HAST DU ABER..."
   AudioClip: {fileID: 8300000, guid: e1ac2e9d11b3c4f798b4f6f84c822d81, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -849873840544271081}
   FallThrough: 0
@@ -1057,6 +1088,7 @@ MonoBehaviour:
   DialogLine: Ah.
   TextPreview: Ah.
   AudioClip: {fileID: 8300000, guid: 252261dfa269c4f21a57c3fcdf0556c3, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -1637245266694845215}
   FallThrough: 0
@@ -1089,6 +1121,7 @@ MonoBehaviour:
     OB NOCH JEMAND HIER IST.
   TextPreview: DIE LAMPE STARRT...
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children: []
   FallThrough: 0
   IsAvailable: 1
@@ -1119,6 +1152,7 @@ MonoBehaviour:
     sogar Programmierer geworden.\u201C"
   TextPreview: "\u201ESchade, dass du..."
   AudioClip: {fileID: 8300000, guid: e7b1ad30bd24c456fbd279349eba8dd2, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -1503223051100332278}
   FallThrough: 0
@@ -1150,6 +1184,7 @@ MonoBehaviour:
     Es wird Schlager! Boa, du tust mir echt so leid.\u201C"
   TextPreview: "\u201EDu kannst immer..."
   AudioClip: {fileID: 8300000, guid: 5e220faf2a1b04232b1c41fa71566906, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 7850994930647803619}
   - {fileID: 6875389852493755261}
@@ -1180,6 +1215,7 @@ MonoBehaviour:
   DialogLine: "W\xDCRGGER\xC4USCH MACHEN"
   TextPreview: "W\xDCRGGER\xC4USCH MAC..."
   AudioClip: {fileID: 8300000, guid: adf693a40cd314ba6ba2d6ac2184cfa1, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 5825528110847166304}
   FallThrough: 0
@@ -1210,6 +1246,7 @@ MonoBehaviour:
   DialogLine: "(AWKWARD PAUSE)\n\u201EHa haha.\u201C"
   TextPreview: (AWKWARD PAUSE)
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 6875389852493755261}
   FallThrough: 0
@@ -1240,6 +1277,7 @@ MonoBehaviour:
     dein Gesicht und verfolgt dich mit den Kameras in der Stadt.\u201C"
   TextPreview: "\u201EJa also ich hab..."
   AudioClip: {fileID: 8300000, guid: 578a24a1eebee43bc88b4f091283c90c, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 2119531869593192666}
   FallThrough: 0
@@ -1268,7 +1306,8 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201EDAS WAR NUR IRONISCH\u2026 ALSO DAS\u2026\u201C"
   TextPreview: "\u201EDAS WAR NUR IRO..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 46043729620aa423a9be1ba817a9abfb, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 66253715089037191}
   FallThrough: 0
@@ -1298,7 +1337,8 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201EIch wollte dich einladen!!\u201C"
   TextPreview: "\u201EIch wollte dich..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 29d56212354ed492a8ab176de5fcdbee, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -6774432438998130026}
   - {fileID: -6648979402943904713}
@@ -1330,6 +1370,7 @@ MonoBehaviour:
   DialogLine: "\u201EWenn ich irgendwas f\xFCr dich tun kann sag Bescheid.\u201C"
   TextPreview: "\u201EWenn ich irgend..."
   AudioClip: {fileID: 8300000, guid: 3c8742920aff44a4ba09ea389d1c9105, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 7490700113216988996}
   - {fileID: 6360827891949690812}
@@ -1360,6 +1401,7 @@ MonoBehaviour:
   DialogLine: "\u201EPASST.\u201C"
   TextPreview: "\u201EPASST.\u201C"
   AudioClip: {fileID: 8300000, guid: 6c3a9a6da0cf64676924f6c37f2cd9a8, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 2915655702779914440}
   FallThrough: 0
@@ -1390,6 +1432,7 @@ MonoBehaviour:
   DialogLine: "\u201EMENSCH PAUL. WIE LANGE HABEN IWR UNS JETZT NICHT MEHR GESEHEN?\u201C"
   TextPreview: "\u201EMENSCH PAUL. WI..."
   AudioClip: {fileID: 8300000, guid: c004af6f089f444e1ad2f09003ad4407, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -2145826980142033560}
   FallThrough: 0
@@ -1421,6 +1464,7 @@ MonoBehaviour:
     macht dich bisschen s\xFC\xDF.\u201C"
   TextPreview: "\u201EBist du jetzt A..."
   AudioClip: {fileID: 8300000, guid: bb04b006eb7a743e5bdc4a6ed7ce8fd3, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 7088238573424941475}
   - {fileID: -3435150297062889729}
@@ -1451,6 +1495,7 @@ MonoBehaviour:
   DialogLine: "\u201EWOHER WEISST DU EIGENTLICH, DASS ICH IN DER STADT BIN?\u201C"
   TextPreview: "\u201EWOHER WEISST DU..."
   AudioClip: {fileID: 8300000, guid: 8f2459a51ceb14197beb1c1955b7579d, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 5884534851379416821}
   FallThrough: 0
@@ -1481,6 +1526,7 @@ MonoBehaviour:
   DialogLine: "\u201EICH WEISS GAR NICHT WARUM ICH DICH DAMALS SO UNANGENEHM FAND.\u201C"
   TextPreview: "\u201EICH WEISS GAR N..."
   AudioClip: {fileID: 8300000, guid: a1a376f89f5324964a8637870c5c76fa, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1784098564715049949}
   FallThrough: 0
@@ -1512,6 +1558,7 @@ MonoBehaviour:
     KANNSTE DEN MAL\u2026.\u201C"
   TextPreview: "\u201EICH HAB DA SO N..."
   AudioClip: {fileID: 8300000, guid: c424d4245bb274f0f814e83f003d2758, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 2915655702779914440}
   FallThrough: 0
@@ -1542,6 +1589,7 @@ MonoBehaviour:
   DialogLine: "\u201E\xC4H, GEHT SCHON.\u201C"
   TextPreview: "\u201E\xC4H, GEHT SCHON...."
   AudioClip: {fileID: 8300000, guid: 10796f3135c294170b9643c8e79c9675, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1417432923462437961}
   FallThrough: 0
@@ -1573,6 +1621,7 @@ MonoBehaviour:
     weitere Schritte r\xFCckw\xE4rts) Ha (eilt r\xFCckw\xE4rts durchs Gartentor)\u201C"
   TextPreview: "\u201EHaha(geht einen..."
   AudioClip: {fileID: 8300000, guid: 8cf363dd1cebf423184ac13c131cd7da, type: 3}
+  PauseAfter: 0.5
   Children: []
   FallThrough: 0
   IsAvailable: 1
@@ -1594,13 +1643,14 @@ MonoBehaviour:
   m_Name: "\u201EWOW.\u201C"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: b25704d10d225476e8f5c3670681befb
-  Position: {x: 600.00006, y: 1688.2611}
+  Position: {x: 600.00006, y: 1684.6959}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\u201EWOW.\u201C"
   TextPreview: "\u201EWOW.\u201C"
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 6f82101e5724f488dbffe7098123af67, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 6121926886598884744}
   FallThrough: 0

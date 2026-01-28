@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.2" ID="3C67CB30-2835-49D9-AC31-F38D3078582A">
+  <Notes>
+    <Note ID="0" FontSize="12.0" Position="745.0,46.0" Width="89.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>1– MARLENE
+Ho- ähm Hilde?</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+    </Note>
+    <Note ID="1" FontSize="12.0" Position="666.0,130.8" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.871 0.933 0.831</Fill>
+      </Appearance>
+      <String>6– HILDE
+Aha. D’Marlene! Was macht dr Sauerteig?</String>
+      <ConnectedNoteIDs>0,2-4</ConnectedNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="12.0" Position="606.0,258.6" Width="81.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>2– MARLENE
+Öh… sauer sein?</String>
+      <ConnectedNoteIDs>1,5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="3" FontSize="12.0" Position="725.0,258.0" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>3– MARLENE
+Joa, der chillt mit mir… Hat Mama irgendwas zu dem Ding erzählt? </String>
+      <ConnectedNoteIDs>1,8</ConnectedNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="12.0" Position="1144.3,339.3" Width="74.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>Weggehen</String>
+      <ConnectedNoteIDs>1,5,8</ConnectedNoteIDs>
+    </Note>
+    <Note ID="5" FontSize="12.0" Position="546.0,353.0" Width="139.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.871 0.933 0.831</Fill>
+      </Appearance>
+      <String>7– HILDE
+Ha no isch recht.</String>
+      <ConnectedNoteIDs>2,4,7</ConnectedNoteIDs>
+    </Note>
+    <Note ID="6" FontSize="12.0" Position="551.0,549.0" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.871 0.933 0.831</Fill>
+      </Appearance>
+      <String>9– HILDE
+Warsch scho am Grab? D’ Gisela sagt da hängat komische Weibr rom. I muss dann au los gell?</String>
+      <ConnectedNoteIDs>7,9</ConnectedNoteIDs>
+    </Note>
+    <Note ID="7" FontSize="11.0" Position="526.0,450.0" Width="102.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>4– MARLENE
+Ha wa. Subbr. </String>
+      <ConnectedNoteIDs>5,6</ConnectedNoteIDs>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="770.8,369.8" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.871 0.933 0.831</Fill>
+      </Appearance>
+      <String>8– HILDE
+War ihr oifach wichtig dass du den hasch. Ich glaub den hat damals dei Oma ahgsetzt. </String>
+      <ConnectedNoteIDs>3,4,10</ConnectedNoteIDs>
+    </Note>
+    <Note ID="9" FontSize="12.0" Position="718.0,837.0" Width="96.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+      </Appearance>
+      <String>Dialog Ende</String>
+      <ConnectedNoteIDs>6,11</ConnectedNoteIDs>
+    </Note>
+    <Note ID="10" FontSize="12.0" Position="809.0,486.0" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.996 0.925 0.831</Fill>
+      </Appearance>
+      <String>5– MARLENE
+Uhh… wird der nicht nach Jahrzehnten mal schlecht? </String>
+      <ConnectedNoteIDs>8,11</ConnectedNoteIDs>
+    </Note>
+    <Note ID="11" FontSize="12.0" Position="785.3,574.2" Width="200.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1"/>
+        <Fill>0.871 0.933 0.831</Fill>
+      </Appearance>
+      <String>10– HILDE
+Nicht wenn man ihn regelmäßig füttert. Muss mr dann abr au verbraucha. I muss dann au los gell?</String>
+      <ConnectedNoteIDs>9,10</ConnectedNoteIDs>
+    </Note>
+  </Notes>
+  <BackgroundShapes/>
+  <AutoFit>4,5,7,9</AutoFit>
+  <NoteStyles>
+    <Style Name="Bubble (Blue)" ID="C8244098-1945-41A5-9D16-A6308DC65F75" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.722101628780365 0.8462901711463928 0.9162386655807495</BorderColor>
+      <FillColor>0.786 0.9204 0.9961</FillColor>
+    </Style>
+    <Style Name="Bubble (Green)" ID="9BA56D91-EF00-4B85-A7AB-1A179F285D0C" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.7199764847755432 0.8974809646606445 0.633672833442688</BorderColor>
+      <FillColor>0.7837 0.9758 0.6903</FillColor>
+    </Style>
+    <Style Name="Bubble (Pink)" ID="BE355D0A-FF69-4FDF-8942-5115C00D5586" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.9189181923866272 0.7627586722373962 0.7658078670501709</BorderColor>
+      <FillColor>0.9948 0.8577 0.9998</FillColor>
+    </Style>
+    <Style Name="Bubble (Red)" ID="390C4D7F-1EF5-489F-AFAF-AF2174D49E3B" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.9189181923866272 0.7627586722373962 0.7658078670501709</BorderColor>
+      <FillColor>0.999 0.83 0.8333</FillColor>
+    </Style>
+    <Style Name="Bubble (Yellow)" ID="0E471EFF-593D-4EFB-BDDF-B7DD69CD95A6" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+      <BorderThickness>1</BorderThickness>
+      <BorderColor>0.9024707674980164 0.8555303812026978 0.628868043422699</BorderColor>
+      <FillColor>0.9812 0.9304 0.6851</FillColor>
+    </Style>
+    <Style Name="Red Text" ID="896CCFE3-A279-439B-87C7-E24E017CF9A2" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+      <TextColor>1.0 0.0 0.0</TextColor>
+    </Style>
+    <Style Name="Title Text" ID="BEAD33CE-FEFA-476C-8F6A-A84C03FD5ED3" AffectFontStyle="Yes" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+      <FontSize>28.0</FontSize>
+      <IsBold>Yes</IsBold>
+    </Style>
+  </NoteStyles>
+  <UISettings>
+    <BackgroundColor>1.0 0.99 0.96</BackgroundColor>
+    <DefaultFont>CourierNewPSMT</DefaultFont>
+    <NoteXPadding>8.0</NoteXPadding>
+  </UISettings>
+  <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScappleDocument>

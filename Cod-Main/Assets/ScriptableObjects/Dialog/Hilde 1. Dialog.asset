@@ -20,6 +20,7 @@ MonoBehaviour:
   DialogLine: "\u201ENed nua M\xFCddr.\u201C"
   TextPreview: "\u201ENed nua M\xFCddr.\u201C..."
   AudioClip: {fileID: 8300000, guid: a6b54ee9c13e941289439ef99fad450f, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -1024475288293788590}
   FallThrough: 0
@@ -49,6 +50,7 @@ MonoBehaviour:
   DialogLine: "29\u2013 \u201ENoch mehr tote M\xFCtter?\u201C"
   TextPreview: "29\u2013 \u201ENoch mehr t..."
   AudioClip: {fileID: 8300000, guid: eab088b84b2d343bfa5f0640ee7b6390, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -9120020777818067147}
   FallThrough: 0
@@ -80,6 +82,7 @@ MonoBehaviour:
     dai Muadr, die isch dod.\u201C"
   TextPreview: "\u201EOh\u2026 \xC4h\u2026 Oh\u2026 \xC4h\u2026..."
   AudioClip: {fileID: 8300000, guid: d8ab37fe7895c424b831e32fb9148511, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 7848441488358865178}
   - {fileID: -597832899823588421}
@@ -111,6 +114,7 @@ MonoBehaviour:
   DialogLine: "T\xDCR \xD6FFNEN"
   TextPreview: "T\xDCR \xD6FFNEN"
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children: []
   FallThrough: 0
   IsAvailable: 1
@@ -140,6 +144,7 @@ MonoBehaviour:
   DialogLine: "2\u2013 \u201EHOLY HILDE! DICH GIBTS NOCH?!\u201C"
   TextPreview: "2\u2013 \u201EHOLY HILDE! ..."
   AudioClip: {fileID: 8300000, guid: 97e233643b4184092af872fc9e65c618, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 2047312449197680100}
   FallThrough: 0
@@ -170,6 +175,7 @@ MonoBehaviour:
   DialogLine: "46- \u201EHAST DU LACK GESOFFEN??MEINE MUTTER IST TOT.\u201C"
   TextPreview: "46- \u201EHAST DU LAC..."
   AudioClip: {fileID: 8300000, guid: b78e470c9430646aaa6f8589449a4f32, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 4381417913569189506}
   FallThrough: 0
@@ -202,6 +208,7 @@ MonoBehaviour:
     die stand ja eh nebe sich dran in ledschda Dzaid.\u201C"
   TextPreview: "\u201EDu kennsch doch..."
   AudioClip: {fileID: 8300000, guid: 0eaa90e600e5a4340b26bf8168c0a2d9, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -7411023734280172563}
   FallThrough: 0
@@ -231,6 +238,7 @@ MonoBehaviour:
   DialogLine: "Hilde nimmt den Lippenstift zur\xFCck."
   TextPreview: Hilde nimmt den ...
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: -394871198780663035}
   FallThrough: 0
@@ -261,6 +269,7 @@ MonoBehaviour:
   DialogLine: "\u201EAh, bevor ihs vergess.\u201C"
   TextPreview: "\u201EAh, bevor ihs v..."
   AudioClip: {fileID: 8300000, guid: 948163c742a02413e8537b521e45cd97, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 6941936280635674382}
   FallThrough: 0
@@ -290,6 +299,7 @@ MonoBehaviour:
   DialogLine: "53\u2013 \u201EI KANNS\u2014 ICH KANNS NICHT GLAUBEN.\u201C"
   TextPreview: "53\u2013 \u201EI KANNS\u2014 IC..."
   AudioClip: {fileID: 8300000, guid: 1afc50388ba84466593c1a33443cf225, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 3988424936484960029}
   FallThrough: 0
@@ -320,6 +330,7 @@ MonoBehaviour:
   DialogLine: "49\u2013 \u201EWIESO HAT MIR NIEMAND BESCHEID GESAGT?????\u201C"
   TextPreview: "49\u2013 \u201EWIESO HAT M..."
   AudioClip: {fileID: 8300000, guid: 27ad16e97ca69402db14bf4c57ae56c3, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -6155615564252361977}
   FallThrough: 0
@@ -350,6 +361,7 @@ MonoBehaviour:
   DialogLine: "\u201EI hob do vsuchd di anzrufa.\u201C"
   TextPreview: "\u201EI hob do vsuchd..."
   AudioClip: {fileID: 8300000, guid: c8613eb4f8f124ab3a91095bd4e852a0, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -7411023734280172563}
   FallThrough: 0
@@ -385,6 +397,7 @@ MonoBehaviour:
     heissetse? Damagodschi?"
   TextPreview: "\u201EAlso wie gsagd,..."
   AudioClip: {fileID: 8300000, guid: de78c991ebadf49cabefb225fd82d1dd, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 5109344498894139277}
   - {fileID: 253161890010668870}
@@ -417,6 +430,7 @@ MonoBehaviour:
   DialogLine: "40\u2013 \u201ETja da kann man nichts machen.\u201C"
   TextPreview: "40\u2013 \u201ETja da kann..."
   AudioClip: {fileID: 8300000, guid: 0944ff30956574f28891d1d916b9a096, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1120968199337249716}
   FallThrough: 0
@@ -447,6 +461,7 @@ MonoBehaviour:
   DialogLine: "13\u2013 \u201EWIESO HAST DU DEN?\u201C"
   TextPreview: "13\u2013 \u201EWIESO HAST ..."
   AudioClip: {fileID: 8300000, guid: f5c5ea6946e4348b1b2b3955953c4bbc, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -5611189802621453162}
   FallThrough: 0
@@ -477,6 +492,7 @@ MonoBehaviour:
   DialogLine: SETZEN
   TextPreview: SETZEN
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: -1111584309886287563}
   FallThrough: 0
@@ -507,6 +523,7 @@ MonoBehaviour:
   DialogLine: "\u201EDes isch der von dei Muddr.\u201C"
   TextPreview: "\u201EDes isch der vo..."
   AudioClip: {fileID: 8300000, guid: 060f3e2534852454db329ccf17caea29, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1876283828006792789}
   - {fileID: -3275677644384721350}
@@ -537,6 +554,7 @@ MonoBehaviour:
   DialogLine: "14\u2013 \u201EAPROPOS MUTTER\u2026\u201C"
   TextPreview: "14\u2013 \u201EAPROPOS MUT..."
   AudioClip: {fileID: 8300000, guid: 4fe98eca2a86049a4b5f0101050108f0, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -620175061639583468}
   FallThrough: 0
@@ -567,6 +585,7 @@ MonoBehaviour:
   DialogLine: "\u201EAm Bergfeschdle. 27. Juli. Isch imma noch da.\u201C"
   TextPreview: "\u201EAm Bergfeschdle..."
   AudioClip: {fileID: 8300000, guid: 726ac885c3dae4c6885c51567d08fb09, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -7411023734280172563}
   FallThrough: 0
@@ -596,6 +615,7 @@ MonoBehaviour:
   DialogLine: "\u201EWie kommt\u2019s, dass ich das jetzt erst erfahre?\u201C"
   TextPreview: "\u201EWie kommt\u2019s, da..."
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children: []
   FallThrough: 0
   IsAvailable: 1
@@ -625,6 +645,7 @@ MonoBehaviour:
   DialogLine: "T\xDCR ZUMACHEN"
   TextPreview: "T\xDCR ZUMACHEN"
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 3760680100592759881}
   FallThrough: 0
@@ -655,6 +676,7 @@ MonoBehaviour:
   DialogLine: "15\u2013 \u201EWEISST DU EIGENTLICH WO ICH MEINE MUTTER FINDEN KANN?\u201C"
   TextPreview: "15\u2013 \u201EWEISST DU E..."
   AudioClip: {fileID: 8300000, guid: e3c0a0a1b527842dda192ce7fd4af8c0, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -5611189802621453162}
   FallThrough: 0
@@ -686,6 +708,7 @@ MonoBehaviour:
     HAT"
   TextPreview: DIALOG GEHT AN D...
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children: []
   FallThrough: 0
   IsAvailable: 1
@@ -715,6 +738,7 @@ MonoBehaviour:
   DialogLine: "47\u2013 \u201EWAS IST PASSIERT??\u201C"
   TextPreview: "47\u2013 \u201EWAS IST PAS..."
   AudioClip: {fileID: 8300000, guid: 018e7ac0ff21340229927a65be5b8205, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -7962924074311984988}
   FallThrough: 0
@@ -745,6 +769,7 @@ MonoBehaviour:
   DialogLine: "35\u2013 \u201ENe mir hat niemand Bescheid gesagt.\u201C"
   TextPreview: "35\u2013 \u201ENe mir hat ..."
   AudioClip: {fileID: 8300000, guid: 6ae64a13c412f47fb8854e5fa069d76f, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 4525904570642216492}
   FallThrough: 0
@@ -775,6 +800,7 @@ MonoBehaviour:
   DialogLine: "T\xDCR ZUMACHEN"
   TextPreview: "T\xDCR ZUMACHEN"
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 9206189563565285111}
   FallThrough: 0
@@ -806,6 +832,7 @@ MonoBehaviour:
     niemand sagt einem Bescheid.\u201C"
   TextPreview: (Pause.)
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 713022397189938084}
   FallThrough: 0
@@ -836,6 +863,7 @@ MonoBehaviour:
   DialogLine: "31\u2013 \u201EDas war meine Mutter.\u201C"
   TextPreview: "31\u2013 \u201EDas war mei..."
   AudioClip: {fileID: 8300000, guid: 50a03991237204d9386419dee5f41b65, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 2888204035092886455}
   FallThrough: 0
@@ -859,7 +887,7 @@ MonoBehaviour:
   m_Name: "\u201EAlso wie gsagd,..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 1b733270bfd5f48198317d6648000357
-  Position: {x: 750, y: 817.5001}
+  Position: {x: 664.0002, y: 907}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -872,6 +900,7 @@ MonoBehaviour:
     wie dengs, die..\nwie hoi\xDFet se? Damagodschi?"
   TextPreview: "\u201EAlso wie gsagd,..."
   AudioClip: {fileID: 8300000, guid: de78c991ebadf49cabefb225fd82d1dd, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 5109344498894139277}
   - {fileID: 6387356780758709701}
@@ -903,6 +932,7 @@ MonoBehaviour:
   DialogLine: "\u201EJoa, am beschda sind so 24 bis 28 Grad.\u201C"
   TextPreview: "\u201EJoa, am beschda..."
   AudioClip: {fileID: 8300000, guid: eb5a86b39157e4c22af8e895a550d2d6, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -8005325158088205723}
   FallThrough: 0
@@ -932,6 +962,7 @@ MonoBehaviour:
   DialogLine: "22\u2013 \u201EM\xFCtter sterben doch nicht.\u201C"
   TextPreview: "22\u2013 \u201EM\xFCtter ster..."
   AudioClip: {fileID: 8300000, guid: 6b793118d67e44b73ade49a83dd47fd7, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 4565432516199427377}
   FallThrough: 0
@@ -962,6 +993,7 @@ MonoBehaviour:
   DialogLine: "\u201EMerkur war r\xFCckl\xE4ufig.\u201C"
   TextPreview: "\u201EMerkur war r\xFCck..."
   AudioClip: {fileID: 8300000, guid: 9eb5e7cc56a1e424f9121597e7d8e5f6, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 299679945361648254}
   - {fileID: -4951794297628785569}
@@ -992,6 +1024,7 @@ MonoBehaviour:
   DialogLine: "\u201EKindle, des tut mir so leid.\u201C"
   TextPreview: "\u201EKindle, des tut..."
   AudioClip: {fileID: 8300000, guid: 79233abecc54a4045bece51a3287b0cd, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1120968199337249716}
   FallThrough: 0
@@ -1023,6 +1056,7 @@ MonoBehaviour:
     wird di imma mid ihr verbinda.\u201C"
   TextPreview: "55\u2013 \u201ENaja - i mu..."
   AudioClip: {fileID: 8300000, guid: 3ea80df7812d14bcba95638b9d34ae81, type: 3}
+  PauseAfter: 0.5
   Children: []
   FallThrough: 0
   IsAvailable: 1
@@ -1144,6 +1178,7 @@ MonoBehaviour:
   DialogLine: "17\u2013 \u201EHABEN SIE DICH ZU LANGE EINGELEGT? WO IST MEINE MUTTER?\u201C"
   TextPreview: "17\u2013 \u201EHABEN SIE D..."
   AudioClip: {fileID: 8300000, guid: 57ad0f8a120fe4c228f4a0d25841fe7f, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -8480787863510619017}
   FallThrough: 0
@@ -1174,6 +1209,7 @@ MonoBehaviour:
   DialogLine: "\u201EHier passiera merkw\xFCrdigere Dinge als du dia vorstella kannsch.\u201C"
   TextPreview: "\u201EHier passiera m..."
   AudioClip: {fileID: 8300000, guid: 5855a28e3833842c687d571a15f11940, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -8799656588604963374}
   - {fileID: 2464775526610776493}
@@ -1204,6 +1240,7 @@ MonoBehaviour:
   DialogLine: "3\u2013 \u201EWEISST DU WO MEINE MUTTER IST?\u201C"
   TextPreview: "3\u2013 \u201EWEISST DU WO..."
   AudioClip: {fileID: 8300000, guid: bd53ff8b6feb04efc8b7c9b5b6a6a9c7, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 6597508637990941781}
   FallThrough: 0
@@ -1234,6 +1271,7 @@ MonoBehaviour:
   DialogLine: "37\u2013 \u201EFucking S\xE4gbach am Tobel.\u201C"
   TextPreview: "37\u2013 \u201EFucking S\xE4g..."
   AudioClip: {fileID: 8300000, guid: 862f43885a18f4771887807cae309533, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1120968199337249716}
   FallThrough: 0
@@ -1264,6 +1302,7 @@ MonoBehaviour:
   DialogLine: "T\xDCR ZUMACHEN"
   TextPreview: "T\xDCR ZUMACHEN"
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 9206189563565285111}
   FallThrough: 0
@@ -1294,6 +1333,7 @@ MonoBehaviour:
   DialogLine: "48\u2013 \u201EWANN?????\u201C"
   TextPreview: "48\u2013 \u201EWANN?????\u201C"
   AudioClip: {fileID: 8300000, guid: f26880dfef9544546b0527cedc790732, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -3002170630934646968}
   FallThrough: 0
@@ -1325,6 +1365,7 @@ MonoBehaviour:
     zehn Jahrn wo ned hier warschd. Tut mir leid.\u201C"
   TextPreview: "\u201EIch hob\u2019s bf\xFCrc..."
   AudioClip: {fileID: 8300000, guid: 500669fa1f7934fcdaebcf6a650b99c8, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1120968199337249716}
   FallThrough: 0
@@ -1354,6 +1395,7 @@ MonoBehaviour:
   DialogLine: "38\u2013\u201EStand nicht in meinem Horoskop.\u201C"
   TextPreview: "38\u2013\u201EStand nicht ..."
   AudioClip: {fileID: 8300000, guid: 7db1107208b7e46138a83742168696bd, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -578724375718534864}
   FallThrough: 0
@@ -1385,6 +1427,7 @@ MonoBehaviour:
     achd gebbe: (Pause) dess ned zu warm, ned zu kald isch d\xE4m Sauerdeig\u2026\u201C"
   TextPreview: "\u201EApropos, I hab ..."
   AudioClip: {fileID: 8300000, guid: 6f439b0dfe17445e3aabf4ce02856b90, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 3104332354372458264}
   - {fileID: 6014199163979538242}
@@ -1415,6 +1458,7 @@ MonoBehaviour:
   DialogLine: "T\xDCR ZUMACHEN"
   TextPreview: "T\xDCR ZUMACHEN"
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 3760680100592759881}
   FallThrough: 0
@@ -1445,6 +1489,7 @@ MonoBehaviour:
   DialogLine: "13\u2013 \u201EWIESO HAST DU DEN?\u201C"
   TextPreview: "13\u2013 \u201EWIESO HAST ..."
   AudioClip: {fileID: 8300000, guid: f5c5ea6946e4348b1b2b3955953c4bbc, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -620175061639583468}
   FallThrough: 0
@@ -1475,6 +1520,7 @@ MonoBehaviour:
   DialogLine: "6\u2013 \u201EUNKRAUT. DU BIST UNKRAUT, HILDE.\u201C"
   TextPreview: "6\u2013 \u201EUNKRAUT. DU ..."
   AudioClip: {fileID: 8300000, guid: adbceb709927a46b3b0e76633c6abd28, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -7500429039386227060}
   FallThrough: 0
@@ -1505,6 +1551,7 @@ MonoBehaviour:
   DialogLine: "\u201ESauerkraut verreckt ned.\u201C"
   TextPreview: "\u201ESauerkraut verr..."
   AudioClip: {fileID: 8300000, guid: 1caa308f19751490e98710f2333e0b4a, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1976496051577922561}
   - {fileID: 5111066352495777327}
@@ -1535,6 +1582,7 @@ MonoBehaviour:
   DialogLine: "(Pause.)\nDas hab ich mir nicht vorstellen k\xF6nnen.\u201C"
   TextPreview: (Pause.)
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 2962013131690210869}
   FallThrough: 0
@@ -1565,6 +1613,7 @@ MonoBehaviour:
   DialogLine: "T\xDCR \xD6FFNEN"
   TextPreview: "T\xDCR \xD6FFNEN"
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: -2012796095399049337}
   FallThrough: 0
@@ -1595,6 +1644,7 @@ MonoBehaviour:
   DialogLine: "23\u2013 \u201EMeine\u2026 Was\u2026\u201C"
   TextPreview: "23\u2013 \u201EMeine\u2026 Was\u2026..."
   AudioClip: {fileID: 8300000, guid: afedefec2beec4cbd8774aae7f57db69, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 7967868827852929551}
   FallThrough: 0
@@ -1626,6 +1676,7 @@ MonoBehaviour:
     ANDREHEN.\u201C"
   TextPreview: "11\u2013 \u201EMEINE MUTTE..."
   AudioClip: {fileID: 8300000, guid: a855671e4444d4c33afc4ef4991e7cb0, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 3760874327249605209}
   FallThrough: 0
@@ -1656,6 +1707,7 @@ MonoBehaviour:
   DialogLine: "\u201ESie hat dich sehr geliebt.\u201C"
   TextPreview: "\u201ESie hat dich se..."
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1120968199337249716}
   FallThrough: 0
@@ -1685,6 +1737,7 @@ MonoBehaviour:
   DialogLine: "\u201EDes kann man sich gar ned vorstella.\u201C"
   TextPreview: "\u201EDes kann man si..."
   AudioClip: {fileID: 8300000, guid: 3b0d2ab23a16742ec9b54dde3a5e5e4d, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 1120968199337249716}
   FallThrough: 0
@@ -1714,6 +1767,7 @@ MonoBehaviour:
   DialogLine: "42\u2013 \u201EMEINE MUTTER IST TOT.\u201C"
   TextPreview: "42\u2013 \u201EMEINE MUTTE..."
   AudioClip: {fileID: 8300000, guid: b0a0d7ba52fba47c19ee3e8e307a3f98, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 4381417913569189506}
   FallThrough: 0
@@ -1744,6 +1798,7 @@ MonoBehaviour:
   DialogLine: "T\xDCR ZUMACHEN"
   TextPreview: "T\xDCR ZUMACHEN"
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 3760680100592759881}
   FallThrough: 0
@@ -1777,6 +1832,7 @@ MonoBehaviour:
     ist.)"
   TextPreview: Es klopft drei m...
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: -8413550383863190918}
   FallThrough: 0
@@ -1807,6 +1863,7 @@ MonoBehaviour:
   DialogLine: "\u201EDes isch der von dei Mudda.\u201C"
   TextPreview: "\u201EDes isch der vo..."
   AudioClip: {fileID: 8300000, guid: 060f3e2534852454db329ccf17caea29, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -2872400816319892380}
   - {fileID: -4718002508914717383}
@@ -1840,6 +1897,7 @@ MonoBehaviour:
     den Lippenstift in die Hand]\n\u201EDo, heb mal.\u201C"
   TextPreview: "\u201EJe mehr i dr\xFCba..."
   AudioClip: {fileID: 8300000, guid: d60cf424d08144ef6b873cb579cc3d09, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -7722887994542396611}
   FallThrough: 0
@@ -1862,13 +1920,14 @@ MonoBehaviour:
   m_Name: "\u201EAh dahanna hat ..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 588850e6f02a34cbe9f29005c60d0af8
-  Position: {x: 764.00006, y: 106.50009}
+  Position: {x: 764.00024, y: 141.00002}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "\u201EAh dahanna hat er sich versteckt der kloine Ganove.\""
   TextPreview: "\u201EAh dahanna hat ..."
   AudioClip: {fileID: 8300000, guid: 9c83846f28c0e45558c9d6b69ac7fcca, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 5875965313296210428}
   - {fileID: 554277992469360030}
@@ -1901,6 +1960,7 @@ MonoBehaviour:
     dess du den Sauerdeich bkommsd\u2026 bagg ihn am beschten oi.\u201C"
   TextPreview: "\u201EAch --- wusschd..."
   AudioClip: {fileID: 8300000, guid: b2c5a6808431544c6a4d98166c375223, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -1707212335615997356}
   - {fileID: 655563760352794597}
@@ -1932,6 +1992,7 @@ MonoBehaviour:
   DialogLine: "\u201EDes tut mir leid.\u201C"
   TextPreview: "\u201EDes tut mir lei..."
   AudioClip: {fileID: 8300000, guid: 79233abecc54a4045bece51a3287b0cd, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 299679945361648254}
   FallThrough: 0
@@ -1961,6 +2022,7 @@ MonoBehaviour:
   DialogLine: "\u201EWusstesch des ned? \u2014 scheise.\u201C"
   TextPreview: "\u201EWusstesch des n..."
   AudioClip: {fileID: 8300000, guid: 0402aa1458f734435bdaf370b446490d, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -1617107198032348127}
   - {fileID: 714123724048922222}
@@ -1991,6 +2053,7 @@ MonoBehaviour:
   DialogLine: "18\u2013 \u201EABER WO IST DENN JETZT MEINE MUTTER?\u201C"
   TextPreview: "18\u2013 \u201EABER WO IST..."
   AudioClip: {fileID: 8300000, guid: 0405ad7c23d694ba3b96ee6e86113bb1, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -8480787863510619017}
   FallThrough: 0
@@ -2021,6 +2084,7 @@ MonoBehaviour:
   DialogLine: "7\u2013 (Falsch h\xF6flich lachen.)"
   TextPreview: "7\u2013 (Falsch h\xF6fli..."
   AudioClip: {fileID: 8300000, guid: 50c6d965c3b994a7ea9386691565bdf2, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -7500429039386227060}
   FallThrough: 0
@@ -2056,6 +2120,7 @@ MonoBehaviour:
     ah was sag I, am beschda jeden Tag gell. Wo isch er no jetzt?\u201C"
   TextPreview: "\u201EHa des isch a S..."
   AudioClip: {fileID: 8300000, guid: 25942dbed9891463cb324bab49d1813c, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -8251307684216099777}
   - {fileID: 289074022344142230}
@@ -2087,6 +2152,7 @@ MonoBehaviour:
     ANDREHEN.\u201C"
   TextPreview: "11\u2013 \u201EMEINE MUTTE..."
   AudioClip: {fileID: 8300000, guid: a855671e4444d4c33afc4ef4991e7cb0, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -3500860890700797485}
   FallThrough: 0
@@ -2117,6 +2183,7 @@ MonoBehaviour:
   DialogLine: "T\xDCR ZUMACHEN"
   TextPreview: "T\xDCR ZUMACHEN"
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 9206189563565285111}
   FallThrough: 0
@@ -2147,6 +2214,7 @@ MonoBehaviour:
   DialogLine: "44\u2013 \u201EWIE VIEL GRAD GENAU SOLLTE DER SAUERTEIG HABEN?\u201C"
   TextPreview: "44\u2013 \u201EWIE VIEL GR..."
   AudioClip: {fileID: 8300000, guid: a44397598459f45a9b75976d9716a764, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -608989089402376199}
   FallThrough: 0
@@ -2177,6 +2245,7 @@ MonoBehaviour:
   DialogLine: "19\u2013\u201EHILDE? ABER DU KENNST MEINE MUTTER NOCH, ODER?\u201C"
   TextPreview: "19\u2013\u201EHILDE? ABER ..."
   AudioClip: {fileID: 8300000, guid: 07e209a1fd080445a8d625a03b3e9b04, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -8480787863510619017}
   FallThrough: 0
@@ -2207,6 +2276,7 @@ MonoBehaviour:
   DialogLine: "\u201EIsch des ned die gro\xDFe Frag. Deswegen nimm des.\u201C"
   TextPreview: "\u201EIsch des ned di..."
   AudioClip: {fileID: 8300000, guid: daf3bc42f7b47468e861ca7bf71ab024, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 4128849765033710082}
   FallThrough: 0
@@ -2226,16 +2296,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EAhhhh dahana he..."
+  m_Name: "\u201EAaaaahh dahana ..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 1d92532dcd2b747e688ad23d6944446b
-  Position: {x: 0, y: 420}
+  Position: {x: 0.00003361702, y: 392.5}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EAhhhh dahana hedd sich der kloi Ganove verschdeggd.\""
-  TextPreview: "\u201EAhhhh dahana he..."
-  AudioClip: {fileID: 8300000, guid: d9f6b365e42ee4cfcb069a33cf6a76b9, type: 3}
+  DialogLine: "\u201EAaaaahh dahana hedd sich der kloi Ganove verschdeggd.\""
+  TextPreview: "\u201EAaaaahh dahana ..."
+  AudioClip: {fileID: 8300000, guid: 9c83846f28c0e45558c9d6b69ac7fcca, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 2705850838671782894}
   - {fileID: 1302420562198250642}
@@ -2266,6 +2337,7 @@ MonoBehaviour:
   DialogLine: NICHT SETZEN
   TextPreview: NICHT SETZEN
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 7898230067445497762}
   FallThrough: 0
@@ -2296,6 +2368,7 @@ MonoBehaviour:
   DialogLine: "Tja kann man nichts machen (21\u2013 \u201EAh, komisch.\u201C)"
   TextPreview: Tja kann man nic...
   AudioClip: {fileID: 8300000, guid: 0944ff30956574f28891d1d916b9a096, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: 259334518230148051}
   FallThrough: 0
@@ -2327,6 +2400,7 @@ MonoBehaviour:
     niemand sagt einem Bescheid.\u201C"
   TextPreview: (Pause.)
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: -409789515176061760}
   FallThrough: 0
@@ -2357,6 +2431,7 @@ MonoBehaviour:
   DialogLine: "\u201EKindle\u2026\n(Marlene zittert.)\nSetz di doch lieba mol hin.\u201C"
   TextPreview: "\u201EKindle\u2026"
   AudioClip: {fileID: 8300000, guid: c14f48de12d7b4e8ca6b83f08cbb5c09, type: 3}
+  PauseAfter: 0.5
   Children:
   - {fileID: -4166596182842066830}
   - {fileID: 7091037394630517091}
@@ -2387,6 +2462,7 @@ MonoBehaviour:
   DialogLine: "Es klopft drei mal langsam an der T\xFCr. "
   TextPreview: Es klopft drei m...
   AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children:
   - {fileID: 2648331091703205733}
   FallThrough: 0
