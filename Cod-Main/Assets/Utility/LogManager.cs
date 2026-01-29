@@ -12,7 +12,7 @@ namespace Utility
         
         private ILogHandler defaultLogHandler;
 
-        [InspectorButton("Setup")] public bool setupButton;
+        [InspectorButton("Setup")] public bool setup;
 
     void OnEnable()
     {
