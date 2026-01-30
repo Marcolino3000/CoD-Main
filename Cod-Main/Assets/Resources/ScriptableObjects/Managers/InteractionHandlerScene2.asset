@@ -1,0 +1,932 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e91b0248d49249d58015b8156535588, type: 3}
+  m_Name: InteractionHandlerScene2
+  m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.InteractionHandler
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: ddc53cfdf069d42579ca66de8e3a08e9, type: 2}
+    - {fileID: 11400000, guid: da159c790547c467bba8889760a0adc4, type: 2}
+    - {fileID: 11400000, guid: 043fed759a4f8451d9f92cff673b9826, type: 2}
+    - {fileID: 11400000, guid: f02efa3331e97424fba40e1db527ac8f, type: 2}
+    - {fileID: 11400000, guid: 8d4f2d6aed1c849529d827ebbbc7256a, type: 2}
+    - {fileID: 11400000, guid: 73533f209c6654d4a99e1e0636438711, type: 2}
+    - {fileID: 11400000, guid: cd65d02928ae34289a4830c8f72b6446, type: 2}
+    - {fileID: 11400000, guid: f9afb1753248f494aa5d5acfd32def78, type: 2}
+    - {fileID: 11400000, guid: ca2f829e0bc0c4b2799b00c87b9bea91, type: 2}
+    - {fileID: 11400000, guid: 3cccce6c0c50e4ae2abf5322f6c19ce6, type: 2}
+    - {fileID: 11400000, guid: 366b07b77a02849438126c8695c2064e, type: 2}
+    - {fileID: 11400000, guid: 59378320ecb1e4faebe57eab6f8d7936, type: 2}
+    - {fileID: 11400000, guid: ac0b489f3afeb41939ec1d286809d58c, type: 2}
+    - {fileID: 11400000, guid: f1055e3e4d52345d7b5ad0eab3067a03, type: 2}
+    - {fileID: 11400000, guid: ac5e0186876554065b9b611e8efc7f22, type: 2}
+    - {fileID: 11400000, guid: e341fd663eb364673842fb9b424fb861, type: 2}
+    - {fileID: 11400000, guid: 39113deee2da14ef980feadf3041ab39, type: 2}
+    - {fileID: 11400000, guid: c2e8167266c1941f1b2811c37d0ee03d, type: 2}
+    - {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}
+    - {fileID: 11400000, guid: 7126467d7428e4d41a57b8f813e5f666, type: 2}
+    - {fileID: -6086575097862058501, guid: 4bbb15ab7f96d4c5f8467318a439d8bc, type: 2}
+    - {fileID: 11400000, guid: 142e4c3018f2d458caab1aae31e87e86, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: triggersToPrerequisitesHighPrio
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Runtime.Scripts.Core.Trigger,
+        cod.interactionbuilder],[System.Collections.Generic.List`1[[Runtime.Scripts.Core.PrerequisiteRecord,
+        cod.interactionbuilder]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[Runtime.Scripts.Core.Trigger,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: triggersToPrerequisitesLowPrio
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[Runtime.Scripts.Core.Trigger,
+        cod.interactionbuilder],[System.Collections.Generic.List`1[[Runtime.Scripts.Core.PrerequisiteRecord,
+        cod.interactionbuilder]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 9
+      Data: 1
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 3|Runtime.Scripts.Core.Trigger, cod.interactionbuilder
+    - Name: TriggerType
+      Entry: 3
+      Data: 0
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 0
+    - Name: TriggeringDialogOption
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[Runtime.Scripts.Core.PrerequisiteRecord,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 5|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 1
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 0
+    - Name: TriggeringInteractable
+      Entry: 6
+      Data: 
+    - Name: Conditions
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 7|Runtime.Scripts.Core.Trigger, cod.interactionbuilder
+    - Name: TriggerType
+      Entry: 3
+      Data: 0
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 2
+    - Name: TriggeringDialogOption
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[Runtime.Scripts.Core.PrerequisiteRecord,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 9|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 3
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 0
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 2
+    - Name: Conditions
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 11|Runtime.Scripts.Core.Trigger, cod.interactionbuilder
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 4
+    - Name: TriggeringDialogOption
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[Runtime.Scripts.Core.PrerequisiteRecord,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 13|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 5
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 4
+    - Name: Conditions
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 15|Runtime.Scripts.Core.StateWithSettings, cod.interactionbuilder
+    - Name: RecordedState
+      Entry: 7
+      Data: 16|Runtime.Scripts.Interactables.Toggleable+ToggleableStateDate, cod.interactionbuilder
+    - Name: Owner
+      Entry: 10
+      Data: 6
+    - Name: ToggleState
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsHardCondition
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 17|Runtime.Scripts.Core.Trigger, cod.interactionbuilder
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 7
+    - Name: TriggeringDialogOption
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[Runtime.Scripts.Core.PrerequisiteRecord,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 19|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 8
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 6
+      Data: 
+    - Name: Conditions
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 21|Runtime.Scripts.Core.Trigger, cod.interactionbuilder
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 9
+    - Name: TriggeringDialogOption
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[Runtime.Scripts.Core.PrerequisiteRecord,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 23|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 10
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 9
+    - Name: Conditions
+      Entry: 7
+      Data: 24|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 25|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 11
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 9
+    - Name: Conditions
+      Entry: 7
+      Data: 26|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 27|Runtime.Scripts.Core.StateWithSettings, cod.interactionbuilder
+    - Name: RecordedState
+      Entry: 7
+      Data: 28|Runtime.Scripts.Core.InteractionData+InteractionStateData, cod.interactionbuilder
+    - Name: Owner
+      Entry: 10
+      Data: 10
+    - Name: ThresholdReached
+      Entry: 5
+      Data: true
+    - Name: IsRunning
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsHardCondition
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 29|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 12
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 9
+    - Name: Conditions
+      Entry: 7
+      Data: 30|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 31|Runtime.Scripts.Core.StateWithSettings, cod.interactionbuilder
+    - Name: RecordedState
+      Entry: 7
+      Data: 32|Runtime.Scripts.Core.InteractionData+InteractionStateData, cod.interactionbuilder
+    - Name: Owner
+      Entry: 10
+      Data: 11
+    - Name: ThresholdReached
+      Entry: 5
+      Data: true
+    - Name: IsRunning
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsHardCondition
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 33|Runtime.Scripts.Core.Trigger, cod.interactionbuilder
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 6
+    - Name: TriggeringDialogOption
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 34|System.Collections.Generic.List`1[[Runtime.Scripts.Core.PrerequisiteRecord,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 35|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 13
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 6
+    - Name: Conditions
+      Entry: 7
+      Data: 36|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 37|Runtime.Scripts.Core.StateWithSettings, cod.interactionbuilder
+    - Name: RecordedState
+      Entry: 7
+      Data: 38|Runtime.Scripts.Interactables.Toggleable+ToggleableStateDate, cod.interactionbuilder
+    - Name: Owner
+      Entry: 10
+      Data: 6
+    - Name: ToggleState
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsHardCondition
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 39|Runtime.Scripts.Core.Trigger, cod.interactionbuilder
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 14
+    - Name: TriggeringDialogOption
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 40|System.Collections.Generic.List`1[[Runtime.Scripts.Core.PrerequisiteRecord,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 41|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 15
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 6
+      Data: 
+    - Name: Conditions
+      Entry: 7
+      Data: 42|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 43|Runtime.Scripts.Core.Trigger, cod.interactionbuilder
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 16
+    - Name: TriggeringDialogOption
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 44|System.Collections.Generic.List`1[[Runtime.Scripts.Core.PrerequisiteRecord,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 45|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 17
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 16
+    - Name: Conditions
+      Entry: 7
+      Data: 46|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 47|Runtime.Scripts.Core.StateWithSettings, cod.interactionbuilder
+    - Name: RecordedState
+      Entry: 7
+      Data: 48|Runtime.Scripts.Core.InteractionData+InteractionStateData, cod.interactionbuilder
+    - Name: Owner
+      Entry: 10
+      Data: 18
+    - Name: ThresholdReached
+      Entry: 5
+      Data: true
+    - Name: IsRunning
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsHardCondition
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 19
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 16
+    - Name: Conditions
+      Entry: 7
+      Data: 50|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 51|Runtime.Scripts.Core.StateWithSettings, cod.interactionbuilder
+    - Name: RecordedState
+      Entry: 7
+      Data: 52|Runtime.Scripts.Core.InteractionData+InteractionStateData, cod.interactionbuilder
+    - Name: Owner
+      Entry: 10
+      Data: 17
+    - Name: ThresholdReached
+      Entry: 5
+      Data: true
+    - Name: IsRunning
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: IsHardCondition
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 53|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 18
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 2
+    - Name: TriggeringInteractable
+      Entry: 10
+      Data: 16
+    - Name: Conditions
+      Entry: 7
+      Data: 54|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 55|Runtime.Scripts.Core.Trigger, cod.interactionbuilder
+    - Name: TriggerType
+      Entry: 3
+      Data: 4
+    - Name: TriggeringInteractable
+      Entry: 6
+      Data: 
+    - Name: TriggeringDialogOption
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 7
+      Data: 56|System.Collections.Generic.List`1[[Runtime.Scripts.Core.PrerequisiteRecord,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 57|Runtime.Scripts.Core.PrerequisiteRecord, cod.interactionbuilder
+    - Name: InteractionToExecute
+      Entry: 10
+      Data: 21
+    - Name: DialogOptionToUnlock
+      Entry: 6
+      Data: 
+    - Name: TriggerType
+      Entry: 3
+      Data: 0
+    - Name: TriggeringInteractable
+      Entry: 6
+      Data: 
+    - Name: Conditions
+      Entry: 7
+      Data: 58|System.Collections.Generic.List`1[[Runtime.Scripts.Core.StateWithSettings,
+        cod.interactionbuilder]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  PrerequisitesGenerator: {fileID: 0}
+  currentInteractions: []

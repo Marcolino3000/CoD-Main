@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d3041dc13f845549891bd97b3b56a61, type: 3}
   m_Name: InteractionViewer
   m_EditorClassIdentifier: InteractionBuilder::Runtime.Scripts.Core.InteractionViewer
-  interactionHandler: {fileID: 11400000, guid: 7ee7f6559697b45d09c05394a0f5ecce, type: 2}
+  interactionHandler: {fileID: 11400000, guid: f8d8c5f8486fa435d8b334577d1edb52, type: 2}
   triggerToPrerequisites:
   - Trigger:
       TriggerType: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
   - Trigger:
       TriggerType: 4
       TriggeringInteractable: {fileID: 0}
-      TriggeringDialogOption: {fileID: -4663519145765460523, guid: 215229c350b7347958c48a100f9b68d9, type: 2}
+      TriggeringDialogOption: {fileID: -6086575097862058501, guid: 4bbb15ab7f96d4c5f8467318a439d8bc, type: 2}
     Prerequisites:
     - Record:
         InteractionToExecute: {fileID: 11400000, guid: 142e4c3018f2d458caab1aae31e87e86, type: 2}
