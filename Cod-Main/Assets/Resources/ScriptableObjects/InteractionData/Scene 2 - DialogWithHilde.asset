@@ -13,10 +13,12 @@ MonoBehaviour:
   m_Name: Scene 2 - DialogWithHilde
   m_EditorClassIdentifier: Assembly-CSharp::Core.InteractionData
   _SaveStateToCurrentScene: 0
-  _sceneStateSaver: {fileID: 11400000, guid: f3b4dfe60d1004a46b57299c7d030539, type: 2}
+  _sceneStateSaver: {fileID: 11400000, guid: 3e244c0560c63468bb3c97ac3de106ce, type: 2}
   Count: 0
   Threshold: 1
   OneTimeUse: 1
   successReaction: {fileID: 11400000, guid: 59fb07c5e0604433ea7c2766cc685051, type: 2}
   failureReaction: {fileID: 0}
   ThresholdReached: 0
+  IsRunning: 0
+  IsActive: 1

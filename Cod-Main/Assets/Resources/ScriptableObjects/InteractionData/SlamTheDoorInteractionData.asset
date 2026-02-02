@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: SlamTheDoorInteractionData
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.InteractionData
   _SaveStateToCurrentScene: 0
-  _sceneStateSaver: {fileID: 11400000, guid: f3b4dfe60d1004a46b57299c7d030539, type: 2}
-  Count: 0
+  _sceneStateSaver: {fileID: 11400000, guid: 3e244c0560c63468bb3c97ac3de106ce, type: 2}
+  Count: 4
   Threshold: 0
   OneTimeUse: 0
   successReaction: {fileID: 11400000, guid: 49363a15e82c241e499377495c4f5b89, type: 2}
   failureReaction: {fileID: 0}
   ThresholdReached: 1
-  IsRunning: 0
+  IsRunning: 1
   IsActive: 1
