@@ -71676,6 +71676,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1577358954}
     - target: {fileID: 7781857341995713510, guid: abdfc0e5b45334364ae696e093f04c7d, type: 3}
+      propertyPath: duration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781857341995713510, guid: abdfc0e5b45334364ae696e093f04c7d, type: 3}
       propertyPath: interactable
       value: 
       objectReference: {fileID: 2059309328}

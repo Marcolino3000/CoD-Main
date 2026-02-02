@@ -472,37 +472,6 @@ MonoBehaviour:
   BlockerNodes: []
   answerType: 0
   _popularityModifier: 0
---- !u!114 &-4166596182842066830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: SETZEN
-  m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
-  Guid: afc41589c2cda476dbbb6f20b72fdbad
-  Position: {x: 450, y: 1680}
-  customPreview: 0
-  Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: SETZEN
-  TextPreview: SETZEN
-  AudioClip: {fileID: 0}
-  PauseAfter: 0.5
-  Children:
-  - {fileID: -1111584309886287563}
-  FallThrough: 0
-  IsAvailable: 1
-  IsTrustOption: 0
-  IsBondingOption: 0
-  RequiredNodes: []
-  BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
 --- !u!114 &-3500860890700797485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516,7 +485,7 @@ MonoBehaviour:
   m_Name: "\u201EDes isch der vo..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: c1e0bd33350ff46fd980eaf587350b31
-  Position: {x: 730, y: 493.00003}
+  Position: {x: 1826.2494, y: 497.37024}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -526,7 +495,6 @@ MonoBehaviour:
   PauseAfter: 0.5
   Children:
   - {fileID: 1876283828006792789}
-  - {fileID: -3275677644384721350}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -547,7 +515,7 @@ MonoBehaviour:
   m_Name: "14\u2013 \u201EAPROPOS MUT..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 68cc75b57f639485c93d67b0ae22c574
-  Position: {x: 900.00006, y: 648}
+  Position: {x: 184.19661, y: 840.0001}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -556,7 +524,7 @@ MonoBehaviour:
   AudioClip: {fileID: 8300000, guid: 4fe98eca2a86049a4b5f0101050108f0, type: 3}
   PauseAfter: 0.5
   Children:
-  - {fileID: -620175061639583468}
+  - {fileID: -5611189802621453162}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -608,7 +576,7 @@ MonoBehaviour:
   m_Name: "\u201EWie kommt\u2019s, da..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 5ec1c6662f23e4ec4a7dff9f036fd235
-  Position: {x: 1507.2, y: 1587.5}
+  Position: {x: 2326.2495, y: 1592.3701}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -700,7 +668,7 @@ MonoBehaviour:
   m_Name: DIALOG GEHT AN D...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 2c684190de7b24058a626f3162c2228b
-  Position: {x: 1483, y: 1366.5002}
+  Position: {x: 2302.2495, y: 1371.3702}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -771,7 +739,7 @@ MonoBehaviour:
   AudioClip: {fileID: 8300000, guid: 6ae64a13c412f47fb8854e5fa069d76f, type: 3}
   PauseAfter: 0.5
   Children:
-  - {fileID: 4525904570642216492}
+  - {fileID: 713022397189938084}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -793,7 +761,7 @@ MonoBehaviour:
   m_Name: "T\xDCR ZUMACHEN"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 99343119f1d82475aae2c664251eeea2
-  Position: {x: 1607.0001, y: 581}
+  Position: {x: 2489.2495, y: 585.3702}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -803,38 +771,6 @@ MonoBehaviour:
   PauseAfter: 0.5
   Children:
   - {fileID: 9206189563565285111}
-  FallThrough: 0
-  IsAvailable: 1
-  IsTrustOption: 0
-  IsBondingOption: 0
-  RequiredNodes: []
-  BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
---- !u!114 &-1111584309886287563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: (Pause.)
-  m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
-  Guid: 7a8c0e25b71f34c508ea2f02b2acf105
-  Position: {x: 450, y: 1820}
-  customPreview: 0
-  Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "(Pause.)\nHier in S\xE4gbach am Tobel sterben also M\xFCtter - und
-    niemand sagt einem Bescheid.\u201C"
-  TextPreview: (Pause.)
-  AudioClip: {fileID: 0}
-  PauseAfter: 0.5
-  Children:
-  - {fileID: 713022397189938084}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -887,7 +823,7 @@ MonoBehaviour:
   m_Name: "\u201EAlso wie gsagd,..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 1b733270bfd5f48198317d6648000357
-  Position: {x: 664.0002, y: 907}
+  Position: {x: 1760.2494, y: 911.37006}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -901,10 +837,7 @@ MonoBehaviour:
   TextPreview: "\u201EAlso wie gsagd,..."
   AudioClip: {fileID: 8300000, guid: de78c991ebadf49cabefb225fd82d1dd, type: 3}
   PauseAfter: 0.5
-  Children:
-  - {fileID: 5109344498894139277}
-  - {fileID: 6387356780758709701}
-  - {fileID: 5944184601175019463}
+  Children: []
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -1017,7 +950,7 @@ MonoBehaviour:
   m_Name: "\u201EKindle, des tut..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: a7397eda9c6ae44ce93d55f4d7c3c78a
-  Position: {x: 750, y: 1960}
+  Position: {x: 449.9999, y: 1819.9998}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -1078,7 +1011,7 @@ MonoBehaviour:
   m_Name: Hilde 1. Dialog
   m_EditorClassIdentifier: cod.dialogbuilder::Tree.DialogTree
   StartNodes:
-  - {fileID: 5348820743433113756}
+  - {fileID: 6941936280635674382}
   nodes:
   - {fileID: 5348820743433113756}
   - {fileID: 289074022344142230}
@@ -1124,23 +1057,17 @@ MonoBehaviour:
   - {fileID: 253161890010668870}
   - {fileID: 3760680100592759881}
   - {fileID: 1302420562198250642}
-  - {fileID: 3509942502771366892}
   - {fileID: -2923443129910843513}
   - {fileID: -8413550383863190918}
   - {fileID: 7848441488358865178}
   - {fileID: 4565432516199427377}
   - {fileID: -597832899823588421}
-  - {fileID: 7898230067445497762}
   - {fileID: 1120968199337249716}
-  - {fileID: 4525904570642216492}
   - {fileID: -1617107198032348127}
   - {fileID: 713022397189938084}
   - {fileID: 299679945361648254}
   - {fileID: 2692643109592289795}
   - {fileID: 7967868827852929551}
-  - {fileID: -4166596182842066830}
-  - {fileID: 7091037394630517091}
-  - {fileID: -1111584309886287563}
   - {fileID: 259334518230148051}
   - {fileID: -8799656588604963374}
   - {fileID: -9120020777818067147}
@@ -1295,7 +1222,7 @@ MonoBehaviour:
   m_Name: "T\xDCR ZUMACHEN"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 977d78e8472be4efbae9a32c9140ec07
-  Position: {x: 1146.0001, y: 426.00015}
+  Position: {x: 2242.2495, y: 430.3701}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -1357,7 +1284,7 @@ MonoBehaviour:
   m_Name: "\u201EIch hob\u2019s bf\xFCrc..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 5b0ba00262e004cb09e3a26663f3fe34
-  Position: {x: 450, y: 1960}
+  Position: {x: -149.99991, y: 1820}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -1482,7 +1409,7 @@ MonoBehaviour:
   m_Name: "13\u2013 \u201EWIESO HAST ..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 83f1b03e2d7304f4487162bb36732ad5
-  Position: {x: 612.0854, y: 648.17175}
+  Position: {x: 1708.2494, y: 652.3701}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -1606,7 +1533,7 @@ MonoBehaviour:
   m_Name: "T\xDCR \xD6FFNEN"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: d40e1c8bc46a44f908b83cbdf2edf379
-  Position: {x: 1483.0004, y: 1245.435}
+  Position: {x: 2302.2495, y: 1249.3701}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -1778,37 +1705,6 @@ MonoBehaviour:
   BlockerNodes: []
   answerType: 0
   _popularityModifier: 0
---- !u!114 &3509942502771366892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "T\xDCR ZUMACHEN"
-  m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
-  Guid: 72cd13cc2fe0b41e7929942aa4384b9b
-  Position: {x: 150, y: 840}
-  customPreview: 0
-  Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "T\xDCR ZUMACHEN"
-  TextPreview: "T\xDCR ZUMACHEN"
-  AudioClip: {fileID: 0}
-  PauseAfter: 0.5
-  Children:
-  - {fileID: 3760680100592759881}
-  FallThrough: 0
-  IsAvailable: 1
-  IsTrustOption: 0
-  IsBondingOption: 0
-  RequiredNodes: []
-  BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
 --- !u!114 &3760680100592759881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1822,7 +1718,7 @@ MonoBehaviour:
   m_Name: Es klopft drei m...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 6e9e904737a2c47038e524b03625b604
-  Position: {x: 0, y: 1260}
+  Position: {x: 149.99986, y: 1259.9998}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -1867,7 +1763,7 @@ MonoBehaviour:
   Children:
   - {fileID: -2872400816319892380}
   - {fileID: -4718002508914717383}
-  - {fileID: 3509942502771366892}
+  - {fileID: -3275677644384721350}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -1920,7 +1816,7 @@ MonoBehaviour:
   m_Name: "\u201EAh dahanna hat ..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 588850e6f02a34cbe9f29005c60d0af8
-  Position: {x: 764.00024, y: 141.00002}
+  Position: {x: 1860.2494, y: 145.37013}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -1965,36 +1861,6 @@ MonoBehaviour:
   - {fileID: -1707212335615997356}
   - {fileID: 655563760352794597}
   - {fileID: -7305648712894333190}
-  FallThrough: 0
-  IsAvailable: 1
-  IsTrustOption: 0
-  IsBondingOption: 0
-  RequiredNodes: []
-  BlockerNodes: []
-  PopularityValue: 0
---- !u!114 &4525904570642216492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EDes tut mir lei..."
-  m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
-  Guid: 295d3b7c8c9d947eb85eb65aa456b015
-  Position: {x: -150, y: 1820}
-  customPreview: 0
-  Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EDes tut mir leid.\u201C"
-  TextPreview: "\u201EDes tut mir lei..."
-  AudioClip: {fileID: 8300000, guid: 79233abecc54a4045bece51a3287b0cd, type: 3}
-  PauseAfter: 0.5
-  Children:
-  - {fileID: 299679945361648254}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -2144,7 +2010,7 @@ MonoBehaviour:
   m_Name: "11\u2013 \u201EMEINE MUTTE..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 5e3892f4f307c4417952acacb2eafd9a
-  Position: {x: 729.8248, y: 353.00006}
+  Position: {x: 1826.2494, y: 357.3701}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -2176,7 +2042,7 @@ MonoBehaviour:
   m_Name: "T\xDCR ZUMACHEN"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: dec86923d0c914fe48dcec98be9b5b2f
-  Position: {x: 1129.0001, y: 992.78235}
+  Position: {x: 2225.2495, y: 997.37}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -2278,7 +2144,7 @@ MonoBehaviour:
   AudioClip: {fileID: 8300000, guid: daf3bc42f7b47468e861ca7bf71ab024, type: 3}
   PauseAfter: 0.5
   Children:
-  - {fileID: 4128849765033710082}
+  - {fileID: 6941936280635674382}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -2317,37 +2183,6 @@ MonoBehaviour:
   RequiredNodes: []
   BlockerNodes: []
   PopularityValue: 0
---- !u!114 &7091037394630517091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: NICHT SETZEN
-  m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
-  Guid: 3d1519f68ea914306862049e3a6ba2b5
-  Position: {x: 750, y: 1680}
-  customPreview: 0
-  Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: NICHT SETZEN
-  TextPreview: NICHT SETZEN
-  AudioClip: {fileID: 0}
-  PauseAfter: 0.5
-  Children:
-  - {fileID: 7898230067445497762}
-  FallThrough: 0
-  IsAvailable: 1
-  IsTrustOption: 0
-  IsBondingOption: 0
-  RequiredNodes: []
-  BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
 --- !u!114 &7848441488358865178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2379,38 +2214,6 @@ MonoBehaviour:
   BlockerNodes: []
   answerType: 0
   _popularityModifier: 0
---- !u!114 &7898230067445497762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: PlayerDialogOption
-  m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
-  Guid: ebe05f2b633924aa0b9a58cf4572c137
-  Position: {x: 750, y: 1820}
-  customPreview: 0
-  Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "(Pause.)\nHier in S\xE4gbach am Tobel sterben also M\xFCtter - und
-    niemand sagt einem Bescheid.\u201C"
-  TextPreview: (Pause.)
-  AudioClip: {fileID: 0}
-  PauseAfter: 0.5
-  Children:
-  - {fileID: -409789515176061760}
-  FallThrough: 0
-  IsAvailable: 1
-  IsTrustOption: 0
-  IsBondingOption: 0
-  RequiredNodes: []
-  BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
 --- !u!114 &7967868827852929551
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2431,10 +2234,9 @@ MonoBehaviour:
   DialogLine: "\u201EKindle\u2026\n(Marlene zittert.)\nSetz di doch lieba mol hin.\u201C"
   TextPreview: "\u201EKindle\u2026"
   AudioClip: {fileID: 8300000, guid: c14f48de12d7b4e8ca6b83f08cbb5c09, type: 3}
-  PauseAfter: 0.5
+  PauseAfter: 4
   Children:
-  - {fileID: -4166596182842066830}
-  - {fileID: 7091037394630517091}
+  - {fileID: -409789515176061760}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -2455,7 +2257,7 @@ MonoBehaviour:
   m_Name: Es klopft drei m...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 24ad18c41f6d14fd29437dffbf579d48
-  Position: {x: 1483.0002, y: 1120}
+  Position: {x: 2302.2495, y: 1124.3702}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
