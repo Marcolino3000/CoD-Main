@@ -31,6 +31,19 @@ MonoBehaviour:
       Name: Key
       HighPriority: 0
   - Trigger:
+      TriggerType: 2
+      TriggeringInteractable: {fileID: 11400000, guid: ff5f3ad7940304bceb7599513a2003f2, type: 2}
+      TriggeringDialogOption: {fileID: 0}
+    Prerequisites:
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: 3a896a1aff38c4897895d86492890330, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 2
+        TriggeringInteractable: {fileID: 0}
+        Conditions: []
+      Name: Vase
+      HighPriority: 0
+  - Trigger:
       TriggerType: 4
       TriggeringInteractable: {fileID: 0}
       TriggeringDialogOption: {fileID: -2056074378261678428, guid: c4592a9cbf2014d7a9a25897b029e78e, type: 2}
@@ -48,6 +61,27 @@ MonoBehaviour:
       HighPriority: 0
   - Trigger:
       TriggerType: 2
+      TriggeringInteractable: {fileID: 11400000, guid: 88b3f975295dc49359d9e5681490041c, type: 2}
+      TriggeringDialogOption: {fileID: 0}
+    Prerequisites:
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: cb623e9ae54d945c1bb32c5aac54c52a, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 2
+        TriggeringInteractable: {fileID: 11400000, guid: 88b3f975295dc49359d9e5681490041c, type: 2}
+        Conditions: []
+      Name: WontGoOutside
+      HighPriority: 0
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: cb623e9ae54d945c1bb32c5aac54c52a, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 2
+        TriggeringInteractable: {fileID: 11400000, guid: 88b3f975295dc49359d9e5681490041c, type: 2}
+        Conditions: []
+      Name: WontGoOutside
+      HighPriority: 0
+  - Trigger:
+      TriggerType: 2
       TriggeringInteractable: {fileID: 11400000, guid: 8d4f2d6aed1c849529d827ebbbc7256a, type: 2}
       TriggeringDialogOption: {fileID: 0}
     Prerequisites:
@@ -62,6 +96,31 @@ MonoBehaviour:
           IsHardCondition: 0
       Name: Door
       HighPriority: 0
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: e1a92f7a3947b49969f4d24ea2333aa3, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 2
+        TriggeringInteractable: {fileID: 11400000, guid: 8d4f2d6aed1c849529d827ebbbc7256a, type: 2}
+        Conditions:
+        - RecordedState:
+            rid: 1719061218345615640
+          IsHardCondition: 1
+      Name: GoInsideAndCloseDoor
+      HighPriority: 0
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: df4535bc58a4641b7895c7c786e6842c, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 2
+        TriggeringInteractable: {fileID: 11400000, guid: 8d4f2d6aed1c849529d827ebbbc7256a, type: 2}
+        Conditions:
+        - RecordedState:
+            rid: 1719061218345615658
+          IsHardCondition: 0
+        - RecordedState:
+            rid: 1719061218345615659
+          IsHardCondition: 0
+      Name: WontGoOutside
+      HighPriority: 0
   - Trigger:
       TriggerType: 2
       TriggeringInteractable: {fileID: 11400000, guid: f9afb1753248f494aa5d5acfd32def78, type: 2}
@@ -74,6 +133,19 @@ MonoBehaviour:
         TriggeringInteractable: {fileID: 0}
         Conditions: []
       Name: Bike
+      HighPriority: 0
+  - Trigger:
+      TriggerType: 0
+      TriggeringInteractable: {fileID: 11400000, guid: 6608d22e932254857895ba4eb7486241, type: 2}
+      TriggeringDialogOption: {fileID: 0}
+    Prerequisites:
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: 1331616b5087e4602ab255f87cb59d15, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 0
+        TriggeringInteractable: {fileID: 0}
+        Conditions: []
+      Name: MamaHallo
       HighPriority: 0
   - Trigger:
       TriggerType: 2
@@ -202,6 +274,23 @@ MonoBehaviour:
       data:
         Owner: {fileID: 11400000, guid: 8d4f2d6aed1c849529d827ebbbc7256a, type: 2}
         ToggleState: 0
+    - rid: 1719061218345615640
+      type: {class: Toggleable/ToggleableStateDate, ns: Runtime.Scripts.Interactables, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: cd65d02928ae34289a4830c8f72b6446, type: 2}
+        ToggleState: 1
+    - rid: 1719061218345615658
+      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: da159c790547c467bba8889760a0adc4, type: 2}
+        ThresholdReached: 0
+        IsRunning: 0
+    - rid: 1719061218345615659
+      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: e1a92f7a3947b49969f4d24ea2333aa3, type: 2}
+        ThresholdReached: 1
+        IsRunning: 0
     - rid: 7734685230184530355
       type: {class: Toggleable/ToggleableStateDate, ns: Runtime.Scripts.Interactables, asm: cod.interactionbuilder}
       data:
@@ -221,7 +310,7 @@ MonoBehaviour:
     - rid: 7734685593366430162
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
-        Owner: {fileID: 11400000, guid: 366b07b77a02849438126c8695c2064e, type: 2}
+        Owner: {fileID: 0}
         ThresholdReached: 1
         IsRunning: 0
     - rid: 7734685593366430163

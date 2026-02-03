@@ -19,6 +19,8 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 388485b41120844eca5d0b4a8585948d, type: 2}
   DialogLine: "Hier versteckst du dich also du kleiner *%#%&\xA7*'#"
   TextPreview: Hier versteckst ...
+  AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children: []
   FallThrough: 0
   IsAvailable: 1
@@ -67,6 +69,8 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 388485b41120844eca5d0b4a8585948d, type: 2}
   DialogLine: Yay, gefunden!
   TextPreview: Yay, gefunden!
+  AudioClip: {fileID: 0}
+  PauseAfter: 0.5
   Children: []
   FallThrough: 0
   IsAvailable: 1
