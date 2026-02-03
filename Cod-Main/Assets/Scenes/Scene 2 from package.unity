@@ -9290,7 +9290,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2400252, y: 1.1775555e-15, z: -2.911544e-16, w: 0.97076666}
-  m_LocalPosition: {x: -2.482, y: 9.76, z: -11.53}
+  m_LocalPosition: {x: -2.482, y: 9.76, z: -17.092999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12792,6 +12792,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528970607}
   m_Enabled: 1
+--- !u!114 &528970617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528970607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2540d063852e44d5db82bdf049d228d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraMovementTrigger
+  camMovement: {fileID: 0}
+  currentStatus: 0
 --- !u!1 &537090379
 GameObject:
   m_ObjectHideFlags: 0
@@ -71718,7 +71732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5511253383781640480, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.79
+      value: -10.353
       objectReference: {fileID: 0}
     - target: {fileID: 5511253383781640480, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: m_LocalRotation.w
@@ -72015,7 +72029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1829337690813581083, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.53
+      value: -17.092999
       objectReference: {fileID: 0}
     - target: {fileID: 1829337690813581083, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -72049,6 +72063,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: FollowCam
       objectReference: {fileID: 0}
+    - target: {fileID: 3618604114558891087, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351741482895313945, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
+      propertyPath: _dialogOffset.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6351741482895313945, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
+      propertyPath: _dialogOffset.z
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 8371376400574287482, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
       propertyPath: FollowOffset.y
       value: 3.55
@@ -72064,6 +72090,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3618604114558891087, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 528970612}
+    - targetCorrespondingSourceObject: {fileID: 3618604114558891087, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 528970617}
   m_SourcePrefab: {fileID: 100100000, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
 --- !u!1001 &5596963218476750419
 PrefabInstance:
