@@ -26,14 +26,36 @@ MonoBehaviour:
   - rid: 7734685612461523769
   - rid: 7734685612461523810
   - rid: 7734685613938180131
+  - rid: 1719061224973140227
+  - rid: 1719061225043132493
+  - rid: 1719061225043132498
   references:
     version: 2
     RefIds:
+    - rid: 1719061224973140227
+      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: f3bbc6cd7bf3d402cad647550d928260, type: 2}
+        ThresholdReached: 0
+        IsRunning: 0
+    - rid: 1719061225043132493
+      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: e1a92f7a3947b49969f4d24ea2333aa3, type: 2}
+        ThresholdReached: 0
+        IsRunning: 0
+    - rid: 1719061225043132498
+      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: 1331616b5087e4602ab255f87cb59d15, type: 2}
+        ThresholdReached: 0
+        IsRunning: 0
     - rid: 6889332720958177924
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: 73533f209c6654d4a99e1e0636438711, type: 2}
         ThresholdReached: 0
+        IsRunning: 0
     - rid: 6889332738688811395
       type: {class: Toggleable/ToggleableStateDate, ns: Runtime.Scripts.Interactables, asm: cod.interactionbuilder}
       data:
@@ -49,43 +71,52 @@ MonoBehaviour:
       data:
         Owner: {fileID: 11400000, guid: f02efa3331e97424fba40e1db527ac8f, type: 2}
         ThresholdReached: 0
+        IsRunning: 0
     - rid: 7734685074128372168
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: da159c790547c467bba8889760a0adc4, type: 2}
         ThresholdReached: 0
+        IsRunning: 0
     - rid: 7734685074128372292
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}
         ThresholdReached: 0
+        IsRunning: 0
     - rid: 7734685612461523766
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: c2e8167266c1941f1b2811c37d0ee03d, type: 2}
         ThresholdReached: 0
+        IsRunning: 0
     - rid: 7734685612461523767
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: 59378320ecb1e4faebe57eab6f8d7936, type: 2}
         ThresholdReached: 0
+        IsRunning: 0
     - rid: 7734685612461523768
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: ac0b489f3afeb41939ec1d286809d58c, type: 2}
         ThresholdReached: 0
+        IsRunning: 0
     - rid: 7734685612461523769
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: 7126467d7428e4d41a57b8f813e5f666, type: 2}
         ThresholdReached: 1
+        IsRunning: 0
     - rid: 7734685612461523810
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: 0da0d0da5081e459c890c4d75f9945a2, type: 2}
         ThresholdReached: 0
+        IsRunning: 0
     - rid: 7734685613938180131
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: 366b07b77a02849438126c8695c2064e, type: 2}
         ThresholdReached: 0
+        IsRunning: 0
