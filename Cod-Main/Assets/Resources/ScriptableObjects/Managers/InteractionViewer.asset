@@ -86,17 +86,6 @@ MonoBehaviour:
       TriggeringDialogOption: {fileID: 0}
     Prerequisites:
     - Record:
-        InteractionToExecute: {fileID: 11400000, guid: 73533f209c6654d4a99e1e0636438711, type: 2}
-        DialogOptionToUnlock: {fileID: 0}
-        TriggerType: 2
-        TriggeringInteractable: {fileID: 11400000, guid: 8d4f2d6aed1c849529d827ebbbc7256a, type: 2}
-        Conditions:
-        - RecordedState:
-            rid: 7734685230184530367
-          IsHardCondition: 0
-      Name: Door
-      HighPriority: 0
-    - Record:
         InteractionToExecute: {fileID: 11400000, guid: e1a92f7a3947b49969f4d24ea2333aa3, type: 2}
         DialogOptionToUnlock: {fileID: 0}
         TriggerType: 2
@@ -120,6 +109,20 @@ MonoBehaviour:
             rid: 1719061218345615659
           IsHardCondition: 0
       Name: WontGoOutside
+      HighPriority: 0
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: 73533f209c6654d4a99e1e0636438711, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 2
+        TriggeringInteractable: {fileID: 11400000, guid: 8d4f2d6aed1c849529d827ebbbc7256a, type: 2}
+        Conditions:
+        - RecordedState:
+            rid: 1719061225043132502
+          IsHardCondition: 0
+        - RecordedState:
+            rid: 1719061225043132503
+          IsHardCondition: 1
+      Name: Marmeladenbrot
       HighPriority: 0
   - Trigger:
       TriggerType: 2
@@ -343,16 +346,22 @@ MonoBehaviour:
         Owner: {fileID: 11400000, guid: e1a92f7a3947b49969f4d24ea2333aa3, type: 2}
         ThresholdReached: 1
         IsRunning: 0
+    - rid: 1719061225043132502
+      type: {class: Toggleable/ToggleableStateDate, ns: Runtime.Scripts.Interactables, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: cd65d02928ae34289a4830c8f72b6446, type: 2}
+        ToggleState: 1
+    - rid: 1719061225043132503
+      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}
+        ThresholdReached: 1
+        IsRunning: 0
     - rid: 7734685230184530355
       type: {class: Toggleable/ToggleableStateDate, ns: Runtime.Scripts.Interactables, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: cd65d02928ae34289a4830c8f72b6446, type: 2}
         ToggleState: 0
-    - rid: 7734685230184530367
-      type: {class: Toggleable/ToggleableStateDate, ns: Runtime.Scripts.Interactables, asm: cod.interactionbuilder}
-      data:
-        Owner: {fileID: 11400000, guid: cd65d02928ae34289a4830c8f72b6446, type: 2}
-        ToggleState: 1
     - rid: 7734685591399826067
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
