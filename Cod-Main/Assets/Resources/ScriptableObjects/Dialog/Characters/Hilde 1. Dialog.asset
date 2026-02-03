@@ -218,37 +218,6 @@ MonoBehaviour:
   RequiredNodes: []
   BlockerNodes: []
   PopularityValue: 0
---- !u!114 &-7722887994542396611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: Hilde nimmt den ...
-  m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
-  Guid: 76402a7bed2ed4969b7f741950a4c199
-  Position: {x: -450, y: 3504}
-  customPreview: 0
-  Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Hilde nimmt den Lippenstift zur\xFCck."
-  TextPreview: Hilde nimmt den ...
-  AudioClip: {fileID: 0}
-  PauseAfter: 0.5
-  Children:
-  - {fileID: -394871198780663035}
-  FallThrough: 0
-  IsAvailable: 1
-  IsTrustOption: 0
-  IsBondingOption: 0
-  RequiredNodes: []
-  BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
 --- !u!114 &-7500429039386227060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,11 +262,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 477bcd02bed3f4b6c9f4d1eda993b3f0
   Position: {x: -450, y: 3224}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "53\u2013 \u201EI KANNS\u2014 ICH KANNS NICHT GLAUBEN.\u201C"
-  TextPreview: "53\u2013 \u201EI KANNS\u2014 IC..."
+  TextPreview: Ich kann's nicht glauben
   AudioClip: {fileID: 8300000, guid: 1afc50388ba84466593c1a33443cf225, type: 3}
   PauseAfter: 0.5
   Children:
@@ -324,11 +293,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 6069bcc85c9c947fb8c473d594f253bd
   Position: {x: -150, y: 2935}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "49\u2013 \u201EWIESO HAT MIR NIEMAND BESCHEID GESAGT?????\u201C"
-  TextPreview: "49\u2013 \u201EWIESO HAT M..."
+  TextPreview: "Wieso wei\xDF ich von nichts??"
   AudioClip: {fileID: 8300000, guid: 27ad16e97ca69402db14bf4c57ae56c3, type: 3}
   PauseAfter: 0.5
   Children:
@@ -699,12 +668,12 @@ MonoBehaviour:
   m_Name: "47\u2013 \u201EWAS IST PAS..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 574d7dbab138246ceb3df62604cbfc96
-  Position: {x: -750, y: 2935}
-  customPreview: 0
+  Position: {x: -749.9999, y: 2935}
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "47\u2013 \u201EWAS IST PASSIERT??\u201C"
-  TextPreview: "47\u2013 \u201EWAS IST PAS..."
+  TextPreview: WAS IST PASSIERT???
   AudioClip: {fileID: 8300000, guid: 018e7ac0ff21340229927a65be5b8205, type: 3}
   PauseAfter: 0.5
   Children:
@@ -977,17 +946,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "55\u2013 \u201ENaja - i mu..."
+  m_Name: Naja - i muss no...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: ade58d372e81b4c0b96400007897f1ef
-  Position: {x: -450, y: 3644}
+  Position: {x: -449.9999, y: 3504.0796}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "55\u2013 \u201ENaja - i muss noh au wiedr, schau mol beim Grab vorbei,
-    ja?\u201C\nHilde geht. Sie dreht sich noch mal um.\n\u201EWeisch, der Sauerdeig
-    wird di imma mid ihr verbinda.\u201C"
-  TextPreview: "55\u2013 \u201ENaja - i mu..."
+  DialogLine: Naja - i muss noh au wiedr, schau mol beim Grab vorbei, ja? .... Weisch,
+    der Sauerdeig wird di imma mid ihr verbinda.
+  TextPreview: Naja - i muss no...
   AudioClip: {fileID: 8300000, guid: 3ea80df7812d14bcba95638b9d34ae81, type: 3}
   PauseAfter: 0.5
   Children: []
@@ -1031,7 +999,6 @@ MonoBehaviour:
   - {fileID: 6014199163979538242}
   - {fileID: -8005325158088205723}
   - {fileID: -608989089402376199}
-  - {fileID: -7722887994542396611}
   - {fileID: -394871198780663035}
   - {fileID: -1707212335615997356}
   - {fileID: -7962924074311984988}
@@ -1351,7 +1318,7 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "\u201EApropos, I hab mi drum gk\xFCmmerd und jetzt musch du drauf
-    achd gebbe: (Pause) dess ned zu warm, ned zu kald isch d\xE4m Sauerdeig\u2026\u201C"
+    achd gebbe: Dess ned zu warm, ned zu kald isch d\xE4m Sauerdeig\u2026\u201C"
   TextPreview: "\u201EApropos, I hab ..."
   AudioClip: {fileID: 8300000, guid: 6f439b0dfe17445e3aabf4ce02856b90, type: 3}
   PauseAfter: 0.5
@@ -1781,21 +1748,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EJe mehr i dr\xFCba..."
+  m_Name: "Je mehr i dr\xFCba ..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 0f0178a5ad52240f88be48339ccf12fb
   Position: {x: -450, y: 3370}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EJe mehr i dr\xFCba nachdenk deschdo weniga kann i globa, dass
-    dei Muadda dod isch.   Und\u2014 Ne, des kann i ned sage.\u201C\n[dr\xFCckt Marlene
-    den Lippenstift in die Hand]\n\u201EDo, heb mal.\u201C"
-  TextPreview: "\u201EJe mehr i dr\xFCba..."
+  DialogLine: "Je mehr i dr\xFCba nachdenk deschdo weniga kann i globa, dass dei
+    Muadda dod isch. Und\u2014 Ne, des kann i ned sage. Do, heb mal."
+  TextPreview: "Je mehr i dr\xFCba ..."
   AudioClip: {fileID: 8300000, guid: d60cf424d08144ef6b873cb579cc3d09, type: 3}
   PauseAfter: 0.5
   Children:
-  - {fileID: -7722887994542396611}
+  - {fileID: -394871198780663035}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
