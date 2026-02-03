@@ -242,7 +242,8 @@ MonoBehaviour:
   TextPreview: "DIE T\xDCR ZUKNALLE..."
   AudioClip: {fileID: 0}
   PauseAfter: 0.5
-  Children: []
+  Children:
+  - {fileID: -4077077817702142517}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -345,6 +346,37 @@ MonoBehaviour:
   BlockerNodes: []
   answerType: 0
   _popularityModifier: 0
+--- !u!114 &-4077077817702142517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
+  Guid: 774406e73294345cc9d8a7e5b4a2bd61
+  Position: {x: 1100, y: 2091}
+  customPreview: 0
+  Blackboard:
+    CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
+  DialogLine: "\xC4hh... Marlene? Jaa lass uns einfach wann anders nochmal quatschen
+    kein Problem... haha. Ob ich der Betina erz\xE4hlen soll, dass Marlene da ist?
+    Die wird nicht begeistert sein. "
+  TextPreview: "\xC4hh... Marlene? ..."
+  AudioClip: {fileID: 8300000, guid: 14551678a11cc4ee78912e5f4cbd7a02, type: 3}
+  PauseAfter: 0.5
+  Children: []
+  FallThrough: 0
+  IsAvailable: 1
+  IsTrustOption: 0
+  IsBondingOption: 0
+  RequiredNodes: []
+  BlockerNodes: []
+  PopularityValue: 0
 --- !u!114 &-3435150297062889729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -689,6 +721,7 @@ MonoBehaviour:
   - {fileID: 1495247353798713498}
   - {fileID: -7590506583836445822}
   - {fileID: 5211256606313165173}
+  - {fileID: -4077077817702142517}
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
 --- !u!114 &66253715089037191
