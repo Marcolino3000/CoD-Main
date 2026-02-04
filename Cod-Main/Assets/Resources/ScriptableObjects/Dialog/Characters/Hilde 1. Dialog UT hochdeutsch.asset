@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201ENed nua M\xFCddr.\u201C..."
+  m_Name: "Nicht nur M\xFCtter..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 77a1fd7407ecf44919494ff3ef4ed175
   Position: {x: -750, y: 1820.0002}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Ned nur M\xFCddr."
-  TextPreview: "Ned nur M\xFCddr."
+  DialogLine: "Nicht nur M\xFCtter."
+  TextPreview: "Nicht nur M\xFCtter..."
   AudioClip: {fileID: 8300000, guid: a6b54ee9c13e941289439ef99fad450f, type: 3}
   PauseAfter: 0.5
   Children:
@@ -78,8 +78,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Oh\u2026 \xC4h\u2026 Oh\u2026 \xC4h\u2026 Oh. Achso, Sch\xE4tzele,
-    dai Muadr, die isch dod."
+  DialogLine: "Oh\u2026 \xC4h\u2026 Oh\u2026 \xC4h\u2026 Oh. Achso, Sch\xE4tzchen,
+    deine Mutter, die ist tot."
   TextPreview: "Oh\u2026 \xC4h\u2026 Oh\u2026 \xC4h\u2026 ..."
   AudioClip: {fileID: 8300000, guid: d8ab37fe7895c424b831e32fb9148511, type: 3}
   PauseAfter: 0.5
@@ -199,14 +199,14 @@ MonoBehaviour:
   m_Name: Du kennsch doch ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 4e16ee1409e044be1a53df6103ba23b4
-  Position: {x: -750, y: 3072}
+  Position: {x: -749.9999, y: 3071.9995}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Du kennsch doch des Trambelpf\xE4dle zum Bergfeschdle hoch. Des am
-    Abhang. Dei Mudda wusst doch, dass man da vom Fahrr\xE4dle absteigt. Aber die
-    stand ja eh nebe sich in ledschda Dzaid."
-  TextPreview: Du kennsch doch ...
+  DialogLine: Du kennst doch den schmalen Trampelpfad hoch zum Bergfest, den am Hang.
+    Deine Mutter wusste doch, dass man dort vom Fahrrad absteigt. Aber sie war ja
+    in letzter Zeit ohnehin nicht mehr ganz bei sich.
+  TextPreview: Du kennst doch d...
   AudioClip: {fileID: 8300000, guid: 0eaa90e600e5a4340b26bf8168c0a2d9, type: 3}
   PauseAfter: 0.5
   Children:
@@ -228,15 +228,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EAh, bevor ihs v..."
+  m_Name: Ah, bevor ich es...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 142c233be75b642a0a9018a7db00d000
-  Position: {x: -150.00003, y: 304.78296}
+  Position: {x: -150, y: 305}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Ah, bevor ihs vergess.
-  TextPreview: Ah, bevor ihs ve...
+  DialogLine: Ah, bevor ich es vergesse.
+  TextPreview: Ah, bevor ich es...
   AudioClip: {fileID: 8300000, guid: 948163c742a02413e8537b521e45cd97, type: 3}
   PauseAfter: 0.5
   Children:
@@ -320,15 +320,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: I hob do vsuchd ...
+  m_Name: Ich hab doch ver...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: bac443afe3b8444319448f639fec2ce8
   Position: {x: -150, y: 3072}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: I hob do vsuchd di anzrufa.
-  TextPreview: I hob do vsuchd ...
+  DialogLine: Ich hab doch versucht dich anzurufen.
+  TextPreview: Ich hab doch ver...
   AudioClip: {fileID: 8300000, guid: c8613eb4f8f124ab3a91095bd4e852a0, type: 3}
   PauseAfter: 0.5
   Children:
@@ -350,21 +350,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: Also wie gsagd, ...
+  m_Name: Also wie gesagt:...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 0e8400e36b69f4579b2d0e35c587d46f
   Position: {x: -149.99995, y: 993.0002}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Also wie gsagd, du duschd ihn jeda dag f\xFCddern. Gibschd hald druff
-    achd, dess ned zu warm, ned zu kald isch d\xE4m Sauerdeich. Du haschd wahrscheinlich
-    no nie na Sauerdeich agsedzd vorhr gll? Also von dene Sauerdeich, des isch des
-    gudde, isch ja scho agsedzd, du musschd nur schee achd geba, dess er ned verk\xFCmmerd
-    da. Ond Wenn du Fraga haschd, du kannsch mi ja jederzeid fraga. Hab i no was
-    vergessa? Soll i's dir liebr ufschreiba? Muschdi drum k\xFCmmern wie so a, wie
-    heissetse? Damagodschi?"
-  TextPreview: Also wie gsagd, ...
+  DialogLine: "Also wie gesagt: Du f\xFCtterst ihn jeden Tag. Achte einfach darauf,
+    dass es dem Sauerteig nicht zu warm und nicht zu kalt ist. Du hast wahrscheinlich
+    noch nie vorher einen Sauerteig angesetzt, oder? Also, von den Sauerteigen ist
+    das Gute \u2013 der ist ja schon angesetzt. Du musst nur gut aufpassen, dass
+    er nicht eingeht.\nUnd wenn du Fragen hast, kannst du mich jederzeit fragen.
+    Hab ich noch etwas vergessen? Soll ich es dir lieber aufschreiben? Du musst dich
+    um ihn k\xFCmmern wie um so ein \u2026 wie hei\xDFen die noch? Tamagotchi?"
+  TextPreview: Also wie gesagt:...
   AudioClip: {fileID: 8300000, guid: de78c991ebadf49cabefb225fd82d1dd, type: 3}
   PauseAfter: 0.5
   Children:
@@ -511,15 +511,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: Am Bergfeschdle....
+  m_Name: Am Bergfest. 27....
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: a1e2584e4fa844188b07bff1d5fa8e40
   Position: {x: -450, y: 3072}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Am Bergfeschdle. 27. Juli. Isch imma noch da.
-  TextPreview: Am Bergfeschdle....
+  DialogLine: Am Bergfest. 27. Juli. Ist immer noch da.
+  TextPreview: Am Bergfest. 27....
   AudioClip: {fileID: 8300000, guid: 726ac885c3dae4c6885c51567d08fb09, type: 3}
   PauseAfter: 0.5
   Children:
@@ -822,15 +822,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EJoa, am beschda..."
+  m_Name: Joa, am beschda ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 6bedac5f59e974e79898233236e785be
-  Position: {x: -299.9999, y: 2493.9128}
+  Position: {x: -300, y: 2511.52}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Joa, am beschda sind so 24 bis 28 Grad.
-  TextPreview: Joa, am beschda ...
+  DialogLine: Joa, am besten sind so 24 bis 28 Grad.
+  TextPreview: Joa, am besten s...
   AudioClip: {fileID: 8300000, guid: eb5a86b39157e4c22af8e895a550d2d6, type: 3}
   PauseAfter: 0.5
   Children:
@@ -883,10 +883,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EMerkur war r\xFCck..."
+  m_Name: "Merkur war r\xFCckl..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 418ee9e064c4e4a2bb4775195c84a8b5
-  Position: {x: 150, y: 1820}
+  Position: {x: 174.77997, y: 1820}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -921,8 +921,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Kindle, des tut mir so leid.
-  TextPreview: Kindle, des tut ...
+  DialogLine: Kindchen, das tut mir so leid.
+  TextPreview: Kindchen, das tu...
   AudioClip: {fileID: 8300000, guid: 79233abecc54a4045bece51a3287b0cd, type: 3}
   PauseAfter: 0.5
   Children:
@@ -951,9 +951,9 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Naja - i muss noh au wiedr, schau mol beim Grab vorbei, ja? .... Weisch,
-    der Sauerdeig wird di imma mid ihr verbinda.
-  TextPreview: Naja - i muss no...
+  DialogLine: "Na ja \u2013 ich muss jetzt auch wieder los. Schau mal beim Grab vorbei,
+    ja? \u2026 Wei\xDFt du, der Sauerteig wird dich immer mit ihr verbinden."
+  TextPreview: "Na ja \u2013 ich muss..."
   AudioClip: {fileID: 8300000, guid: 3ea80df7812d14bcba95638b9d34ae81, type: 3}
   PauseAfter: 0.5
   Children: []
@@ -1091,15 +1091,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EHier passiera m..."
+  m_Name: Hie rpassieren m...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 6e43e52da42934e97827044d899aa075
   Position: {x: -450, y: 1540}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Hier passiera merkw\xFCrdigere Dinge als du dia vorstella kannsch."
-  TextPreview: Hier passiera me...
+  DialogLine: "Hier passieren merkw\xFCrdigere Dinge als du dir vorstellen kannst."
+  TextPreview: Hier passieren m...
   AudioClip: {fileID: 8300000, guid: 5855a28e3833842c687d571a15f11940, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1246,16 +1246,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EIch hob\u2019s bf\xFCrc..."
+  m_Name: "Ich hob\u2019s bf\xFCrch..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 5b0ba00262e004cb09e3a26663f3fe34
-  Position: {x: -149.99991, y: 1820}
+  Position: {x: -150, y: 1820}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Ich hob\u2019s bf\xFCrchded. I hob dei aktuelle Numma ned. Nach zehn
-    Jahrn wo ned hier warschd. Tut mir leid."
-  TextPreview: "Ich hob\u2019s bf\xFCrch..."
+  DialogLine: "Ich hab\u2019s bef\xFCrchtet. Ich hab deine aktuelle Nummer nicht.
+    Nach zehn Jahren, in denen du nicht hier warst. Tut mir leid."
+  TextPreview: "Ich hab\u2019s bef\xFCrc..."
   AudioClip: {fileID: 8300000, guid: 500669fa1f7934fcdaebcf6a650b99c8, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1308,16 +1308,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: Apropos, I hab m...
+  m_Name: Apropos, ich hab...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: c3d9de45a8260491cb0821b0cea9498d
-  Position: {x: -450, y: 2240}
+  Position: {x: -447.34018, y: 2229.3994}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Apropos, I hab mi drum gk\xFCmmerd und jetzt musch du drauf achd gebbe:
-    Dess ned zu warm, ned zu kald isch d\xE4m Sauerdeig\u2026"
-  TextPreview: Apropos, I hab m...
+  DialogLine: "Apropos, ich hab mich darum gek\xFCmmert, und jetzt musst du darauf
+    achten: dass es dem Sauerteig nicht zu warm und nicht zu kalt ist \u2026"
+  TextPreview: Apropos, ich hab...
   AudioClip: {fileID: 8300000, guid: 6f439b0dfe17445e3aabf4ce02856b90, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1433,14 +1433,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201ESauerkraut verr..."
+  m_Name: Sauerkraut verre...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 93b971f5daeae4164b5c7c846feb7487
   Position: {x: -150.00003, y: 24.782917}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Sauerkraut verreckt ned.
+  DialogLine: Sauerkraut verreckt nicht.
   TextPreview: Sauerkraut verre...
   AudioClip: {fileID: 8300000, guid: 1caa308f19751490e98710f2333e0b4a, type: 3}
   PauseAfter: 0.5
@@ -1589,7 +1589,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201ESie hat dich se..."
+  m_Name: Sie hat dich seh...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: e43cb99857b4e4ac9bb0d97f87dde987
   Position: {x: -450, y: 2100}
@@ -1619,15 +1619,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: Des kann man sic...
+  m_Name: Das kann man sic...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 1e31e61658ef244c6b7e1705a6ccc362
-  Position: {x: -450, y: 1820}
+  Position: {x: -449, y: 1819}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Des kann man sich gar ned vorstella.
-  TextPreview: Des kann man sic...
+  DialogLine: Das kann man sich gar nicht vorstellen.
+  TextPreview: Das kann man sic...
   AudioClip: {fileID: 8300000, guid: 3b0d2ab23a16742ec9b54dde3a5e5e4d, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1714,15 +1714,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EDes isch der vo..."
+  m_Name: Das ist der von ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: cd898261f7f7e4461bca61de30893b2a
-  Position: {x: -150, y: 700}
+  Position: {x: -150, y: 701}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Des isch der von deinr Muddr.
-  TextPreview: Des isch der von...
+  DialogLine: Das ist der von deiner Mutter.
+  TextPreview: Das ist der von ...
   AudioClip: {fileID: 8300000, guid: 060f3e2534852454db329ccf17caea29, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1753,9 +1753,9 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Je mehr i dr\xFCba nachdenk deschdo weniga kann i globa, dass dei
-    Muadda dod isch. Und\u2014 Ne, des kann i ned sage. "
-  TextPreview: "Je mehr i dr\xFCba ..."
+  DialogLine: "Je mehr ich dar\xFCber nachdenke, desto weniger kann ich glauben,
+    dass deine Mutter tot ist. Und \u2014 nein, das kann ich nicht sagen."
+  TextPreview: "Je mehr ich dar\xFC..."
   AudioClip: {fileID: 8300000, guid: d60cf424d08144ef6b873cb579cc3d09, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1808,17 +1808,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: Ach, wusschdesch...
+  m_Name: Ach, wusstest du...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 9db5461dffe9c49be95e3cc532683884
-  Position: {x: -450.00006, y: 2784.3052}
+  Position: {x: -449.9999, y: 2784.5}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Ach, wusschdesch des wirklich gar ned? Jo, die isch dod. I hadde mi
-    scho gfragd, warum du ned zu der Berdigung komma bisch. Umso wichdigr, dess du
-    den Sauerdeich bkommsd\u2026 bagg ihn am beschten ein."
-  TextPreview: Ach, wusschdesch...
+  DialogLine: "Ach, wusstest du das wirklich gar nicht? Ja, sie ist tot. Ich hatte
+    mich schon gefragt, warum du nicht zur Beerdigung gekommen bist. Umso wichtiger
+    ist es, dass du den Sauerteig bekommst \u2026 pack ihn am besten ein."
+  TextPreview: Ach, wusstest du...
   AudioClip: {fileID: 8300000, guid: b2c5a6808431544c6a4d98166c375223, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1842,15 +1842,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: Wusstesch du des...
+  m_Name: Wusstest du das ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 23d5fd6f082fc4f92939a09c7e6e353b
   Position: {x: -150, y: 1540}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Wusstesch du des ned? \u2014 schei\xDFe."
-  TextPreview: Wusstesch du des...
+  DialogLine: "Wusstest du das nicht? Schei\xDFe."
+  TextPreview: Wusstest du das ...
   AudioClip: {fileID: 8300000, guid: 0402aa1458f734435bdaf370b446490d, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1938,16 +1938,16 @@ MonoBehaviour:
   m_Name: Ha des isch a Sa...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: dcb2abafaaf0d426f9ef09e4d2b0f3da
-  Position: {x: 214.99998, y: -281.2171}
+  Position: {x: 215, y: -281}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Ha des isch a Sach, dass I di glei verwisch! Hab\u2019s mr halber
-    denkt dass du dahanna bisch. Du I muss dr was gebba. Da heb mol. Libbenschdifd,
-    Schl\xFCsselbund, Gs\xE4lz f\xFCr d\u2019Oma, die Rubbellose f\xFCr de Andi\u2026
-    Also was wichtig isch, du musch den regelm\xE4\xDFig f\xFCttern, ah was sag I,
-    am beschda jeden Tag gell. Wo isch er no jetzt?"
-  TextPreview: Ha des isch a Sa...
+  DialogLine: "Ah, gut dass ich dich gleich erwische! Ich hab mir schon halb gedacht,
+    dass du da hinten bist. Du, ich muss dir was geben. Da, nimm mal. Lippenstift,
+    Schl\xFCsselbund, Marmelade f\xFCr die Oma, die Rubbellose f\xFCr den Andi \u2026
+    Also, was wichtig ist: Du musst ihn regelm\xE4\xDFig f\xFCttern \u2013 ach was
+    sag ich, am besten jeden Tag, gell. Wo ist er denn jetzt eigentlich?"
+  TextPreview: Ah, gut dass ich...
   AudioClip: {fileID: 8300000, guid: 25942dbed9891463cb324bab49d1813c, type: 3}
   PauseAfter: 0.5
   Children:
@@ -2095,15 +2095,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EIsch des ned di..."
+  m_Name: Ist das nicht di...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 2bd8ed2eb0b1e4b4583ea72707a1a1a1
   Position: {x: 614, y: 8.782927}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Isch des ned die gro\xDFe Frag. Deswegen nimm des."
-  TextPreview: Isch des ned die...
+  DialogLine: "Ist das nicht die gro\xDFe Frage. Deswegen nimm das.\xA5"
+  TextPreview: Ist das nicht di...
   AudioClip: {fileID: 8300000, guid: daf3bc42f7b47468e861ca7bf71ab024, type: 3}
   PauseAfter: 0.5
   Children:
@@ -2125,15 +2125,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EAaaaahh dahana ..."
+  m_Name: Ah, da hat sich ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 1d92532dcd2b747e688ad23d6944446b
   Position: {x: -150.00003, y: 417.7829}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Aaaaahh dahana hedd sich der kloi Ganove verschdeggd.
-  TextPreview: Aaaaahh dahana h...
+  DialogLine: Ah, da hat sich der kleine Ganove versteckt.
+  TextPreview: Ah, da hat sich ...
   AudioClip: {fileID: 8300000, guid: 9c83846f28c0e45558c9d6b69ac7fcca, type: 3}
   PauseAfter: 0.5
   Children:
@@ -2186,15 +2186,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: Kindle... setz d...
+  m_Name: Kindchen... setz...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 8c8f21a67c8b8411badaa4536617d20d
-  Position: {x: 149.99994, y: 1540.0001}
+  Position: {x: 150, y: 1570.72}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Kindle... setz dich lieber mal no.
-  TextPreview: Kindle... setz d...
+  DialogLine: Kindchen... setz dich lieber mal hin.
+  TextPreview: Kindchen... setz...
   AudioClip: {fileID: 8300000, guid: c14f48de12d7b4e8ca6b83f08cbb5c09, type: 3}
   PauseAfter: 4
   Children:
