@@ -1598,7 +1598,7 @@ MonoBehaviour:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "\u201ESie hat dich sehr geliebt.\u201C"
   TextPreview: "\u201ESie hat dich se..."
-  AudioClip: {fileID: 0}
+  AudioClip: {fileID: 8300000, guid: 30bcdfafd55664ff4a97ac2536dab062, type: 3}
   PauseAfter: 0.5
   Children:
   - {fileID: 1120968199337249716}

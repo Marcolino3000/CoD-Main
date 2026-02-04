@@ -13,22 +13,22 @@ MonoBehaviour:
   m_Name: SlamDoorScriptedSequence
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.ScriptedSequence
   waypoints:
-  - rid: 1719061200027517221
-  - rid: 1719061200027517222
+  - rid: 1719061240979652906
+  - rid: 1719061240979652907
   references:
     version: 2
     RefIds:
-    - rid: 1719061200027517221
+    - rid: 1719061240979652906
       type: {class: Waypoint, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
-        Position: {x: -3.1574998, y: 3.08214, z: -2.96102}
-        WaitTime: 1
-        ReactionAtStart: {fileID: 0}
-        ReactionAtStop: {fileID: 11400000, guid: 99b2901db596a46c29ebb00e795ce847, type: 2}
-    - rid: 1719061200027517222
-      type: {class: Waypoint, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
-      data:
-        Position: {x: -2.0485, y: 3.9541402, z: 0.58897996}
+        Position: {x: -3.3484998, y: 3.08214, z: -2.60102}
         WaitTime: 0
         ReactionAtStart: {fileID: 0}
         ReactionAtStop: {fileID: 0}
+    - rid: 1719061240979652907
+      type: {class: Waypoint, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Position: {x: -2.4115, y: 3.9541402, z: 0.6689799}
+        WaitTime: 0
+        ReactionAtStart: {fileID: 0}
+        ReactionAtStop: {fileID: 11400000, guid: 99b2901db596a46c29ebb00e795ce847, type: 2}
