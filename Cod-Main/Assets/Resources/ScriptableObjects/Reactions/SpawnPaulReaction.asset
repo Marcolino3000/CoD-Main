@@ -20,4 +20,4 @@ MonoBehaviour:
   TargetPosition: {x: 0, y: 0, z: 0}
   CancelCurrentDialog: 0
   DebugMessage: 
-  ScriptedSequence: {fileID: 0}
+  ScriptedSequence: {fileID: 11400000, guid: c524843a1d8504b94b138d8cce1f9126, type: 2}

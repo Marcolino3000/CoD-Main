@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: Danke aber nein ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: e7257ab96063f4b2c93d416bf0b552f3
-  Position: {x: 385.99997, y: 639.4998}
+  Position: {x: 685.99994, y: 640}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -208,7 +208,8 @@ MonoBehaviour:
   TextPreview: Abgesehen von de...
   AudioClip: {fileID: 8300000, guid: 7d0124393b1a84d8489901569d0a7320, type: 3}
   PauseAfter: 0.5
-  Children: []
+  Children:
+  - {fileID: -2376931801370679480}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -259,7 +260,7 @@ MonoBehaviour:
   m_Name: Und wohin war si...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 6abaf513895e04c9a9385967a44e653b
-  Position: {x: 385.99997, y: 399.99994}
+  Position: {x: 685.99994, y: 399.99997}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -321,7 +322,7 @@ MonoBehaviour:
   m_Name: "Wei\xDF nicht, ich ..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 0801ffa9e358046e9927405138d77f53
-  Position: {x: 386.0002, y: 519.0001}
+  Position: {x: 685.99994, y: 518.99994}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -391,8 +392,7 @@ MonoBehaviour:
   TextPreview: "Dein Verlust w\xFCr..."
   AudioClip: {fileID: 8300000, guid: 5990d7516ab3845eea1ddb52d32fd9ad, type: 3}
   PauseAfter: 0.5
-  Children:
-  - {fileID: -2376931801370679480}
+  Children: []
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
