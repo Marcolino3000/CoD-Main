@@ -36,6 +36,27 @@ MonoBehaviour:
       Name: WontGoOutside
       HighPriority: 0
   - Trigger:
+      TriggerType: 4
+      TriggeringInteractable: {fileID: 0}
+      TriggeringDialogOption: {fileID: -2424162952369334189, guid: 7e3eadde007054bccb029b49c622e857, type: 2}
+    Prerequisites:
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: ed7133c56b9f147b7bafe5265b1f143f, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 4
+        TriggeringInteractable: {fileID: 0}
+        Conditions: []
+      Name: Vase
+      HighPriority: 0
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: 69c4dc946e7cf46b39336c3f60512622, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 4
+        TriggeringInteractable: {fileID: 0}
+        Conditions: []
+      Name: Marmeladenbrot
+      HighPriority: 0
+  - Trigger:
       TriggerType: 2
       TriggeringInteractable: {fileID: 11400000, guid: 8d4f2d6aed1c849529d827ebbbc7256a, type: 2}
       TriggeringDialogOption: {fileID: 0}
@@ -168,6 +189,19 @@ MonoBehaviour:
       HighPriority: 0
   - Trigger:
       TriggerType: 2
+      TriggeringInteractable: {fileID: 11400000, guid: 70be6851395f94bedb55f0b047b6af29, type: 2}
+      TriggeringDialogOption: {fileID: 0}
+    Prerequisites:
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: 505fdfaa6c62a4f249564bf1e91d337c, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 2
+        TriggeringInteractable: {fileID: 0}
+        Conditions: []
+      Name: Bucherregal
+      HighPriority: 0
+  - Trigger:
+      TriggerType: 2
       TriggeringInteractable: {fileID: 11400000, guid: 6ead5ed78d7c04ae99d905203f7aec6e, type: 2}
       TriggeringDialogOption: {fileID: 0}
     Prerequisites:
@@ -178,19 +212,6 @@ MonoBehaviour:
         TriggeringInteractable: {fileID: 11400000, guid: 6ead5ed78d7c04ae99d905203f7aec6e, type: 2}
         Conditions: []
       Name: Marmeladenbrot
-      HighPriority: 0
-  - Trigger:
-      TriggerType: 2
-      TriggeringInteractable: {fileID: 11400000, guid: ff5f3ad7940304bceb7599513a2003f2, type: 2}
-      TriggeringDialogOption: {fileID: 0}
-    Prerequisites:
-    - Record:
-        InteractionToExecute: {fileID: 11400000, guid: 3a896a1aff38c4897895d86492890330, type: 2}
-        DialogOptionToUnlock: {fileID: 0}
-        TriggerType: 2
-        TriggeringInteractable: {fileID: 0}
-        Conditions: []
-      Name: Vase
       HighPriority: 0
   - Trigger:
       TriggerType: 2
@@ -336,25 +357,30 @@ MonoBehaviour:
       Name: Marmeladenbrot
       HighPriority: 0
   - Trigger:
-      TriggerType: 4
-      TriggeringInteractable: {fileID: 0}
-      TriggeringDialogOption: {fileID: -2424162952369334189, guid: 7e3eadde007054bccb029b49c622e857, type: 2}
+      TriggerType: 2
+      TriggeringInteractable: {fileID: 11400000, guid: ff5f3ad7940304bceb7599513a2003f2, type: 2}
+      TriggeringDialogOption: {fileID: 0}
     Prerequisites:
     - Record:
-        InteractionToExecute: {fileID: 11400000, guid: ed7133c56b9f147b7bafe5265b1f143f, type: 2}
+        InteractionToExecute: {fileID: 11400000, guid: 3a896a1aff38c4897895d86492890330, type: 2}
         DialogOptionToUnlock: {fileID: 0}
-        TriggerType: 4
+        TriggerType: 2
         TriggeringInteractable: {fileID: 0}
         Conditions: []
       Name: Vase
       HighPriority: 0
+  - Trigger:
+      TriggerType: 2
+      TriggeringInteractable: {fileID: 11400000, guid: 08550f883af6941f89335b15056b69ed, type: 2}
+      TriggeringDialogOption: {fileID: 0}
+    Prerequisites:
     - Record:
-        InteractionToExecute: {fileID: 11400000, guid: 69c4dc946e7cf46b39336c3f60512622, type: 2}
+        InteractionToExecute: {fileID: 11400000, guid: 35f4cbee3361840e489643980292c7b5, type: 2}
         DialogOptionToUnlock: {fileID: 0}
-        TriggerType: 4
-        TriggeringInteractable: {fileID: 0}
+        TriggerType: 2
+        TriggeringInteractable: {fileID: 11400000, guid: 08550f883af6941f89335b15056b69ed, type: 2}
         Conditions: []
-      Name: Marmeladenbrot
+      Name: Gartentur
       HighPriority: 0
   references:
     version: 2
