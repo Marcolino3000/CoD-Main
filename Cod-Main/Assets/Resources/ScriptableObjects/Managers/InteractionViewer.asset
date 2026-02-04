@@ -205,8 +205,11 @@ MonoBehaviour:
         DialogOptionToUnlock: {fileID: 0}
         TriggerType: 0
         TriggeringInteractable: {fileID: 11400000, guid: 043fed759a4f8451d9f92cff673b9826, type: 2}
-        Conditions: []
-      Name: 
+        Conditions:
+        - RecordedState:
+            rid: 1719061240979652879
+          IsHardCondition: 0
+      Name: Marmeladenbrot
       HighPriority: 0
   - Trigger:
       TriggerType: 2
@@ -352,6 +355,12 @@ MonoBehaviour:
         Owner: {fileID: 11400000, guid: cd65d02928ae34289a4830c8f72b6446, type: 2}
         ToggleState: 1
     - rid: 1719061225043132503
+      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}
+        ThresholdReached: 1
+        IsRunning: 0
+    - rid: 1719061240979652879
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}

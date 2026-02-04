@@ -10,20 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: KNOCK KNOCK KNOC...
+  m_Name: KNOCK KNOCK     ...
   m_EditorClassIdentifier: DialogBuilder::Nodes.Decorator.NpcDialogOption
   Guid: 7896e49bbe59c4b9aa1088a06581e2fd
   Position: {x: 737, y: 124.85715}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: 'KNOCK KNOCK KNOCK                       '
-  TextPreview: KNOCK KNOCK KNOC...
+  DialogLine: Klopf Klopf
+  TextPreview: Klopf Klopf
   AudioClip: {fileID: 8300000, guid: ec07fa5d83e4946df920774f15824cff, type: 3}
   PauseAfter: 0.5
   Children:
   - {fileID: -2424162952369334189}
   - {fileID: -3793455532992717703}
+  - {fileID: 547556414938208191}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -41,14 +42,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: '*Das Klopfen ign...'
+  m_Name: 
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: c18235191123a49cebe9d6cff7894296
-  Position: {x: 882.28564, y: 275}
+  Position: {x: 737, y: 275}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: '*Das Klopfen ignorieren*'
+  DialogLine: 
   TextPreview: '*Das Klopfen ignorieren*'
   AudioClip: {fileID: 0}
   PauseAfter: 0.5
@@ -71,14 +72,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "*T\xFCr \xF6ffnen*"
+  m_Name: 
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 51105eb530a00406e927457bf6744c7c
-  Position: {x: 563.5714, y: 275}
+  Position: {x: 421.14282, y: 275}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "*Die T\xFCr \xF6ffnen*"
+  DialogLine: 
   TextPreview: "*Die T\xFCr \xF6ffnen*"
   AudioClip: {fileID: 0}
   PauseAfter: 0.5
@@ -109,5 +110,36 @@ MonoBehaviour:
   - {fileID: -8305521908229894378}
   - {fileID: -2424162952369334189}
   - {fileID: -3793455532992717703}
+  - {fileID: 547556414938208191}
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
+--- !u!114 &547556414938208191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
+  Guid: 71f524164d73746f29c37de49dc1dea6
+  Position: {x: 1069.1428, y: 275}
+  customPreview: 0
+  Blackboard:
+    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
+  DialogLine: Jetzt fick dich weg du Katzenficker!
+  TextPreview: Hau ab!
+  AudioClip: {fileID: 8300000, guid: a63c74928fe39438f897a21bd4c355dc, type: 3}
+  PauseAfter: 0.5
+  Children: []
+  FallThrough: 0
+  IsAvailable: 1
+  IsTrustOption: 0
+  IsBondingOption: 0
+  RequiredNodes: []
+  BlockerNodes: []
+  answerType: 0
+  _popularityModifier: 0
