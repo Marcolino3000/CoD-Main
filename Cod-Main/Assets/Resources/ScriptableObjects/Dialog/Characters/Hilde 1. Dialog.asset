@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: "\u201ENed nua M\xFCddr.\u201C..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 77a1fd7407ecf44919494ff3ef4ed175
-  Position: {x: -750, y: 1820}
+  Position: {x: -750, y: 1820.0002}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201ENed nua M\xFCddr.\u201C"
-  TextPreview: "\u201ENed nua M\xFCddr.\u201C..."
+  DialogLine: "Ned nur M\xFCddr."
+  TextPreview: "Ned nur M\xFCddr."
   AudioClip: {fileID: 8300000, guid: a6b54ee9c13e941289439ef99fad450f, type: 3}
   PauseAfter: 0.5
   Children:
@@ -40,15 +40,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "29\u2013 \u201ENoch mehr t..."
+  m_Name: Noch mehr tote M...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: dcd9ea44ba80e402599bb1e6e8165f30
   Position: {x: -750, y: 1680}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "29\u2013 \u201ENoch mehr tote M\xFCtter?\u201C"
-  TextPreview: "29\u2013 \u201ENoch mehr t..."
+  DialogLine: "Noch mehr tote M\xFCtter?"
+  TextPreview: Noch mehr tote M...
   AudioClip: {fileID: 8300000, guid: eab088b84b2d343bfa5f0640ee7b6390, type: 3}
   PauseAfter: 0.5
   Children:
@@ -71,16 +71,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EOh\u2026 \xC4h\u2026 Oh\u2026 \xC4h\u2026..."
+  m_Name: "Oh\u2026 \xC4h\u2026 Oh\u2026 \xC4h\u2026 ..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: a691a74b39d29486ea463dc4553ecd14
   Position: {x: -299.99997, y: 1260}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EOh\u2026 \xC4h\u2026 Oh\u2026 \xC4h\u2026 OH. Achso, Sch\xE4tzele,
-    dai Muadr, die isch dod.\u201C"
-  TextPreview: "\u201EOh\u2026 \xC4h\u2026 Oh\u2026 \xC4h\u2026..."
+  DialogLine: "Oh\u2026 \xC4h\u2026 Oh\u2026 \xC4h\u2026 Oh. Achso, Sch\xE4tzele,
+    dai Muadr, die isch dod."
+  TextPreview: "Oh\u2026 \xC4h\u2026 Oh\u2026 \xC4h\u2026 ..."
   AudioClip: {fileID: 8300000, guid: d8ab37fe7895c424b831e32fb9148511, type: 3}
   PauseAfter: 0.5
   Children:
@@ -134,15 +134,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "2\u2013 \u201EHOLY HILDE! ..."
+  m_Name: Holy Hilde! Dich...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: d5e507becc13c41cbb75546ca9e1c932
   Position: {x: -150.00003, y: -112.2171}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "2\u2013 \u201EHOLY HILDE! DICH GIBTS NOCH?!\u201C"
-  TextPreview: "2\u2013 \u201EHOLY HILDE! ..."
+  DialogLine: Holy Hilde! Dich gibt's noch?
+  TextPreview: Holy Hilde!
   AudioClip: {fileID: 8300000, guid: 97e233643b4184092af872fc9e65c618, type: 3}
   PauseAfter: 0.5
   Children:
@@ -165,15 +165,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "46- \u201EHAST DU LAC..."
+  m_Name: Hast du Lack ges...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: e3ab1cc42dc994807bde2bb786cfbb4a
   Position: {x: -299.9999, y: 2616.2173}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "46- \u201EHAST DU LACK GESOFFEN??MEINE MUTTER IST TOT.\u201C"
-  TextPreview: "46- \u201EHAST DU LAC..."
+  DialogLine: Hast du Lack gesoffen?? Meine Mutter ist tot!?
+  TextPreview: Hast du Lack gesoffen??
   AudioClip: {fileID: 8300000, guid: b78e470c9430646aaa6f8589449a4f32, type: 3}
   PauseAfter: 0.5
   Children:
@@ -196,17 +196,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EDu kennsch doch..."
+  m_Name: Du kennsch doch ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 4e16ee1409e044be1a53df6103ba23b4
   Position: {x: -750, y: 3072}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EDu kennsch doch des Trambelpf\xE4dle zum Bergfeschdle hoch.
-    Des am Abhang. Dei Mudda wusst doch, dass man da vom Fahrr\xE4dle absteigt. Aber
-    die stand ja eh nebe sich dran in ledschda Dzaid.\u201C"
-  TextPreview: "\u201EDu kennsch doch..."
+  DialogLine: "Du kennsch doch des Trambelpf\xE4dle zum Bergfeschdle hoch. Des am
+    Abhang. Dei Mudda wusst doch, dass man da vom Fahrr\xE4dle absteigt. Aber die
+    stand ja eh nebe sich in ledschda Dzaid."
+  TextPreview: Du kennsch doch ...
   AudioClip: {fileID: 8300000, guid: 0eaa90e600e5a4340b26bf8168c0a2d9, type: 3}
   PauseAfter: 0.5
   Children:
@@ -235,8 +235,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EAh, bevor ihs vergess.\u201C"
-  TextPreview: "\u201EAh, bevor ihs v..."
+  DialogLine: Ah, bevor ihs vergess.
+  TextPreview: Ah, bevor ihs ve...
   AudioClip: {fileID: 8300000, guid: 948163c742a02413e8537b521e45cd97, type: 3}
   PauseAfter: 0.5
   Children:
@@ -258,15 +258,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "53\u2013 \u201EI KANNS\u2014 IC..."
+  m_Name: I kohs... Ich ka...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 477bcd02bed3f4b6c9f4d1eda993b3f0
-  Position: {x: -450, y: 3224}
+  Position: {x: -450, y: 3223}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "53\u2013 \u201EI KANNS\u2014 ICH KANNS NICHT GLAUBEN.\u201C"
-  TextPreview: Ich kann's nicht glauben
+  DialogLine: I kohs... Ich kanns nicht glauben.
+  TextPreview: Ich kann's nicht glauben.
   AudioClip: {fileID: 8300000, guid: 1afc50388ba84466593c1a33443cf225, type: 3}
   PauseAfter: 0.5
   Children:
@@ -289,14 +289,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "49\u2013 \u201EWIESO HAT M..."
+  m_Name: Wieso hat mir ni...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 6069bcc85c9c947fb8c473d594f253bd
   Position: {x: -150, y: 2935}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "49\u2013 \u201EWIESO HAT MIR NIEMAND BESCHEID GESAGT?????\u201C"
+  DialogLine: Wieso hat mir niemand Bescheid gesagt?
   TextPreview: "Wieso wei\xDF ich von nichts??"
   AudioClip: {fileID: 8300000, guid: 27ad16e97ca69402db14bf4c57ae56c3, type: 3}
   PauseAfter: 0.5
@@ -320,15 +320,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EI hob do vsuchd..."
+  m_Name: I hob do vsuchd ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: bac443afe3b8444319448f639fec2ce8
   Position: {x: -150, y: 3072}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EI hob do vsuchd di anzrufa.\u201C"
-  TextPreview: "\u201EI hob do vsuchd..."
+  DialogLine: I hob do vsuchd di anzrufa.
+  TextPreview: I hob do vsuchd ...
   AudioClip: {fileID: 8300000, guid: c8613eb4f8f124ab3a91095bd4e852a0, type: 3}
   PauseAfter: 0.5
   Children:
@@ -357,14 +357,14 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EAlso wie gsagd, du duschd ihn jeda dag f\xFCddern. Gibschd hald
-    druff achd, dess ned zu warm, ned zu kald isch d\xE4m Sauerdeich. Du haschd wahrscheinlich
+  DialogLine: "Also wie gsagd, du duschd ihn jeda dag f\xFCddern. Gibschd hald druff
+    achd, dess ned zu warm, ned zu kald isch d\xE4m Sauerdeich. Du haschd wahrscheinlich
     no nie na Sauerdeich agsedzd vorhr gll? Also von dene Sauerdeich, des isch des
     gudde, isch ja scho agsedzd, du musschd nur schee achd geba, dess er ned verk\xFCmmerd
     da. Ond Wenn du Fraga haschd, du kannsch mi ja jederzeid fraga. Hab i no was
     vergessa? Soll i's dir liebr ufschreiba? Muschdi drum k\xFCmmern wie so a, wie
     heissetse? Damagodschi?"
-  TextPreview: "\u201EAlso wie gsagd,..."
+  TextPreview: Also wie gsagd, ...
   AudioClip: {fileID: 8300000, guid: de78c991ebadf49cabefb225fd82d1dd, type: 3}
   PauseAfter: 0.5
   Children:
@@ -388,15 +388,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "40\u2013 \u201ETja da kann..."
+  m_Name: Tja da kann man ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 0084dc690ad2045a69fb251094973e8e
   Position: {x: 150, y: 1960}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "40\u2013 \u201ETja da kann man nichts machen.\u201C"
-  TextPreview: "40\u2013 \u201ETja da kann..."
+  DialogLine: Tja da kann man nichts machen.
+  TextPreview: Da kann man nichts machen.
   AudioClip: {fileID: 8300000, guid: 0944ff30956574f28891d1d916b9a096, type: 3}
   PauseAfter: 0.5
   Children:
@@ -419,15 +419,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "13\u2013 \u201EWIESO HAST ..."
+  m_Name: Wieso hast du de...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 8200446cc202f4362b27caff9020d9e6
   Position: {x: -150, y: 840}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "13\u2013 \u201EWIESO HAST DU DEN?\u201C"
-  TextPreview: "13\u2013 \u201EWIESO HAST ..."
+  DialogLine: Wieso hast du den?
+  TextPreview: Wieso hast du de...
   AudioClip: {fileID: 8300000, guid: f5c5ea6946e4348b1b2b3955953c4bbc, type: 3}
   PauseAfter: 0.5
   Children:
@@ -480,15 +480,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "14\u2013 \u201EAPROPOS MUT..."
+  m_Name: Apropos Mutter.....
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 68cc75b57f639485c93d67b0ae22c574
   Position: {x: 184.19661, y: 840.0001}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "14\u2013 \u201EAPROPOS MUTTER\u2026\u201C"
-  TextPreview: "14\u2013 \u201EAPROPOS MUT..."
+  DialogLine: Apropos Mutter...
+  TextPreview: Apropos Mutter...
   AudioClip: {fileID: 8300000, guid: 4fe98eca2a86049a4b5f0101050108f0, type: 3}
   PauseAfter: 0.5
   Children:
@@ -511,15 +511,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EAm Bergfeschdle..."
+  m_Name: Am Bergfeschdle....
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: a1e2584e4fa844188b07bff1d5fa8e40
   Position: {x: -450, y: 3072}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EAm Bergfeschdle. 27. Juli. Isch imma noch da.\u201C"
-  TextPreview: "\u201EAm Bergfeschdle..."
+  DialogLine: Am Bergfeschdle. 27. Juli. Isch imma noch da.
+  TextPreview: Am Bergfeschdle....
   AudioClip: {fileID: 8300000, guid: 726ac885c3dae4c6885c51567d08fb09, type: 3}
   PauseAfter: 0.5
   Children:
@@ -601,15 +601,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "15\u2013 \u201EWEISST DU E..."
+  m_Name: "Wei\xDFt du eigentl..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 7013892b868994157b83afaf9f43ef9d
   Position: {x: -450, y: 840}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "15\u2013 \u201EWEISST DU EIGENTLICH WO ICH MEINE MUTTER FINDEN KANN?\u201C"
-  TextPreview: "15\u2013 \u201EWEISST DU E..."
+  DialogLine: "Wei\xDFt du eigentlich wo ich meine Mutter finden kann?"
+  TextPreview: Wo ist meine Mutter?
   AudioClip: {fileID: 8300000, guid: e3c0a0a1b527842dda192ce7fd4af8c0, type: 3}
   PauseAfter: 0.5
   Children:
@@ -663,15 +663,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "47\u2013 \u201EWAS IST PAS..."
+  m_Name: Was ist passiert...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 574d7dbab138246ceb3df62604cbfc96
   Position: {x: -749.9999, y: 2935}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "47\u2013 \u201EWAS IST PASSIERT??\u201C"
-  TextPreview: WAS IST PASSIERT???
+  DialogLine: Was ist passiert?
+  TextPreview: Was ist passiert?
   AudioClip: {fileID: 8300000, guid: 018e7ac0ff21340229927a65be5b8205, type: 3}
   PauseAfter: 0.5
   Children:
@@ -694,15 +694,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "35\u2013 \u201ENe mir hat ..."
+  m_Name: Ne mir hat niema...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 9ea33c98a16f74eb6b256922df0fb6a0
   Position: {x: -150, y: 1680}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "35\u2013 \u201ENe mir hat niemand Bescheid gesagt.\u201C"
-  TextPreview: "35\u2013 \u201ENe mir hat ..."
+  DialogLine: Ne mir hat niemand Bescheid gesagt.
+  TextPreview: Ne mir hat niemand Bescheid gesagt.
   AudioClip: {fileID: 8300000, guid: 6ae64a13c412f47fb8854e5fa069d76f, type: 3}
   PauseAfter: 0.5
   Children:
@@ -756,15 +756,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "31\u2013 \u201EDas war mei..."
+  m_Name: Das war meine Mu...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 1e8461a8f943e42aa91872231c70d7a8
   Position: {x: -750, y: 1960}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "31\u2013 \u201EDas war meine Mutter.\u201C"
-  TextPreview: "31\u2013 \u201EDas war mei..."
+  DialogLine: Das war meine Mutter.
+  TextPreview: Das war meine Mutter.
   AudioClip: {fileID: 8300000, guid: 50a03991237204d9386419dee5f41b65, type: 3}
   PauseAfter: 0.5
   Children:
@@ -829,8 +829,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EJoa, am beschda sind so 24 bis 28 Grad.\u201C"
-  TextPreview: "\u201EJoa, am beschda..."
+  DialogLine: Joa, am beschda sind so 24 bis 28 Grad.
+  TextPreview: Joa, am beschda ...
   AudioClip: {fileID: 8300000, guid: eb5a86b39157e4c22af8e895a550d2d6, type: 3}
   PauseAfter: 0.5
   Children:
@@ -856,11 +856,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 23a212e76a02443f8b5177d6062416a2
   Position: {x: -149.99998, y: 1400.0001}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "22\u2013 \u201EM\xFCtter sterben doch nicht.\u201C"
-  TextPreview: "22\u2013 \u201EM\xFCtter ster..."
+  DialogLine: "M\xFCtter sterben doch nicht."
+  TextPreview: "M\xFCtter sterben d..."
   AudioClip: {fileID: 8300000, guid: 6b793118d67e44b73ade49a83dd47fd7, type: 3}
   PauseAfter: 0.5
   Children:
@@ -890,8 +890,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EMerkur war r\xFCckl\xE4ufig.\u201C"
-  TextPreview: "\u201EMerkur war r\xFCck..."
+  DialogLine: "Merkur war r\xFCckl\xE4ufig."
+  TextPreview: "Merkur war r\xFCckl..."
   AudioClip: {fileID: 8300000, guid: 9eb5e7cc56a1e424f9121597e7d8e5f6, type: 3}
   PauseAfter: 0.5
   Children:
@@ -914,15 +914,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EKindle, des tut..."
+  m_Name: Kindle, des tut ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: a7397eda9c6ae44ce93d55f4d7c3c78a
   Position: {x: 449.9999, y: 1819.9998}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EKindle, des tut mir so leid.\u201C"
-  TextPreview: "\u201EKindle, des tut..."
+  DialogLine: Kindle, des tut mir so leid.
+  TextPreview: Kindle, des tut ...
   AudioClip: {fileID: 8300000, guid: 79233abecc54a4045bece51a3287b0cd, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1060,15 +1060,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "17\u2013 \u201EHABEN SIE D..."
+  m_Name: Haben sie dich z...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 4b6ea0131f45a49b1964e1c871a0e86e
   Position: {x: -300, y: 1120}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "17\u2013 \u201EHABEN SIE DICH ZU LANGE EINGELEGT? WO IST MEINE MUTTER?\u201C"
-  TextPreview: "17\u2013 \u201EHABEN SIE D..."
+  DialogLine: Haben sie dich zu lange eingelegt? Wo ist meine Mutter?
+  TextPreview: Haben sie dich zu lange eingelegt?
   AudioClip: {fileID: 8300000, guid: 57ad0f8a120fe4c228f4a0d25841fe7f, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1098,8 +1098,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EHier passiera merkw\xFCrdigere Dinge als du dia vorstella kannsch.\u201C"
-  TextPreview: "\u201EHier passiera m..."
+  DialogLine: "Hier passiera merkw\xFCrdigere Dinge als du dia vorstella kannsch."
+  TextPreview: Hier passiera me...
   AudioClip: {fileID: 8300000, guid: 5855a28e3833842c687d571a15f11940, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1122,15 +1122,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "3\u2013 \u201EWEISST DU WO..."
+  m_Name: "Wei\xDFt du wo mein..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 1b20c4e37682142eeb89c3d1d8787d47
   Position: {x: 614, y: -112.2171}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "3\u2013 \u201EWEISST DU WO MEINE MUTTER IST?\u201C"
-  TextPreview: "3\u2013 \u201EWEISST DU WO..."
+  DialogLine: "Wei\xDFt du wo meine Mutter ist?"
+  TextPreview: Wo ist meine Mutter?
   AudioClip: {fileID: 8300000, guid: bd53ff8b6feb04efc8b7c9b5b6a6a9c7, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1153,15 +1153,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "37\u2013 \u201EFucking S\xE4g..."
+  m_Name: "Fucking S\xE4gbach ..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 6a2f5305851414930ae610ed16183420
   Position: {x: -150, y: 1960}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "37\u2013 \u201EFucking S\xE4gbach am Tobel.\u201C"
-  TextPreview: "37\u2013 \u201EFucking S\xE4g..."
+  DialogLine: "Fucking S\xE4gbach am Tobel."
+  TextPreview: "Fucking S\xE4gbach am Tobel."
   AudioClip: {fileID: 8300000, guid: 862f43885a18f4771887807cae309533, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1219,11 +1219,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 16cca64a2c2494b809ee70ee51e43ef6
   Position: {x: -450, y: 2935}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "48\u2013 \u201EWANN?????\u201C"
-  TextPreview: "48\u2013 \u201EWANN?????\u201C"
+  DialogLine: Wann???
+  TextPreview: Wann???
   AudioClip: {fileID: 8300000, guid: f26880dfef9544546b0527cedc790732, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1253,9 +1253,9 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EIch hob\u2019s bf\xFCrchded. I hob dei aktuelle Numma ned. Nach
-    zehn Jahrn wo ned hier warschd. Tut mir leid.\u201C"
-  TextPreview: "\u201EIch hob\u2019s bf\xFCrc..."
+  DialogLine: "Ich hob\u2019s bf\xFCrchded. I hob dei aktuelle Numma ned. Nach zehn
+    Jahrn wo ned hier warschd. Tut mir leid."
+  TextPreview: "Ich hob\u2019s bf\xFCrch..."
   AudioClip: {fileID: 8300000, guid: 500669fa1f7934fcdaebcf6a650b99c8, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1277,15 +1277,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "38\u2013\u201EStand nicht ..."
+  m_Name: Stand nicht in m...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 489628c68879949209d4d1393e84da42
   Position: {x: 150, y: 1680}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "38\u2013\u201EStand nicht in meinem Horoskop.\u201C"
-  TextPreview: "38\u2013\u201EStand nicht ..."
+  DialogLine: Stand nicht in meinem Horoskop.
+  TextPreview: Stand nicht in meinem Horoskop.
   AudioClip: {fileID: 8300000, guid: 7db1107208b7e46138a83742168696bd, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1308,16 +1308,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EApropos, I hab ..."
+  m_Name: Apropos, I hab m...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: c3d9de45a8260491cb0821b0cea9498d
   Position: {x: -450, y: 2240}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EApropos, I hab mi drum gk\xFCmmerd und jetzt musch du drauf
-    achd gebbe: Dess ned zu warm, ned zu kald isch d\xE4m Sauerdeig\u2026\u201C"
-  TextPreview: "\u201EApropos, I hab ..."
+  DialogLine: "Apropos, I hab mi drum gk\xFCmmerd und jetzt musch du drauf achd gebbe:
+    Dess ned zu warm, ned zu kald isch d\xE4m Sauerdeig\u2026"
+  TextPreview: Apropos, I hab m...
   AudioClip: {fileID: 8300000, guid: 6f439b0dfe17445e3aabf4ce02856b90, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1347,8 +1347,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "T\xDCR ZUMACHEN"
-  TextPreview: "T\xDCR ZUMACHEN"
+  DialogLine: "T\xFCr schlie\xDFen"
+  TextPreview: "T\xFCr schlie\xDFen"
   AudioClip: {fileID: 0}
   PauseAfter: 0.5
   Children:
@@ -1402,15 +1402,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "6\u2013 \u201EUNKRAUT. DU ..."
+  m_Name: Unkraut. Du bist...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 1a3370bc594c947a4bbf51674dbd899b
-  Position: {x: -332, y: 165.78293}
-  customPreview: 0
+  Position: {x: -331, y: 167}
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "6\u2013 \u201EUNKRAUT. DU BIST UNKRAUT, HILDE.\u201C"
-  TextPreview: "6\u2013 \u201EUNKRAUT. DU ..."
+  DialogLine: Unkraut. Du bist unkraut, Hilde.
+  TextPreview: Unkraut.
   AudioClip: {fileID: 8300000, guid: adbceb709927a46b3b0e76633c6abd28, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1440,8 +1440,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201ESauerkraut verreckt ned.\u201C"
-  TextPreview: "\u201ESauerkraut verr..."
+  DialogLine: Sauerkraut verreckt ned.
+  TextPreview: Sauerkraut verre...
   AudioClip: {fileID: 8300000, guid: 1caa308f19751490e98710f2333e0b4a, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1464,16 +1464,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: (Pause.)
+  m_Name: Ich bin Autorin,...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 65c3852899a2942a094e3bb3e0942073
   Position: {x: -450, y: 1680}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "(Pause.)\nDas hab ich mir nicht vorstellen k\xF6nnen.\u201C"
-  TextPreview: (Pause.)
-  AudioClip: {fileID: 0}
+  DialogLine: "Ich bin Autorin, ich kann mir ganz sch\xF6n viel vorstellen. Aber
+    wie sich das anf\xFChlt\u2026 Das hab ich mir nicht vorstellen k\xF6nnen."
+  TextPreview: Das kann ich mir nicht vorstellen.
+  AudioClip: {fileID: 8300000, guid: 517915d3d238a464481da973a433055d, type: 3}
   PauseAfter: 0.5
   Children:
   - {fileID: 2962013131690210869}
@@ -1530,11 +1531,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 09e4b87ed220c4fb5b9a66137930ba66
   Position: {x: 149.99995, y: 1400.5001}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "23\u2013 \u201EMeine\u2026 Was\u2026\u201C"
-  TextPreview: "23\u2013 \u201EMeine\u2026 Was\u2026..."
+  DialogLine: "Meine\u2026 Was\u2026?"
+  TextPreview: "Meine\u2026 Was\u2026?"
   AudioClip: {fileID: 8300000, guid: afedefec2beec4cbd8774aae7f57db69, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1557,16 +1558,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "11\u2013 \u201EMEINE MUTTE..."
+  m_Name: Meine Mutter wol...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 35479bcca4ed446dc88ce03d0c123421
   Position: {x: -150, y: 560}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "11\u2013 \u201EMEINE MUTTER WOLLTE MIR AUCH IMMER SO EINEN SAUERTEIG
-    ANDREHEN.\u201C"
-  TextPreview: "11\u2013 \u201EMEINE MUTTE..."
+  DialogLine: 'Meine Mutter wollte mir auch immer so einen Sauerteig andrehen. '
+  TextPreview: Noch ein Sauerteig?
   AudioClip: {fileID: 8300000, guid: a855671e4444d4c33afc4ef4991e7cb0, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1596,8 +1596,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201ESie hat dich sehr geliebt.\u201C"
-  TextPreview: "\u201ESie hat dich se..."
+  DialogLine: Sie hat dich sehr geliebt.
+  TextPreview: Sie hat dich seh...
   AudioClip: {fileID: 8300000, guid: 30bcdfafd55664ff4a97ac2536dab062, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1619,15 +1619,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EDes kann man si..."
+  m_Name: Des kann man sic...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 1e31e61658ef244c6b7e1705a6ccc362
   Position: {x: -450, y: 1820}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EDes kann man sich gar ned vorstella.\u201C"
-  TextPreview: "\u201EDes kann man si..."
+  DialogLine: Des kann man sich gar ned vorstella.
+  TextPreview: Des kann man sic...
   AudioClip: {fileID: 8300000, guid: 3b0d2ab23a16742ec9b54dde3a5e5e4d, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1649,15 +1649,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "42\u2013 \u201EMEINE MUTTE..."
+  m_Name: Meine Mutter ist...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: f545cce8e49c04cb284b878547034a5f
   Position: {x: -600, y: 2382}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "42\u2013 \u201EMEINE MUTTER IST TOT.\u201C"
-  TextPreview: "42\u2013 \u201EMEINE MUTTE..."
+  DialogLine: Meine Mutter ist tot.
+  TextPreview: Meine Mutter ist tot.
   AudioClip: {fileID: 8300000, guid: b0a0d7ba52fba47c19ee3e8e307a3f98, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1721,8 +1721,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EDes isch der von dei Mudda.\u201C"
-  TextPreview: "\u201EDes isch der vo..."
+  DialogLine: Des isch der von deinr Muddr.
+  TextPreview: Des isch der von...
   AudioClip: {fileID: 8300000, guid: 060f3e2534852454db329ccf17caea29, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1754,7 +1754,7 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Je mehr i dr\xFCba nachdenk deschdo weniga kann i globa, dass dei
-    Muadda dod isch. Und\u2014 Ne, des kann i ned sage. Do, heb mal."
+    Muadda dod isch. Und\u2014 Ne, des kann i ned sage. "
   TextPreview: "Je mehr i dr\xFCba ..."
   AudioClip: {fileID: 8300000, guid: d60cf424d08144ef6b873cb579cc3d09, type: 3}
   PauseAfter: 0.5
@@ -1808,17 +1808,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EAch --- wusschd..."
+  m_Name: Ach, wusschdesch...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 9db5461dffe9c49be95e3cc532683884
   Position: {x: -450.00006, y: 2784.3052}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EAch --- wusschdesch des wirklich gar ned? Jo, die isch dod.
-    I hadde mi scho gfragd, warum du ned zu der Berdigung komma bisch. Umso wichdigr,
-    dess du den Sauerdeich bkommsd\u2026 bagg ihn am beschten oi.\u201C"
-  TextPreview: "\u201EAch --- wusschd..."
+  DialogLine: "Ach, wusschdesch des wirklich gar ned? Jo, die isch dod. I hadde mi
+    scho gfragd, warum du ned zu der Berdigung komma bisch. Umso wichdigr, dess du
+    den Sauerdeich bkommsd\u2026 bagg ihn am beschten ein."
+  TextPreview: Ach, wusschdesch...
   AudioClip: {fileID: 8300000, guid: b2c5a6808431544c6a4d98166c375223, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1842,15 +1842,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EWusstesch des n..."
+  m_Name: Wusstesch du des...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 23d5fd6f082fc4f92939a09c7e6e353b
   Position: {x: -150, y: 1540}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EWusstesch des ned? \u2014 scheise.\u201C"
-  TextPreview: "\u201EWusstesch des n..."
+  DialogLine: "Wusstesch du des ned? \u2014 schei\xDFe."
+  TextPreview: Wusstesch du des...
   AudioClip: {fileID: 8300000, guid: 0402aa1458f734435bdaf370b446490d, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1873,15 +1873,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "18\u2013 \u201EABER WO IST..."
+  m_Name: Aber wo ist denn...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 660072f25f8604f90a340ac00f6d5638
-  Position: {x: -600, y: 1120}
-  customPreview: 0
+  Position: {x: -600, y: 1121}
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "18\u2013 \u201EABER WO IST DENN JETZT MEINE MUTTER?\u201C"
-  TextPreview: "18\u2013 \u201EABER WO IST..."
+  DialogLine: Aber wo ist denn jetzt meine Mutter?
+  TextPreview: Wo ist sie denn jetzt?
   AudioClip: {fileID: 8300000, guid: 0405ad7c23d694ba3b96ee6e86113bb1, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1908,11 +1908,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 379018899781740ce96918105a7e035b
   Position: {x: -0.000061035156, y: 164.7829}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "7\u2013 (Falsch h\xF6flich lachen.)"
-  TextPreview: "7\u2013 (Falsch h\xF6fli..."
+  DialogLine: Ha ha ha.
+  TextPreview: "*H\xF6flich lachen*"
   AudioClip: {fileID: 8300000, guid: 50c6d965c3b994a7ea9386691565bdf2, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1935,20 +1935,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EHa des isch a S..."
+  m_Name: Ha des isch a Sa...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: dcb2abafaaf0d426f9ef09e4d2b0f3da
   Position: {x: 214.99998, y: -281.2171}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EHa des isch a Sach, dass I di glei verwisch! Hab\u2019s mr halber
-    denkt dass du dahanna bisch. Du I muss dr was gebba. Da heb mol (gibt ihr all
-    die Sachen in die Hand, die in ihrer Handdasche \xFCber dem Sauerdeigglas liegen
-    Libbenschdifd, Gs\xE4lz f\xFCr d\u2019Oma, die Rubbellose f\xFCr de Andi\u2026.,
-    Schl\xFCsselbund edc). Also was wichtig isch, du musch den regelm\xE4\xDFig f\xFCttern,
-    ah was sag I, am beschda jeden Tag gell. Wo isch er no jetzt?\u201C"
-  TextPreview: "\u201EHa des isch a S..."
+  DialogLine: "Ha des isch a Sach, dass I di glei verwisch! Hab\u2019s mr halber
+    denkt dass du dahanna bisch. Du I muss dr was gebba. Da heb mol. Libbenschdifd,
+    Schl\xFCsselbund, Gs\xE4lz f\xFCr d\u2019Oma, die Rubbellose f\xFCr de Andi\u2026
+    Also was wichtig isch, du musch den regelm\xE4\xDFig f\xFCttern, ah was sag I,
+    am beschda jeden Tag gell. Wo isch er no jetzt?"
+  TextPreview: Ha des isch a Sa...
   AudioClip: {fileID: 8300000, guid: 25942dbed9891463cb324bab49d1813c, type: 3}
   PauseAfter: 0.5
   Children:
@@ -2034,15 +2033,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "44\u2013 \u201EWIE VIEL GR..."
+  m_Name: Wieviel Grad gen...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 0b0dde99f832c46b2939ed317c4c3109
   Position: {x: -300, y: 2382}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "44\u2013 \u201EWIE VIEL GRAD GENAU SOLLTE DER SAUERTEIG HABEN?\u201C"
-  TextPreview: "44\u2013 \u201EWIE VIEL GR..."
+  DialogLine: Wieviel Grad genau soll der Sauerteig haben?
+  TextPreview: Wieviel Grad sollte der haben?
   AudioClip: {fileID: 8300000, guid: a44397598459f45a9b75976d9716a764, type: 3}
   PauseAfter: 0.5
   Children:
@@ -2065,15 +2064,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "19\u2013\u201EHILDE? ABER ..."
+  m_Name: Hilde? Aber du k...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: fbdaffae0a8c043d29402796bf3a37b1
   Position: {x: 0.00012207031, y: 1120}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "19\u2013\u201EHILDE? ABER DU KENNST MEINE MUTTER NOCH, ODER?\u201C"
-  TextPreview: "19\u2013\u201EHILDE? ABER ..."
+  DialogLine: Hilde? Aber du kennst meine Mutter noch oder?
+  TextPreview: Hilde?
   AudioClip: {fileID: 8300000, guid: 07e209a1fd080445a8d625a03b3e9b04, type: 3}
   PauseAfter: 0.5
   Children:
@@ -2103,8 +2102,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EIsch des ned die gro\xDFe Frag. Deswegen nimm des.\u201C"
-  TextPreview: "\u201EIsch des ned di..."
+  DialogLine: "Isch des ned die gro\xDFe Frag. Deswegen nimm des."
+  TextPreview: Isch des ned die...
   AudioClip: {fileID: 8300000, guid: daf3bc42f7b47468e861ca7bf71ab024, type: 3}
   PauseAfter: 0.5
   Children:
@@ -2133,8 +2132,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EAaaaahh dahana hedd sich der kloi Ganove verschdeggd.\""
-  TextPreview: "\u201EAaaaahh dahana ..."
+  DialogLine: Aaaaahh dahana hedd sich der kloi Ganove verschdeggd.
+  TextPreview: Aaaaahh dahana h...
   AudioClip: {fileID: 8300000, guid: 9c83846f28c0e45558c9d6b69ac7fcca, type: 3}
   PauseAfter: 0.5
   Children:
@@ -2160,11 +2159,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 26e9f6a1ea4344ad7b78768e66a73d19
   Position: {x: -450, y: 1400}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Tja kann man nichts machen (21\u2013 \u201EAh, komisch.\u201C)"
-  TextPreview: Tja kann man nic...
+  DialogLine: Ah, komisch.
+  TextPreview: Ah, komisch.
   AudioClip: {fileID: 8300000, guid: 0944ff30956574f28891d1d916b9a096, type: 3}
   PauseAfter: 0.5
   Children:
@@ -2187,15 +2186,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EKindle\u2026"
+  m_Name: Kindle... setz d...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 8c8f21a67c8b8411badaa4536617d20d
   Position: {x: 149.99994, y: 1540.0001}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "\u201EKindle\u2026\n(Marlene zittert.)\nSetz di doch lieba mol hin.\u201C"
-  TextPreview: "\u201EKindle\u2026"
+  DialogLine: Kindle... setz dich lieber mal no.
+  TextPreview: Kindle... setz d...
   AudioClip: {fileID: 8300000, guid: c14f48de12d7b4e8ca6b83f08cbb5c09, type: 3}
   PauseAfter: 4
   Children:
