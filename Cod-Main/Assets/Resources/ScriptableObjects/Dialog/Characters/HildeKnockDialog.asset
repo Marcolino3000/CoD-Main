@@ -16,7 +16,7 @@ MonoBehaviour:
   Position: {x: 737, y: 124.85715}
   customPreview: 0
   Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
+    CharacterData: {fileID: 0}
   DialogLine: Klopf Klopf
   TextPreview: Klopf Klopf
   AudioClip: {fileID: 8300000, guid: ec07fa5d83e4946df920774f15824cff, type: 3}
@@ -48,7 +48,7 @@ MonoBehaviour:
   Position: {x: 737, y: 275}
   customPreview: 1
   Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
+    CharacterData: {fileID: 0}
   DialogLine: 
   TextPreview: '*Das Klopfen ignorieren*'
   AudioClip: {fileID: 0}
@@ -78,7 +78,7 @@ MonoBehaviour:
   Position: {x: 421.14282, y: 275}
   customPreview: 1
   Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
+    CharacterData: {fileID: 0}
   DialogLine: 
   TextPreview: "*Die T\xFCr \xF6ffnen*"
   AudioClip: {fileID: 0}
@@ -112,7 +112,7 @@ MonoBehaviour:
   - {fileID: -3793455532992717703}
   - {fileID: 547556414938208191}
   Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
+    CharacterData: {fileID: 0}
 --- !u!114 &547556414938208191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,7 +129,7 @@ MonoBehaviour:
   Position: {x: 1069.1428, y: 275}
   customPreview: 0
   Blackboard:
-    CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
+    CharacterData: {fileID: 0}
   DialogLine: Jetzt fick dich weg du Katzenficker!
   TextPreview: Hau ab!
   AudioClip: {fileID: 8300000, guid: a63c74928fe39438f897a21bd4c355dc, type: 3}
