@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: '*Klopf* *Klopf*'
   m_EditorClassIdentifier: DialogBuilder::Nodes.Decorator.NpcDialogOption
   Guid: c6db69804a76149988a315d0af1d8d3b
-  Position: {x: 933.24915, y: 518}
+  Position: {x: 933, y: 518}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: '*Klopf* *Klopf*'
   TextPreview: '*Klopf* *Klopf*'
   AudioClip: {fileID: 8300000, guid: ec07fa5d83e4946df920774f15824cff, type: 3}
-  PauseAfter: 1.5
+  PauseAfter: -2
   Children:
   - {fileID: -2056074378261678428}
   - {fileID: 2284198472283161538}

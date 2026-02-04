@@ -350,7 +350,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EAlso wie gsagd,..."
+  m_Name: Also wie gsagd, ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 0e8400e36b69f4579b2d0e35c587d46f
   Position: {x: -149.99995, y: 993.0002}
@@ -974,7 +974,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e86e6013fb5415d9fc88ab06a37cd42, type: 3}
-  m_Name: Hilde 1. Dialog
+  m_Name: Hilde 1. Dialog UT hochdeutsch
   m_EditorClassIdentifier: cod.dialogbuilder::Tree.DialogTree
   StartNodes:
   - {fileID: 6941936280635674382}

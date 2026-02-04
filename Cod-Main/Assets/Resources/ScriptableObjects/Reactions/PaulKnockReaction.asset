@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 623fa79c384042e3bb49a575d178c3c0, type: 3}
-  m_Name: SpawnPaulReaction
-  m_EditorClassIdentifier: InteractionBuilder::Runtime.Scripts.Core.Reaction
-  DialogTree: {fileID: 0}
+  m_Name: PaulKnockReaction
+  m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.Reaction
+  DialogTree: {fileID: 11400000, guid: c4592a9cbf2014d7a9a25897b029e78e, type: 2}
   Interactable: {fileID: 0}
-  ObjectToMoveIn: {fileID: 11400000, guid: 39113deee2da14ef980feadf3041ab39, type: 2}
+  ObjectToMoveIn: {fileID: 0}
   ObjectToMoveOut: {fileID: 0}
   ObjectToMove: {fileID: 0}
   TargetPosition: {x: 0, y: 0, z: 0}
