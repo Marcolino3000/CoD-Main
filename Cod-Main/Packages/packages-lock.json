@@ -15,7 +15,7 @@
         "com.cod.dialog-builder": "0.9.3",
         "com.cod.audioplayer": "0.0.1"
       },
-      "hash": "8c05ef210c395cfc509f4156aef1a06616d4f664"
+      "hash": "16a76e20f67c1fc01d06d520e1a256d3bb125d8d"
     },
     "com.cod.dialog-builder": {
       "version": "https://github.com/Marcolino3000/DialogBuilder-Package.git",
@@ -35,7 +35,7 @@
         "com.cod.dialog-builder": "0.9.3",
         "com.cod.playerinput": "1.0.0"
       },
-      "hash": "3878c6ab95f239c19da8693b9904ebe067b2db9f"
+      "hash": "c33a973614429dd81215c14bbeaee218f3ab1931"
     },
     "com.cod.playerinput": {
       "version": "https://github.com/Marcolino3000/PlayerInput.git",

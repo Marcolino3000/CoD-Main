@@ -13,22 +13,30 @@ MonoBehaviour:
   m_Name: OpenDoorSequence
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.ScriptedSequence
   waypoints:
-  - rid: 1719061200027517009
-  - rid: 1719061200027517010
+  - rid: 1719061261674610954
+  - rid: 1719061261674610955
+  - rid: 1719061261674610956
   references:
     version: 2
     RefIds:
-    - rid: 1719061200027517009
+    - rid: 1719061261674610954
+      type: {class: Waypoint, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Position: {x: -2.8785, y: 3.82414, z: 3.77898}
+        WaitTime: 0
+        ReactionAtStart: {fileID: 0}
+        ReactionAtStop: {fileID: 0}
+    - rid: 1719061261674610955
       type: {class: Waypoint, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Position: {x: -3.1785, y: 3.00414, z: -1.35102}
         WaitTime: 0
         ReactionAtStart: {fileID: 0}
-        ReactionAtStop: {fileID: 0}
-    - rid: 1719061200027517010
+        ReactionAtStop: {fileID: 11400000, guid: 99b2901db596a46c29ebb00e795ce847, type: 2}
+    - rid: 1719061261674610956
       type: {class: Waypoint, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Position: {x: -2.8785, y: 3.82414, z: -3.41102}
-        WaitTime: 1
-        ReactionAtStart: {fileID: 11400000, guid: 99b2901db596a46c29ebb00e795ce847, type: 2}
+        WaitTime: 0
+        ReactionAtStart: {fileID: 0}
         ReactionAtStop: {fileID: 0}

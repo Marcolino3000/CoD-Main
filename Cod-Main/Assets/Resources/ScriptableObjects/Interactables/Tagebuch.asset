@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 799bdc7289364c2b97004e28c80a81c6, type: 3}
-  m_Name: Journal
+  m_Name: Tagebuch
   m_EditorClassIdentifier: Assembly-CSharp::Interactables.Toggleable
   _SaveStateToCurrentScene: 0
   _sceneStateSaver: {fileID: 11400000, guid: 3e244c0560c63468bb3c97ac3de106ce, type: 2}
