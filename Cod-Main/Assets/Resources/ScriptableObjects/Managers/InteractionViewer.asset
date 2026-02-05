@@ -395,6 +395,33 @@ MonoBehaviour:
         Conditions: []
       Name: Schrein
       HighPriority: 0
+  - Trigger:
+      TriggerType: 2
+      TriggeringInteractable: {fileID: 11400000, guid: 0b524a0c0dbe44756b23523e0acca0f7, type: 2}
+      TriggeringDialogOption: {fileID: 0}
+    Prerequisites:
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: 3196b0e41505040d78829b5aee0163c9, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 2
+        TriggeringInteractable: {fileID: 11400000, guid: 0b524a0c0dbe44756b23523e0acca0f7, type: 2}
+        Conditions:
+        - RecordedState:
+            rid: 1719061261674611015
+          IsHardCondition: 0
+      Name: Schrein
+      HighPriority: 0
+    - Record:
+        InteractionToExecute: {fileID: 11400000, guid: d61ebb6d5c8be43699a50f5e33b89bc7, type: 2}
+        DialogOptionToUnlock: {fileID: 0}
+        TriggerType: 2
+        TriggeringInteractable: {fileID: 11400000, guid: 0b524a0c0dbe44756b23523e0acca0f7, type: 2}
+        Conditions:
+        - RecordedState:
+            rid: 1719061261674611016
+          IsHardCondition: 0
+      Name: Schrein
+      HighPriority: 0
   references:
     version: 2
     RefIds:
@@ -443,6 +470,18 @@ MonoBehaviour:
         Owner: {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}
         ThresholdReached: 0
         IsRunning: 0
+    - rid: 1719061261674611015
+      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: f3bbc6cd7bf3d402cad647550d928260, type: 2}
+        ThresholdReached: 0
+        IsRunning: 0
+    - rid: 1719061261674611016
+      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: f3bbc6cd7bf3d402cad647550d928260, type: 2}
+        ThresholdReached: 1
+        IsRunning: 0
     - rid: 7734685230184530355
       type: {class: Toggleable/ToggleableStateDate, ns: Runtime.Scripts.Interactables, asm: cod.interactionbuilder}
       data:
@@ -457,7 +496,7 @@ MonoBehaviour:
     - rid: 7734685593366430162
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
-        Owner: {fileID: 0}
+        Owner: {fileID: 11400000, guid: f3bbc6cd7bf3d402cad647550d928260, type: 2}
         ThresholdReached: 1
         IsRunning: 0
     - rid: 7734685593366430163
