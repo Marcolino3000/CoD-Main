@@ -16,7 +16,7 @@ MonoBehaviour:
   _sceneStateSaver: {fileID: 11400000, guid: 3e244c0560c63468bb3c97ac3de106ce, type: 2}
   Interactable: {fileID: 0}
   Sprite: {fileID: 2800000, guid: 670c92303edea4007914be2f9864cb33, type: 3}
-  AwarenessLevel: 0
+  AwarenessLevel: 1
   ToggleState: 0
   StatusDescription: 
   StatusOn: 
