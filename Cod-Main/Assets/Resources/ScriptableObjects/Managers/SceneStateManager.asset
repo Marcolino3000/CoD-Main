@@ -30,7 +30,7 @@ MonoBehaviour:
   - rid: 1719061244956901688
   - rid: 1719061261674611002
   - rid: 1719061261674611003
-  - rid: 1719061261674611012
+  - rid: 1719061261674611042
   references:
     version: 2
     RefIds:
@@ -76,7 +76,7 @@ MonoBehaviour:
         Owner: {fileID: 11400000, guid: 63dd2cf3f0d214823abf0e324be97e3b, type: 2}
         ThresholdReached: 0
         IsRunning: 0
-    - rid: 1719061261674611012
+    - rid: 1719061261674611042
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}
@@ -97,7 +97,7 @@ MonoBehaviour:
       type: {class: Toggleable/ToggleableStateDate, ns: Runtime.Scripts.Interactables, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: cd65d02928ae34289a4830c8f72b6446, type: 2}
-        ToggleState: 1
+        ToggleState: 0
     - rid: 7734685074128372168
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
@@ -126,7 +126,7 @@ MonoBehaviour:
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: 7126467d7428e4d41a57b8f813e5f666, type: 2}
-        ThresholdReached: 1
+        ThresholdReached: 0
         IsRunning: 0
     - rid: 7734685612461523810
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
