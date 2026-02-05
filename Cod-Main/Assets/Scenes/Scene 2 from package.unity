@@ -87338,10 +87338,54 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 35
       objectReference: {fileID: 0}
+    - target: {fileID: 3624866479209712680, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3624866479209712680, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3624866479209712680, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3624866479209712680, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -416
+      objectReference: {fileID: 0}
     - target: {fileID: 3883245963557832479, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: Sauerteig
       value: 
       objectReference: {fileID: 1358430843}
+    - target: {fileID: 4621775145416303625, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621775145416303625, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621775145416303625, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859211075134315820, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859211075134315820, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859211075134315820, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859211075134315820, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -259.6
+      objectReference: {fileID: 0}
     - target: {fileID: 7693628905760827513, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: m_Pivot.x
       value: 1
