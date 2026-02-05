@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "\u201EALSO JA ODER JA..."
+  m_Name: Also ja oder ja?...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: cdab60928e7a64463a1e0b02b7e1301d
   Position: {x: -449.9999, y: 1120}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "\u201EALSO JA ODER JA?\u201C"
-  TextPreview: "\u201EALSO JA ODER JA?\u201C"
+  DialogLine: Also ja oder ja?
+  TextPreview: Also ja oder ja?
   AudioClip: {fileID: 8300000, guid: 87264863974264fafaa1dc368eccaab8, type: 3}
   PauseAfter: 0.5
   Children:
@@ -44,13 +44,12 @@ MonoBehaviour:
   m_Name: (AWKWARD PAUSE)
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 5a96dbf70abea457297ec5b94868ed8d
-  Position: {x: -450.00006, y: 980.00006}
+  Position: {x: -450, y: 980}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "(AWKWARD PAUSE)\n\u201EHa haha hahaha! Du und deine Geschichten immer.
-    Fand ich schon immer s\xFC\xDF.\u201C"
-  TextPreview: (AWKWARD PAUSE)
+  DialogLine: '*schweigt*'
+  TextPreview: '*schweigt*'
   AudioClip: {fileID: 0}
   PauseAfter: 0.5
   Children:
@@ -635,7 +634,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "\u201EWOW.\u201C"
+  m_Name: Wow.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: ec29f7c7905554769945af7b206f5dfc
   Position: {x: 150, y: 840}
@@ -734,17 +733,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EWenn ich irgend..."
+  m_Name: Wenn ich irgendw...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 9d41b100e47b0461596f33fc20ae1d2c
   Position: {x: -600, y: 700}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "\u201EWenn ich irgendwas f\xFCr dich tun kann, sag Bescheid. Du kannst
-    ja trotzdem zur Hochzeit kommen wenn du eh schon da bist. Der Pastor fragt ja
-    immer ob jemand Einw\xE4nde hat.\""
-  TextPreview: "\u201EWenn ich irgend..."
+  DialogLine: "Wenn ich irgendwas f\xFCr dich tun kann, sag Bescheid. Du kannst ja
+    trotzdem zur Hochzeit kommen wenn du eh schon da bist. Der Pastor fragt ja immer
+    ob jemand Einw\xE4nde hat."
+  TextPreview: Wenn ich irgendw...
   AudioClip: {fileID: 8300000, guid: 0e6952438bccb4ae5a6396918a18d430, type: 3}
   PauseAfter: 0.5
   Children:
@@ -863,10 +862,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "\u201EOKAY. COOL.\u201C"
+  m_Name: Okay. Cool.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: f672bbcad597f47a9b40a500f355c44a
-  Position: {x: 149.99991, y: 559.99976}
+  Position: {x: 150, y: 560}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -988,7 +987,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EIch heirate jet..."
+  m_Name: Ich heirate jetz...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 4bf45eebe0a604c198901ffeb350e7a8
   Position: {x: 766, y: 1539}
@@ -1054,11 +1053,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 0e4954c1e736f453abbdc00e29a34b22
   Position: {x: 449.99988, y: 559.99976}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "Da hast du aber ganz genau mitgez\xE4hlt."
-  TextPreview: Da hast du aber ...
+  TextPreview: "Da hast du aber ganz genau mitgez\xE4hlt."
   AudioClip: {fileID: 8300000, guid: e1ac2e9d11b3c4f798b4f6f84c822d81, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1208,15 +1207,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "W\xDCRGGER\xC4USCH MAC..."
+  m_Name: "W\xFCrg."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: f6ed546e8d2cd40a592ea471bea88c2c
   Position: {x: -750, y: 840}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "W\xDCRGGER\xC4USCH MACHEN"
-  TextPreview: "W\xDCRGGER\xC4USCH MACHEN"
+  DialogLine: "W\xFCrg."
+  TextPreview: "W\xFCrg."
   AudioClip: {fileID: 8300000, guid: adf693a40cd314ba6ba2d6ac2184cfa1, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1246,8 +1245,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "\u201EHa haha.\u201C"
-  TextPreview: "\u201EHa haha.\u201C"
+  DialogLine: Ha haha.
+  TextPreview: Ha haha.
   AudioClip: {fileID: 8300000, guid: 1cc8a19540cc5405c802da09e2c681f8, type: 3}
   PauseAfter: 0.5
   Children:
@@ -1614,16 +1613,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EHaha(geht einen..."
+  m_Name: Haha Hahaha... H...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 1731b337217e94f91b265846086df34d
   Position: {x: -450, y: 1260}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "\u201EHaha(geht einen Schritt zur\xFCck) Hahaha (l\xE4uft ein paar
-    weitere Schritte r\xFCckw\xE4rts) Ha (eilt r\xFCckw\xE4rts durchs Gartentor)\u201C"
-  TextPreview: "\u201EHaha(geht einen..."
+  DialogLine: "Haha Hahaha... Ha \u2013"
+  TextPreview: Haha Hahaha... H...
   AudioClip: {fileID: 8300000, guid: 8cf363dd1cebf423184ac13c131cd7da, type: 3}
   PauseAfter: 0.5
   Children: []
