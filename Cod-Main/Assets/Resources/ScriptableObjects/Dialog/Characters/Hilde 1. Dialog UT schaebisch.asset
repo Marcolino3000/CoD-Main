@@ -977,7 +977,7 @@ MonoBehaviour:
   m_Name: Hilde 1. Dialog UT schaebisch
   m_EditorClassIdentifier: cod.dialogbuilder::Tree.DialogTree
   StartNodes:
-  - {fileID: 6941936280635674382}
+  - {fileID: 5348820743433113756}
   nodes:
   - {fileID: 5348820743433113756}
   - {fileID: 289074022344142230}

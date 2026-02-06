@@ -1318,7 +1318,7 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 0
+  answerType: 4
   _popularityModifier: 0
 --- !u!114 &6121926886598884744
 MonoBehaviour:
