@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "21d99a84fb9935b93c628287ad727c71396c4504"
+      "hash": "85d5ee780a94789514bd794705e0a77d6ff04a5a"
     },
     "com.cod.csvmanager": {
       "version": "https://github.com/Marcolino3000/CsvManager.git",
@@ -15,7 +15,7 @@
         "com.cod.dialog-builder": "0.9.3",
         "com.cod.audioplayer": "0.0.1"
       },
-      "hash": "16a76e20f67c1fc01d06d520e1a256d3bb125d8d"
+      "hash": "dff027d4b84be64bf2e69da5e5929cab23d86f62"
     },
     "com.cod.dialog-builder": {
       "version": "https://github.com/Marcolino3000/DialogBuilder-Package.git",

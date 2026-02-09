@@ -9375,8 +9375,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 465403268}
-  - component: {fileID: 465403270}
   - component: {fileID: 465403269}
+  - component: {fileID: 465403270}
   m_Layer: 0
   m_Name: AudioClipPlayer
   m_TagString: Untagged
@@ -9411,7 +9411,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 39708bea6aa144f9bacffac7d9e55828, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -9505,10 +9505,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 465403267}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5fa01e4ab0414a5bb095d03f7b72379, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a205ddf5864141f788ff58a74d64af0, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: cod.csvmanager::DefaultNamespace.AudioClipPlayer
-  clipManager: {fileID: 11400000, guid: fc617aae59acc47d58949f9bd28f295b, type: 2}
+  m_EditorClassIdentifier: Assembly-CSharp::DefaultNamespace.AudioClipPlayer
   audioSource: {fileID: 465403269}
   mixer: {fileID: 24100000, guid: 39708bea6aa144f9bacffac7d9e55828, type: 2}
   paulTalksThroughDoorClip: {fileID: 8300000, guid: 14551678a11cc4ee78912e5f4cbd7a02, type: 3}
