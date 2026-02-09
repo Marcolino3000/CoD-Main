@@ -1,3 +1,4 @@
+using Editor.AudioEditor;
 using Nodes;
 using Nodes.Decorator;
 using Tree;
@@ -11,18 +12,12 @@ namespace DefaultNamespace
         [SerializeField] private AudioSource audioSource;
         [SerializeField] private AudioMixer mixer;
         [SerializeField] private AudioClip paulTalksThroughDoorClip;
+        [SerializeField] private MarkerManager markerManager;
         
-        private void Update()
-        {
-            CheckForPassedMarkers();
-        }
         
-        private void CheckForPassedMarkers()
+        private void OnMarkerReached(MarkerType obj)
         {
-            if (audioSource.clip == null || !audioSource.isPlaying)
-                return;
             
-            // if(audioSource.timeSamples > marker.samples)
         }
 
         public void PlayClip(Node node)
@@ -46,11 +41,10 @@ namespace DefaultNamespace
                 }
             }
             
-            audioSource.volume = node is not PlayerDialogOption ? 0.4f : 1f;
+            audioSource.volume = node is PlayerDialogOption ? 1f : 0.4f;
+            audioSource.volume *= node.ClipVolume;
             
             audioSource.clip = node.AudioClip;
-            
-            // get markers
             
             audioSource.Play();
         }
@@ -59,6 +53,8 @@ namespace DefaultNamespace
         private void Awake()
         {
             DialogTreeRunner.DialogNodeSelected += PlayClip;
+            markerManager.OnMarkerReached += OnMarkerReached;
         }
+
     }
 }

@@ -9511,6 +9511,7 @@ MonoBehaviour:
   audioSource: {fileID: 465403269}
   mixer: {fileID: 24100000, guid: 39708bea6aa144f9bacffac7d9e55828, type: 2}
   paulTalksThroughDoorClip: {fileID: 8300000, guid: 14551678a11cc4ee78912e5f4cbd7a02, type: 3}
+  markerManager: {fileID: 11400000, guid: 8dd0ce52eed7143b8843a27084d2fc5e, type: 2}
 --- !u!1 &475198907
 GameObject:
   m_ObjectHideFlags: 0

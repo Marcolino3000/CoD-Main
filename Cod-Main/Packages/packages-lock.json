@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "85d5ee780a94789514bd794705e0a77d6ff04a5a"
+      "hash": "0d92ccc6cab42ff2d4ecc8a5ca3e66028952764d"
     },
     "com.cod.csvmanager": {
       "version": "https://github.com/Marcolino3000/CsvManager.git",
@@ -24,7 +24,7 @@
       "dependencies": {
         "com.unity.textmeshpro": "3.0.6"
       },
-      "hash": "67118bfe1685f6b2f69958897c21129c8072bc8e"
+      "hash": "4a25cf1c75d579ed42f9c39f28bd617cb2644de6"
     },
     "com.cod.interactionbuilder": {
       "version": "https://github.com/Marcolino3000/InteractionBuilder-Package.git",
