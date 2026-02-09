@@ -139,7 +139,7 @@ MonoBehaviour:
   m_Name: Hey Marlene, sch...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 8cd187a2444f2487293afe6cb8e7b404
-  Position: {x: 0, y: -62}
+  Position: {x: 0, y: 10.114288}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "\u201ENE.\u201C"
+  m_Name: Ne.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: de6f09c7e0a3c499295433079ea7bdec
   Position: {x: 0.00003695488, y: 279.99988}
