@@ -5765,7 +5765,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 242825006}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
@@ -8009,7 +8009,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386188560}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d91a22e7059a41c6a76d2c9983a9fc19, type: 3}
   m_Name: 
@@ -9317,7 +9317,7 @@ AudioSource:
   m_GameObject: {fileID: 465403267}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 39708bea6aa144f9bacffac7d9e55828, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
@@ -9881,7 +9881,7 @@ GameObject:
   - component: {fileID: 496652188}
   - component: {fileID: 496652190}
   - component: {fileID: 496652191}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9896,14 +9896,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496652183}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.41, y: -3.43, z: -9.9}
   m_LocalScale: {x: 0.19, y: 0.19, z: 0.19}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 546857947}
   - {fileID: 1061824881}
-  m_Father: {fileID: 1442914370}
+  m_Father: {fileID: 707221408}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &496652188
 MonoBehaviour:
@@ -9992,7 +9992,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 159.65, y: 131.4501, z: 0.2}
   m_Center: {x: 0, y: 0.0000019073486, z: 0}
@@ -11018,7 +11018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 546857947}
   - component: {fileID: 546857948}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PhysicsCollider left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11034,7 +11034,7 @@ Transform:
   m_GameObject: {fileID: 546857946}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.1, y: 0, z: 0.47}
+  m_LocalPosition: {x: 28.5, y: 39.25, z: 0.47}
   m_LocalScale: {x: 45.4, y: 75.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14903,6 +14903,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 496652187}
   - {fileID: 1577358954}
   - {fileID: 1442914370}
   - {fileID: 1584173348}
@@ -23637,7 +23638,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1061824881}
   - component: {fileID: 1061824882}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PhysicsCollider right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23653,7 +23654,7 @@ Transform:
   m_GameObject: {fileID: 1061824880}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -34.1, y: 0, z: 0.48}
+  m_LocalPosition: {x: -28.8, y: 38.3, z: 0.48}
   m_LocalScale: {x: 47.2, y: 75.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35693,7 +35694,6 @@ Transform:
   - {fileID: 544964781}
   - {fileID: 1256010135}
   - {fileID: 1747714779}
-  - {fileID: 496652187}
   m_Father: {fileID: 707221408}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1443921647 stripped
@@ -89818,6 +89818,14 @@ PrefabInstance:
       propertyPath: dialogTreeRunner
       value: 
       objectReference: {fileID: 523111090}
+    - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+      propertyPath: wallLayerMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+      propertyPath: interactablesLayerMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
