@@ -115,10 +115,10 @@ MonoBehaviour:
       Data: 6|Editor.AudioEditor.MarkerManager+Marker, com.audioplayer.Editor
     - Name: Id
       Entry: 3
-      Data: 6
+      Data: 7
     - Name: Sample
       Entry: 3
-      Data: 23364
+      Data: 29864
     - Name: Expression
       Entry: 3
       Data: 3
@@ -140,5 +140,5 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  lastPlayheadSample: 23405
-  nextId: 7
+  lastPlayheadSample: 117028
+  nextId: 8
