@@ -14,17 +14,23 @@ namespace DefaultNamespace
         [SerializeField] private AudioClip paulTalksThroughDoorClip;
         [SerializeField] private MarkerManager markerManager;
         
-        
-        private void OnMarkerReached(MarkerType obj)
+
+        private void Update()
         {
+            if (!audioSource.isPlaying) 
+                return;
             
+            var playheadSample = audioSource.timeSamples;
+            markerManager.CheckPlayhead(audioSource.clip, playheadSample);
         }
 
-        public void PlayClip(Node node)
+        private void PlayClip(Node node)
         {
             if(node.AudioClip == null) 
                 return;
             
+            markerManager?.ResetPlayheadCheck();
+
             var defaultSnapshot = mixer.FindSnapshot("Default");
             defaultSnapshot.TransitionTo(0f);
 
@@ -41,7 +47,7 @@ namespace DefaultNamespace
                 }
             }
             
-            audioSource.volume = node is PlayerDialogOption ? 1f : 0.4f;
+            audioSource.volume = node is PlayerDialogOption ? 0.25f : 0.1f;
             audioSource.volume *= node.ClipVolume;
             
             audioSource.clip = node.AudioClip;
@@ -56,5 +62,9 @@ namespace DefaultNamespace
             markerManager.OnMarkerReached += OnMarkerReached;
         }
 
+        private void OnMarkerReached(MarkerType markerType)
+        {
+            Debug.Log($"Clip marker reached: {markerType}");
+        }
     }
 }
