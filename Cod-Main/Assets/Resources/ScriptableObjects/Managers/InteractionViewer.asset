@@ -485,7 +485,7 @@ MonoBehaviour:
     - rid: 1719061218345615659
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
-        Owner: {fileID: 11400000, guid: e1a92f7a3947b49969f4d24ea2333aa3, type: 2}
+        Owner: {fileID: 11400000, guid: c66520f1b0c91486cb5c228b7da0af77, type: 2}
         ThresholdReached: 1
         IsRunning: 0
     - rid: 1719061225043132502
