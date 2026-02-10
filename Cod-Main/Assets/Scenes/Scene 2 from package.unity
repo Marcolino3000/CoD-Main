@@ -12124,7 +12124,8 @@ GameObject:
   m_Component:
   - component: {fileID: 701197323}
   - component: {fileID: 701197322}
-  m_Layer: 0
+  - component: {fileID: 701197324}
+  m_Layer: 8
   m_Name: Rueckwand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12204,6 +12205,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1031900730}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &701197324
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701197321}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 93.55209, y: 54.769997, z: 0.19999999}
+  m_Center: {x: 0, y: 27.384998, z: 0.0000038146973}
 --- !u!1 &707221407
 GameObject:
   m_ObjectHideFlags: 0
@@ -23976,7 +23998,7 @@ GameObject:
   - component: {fileID: 1386636254}
   - component: {fileID: 1386636253}
   - component: {fileID: 1386636252}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wand Wohnzimmer r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76860,7 +76882,7 @@ GameObject:
   - component: {fileID: 1714781871}
   - component: {fileID: 1714781870}
   - component: {fileID: 1714781869}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wand r Platzhalter (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
