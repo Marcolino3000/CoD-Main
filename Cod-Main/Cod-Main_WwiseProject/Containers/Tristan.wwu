@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{81FC508D-FF30-436E-BEFA-F5B60375D381}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Tristan" ID="{81FC508D-FF30-436E-BEFA-F5B60375D381}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>
