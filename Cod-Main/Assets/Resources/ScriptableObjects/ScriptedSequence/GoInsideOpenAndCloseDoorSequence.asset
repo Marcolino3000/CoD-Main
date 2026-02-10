@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a450906dd34a441e8f7094457bbb7546, type: 3}
-  m_Name: GoInsideAndCloseDoorSequence
+  m_Name: GoInsideOpenAndCloseDoorSequence
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.ScriptedSequence
   waypoints:
   - rid: 1719061218345615647

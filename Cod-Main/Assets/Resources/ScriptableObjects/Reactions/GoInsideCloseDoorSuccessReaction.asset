@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 623fa79c384042e3bb49a575d178c3c0, type: 3}
-  m_Name: GoInsideAndCloseDoorSuccessReaction
+  m_Name: GoInsideCloseDoorSuccessReaction
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.Reaction
   DialogTree: {fileID: 0}
   Interactable: {fileID: 0}
   ObjectToMoveIn: {fileID: 0}
   ObjectToMoveOut: {fileID: 0}
+  ObjectToMove: {fileID: 0}
+  TargetPosition: {x: 0, y: 0, z: 0}
   CancelCurrentDialog: 0
   DebugMessage: 
-  ScriptedSequence: {fileID: 11400000, guid: 0bddccc30856f4bec80ea661832d2e70, type: 2}
+  ScriptedSequence: {fileID: 11400000, guid: 1e4f87229338e498587ade780172a835, type: 2}
