@@ -61,30 +61,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Folder Name="CHAR" ID="{9EC8E621-65E9-435A-B0B4-D1A812CC9002}" ShortID="353943286">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="6"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Folder>
-				<Folder Name="PROPS" ID="{ABACEEFA-54F0-47FC-8228-BF49304E086E}" ShortID="172561475">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="2"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Folder>
-				<Folder Name="AMBIENT" ID="{EA3250C7-425F-4093-A7CE-B93DD8E29770}" ShortID="958688590">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="4"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Folder>
-				<Folder Name="UI" ID="{C8B52C33-644E-468F-9668-E2B843AFF2A9}" ShortID="601722166">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
