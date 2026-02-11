@@ -20,7 +20,8 @@ MonoBehaviour:
   DialogLine: Klopf Klopf
   TextPreview: Klopf Klopf
   AudioClip: {fileID: 8300000, guid: ec07fa5d83e4946df920774f15824cff, type: 3}
-  PauseAfter: 0.5
+  ClipVolume: 1
+  PauseAfter: 0
   Children:
   - {fileID: -2424162952369334189}
   - {fileID: -3793455532992717703}
@@ -52,6 +53,7 @@ MonoBehaviour:
   DialogLine: 
   TextPreview: '*Das Klopfen ignorieren*'
   AudioClip: {fileID: 0}
+  ClipVolume: 1
   PauseAfter: 0.5
   Children: []
   FallThrough: 0
@@ -82,6 +84,7 @@ MonoBehaviour:
   DialogLine: 
   TextPreview: "*Die T\xFCr \xF6ffnen*"
   AudioClip: {fileID: 0}
+  ClipVolume: 1
   PauseAfter: 0.5
   Children: []
   FallThrough: 0
@@ -133,6 +136,7 @@ MonoBehaviour:
   DialogLine: Jetzt fick dich weg du Katzenficker!
   TextPreview: Jetzt fick dich ...
   AudioClip: {fileID: 8300000, guid: d3c774cc76b1c4b8ba404350cdc7fe08, type: 3}
+  ClipVolume: 1
   PauseAfter: 0.5
   Children: []
   FallThrough: 0
