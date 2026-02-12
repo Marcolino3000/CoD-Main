@@ -5990,7 +5990,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3780272198852599152, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
   m_PrefabInstance: {fileID: 2333974186589484649}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 954607482}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de24548db7c1044e49d131a99ff20222, type: 3}
@@ -18896,6 +18896,71 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!1 &954607482 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2589033447177786605, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+  m_PrefabInstance: {fileID: 2333974186589484649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &954607486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954607482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bb5752d31d347049f10ae51f126612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DefaultNamespace.ExpressionTrigger
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Expressions
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[Editor.AudioEditor.MarkerType,
+        com.audioplayer.Editor],[UnityEngine.Sprite, UnityEngine.CoreModule]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Editor.AudioEditor.MarkerType,
+        com.audioplayer.Editor]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  markerManager: {fileID: 11400000, guid: 8dd0ce52eed7143b8843a27084d2fc5e, type: 2}
+--- !u!114 &954607487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954607482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf4479ad69e480688bfc1d5cf8c2dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DefaultNamespace.MovementDisabler
 --- !u!1 &965013179
 GameObject:
   m_ObjectHideFlags: 0
@@ -76780,7 +76845,7 @@ PrefabInstance:
     - target: {fileID: 6223779332585130471, guid: af10d5b363b08468082fb93188628d24, type: 3}
       propertyPath: Data
       value: 
-      objectReference: {fileID: 11400000, guid: 7c52adbf9bbc449c59424cdf4e67465f, type: 2}
+      objectReference: {fileID: 11400000, guid: 31bbaa1d4963b433eaf50b28b594e86d, type: 2}
     - target: {fileID: 8873758076070795167, guid: af10d5b363b08468082fb93188628d24, type: 3}
       propertyPath: m_Name
       value: Interactable
@@ -85155,6 +85220,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -259.6
       objectReference: {fileID: 0}
+    - target: {fileID: 5606518145898681741, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5606518145898681741, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824537221849958229, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: fadeDuration
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5824537221849958229, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: completeDuration
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7693628905760827513, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: m_Pivot.x
       value: 1
@@ -85745,6 +85826,12 @@ PrefabInstance:
       insertIndex: 0
       addedObject: {fileID: 1234243153}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2589033447177786605, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 954607486}
+    - targetCorrespondingSourceObject: {fileID: 2589033447177786605, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 954607487}
     - targetCorrespondingSourceObject: {fileID: 3384056884880199686, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1952575033}
