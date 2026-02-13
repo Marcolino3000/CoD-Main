@@ -1,7 +1,9 @@
+using System;
 using Editor.AudioEditor;
 using Nodes;
 using Nodes.Decorator;
 using Tree;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -9,6 +11,8 @@ namespace DefaultNamespace
 {
     public class AudioClipPlayer : MonoBehaviour
     {
+        // public static event Action<MarkerType> MarkerReached; 
+        
         [SerializeField] private AudioSource audioSource;
         [SerializeField] private AudioMixer mixer;
         [SerializeField] private AudioClip paulTalksThroughDoorClip;
@@ -59,12 +63,12 @@ namespace DefaultNamespace
         private void Awake()
         {
             DialogTreeRunner.DialogNodeSelected += PlayClip;
-            markerManager.OnMarkerReached += OnMarkerReached;
+            // markerManager.OnMarkerReached += OnMarkerReached;
         }
 
-        private void OnMarkerReached(MarkerType markerType)
-        {
-            Debug.Log($"Clip marker reached: {markerType}");
-        }
+        // private static void OnMarkerReached(MarkerType markerType)
+        // {
+        //     MarkerReached?.Invoke(markerType);
+        // }
     }
 }
