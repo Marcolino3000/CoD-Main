@@ -1,5 +1,7 @@
 using System;
+#if UNITY_EDITOR
 using Editor.AudioEditor;
+#endif
 using Nodes;
 using Nodes.Decorator;
 using Tree;
@@ -16,7 +18,7 @@ namespace DefaultNamespace
         [SerializeField] private AudioSource audioSource;
         [SerializeField] private AudioMixer mixer;
         [SerializeField] private AudioClip paulTalksThroughDoorClip;
-        [SerializeField] private MarkerManager markerManager;
+        // [SerializeField] private MarkerManager markerManager;
         
 
         private void Update()
@@ -25,7 +27,7 @@ namespace DefaultNamespace
                 return;
             
             var playheadSample = audioSource.timeSamples;
-            markerManager.CheckPlayhead(audioSource.clip, playheadSample);
+            // markerManager.CheckPlayhead(audioSource.clip, playheadSample);
         }
 
         private void PlayClip(Node node)
@@ -33,7 +35,7 @@ namespace DefaultNamespace
             if(node.AudioClip == null) 
                 return;
             
-            markerManager?.ResetPlayheadCheck();
+            // markerManager?.ResetPlayheadCheck();
 
             var defaultSnapshot = mixer.FindSnapshot("Default");
             defaultSnapshot.TransitionTo(0f);
@@ -51,7 +53,7 @@ namespace DefaultNamespace
                 }
             }
             
-            audioSource.volume = node is PlayerDialogOption ? 0.25f : 0.1f;
+            audioSource.volume = node is PlayerDialogOption ? 0.25f : 0.125f;
             audioSource.volume *= node.ClipVolume;
             
             audioSource.clip = node.AudioClip;
