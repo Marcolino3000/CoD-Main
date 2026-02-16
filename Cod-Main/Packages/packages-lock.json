@@ -35,7 +35,7 @@
         "com.cod.dialog-builder": "0.9.3",
         "com.cod.playerinput": "1.0.0"
       },
-      "hash": "ba7c09e2410ce0930494385a5d27db733db6de7e"
+      "hash": "1a3b084bf7e30ab0516f1ead8cbb1fc3559033d0"
     },
     "com.cod.playerinput": {
       "version": "https://github.com/Marcolino3000/PlayerInput.git",
@@ -45,7 +45,7 @@
         "com.unity.cinemachine": "3.1.4",
         "com.unity.inputsystem": "1.14.2"
       },
-      "hash": "a77db85a51163def29c88a7bcf435ac9c62dce96"
+      "hash": "dcddd01f7d9c67dad5bc35ef89cb5bfbc80aee02"
     },
     "com.unity.2d.animation": {
       "version": "12.0.3",

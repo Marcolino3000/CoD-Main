@@ -38,7 +38,8 @@ MonoBehaviour:
   DialogLine: Das ist mein altes Fahrrad. Was ist mit dem von meiner Mutter passiert?
   TextPreview: Das ist mein alt...
   AudioClip: {fileID: 8300000, guid: 0b4e8e8d13dcb47759f0c5b81676f6be, type: 3}
-  PauseAfter: 0.5
+  ClipVolume: 1
+  PauseAfter: -1
   Children: []
   FallThrough: 0
   IsAvailable: 1

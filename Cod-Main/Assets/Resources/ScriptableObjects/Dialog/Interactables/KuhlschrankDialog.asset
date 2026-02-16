@@ -28,7 +28,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: 
+  m_Name: Nix zu sehen. Le...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 78011bc19a7ee4a7e98ef36d91917549
   Position: {x: 626, y: 240}
@@ -38,7 +38,8 @@ MonoBehaviour:
   DialogLine: Nix zu sehen. Leider.
   TextPreview: Nix zu sehen. Leider.
   AudioClip: {fileID: 8300000, guid: 4dd58461b04c646a3971d8687e4fa383, type: 3}
-  PauseAfter: 0.5
+  ClipVolume: 1
+  PauseAfter: -1
   Children: []
   FallThrough: 0
   IsAvailable: 1

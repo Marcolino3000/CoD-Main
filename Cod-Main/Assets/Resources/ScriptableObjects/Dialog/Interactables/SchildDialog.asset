@@ -40,8 +40,9 @@ MonoBehaviour:
     bestanden und alles \xFCberklebt, was nur ging.\nDabei ist \u201AH\xE4berle\u2018
     ja irgendwie auch nicht besser als \u201AHuber\u2018."
   TextPreview: Das hab ich ja e...
-  AudioClip: {fileID: 0}
-  PauseAfter: 0.5
+  AudioClip: {fileID: 8300000, guid: 9c6d4bdd4448044199c392ccc8cf2e70, type: 3}
+  ClipVolume: 1
+  PauseAfter: 0
   Children: []
   FallThrough: 0
   IsAvailable: 1
