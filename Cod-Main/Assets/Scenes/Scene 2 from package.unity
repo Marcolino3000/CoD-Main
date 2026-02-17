@@ -10641,7 +10641,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557121006}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.010088458, w: 0.9999491}
+  m_LocalRotation: {x: -0, y: -0, z: 0.01008991, w: 0.9999491}
   m_LocalPosition: {x: 1.24, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12775,7 +12775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5189907572127182156, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000007281411
+      value: -0.000002180059
       objectReference: {fileID: 0}
     - target: {fileID: 5335367656449964572, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12791,7 +12791,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6380425790735984048, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.02448469
+      value: 0.024491036
       objectReference: {fileID: 0}
     - target: {fileID: 6380425790735984048, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
       propertyPath: m_LocalRotation.y
@@ -12799,7 +12799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6380425790735984048, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.99970025
+      value: -0.99970007
       objectReference: {fileID: 0}
     - target: {fileID: 7433976083841653713, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
       propertyPath: m_Name
@@ -12807,11 +12807,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8066075517025655946, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9987794
+      value: 0.9987787
       objectReference: {fileID: 0}
     - target: {fileID: 8066075517025655946, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.049394608
+      value: -0.04940774
       objectReference: {fileID: 0}
     - target: {fileID: 8447497133479098114, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20852,7 +20852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebf4479ad69e480688bfc1d5cf8c2dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DefaultNamespace.MovementDisabler
-  disableMovementOnDialog: 0
+  disableMovementOnDialog: 1
 --- !u!1 &965013179
 GameObject:
   m_ObjectHideFlags: 0
@@ -84947,7 +84947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866808743}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.00974322, w: 0.99995255}
+  m_LocalRotation: {x: -0, y: -0, z: -0.009736419, w: 0.9999526}
   m_LocalPosition: {x: 1.27, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -90180,9 +90180,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+      propertyPath: cursorSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: moveByClick
       value: 
       objectReference: {fileID: 1952575033}
+    - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+      propertyPath: standardCursor
+      value: 
+      objectReference: {fileID: 2800000, guid: ecea31359dab04503a91a3234e96f376, type: 3}
     - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: transparentWall
       value: 
@@ -90192,13 +90200,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 523111090}
     - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+      propertyPath: standardCursorSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: wallLayerMask.m_Bits
       value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+      propertyPath: interactionCursorSize
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: groundLayerMask.m_Bits
       value: 128
       objectReference: {fileID: 0}
+    - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+      propertyPath: hoverInteractableCursor
+      value: 
+      objectReference: {fileID: 2800000, guid: 9f66a8fabf32141d4965479afd898e5b, type: 3}
     - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: interactablesLayerMask.m_Bits
       value: 64
