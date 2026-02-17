@@ -21,7 +21,7 @@ MonoBehaviour:
   TextPreview: "Teebeutel? H\xE4tte meine Mutter nie gekauft, und schon gar nicht
     Johanniskraut"
   AudioClip: {fileID: 8300000, guid: 8335ca26d8e3047d88f0541ba5aa8646, type: 3}
-  ClipVolume: 1
+  ClipVolume: 1.54
   PauseAfter: 0.5
   Children: []
   FallThrough: 0

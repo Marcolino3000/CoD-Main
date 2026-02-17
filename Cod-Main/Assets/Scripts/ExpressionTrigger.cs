@@ -1,4 +1,4 @@
-using System;
+#if UNITY_EDITOR
 using System.Collections.Generic;
 using Editor.AudioEditor;
 using Sirenix.OdinInspector;
@@ -17,6 +17,7 @@ namespace DefaultNamespace
             markerManager.OnMarkerReached += TriggerExpression;
         }
 
+      #if UNITY_EDITOR
         private void TriggerExpression(MarkerType type)
         {
             if (type == MarkerType.Paragraph)
@@ -25,6 +26,7 @@ namespace DefaultNamespace
             // if (Expressions.TryGetValue(type, out var sprite))
             
         }
+         #endif
     }
 
     // public class ExpressionMapper
@@ -33,3 +35,4 @@ namespace DefaultNamespace
     //     public Sprite Sprite;
     // }
 }
+#endif
