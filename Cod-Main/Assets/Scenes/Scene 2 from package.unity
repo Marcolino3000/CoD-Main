@@ -2733,7 +2733,7 @@ PrefabInstance:
     - target: {fileID: 6772914947027453193, guid: 4f2b232c34cfd40589141cfa1efbdf3b, type: 3}
       propertyPath: spriteRenderer
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1901506540}
     - target: {fileID: 8873758076070795167, guid: 4f2b232c34cfd40589141cfa1efbdf3b, type: 3}
       propertyPath: m_Name
       value: Box 1
@@ -7551,6 +7551,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1079661720}
     m_Modifications:
+    - target: {fileID: 5019913532360450867, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019913532360450867, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_RaycastPadding.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5443841448203198553, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_Name
       value: SpeechBubble EmotionalTempVariant
@@ -37808,6 +37816,10 @@ PrefabInstance:
       propertyPath: Data
       value: 
       objectReference: {fileID: 11400000, guid: 4a5c2571028894b74ae1e9fd998beed3, type: 2}
+    - target: {fileID: 6772914947027453193, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1779465026}
     - target: {fileID: 8873758076070795167, guid: af10d5b363b08468082fb93188628d24, type: 3}
       propertyPath: m_Name
       value: Interactable
@@ -81402,7 +81414,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8199f35df8d8948c4ae1e5f30de0ba76, type: 2}
+  - {fileID: 2100000, guid: 1bad9d8111b2d4804ba2227585fd1746, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83867,7 +83879,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8199f35df8d8948c4ae1e5f30de0ba76, type: 2}
+  - {fileID: 2100000, guid: ac4fa082105ce43a49bfa2498aa02238, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85358,6 +85370,10 @@ PrefabInstance:
       propertyPath: Data
       value: 
       objectReference: {fileID: 11400000, guid: 6ead5ed78d7c04ae99d905203f7aec6e, type: 2}
+    - target: {fileID: 6772914947027453193, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1649568083}
     - target: {fileID: 8873758076070795167, guid: af10d5b363b08468082fb93188628d24, type: 3}
       propertyPath: m_Name
       value: Interactable
@@ -90132,16 +90148,19 @@ PrefabInstance:
       value: 35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2910257154107297839, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+    - {fileID: 6431757195479122219, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+    - {fileID: 6489277684178909198, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 520566714749597361, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
-      insertIndex: 0
+      insertIndex: -1
       addedObject: {fileID: 370492705}
     - targetCorrespondingSourceObject: {fileID: 520566714749597361, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
-      insertIndex: 1
+      insertIndex: -1
       addedObject: {fileID: 1893361956}
     - targetCorrespondingSourceObject: {fileID: 520566714749597361, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
-      insertIndex: 2
+      insertIndex: -1
       addedObject: {fileID: 1050659717}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
@@ -90478,6 +90497,10 @@ PrefabInstance:
     - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: awarenessLevel
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+      propertyPath: levelAfterUnlock
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: unlockDialogOption
