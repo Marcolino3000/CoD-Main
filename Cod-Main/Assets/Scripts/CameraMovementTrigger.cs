@@ -1,3 +1,4 @@
+using DefaultNamespace;
 using Runtime.Scripts.Animation;
 using Runtime.Scripts.Interactables;
 using Tree;
@@ -6,12 +7,12 @@ using CharacterData = Core.CharacterData;
 
 public class CameraMovementTrigger : MonoBehaviour
 {
-    [SerializeField] private CameraMovement camMovement;
+    [SerializeField] private TiltCameraMovement camMovement;
     [SerializeField] private bool currentStatus;
     [SerializeField] private CharacterData commentCharacter;
     private void Awake()
     {
-        camMovement = GetComponent<CameraMovement>();
+        camMovement = GetComponent<TiltCameraMovement>();
         DialogTreeRunner.OnDialogRunningStatusChanged += OnDialogRunningStatusChanged;
     }
 
@@ -41,7 +42,7 @@ public class CameraMovementTrigger : MonoBehaviour
         }
         
         if(currentStatus != isRunning)
-            camMovement.ToggleDialogMode(!isRunning, interactableState.Interactable.transform.position);
+            camMovement.ToggleDialogMode(!isRunning, interactableState.Interactable.transform.localPosition);
         
         currentStatus = isRunning;
     }
