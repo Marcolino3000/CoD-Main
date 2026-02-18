@@ -145,5 +145,5 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
+  answerType: 2
+  _popularityModifier: -5
