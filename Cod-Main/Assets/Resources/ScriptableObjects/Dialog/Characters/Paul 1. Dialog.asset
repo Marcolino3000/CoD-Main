@@ -255,8 +255,8 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
+  answerType: 2
+  _popularityModifier: -5
 --- !u!114 &-6648979402943904713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -886,7 +886,7 @@ MonoBehaviour:
   m_Name: "\xC4h\u2026 also ich hab..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 9bb3d6091b472419dafe2508935190b6
-  Position: {x: -298, y: 420}
+  Position: {x: -300, y: 420}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
