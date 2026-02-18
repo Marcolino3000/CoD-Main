@@ -12,6 +12,15 @@
 						</GameParameter>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="PROPS" ID="{41FC85CA-2EEF-40DE-8B8E-1310A216EB7F}" ShortID="367483727">
+					<ChildrenList>
+						<GameParameter Name="Dough_Rise_n_Sink" ID="{EE1B24A1-1F63-448F-9701-76C456883E13}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
