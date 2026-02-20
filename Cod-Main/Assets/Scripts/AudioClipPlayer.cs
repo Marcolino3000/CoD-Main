@@ -1,11 +1,6 @@
-using System;
-#if UNITY_EDITOR
-using Editor.AudioEditor;
-#endif
 using Nodes;
 using Nodes.Decorator;
 using Tree;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -18,7 +13,7 @@ namespace DefaultNamespace
         [SerializeField] private AudioSource audioSource;
         [SerializeField] private AudioMixer mixer;
         [SerializeField] private AudioClip paulTalksThroughDoorClip;
-        // [SerializeField] private MarkerManager markerManager;
+        [SerializeField] private MarkerManager markerManager;
         
 
         private void Update()
@@ -27,7 +22,7 @@ namespace DefaultNamespace
                 return;
             
             var playheadSample = audioSource.timeSamples;
-            // markerManager.CheckPlayhead(audioSource.clip, playheadSample);
+            markerManager.CheckPlayhead(audioSource.clip, playheadSample);
         }
 
         private void PlayClip(Node node)
@@ -35,7 +30,7 @@ namespace DefaultNamespace
             if(node.AudioClip == null) 
                 return;
             
-            // markerManager?.ResetPlayheadCheck();
+            markerManager?.ResetPlayheadCheck();
 
             var defaultSnapshot = mixer.FindSnapshot("Default");
             defaultSnapshot.TransitionTo(0f);

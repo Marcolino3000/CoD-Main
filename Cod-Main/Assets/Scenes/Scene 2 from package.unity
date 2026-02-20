@@ -11275,6 +11275,7 @@ MonoBehaviour:
   audioSource: {fileID: 465403269}
   mixer: {fileID: 24100000, guid: 39708bea6aa144f9bacffac7d9e55828, type: 2}
   paulTalksThroughDoorClip: {fileID: 8300000, guid: 14551678a11cc4ee78912e5f4cbd7a02, type: 3}
+  markerManager: {fileID: 11400000, guid: 8dd0ce52eed7143b8843a27084d2fc5e, type: 2}
 --- !u!1 &469136240
 GameObject:
   m_ObjectHideFlags: 0
@@ -25857,33 +25858,8 @@ MonoBehaviour:
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes:
-    - Name: Expressions
-      Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[Editor.AudioEditor.MarkerType,
-        com.audioplayer.Editor],[UnityEngine.Sprite, UnityEngine.CoreModule]], mscorlib
-    - Name: comparer
-      Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[Editor.AudioEditor.MarkerType,
-        com.audioplayer.Editor]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+    SerializationNodes: []
+  animator: {fileID: 1234243156}
   markerManager: {fileID: 11400000, guid: 8dd0ce52eed7143b8843a27084d2fc5e, type: 2}
 --- !u!114 &954607487
 MonoBehaviour:

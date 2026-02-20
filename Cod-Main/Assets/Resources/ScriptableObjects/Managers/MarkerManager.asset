@@ -26,8 +26,8 @@ MonoBehaviour:
     SerializationNodes:
     - Name: clipsToMarkers
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[UnityEngine.AudioClip, UnityEngine.AudioModule],[System.Collections.Generic.List`1[[Editor.AudioEditor.MarkerManager+Marker,
-        com.audioplayer.Editor]], mscorlib]], mscorlib
+      Data: 0|System.Collections.Generic.Dictionary`2[[UnityEngine.AudioClip, UnityEngine.AudioModule],[System.Collections.Generic.List`1[[MarkerManager+Marker,
+        com.audioplayer]], mscorlib]], mscorlib
     - Name: comparer
       Entry: 7
       Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[UnityEngine.AudioClip,
@@ -46,8 +46,8 @@ MonoBehaviour:
       Data: 0
     - Name: $v
       Entry: 7
-      Data: 2|System.Collections.Generic.List`1[[Editor.AudioEditor.MarkerManager+Marker,
-        com.audioplayer.Editor]], mscorlib
+      Data: 2|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
     - Name: 
       Entry: 12
       Data: 0
@@ -68,14 +68,14 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 7
-      Data: 3|System.Collections.Generic.List`1[[Editor.AudioEditor.MarkerManager+Marker,
-        com.audioplayer.Editor]], mscorlib
+      Data: 3|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
     - Name: 
       Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 4|Editor.AudioEditor.MarkerManager+Marker, com.audioplayer.Editor
+      Data: 4|MarkerManager+Marker, com.audioplayer
     - Name: Id
       Entry: 3
       Data: 3
@@ -105,14 +105,14 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 7
-      Data: 5|System.Collections.Generic.List`1[[Editor.AudioEditor.MarkerManager+Marker,
-        com.audioplayer.Editor]], mscorlib
+      Data: 5|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
     - Name: 
       Entry: 12
-      Data: 1
+      Data: 3
     - Name: 
       Entry: 7
-      Data: 6|Editor.AudioEditor.MarkerManager+Marker, com.audioplayer.Editor
+      Data: 6|MarkerManager+Marker, com.audioplayer
     - Name: Id
       Entry: 3
       Data: 7
@@ -121,7 +121,37 @@ MonoBehaviour:
       Data: 29864
     - Name: Expression
       Entry: 3
-      Data: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 8
+    - Name: Sample
+      Entry: 3
+      Data: 104172
+    - Name: Expression
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 9
+    - Name: Sample
+      Entry: 3
+      Data: 49363
+    - Name: Expression
+      Entry: 3
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -140,5 +170,5 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  lastPlayheadSample: 117028
-  nextId: 8
+  lastPlayheadSample: 174210
+  nextId: 10

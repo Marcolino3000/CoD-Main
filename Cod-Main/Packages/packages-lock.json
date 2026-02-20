@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "55af61e592feef47a78c113a9d9db90080ec7616"
+      "hash": "f6e477cac82e07cf5f115134017cd6ccdf7f6ab2"
     },
     "com.cod.csvmanager": {
       "version": "https://github.com/Marcolino3000/CsvManager.git",
