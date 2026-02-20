@@ -202,10 +202,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: Du kennsch doch ...
+  m_Name: Du kennst doch d...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 4e16ee1409e044be1a53df6103ba23b4
-  Position: {x: -749.9999, y: 3071.9995}
+  Position: {x: -750, y: 3072}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -592,7 +592,7 @@ MonoBehaviour:
   m_Name: "T\xDCR ZUMACHEN"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: b8818a599365c48e689724f5ccbab510
-  Position: {x: 436.17273, y: 1060}
+  Position: {x: 530.28564, y: 1026.5}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -848,10 +848,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: Joa, am beschda ...
+  m_Name: Joa, am besten s...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 6bedac5f59e974e79898233236e785be
-  Position: {x: -300, y: 2511.52}
+  Position: {x: -300, y: 2498.5}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -879,10 +879,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "22\u2013 \u201EM\xFCtter ster..."
+  m_Name: "M\xFCtter sterben d..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 23a212e76a02443f8b5177d6062416a2
-  Position: {x: -149.99998, y: 1400.0001}
+  Position: {x: -150, y: 1400}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -974,7 +974,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: Naja - i muss no...
+  m_Name: "Na ja \u2013 ich muss..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: ade58d372e81b4c0b96400007897f1ef
   Position: {x: -449.9999, y: 3504.0796}
@@ -1573,7 +1573,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "23\u2013 \u201EMeine\u2026 Was\u2026..."
+  m_Name: "Meine\u2026 Was\u2026?"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 09e4b87ed220c4fb5b9a66137930ba66
   Position: {x: 149.99995, y: 1400.5001}
@@ -1799,7 +1799,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "Je mehr i dr\xFCba ..."
+  m_Name: "Je mehr ich dar\xFC..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 0f0178a5ad52240f88be48339ccf12fb
   Position: {x: -450, y: 3370}
@@ -2166,7 +2166,7 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: "Ist das nicht die gro\xDFe Frage. Deswegen nimm das.\xA5"
+  DialogLine: "Ist das nicht die gro\xDFe Frage. Deswegen nimm das."
   TextPreview: Ist das nicht di...
   AudioClip: {fileID: 8300000, guid: daf3bc42f7b47468e861ca7bf71ab024, type: 3}
   ClipVolume: 1
@@ -2221,7 +2221,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: Tja kann man nic...
+  m_Name: Ah, komisch.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 26e9f6a1ea4344ad7b78768e66a73d19
   Position: {x: -450, y: 1400}
