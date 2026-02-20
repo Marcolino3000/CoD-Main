@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BucherregalSuccessReaction
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.Reaction
   DialogTree: {fileID: 11400000, guid: cc2a1267a22884b739e3b5d9b86fe99a, type: 2}
-  Interactable: {fileID: 0}
+  Interactable: {fileID: 11400000, guid: 70be6851395f94bedb55f0b047b6af29, type: 2}
   ObjectToMoveIn: {fileID: 0}
   ObjectToMoveOut: {fileID: 0}
   ObjectToMove: {fileID: 0}
@@ -21,3 +21,4 @@ MonoBehaviour:
   CancelCurrentDialog: 0
   DebugMessage: 
   ScriptedSequence: {fileID: 0}
+  InteractableToShow: {fileID: 0}
