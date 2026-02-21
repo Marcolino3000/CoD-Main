@@ -11,8 +11,14 @@ namespace DefaultNamespace
         private void OnEnable()
         {
             markerManager.OnMarkerReached += TriggerExpression;
+            AudioClipPlayer.FinishedPlaying += ResetExpressionToDefault;
         }
-        
+
+        private void ResetExpressionToDefault()
+        {
+            animator.SetInteger("expState", 1);
+        }
+
         private void TriggerExpression(MarkerManager.MarkerType type)
         {
             Debug.Log("triggered expression: " + type);

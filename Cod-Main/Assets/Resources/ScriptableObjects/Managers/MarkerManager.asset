@@ -109,49 +109,19 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
-      Data: 3
+      Data: 1
     - Name: 
       Entry: 7
       Data: 6|MarkerManager+Marker, com.audioplayer
     - Name: Id
       Entry: 3
-      Data: 7
+      Data: 10
     - Name: Sample
       Entry: 3
-      Data: 29864
+      Data: 7905
     - Name: Expression
       Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 7|MarkerManager+Marker, com.audioplayer
-    - Name: Id
-      Entry: 3
-      Data: 8
-    - Name: Sample
-      Entry: 3
-      Data: 104172
-    - Name: Expression
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 8|MarkerManager+Marker, com.audioplayer
-    - Name: Id
-      Entry: 3
-      Data: 9
-    - Name: Sample
-      Entry: 3
-      Data: 49363
-    - Name: Expression
-      Entry: 3
-      Data: 1
+      Data: 3
     - Name: 
       Entry: 8
       Data: 
@@ -170,5 +140,5 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  lastPlayheadSample: 174210
-  nextId: 10
+  lastPlayheadSample: 76904
+  nextId: 11

@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using Nodes;
 using Nodes.Decorator;
 using Tree;
@@ -8,13 +10,14 @@ namespace DefaultNamespace
 {
     public class AudioClipPlayer : MonoBehaviour
     {
-        // public static event Action<MarkerType> MarkerReached; 
+        public static event Action FinishedPlaying; 
         
         [SerializeField] private AudioSource audioSource;
         [SerializeField] private AudioMixer mixer;
         [SerializeField] private AudioClip paulTalksThroughDoorClip;
         [SerializeField] private MarkerManager markerManager;
         
+        private Coroutine clipWatcher;
 
         private void Update()
         {
@@ -54,6 +57,22 @@ namespace DefaultNamespace
             audioSource.clip = node.AudioClip;
             
             audioSource.Play();
+            
+            if (clipWatcher != null)
+                StopCoroutine(clipWatcher);
+            clipWatcher = StartCoroutine(WatchClipEnd(node));
+        }
+        
+        private IEnumerator WatchClipEnd(Node node)
+        {
+            yield return new WaitWhile(() => audioSource.isPlaying);
+
+            if (audioSource.clip == node.AudioClip)
+            {
+                FinishedPlaying?.Invoke();
+            }
+
+            clipWatcher = null;
         }
         
         
