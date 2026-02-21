@@ -19,6 +19,22 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 948163c742a02413e8537b521e45cd97, type: 3}
     - {fileID: 8300000, guid: 25942dbed9891463cb324bab49d1813c, type: 3}
     - {fileID: 8300000, guid: 1b16445b10f3e49d6887b92e324239dc, type: 3}
+    - {fileID: 8300000, guid: cb05be0cd8e5d41db9ffda7959f03b6f, type: 3}
+    - {fileID: 8300000, guid: 9912876ca6539498a969b1d63066976f, type: 3}
+    - {fileID: 8300000, guid: 46043729620aa423a9be1ba817a9abfb, type: 3}
+    - {fileID: 8300000, guid: c004af6f089f444e1ad2f09003ad4407, type: 3}
+    - {fileID: 8300000, guid: e1ac2e9d11b3c4f798b4f6f84c822d81, type: 3}
+    - {fileID: 8300000, guid: 15178d314285245c99c9ecd8dea061eb, type: 3}
+    - {fileID: 8300000, guid: 252261dfa269c4f21a57c3fcdf0556c3, type: 3}
+    - {fileID: 8300000, guid: 4a22deb68f7f640f6ba0f5b186966a95, type: 3}
+    - {fileID: 8300000, guid: c424d4245bb274f0f814e83f003d2758, type: 3}
+    - {fileID: 8300000, guid: 6f82101e5724f488dbffe7098123af67, type: 3}
+    - {fileID: 8300000, guid: 8f2459a51ceb14197beb1c1955b7579d, type: 3}
+    - {fileID: 8300000, guid: 2d56cf64eb49e448e92ad3252fbd7bec, type: 3}
+    - {fileID: 8300000, guid: a1a376f89f5324964a8637870c5c76fa, type: 3}
+    - {fileID: 8300000, guid: adf693a40cd314ba6ba2d6ac2184cfa1, type: 3}
+    - {fileID: 8300000, guid: 00f0041cde2ad4652a5a7d603a39ba19, type: 3}
+    - {fileID: 8300000, guid: 87264863974264fafaa1dc368eccaab8, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -37,7 +53,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 3
+      Data: 19
     - Name: 
       Entry: 7
       Data: 
@@ -135,10 +151,617 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 3
+    - Name: $v
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 8|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 13
+    - Name: Sample
+      Entry: 3
+      Data: 513
+    - Name: Expression
+      Entry: 3
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
       Entry: 8
       Data: 
-  lastPlayheadSample: 76904
-  nextId: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 10|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 14
+    - Name: Sample
+      Entry: 3
+      Data: 4464
+    - Name: Expression
+      Entry: 3
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 5
+    - Name: $v
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 12|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 15
+    - Name: Sample
+      Entry: 3
+      Data: 8153
+    - Name: Expression
+      Entry: 3
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 14|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 17
+    - Name: Sample
+      Entry: 3
+      Data: 4994
+    - Name: Expression
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 15|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 32
+    - Name: Sample
+      Entry: 3
+      Data: 58224
+    - Name: Expression
+      Entry: 3
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 7
+    - Name: $v
+      Entry: 7
+      Data: 16|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 17|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 18
+    - Name: Sample
+      Entry: 3
+      Data: 3054
+    - Name: Expression
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 19|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 19
+    - Name: Sample
+      Entry: 3
+      Data: 9292
+    - Name: Expression
+      Entry: 3
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 9
+    - Name: $v
+      Entry: 7
+      Data: 20|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 22|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 21
+    - Name: Sample
+      Entry: 3
+      Data: 4014
+    - Name: Expression
+      Entry: 3
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 24|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 22
+    - Name: Sample
+      Entry: 3
+      Data: 11858
+    - Name: Expression
+      Entry: 3
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 26|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 23
+    - Name: Sample
+      Entry: 3
+      Data: 2855
+    - Name: Expression
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 13
+    - Name: $v
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 28|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 24
+    - Name: Sample
+      Entry: 3
+      Data: 3079
+    - Name: Expression
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 14
+    - Name: $v
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 30|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 25
+    - Name: Sample
+      Entry: 3
+      Data: 3607
+    - Name: Expression
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 15
+    - Name: $v
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 32|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 26
+    - Name: Sample
+      Entry: 3
+      Data: 4179
+    - Name: Expression
+      Entry: 3
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 33|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 28
+    - Name: Sample
+      Entry: 3
+      Data: 43281
+    - Name: Expression
+      Entry: 3
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 16
+    - Name: $v
+      Entry: 7
+      Data: 34|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 35|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 29
+    - Name: Sample
+      Entry: 3
+      Data: 1785
+    - Name: Expression
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 17
+    - Name: $v
+      Entry: 7
+      Data: 36|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 37|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 30
+    - Name: Sample
+      Entry: 3
+      Data: 5830
+    - Name: Expression
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 18
+    - Name: $v
+      Entry: 7
+      Data: 38|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 39|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 31
+    - Name: Sample
+      Entry: 3
+      Data: 4260
+    - Name: Expression
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  lastPlayheadSample: 73560
+  nextId: 33

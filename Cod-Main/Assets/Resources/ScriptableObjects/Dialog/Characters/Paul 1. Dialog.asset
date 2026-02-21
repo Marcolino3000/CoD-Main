@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "DIE T\xDCR ZUKNALLE..."
+  m_Name: "T\xFCr zuknallen"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 2f20d1651b2c34712aeae74cae598367
   Position: {x: 1100, y: 1960.0001}
@@ -949,7 +949,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "\u201EO\u2014KAY\u201C"
+  m_Name: O-kay.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 45da07ae47c3745a69eb2732f04a4bec
   Position: {x: 899.9999, y: 2797.4866}
@@ -1335,7 +1335,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EIch wollte dich..."
+  m_Name: Ich wollte dich ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 3db766beed35345b097dbff482176832
   Position: {x: 600, y: 1820}
@@ -1401,7 +1401,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "\u201EPASST.\u201C"
+  m_Name: Passt.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 9ef51b850183b4f51bb9865d70514fa8
   Position: {x: 766.2655, y: 1400.0001}
@@ -1465,7 +1465,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "\u201EBist du jetzt A..."
+  m_Name: Bist du jetzt Au...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: be3674a6492d7421591dbd3f25dc89ff
   Position: {x: 900, y: 2949.9998}
@@ -1506,7 +1506,7 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "Woher wei\xDFt du eigentlich, dass ich in der Stadt bin?"
-  TextPreview: "Woher wei\xDFt du, dass ich hier bin?"
+  TextPreview: "Woher wei\xDFt du e..."
   AudioClip: {fileID: 8300000, guid: 8f2459a51ceb14197beb1c1955b7579d, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -1657,7 +1657,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "\u201EWOW.\u201C"
+  m_Name: Wow.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: b25704d10d225476e8f5c3670681befb
   Position: {x: 600.00006, y: 1684.6959}
