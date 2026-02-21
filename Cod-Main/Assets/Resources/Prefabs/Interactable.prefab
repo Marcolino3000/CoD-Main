@@ -50,6 +50,8 @@ MonoBehaviour:
   opacity: 0.8
   cooldownBetweenHovers: 0.5
   spriteRenderer: {fileID: 0}
+  shaderColorPropertyRef: 
+  outlineAlphaRef: _OutlineAlpha
   cooldownActive: 0
   currentOpacity: 0
 --- !u!1 &3184193633181000552
@@ -224,6 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Interactable.Interactable
   triggerAreaRadius: 0.5
   Data: {fileID: 0}
+  Spawned: 0
   Found: 0
   MarkAsFoundWhenClicked: 0
   _collider: {fileID: 2872073155054400692}
