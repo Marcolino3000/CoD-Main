@@ -84,7 +84,7 @@ MonoBehaviour:
   TextPreview: Ist es nicht sch...
   AudioClip: {fileID: 8300000, guid: 423226309dfdb4810ad92d03b37db095, type: 3}
   ClipVolume: 1
-  PauseAfter: 0.5
+  PauseAfter: 1
   Children:
   - {fileID: -1600501599739012494}
   - {fileID: -6702725831772840009}
@@ -267,7 +267,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: "\u201EN\xC4.\u201C"
+  m_Name: "N\xE4."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: ea7d17f3f4a4741bc937a5b7b2610ea6
   Position: {x: 750, y: 1959.9998}

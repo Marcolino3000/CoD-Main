@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "458cc6e22f8dfb2221ff739d919618ca97d203cc"
+      "hash": "69936057383ff10c7f26b6a3a9b12aa780b6cf72"
     },
     "com.cod.csvmanager": {
       "version": "https://github.com/Marcolino3000/CsvManager.git",
@@ -24,7 +24,7 @@
       "dependencies": {
         "com.unity.textmeshpro": "3.0.6"
       },
-      "hash": "5b860e8789cc3024f23bb8e12f41f2d42a03b26c"
+      "hash": "2426ea045b33424b9a87f891498a9c909df17dfc"
     },
     "com.cod.interactionbuilder": {
       "version": "https://github.com/Marcolino3000/InteractionBuilder-Package.git",
@@ -35,7 +35,7 @@
         "com.cod.dialog-builder": "0.9.3",
         "com.cod.playerinput": "1.0.0"
       },
-      "hash": "ff647f6fe4f69e017ce4d835430355937820377b"
+      "hash": "da721daefabd0350f59b8262a7bfadb8629bd3d5"
     },
     "com.cod.playerinput": {
       "version": "https://github.com/Marcolino3000/PlayerInput.git",

@@ -1,0 +1,16 @@
+:root {
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    align-self: center;
+    margin-top: 19px;
+    margin-right: 19px;
+    margin-bottom: 19px;
+    margin-left: 19px;
+    align-content: flex-end;
+    justify-content: flex-end;
+    background-image: url("project://database/Assets/UI/PauseMenu/Menu%20Sprites/UI_Main_Menu_abs_v01_Start_Button_lay01.png?fileID=2800000&guid=b013d0cd9864244fd8ee2061a80475de&type=3#UI_Main_Menu_abs_v01_Start_Button_lay01");
+    background-color: rgba(255, 255, 255, 0);
+}
