@@ -22,14 +22,28 @@ public class CameraMovementFirstScene : MonoBehaviour
 
     private void MoveCameraToPosition()
     {
-        StartCoroutine(MoveCameraCoroutine(targetPosition, duration));
+        StartCoroutine(MoveCameraCoroutine());
     }
-
-    private IEnumerator MoveCameraCoroutine(Vector3 vector3, float f)
+    
+    private IEnumerator MoveCameraCoroutine()
     {
-        while (cam.transform.position != vector3)
+        if (cam == null)
         {
-            
+            Debug.LogWarning("Camera was null");
+            yield break;
         }
+    
+        Vector3 start = cam.transform.position;
+        float elapsed = 0f;
+    
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsed / duration);
+            cam.transform.position = Vector3.Lerp(start, targetPosition, t);
+            yield return null;
+        }
+    
+        // cam.transform.position = targetPosition;;
     }
 }
