@@ -4007,6 +4007,7 @@ MonoBehaviour:
   objectsToHide:
   - {fileID: 707221407}
   - {fileID: 1949900057}
+  - {fileID: 1736500318}
   objectsToMakeTransparent:
   - {fileID: 1577358953}
 --- !u!1 &91116893
@@ -11377,6 +11378,7 @@ MonoBehaviour:
   objectsToHide:
   - {fileID: 1865751728}
   - {fileID: 1031900729}
+  - {fileID: 1736500318}
   objectsToMakeTransparent: []
 --- !u!65 &464535041
 BoxCollider:
@@ -54207,6 +54209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
   raycaster: {fileID: 1952575031}
+  gameStarted: 0
 --- !u!1 &2038028845
 GameObject:
   m_ObjectHideFlags: 0
