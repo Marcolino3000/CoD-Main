@@ -4093,6 +4093,7 @@ GameObject:
   - component: {fileID: 485975254}
   - component: {fileID: 485975253}
   - component: {fileID: 485975256}
+  - component: {fileID: 485975257}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4258,6 +4259,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485975249}
   m_Enabled: 1
+--- !u!114 &485975257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485975249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67708758ffbc24a72a0c25528ea70293, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraMovementFirstScene
+  camera: {fileID: 0}
 --- !u!1 &509048405
 GameObject:
   m_ObjectHideFlags: 0
