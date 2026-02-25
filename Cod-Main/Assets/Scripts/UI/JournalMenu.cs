@@ -109,6 +109,9 @@ public class JournalMenu : MonoBehaviour
 
     public void ToggleJournal()
     {
+        if (!journalIsUnlocked)
+            return;
+        
         if(journalIsVisible)
         {
             journalIsVisible = false;
@@ -121,8 +124,11 @@ public class JournalMenu : MonoBehaviour
             journalIsVisible = true;
             root.visible = true;
             raycaster.isDialogRunning = true;
-            journalMenu.style.visibility = Visibility.Visible;
-            mapMenu.style.visibility = Visibility.Hidden;
+            rightSideContainer.style.display = DisplayStyle.Flex;
+            journalMenu.style.display = DisplayStyle.Flex;
+            mapMenu.style.display = DisplayStyle.None;   
+            
+            // mapMenu.style.visibility = Visibility.Hidden;
         }
 
         mapIsVisible = false;
