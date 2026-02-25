@@ -5158,7 +5158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4421958167632310881, guid: 65f468906282d42c591efd5861655e23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -27.91
+      value: 2.09
       objectReference: {fileID: 0}
     - target: {fileID: 4421958167632310881, guid: 65f468906282d42c591efd5861655e23, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10107,8 +10107,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.14694628, y: 0, z: 0, w: 0.9891445}
-  m_LocalPosition: {x: -0.6200001, y: 7.9300003, z: -14.570001}
+  m_LocalRotation: {x: 0.17622578, y: 0, z: 0, w: 0.9843498}
+  m_LocalPosition: {x: -0.6200001, y: 8.82, z: -14.570001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16213,7 +16213,7 @@ MonoBehaviour:
       Time: 2
     Restrictions: 0
   TiltAxis:
-    Value: 16.9
+    Value: 20.3
     Center: 0
     Range: {x: -70, y: 70}
     Wrap: 0
@@ -30946,7 +30946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebf4479ad69e480688bfc1d5cf8c2dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DefaultNamespace.MovementDisabler
-  disableMovementOnDialog: 1
+  disableMovementOnDialog: 0
 --- !u!1 &955475832
 GameObject:
   m_ObjectHideFlags: 0
@@ -67392,7 +67392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1829337690813581083, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.9300003
+      value: 8.82
       objectReference: {fileID: 0}
     - target: {fileID: 1829337690813581083, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -67400,11 +67400,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1829337690813581083, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9891445
+      value: 0.9843498
       objectReference: {fileID: 0}
     - target: {fileID: 1829337690813581083, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.14694628
+      value: 0.17622578
       objectReference: {fileID: 0}
     - target: {fileID: 1829337690813581083, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
       propertyPath: m_LocalRotation.y
@@ -67464,7 +67464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8371376400574287482, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
       propertyPath: FollowOffset.y
-      value: 1.72
+      value: 2.61
       objectReference: {fileID: 0}
     - target: {fileID: 8371376400574287482, guid: 88420c1852b164f7da2f71d15c51d50d, type: 3}
       propertyPath: FollowOffset.z

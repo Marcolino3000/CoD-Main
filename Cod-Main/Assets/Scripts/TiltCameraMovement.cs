@@ -40,8 +40,9 @@ namespace DefaultNamespace
         
         public void ToggleDialogMode(bool isDialogRunning, Vector3 secondCharacterPosition)
         {
-            if (!toggleOnDialog)
-                return;
+            if (!toggleOnDialog) return;
+            
+            if (_isInDialogMode) return;
 
             _isInDialogMode = isDialogRunning;
 

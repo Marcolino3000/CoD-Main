@@ -18,6 +18,8 @@ public class CameraMovementTrigger : MonoBehaviour
 
     private void OnDialogRunningStatusChanged(bool isRunning, DialogTree tree)
     {
+        if (currentStatus) return;
+        
         if (tree.Blackboard.CharacterData == null)
         {
             Debug.LogError("CharacterData not set in blackboard!");
