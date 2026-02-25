@@ -6,8 +6,6 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField] private Raycaster raycaster;
     
-    [SerializeField] private bool gameStarted;
-    
     private Button startButton;
     private Button resumeButton;
     private Button exitButton;
