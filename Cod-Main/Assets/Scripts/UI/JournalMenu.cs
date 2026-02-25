@@ -10,11 +10,11 @@ public class JournalMenu : MonoBehaviour
     
     private UIDocument uiDocument;
     private VisualElement root;
+    private bool isVisible;
     
     private void Start()
     {
         SetupElements();
-        ShowMenu();
     }
 
     private void SetupElements()
@@ -23,30 +23,11 @@ public class JournalMenu : MonoBehaviour
         root = uiDocument.rootVisualElement;
     }
 
-    private void StartGame()
+    public void ToggleMenu()
     {
-        HideMenu();
-    }
-
-    private void ResumeGame()
-    {
-        HideMenu();
-    }
-
-    private void ExitGame()
-    {
-        Application.Quit();
-    }
-
-    private void HideMenu()
-    {
-        root.visible = false;
-        raycaster.isDialogRunning = false;
-    }
-
-    public void ShowMenu()
-    {
-        root.visible = true;
-        raycaster.isDialogRunning = true;
+        isVisible = !isVisible;
+        
+        root.visible = isVisible;
+        raycaster.isDialogRunning = isVisible;
     }
 }
