@@ -29,9 +29,7 @@ MonoBehaviour:
   - rid: 1719061261674611002
   - rid: 1719061261674611003
   - rid: 1719061261674611042
-  - rid: 1719061377033961728
   - rid: 1719061377033961730
-  - rid: 1719061397985296459
   - rid: 1719061397985296460
   - rid: 1719061542306840832
   - rid: 1719061606083068100
@@ -80,22 +78,10 @@ MonoBehaviour:
         Owner: {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}
         ThresholdReached: 0
         IsRunning: 0
-    - rid: 1719061377033961728
-      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
-      data:
-        Owner: {fileID: 11400000, guid: e1a92f7a3947b49969f4d24ea2333aa3, type: 2}
-        ThresholdReached: 0
-        IsRunning: 0
     - rid: 1719061377033961730
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: c66520f1b0c91486cb5c228b7da0af77, type: 2}
-        ThresholdReached: 0
-        IsRunning: 0
-    - rid: 1719061397985296459
-      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
-      data:
-        Owner: {fileID: 11400000, guid: a62c1e53d3a3b44aa975730a5077d505, type: 2}
         ThresholdReached: 0
         IsRunning: 0
     - rid: 1719061397985296460
