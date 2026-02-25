@@ -5138,7 +5138,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 440715357}
+    m_TransformParent: {fileID: 1949900058}
     m_Modifications:
     - target: {fileID: 4421958167632310881, guid: 65f468906282d42c591efd5861655e23, type: 3}
       propertyPath: m_LocalScale.x
@@ -5154,15 +5154,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4421958167632310881, guid: 65f468906282d42c591efd5861655e23, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.2805302
+      value: 0.97000027
       objectReference: {fileID: 0}
     - target: {fileID: 4421958167632310881, guid: 65f468906282d42c591efd5861655e23, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.78438
+      value: -27.91
       objectReference: {fileID: 0}
     - target: {fileID: 4421958167632310881, guid: 65f468906282d42c591efd5861655e23, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.8998497
+      value: 1.79
       objectReference: {fileID: 0}
     - target: {fileID: 4421958167632310881, guid: 65f468906282d42c591efd5861655e23, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12792,8 +12792,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 299239213}
-  - {fileID: 102805910}
-  - {fileID: 1159326476}
   - {fileID: 1451757449}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -57013,6 +57011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bc4bef034544ba6abc4175956fa2056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.SequenceOutputDispatcher
+  isSequenceRunning: 0
   playerController: {fileID: 299239219}
   boxCollider: {fileID: 2015682239}
   Waypoints:
@@ -61166,6 +61165,8 @@ Transform:
   - {fileID: 1878544144}
   - {fileID: 707221408}
   - {fileID: 299402486}
+  - {fileID: 102805910}
+  - {fileID: 1159326476}
   m_Father: {fileID: 1451757449}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1950567425
@@ -66647,7 +66648,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 440715357}
+    m_TransformParent: {fileID: 1949900058}
     m_Modifications:
     - target: {fileID: 249738860802317871, guid: 2c9be93860cae4c48b82e92b429d1f89, type: 3}
       propertyPath: m_Enabled
@@ -66711,15 +66712,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4810824117537372597, guid: 2c9be93860cae4c48b82e92b429d1f89, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.6895306
+      value: 0.5609999
       objectReference: {fileID: 0}
     - target: {fileID: 4810824117537372597, guid: 2c9be93860cae4c48b82e92b429d1f89, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -25.64538
+      value: -27.771
       objectReference: {fileID: 0}
     - target: {fileID: 4810824117537372597, guid: 2c9be93860cae4c48b82e92b429d1f89, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.0108495
+      value: 1.6790001
       objectReference: {fileID: 0}
     - target: {fileID: 4810824117537372597, guid: 2c9be93860cae4c48b82e92b429d1f89, type: 3}
       propertyPath: m_LocalRotation.w
