@@ -16,6 +16,9 @@ MonoBehaviour:
   Interactable: {fileID: 0}
   ObjectToMoveIn: {fileID: 0}
   ObjectToMoveOut: {fileID: 0}
+  ObjectToMove: {fileID: 0}
+  TargetPosition: {x: 0, y: 0, z: 0}
   CancelCurrentDialog: 0
   DebugMessage: 
   ScriptedSequence: {fileID: 0}
+  InteractableToShow: {fileID: 11400000, guid: 6ead5ed78d7c04ae99d905203f7aec6e, type: 2}
