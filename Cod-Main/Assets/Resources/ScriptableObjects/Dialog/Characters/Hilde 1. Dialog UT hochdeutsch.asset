@@ -1994,7 +1994,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: Ha des isch a Sa...
+  m_Name: Ah, gut dass ich...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: dcb2abafaaf0d426f9ef09e4d2b0f3da
   Position: {x: 215, y: -281}
@@ -2002,10 +2002,10 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Ah, gut dass ich dich gleich erwische! Ich hab mir schon halb gedacht,
-    dass du da hinten bist. Du, ich muss dir was geben. Da, nimm mal. Lippenstift,
-    Schl\xFCsselbund, Marmelade f\xFCr die Oma, die Rubbellose f\xFCr den Andi \u2026
-    Also, was wichtig ist: Du musst ihn regelm\xE4\xDFig f\xFCttern \u2013 ach was
-    sag ich, am besten jeden Tag, gell. Wo ist er denn jetzt eigentlich?"
+    dass du da hinten bist. \nDu, ich muss dir was geben. Da, nimm mal. Lippenstift,
+    Schl\xFCsselbund, Marmelade f\xFCr die Oma, die Rubbellose f\xFCr den Andi \u2026\nAlso,
+    was wichtig ist: Du musst ihn regelm\xE4\xDFig f\xFCttern \u2013 ach was sag
+    ich, am besten jeden Tag, gell. \nWo ist er denn jetzt eigentlich?"
   TextPreview: Ah, gut dass ich...
   AudioClip: {fileID: 8300000, guid: 25942dbed9891463cb324bab49d1813c, type: 3}
   ClipVolume: 1

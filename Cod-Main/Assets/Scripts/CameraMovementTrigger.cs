@@ -42,7 +42,7 @@ public class CameraMovementTrigger : MonoBehaviour
         }
         
         if(currentStatus != isRunning)
-            camMovement.ToggleDialogMode(!isRunning, interactableState.Interactable.transform.localPosition);
+            camMovement.ToggleDialogMode(!isRunning, interactableState.Interactable.transform.position);
         
         currentStatus = isRunning;
     }
