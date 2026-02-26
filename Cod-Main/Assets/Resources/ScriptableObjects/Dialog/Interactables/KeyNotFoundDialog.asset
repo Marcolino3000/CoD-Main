@@ -21,7 +21,7 @@ MonoBehaviour:
   TextPreview: Verschlossen, ab...
   AudioClip: {fileID: 8300000, guid: c823b3e9935cf4d63a4e8654aa27e725, type: 3}
   ClipVolume: 1
-  PauseAfter: -2
+  PauseAfter: 0
   Children: []
   FallThrough: 0
   IsAvailable: 1

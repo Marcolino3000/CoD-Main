@@ -53,6 +53,8 @@ public class JournalMenu : MonoBehaviour
         rightSideContainer.style.display = DisplayStyle.None;
 
         SetupButtons(startMenu);
+        
+        ShowMenu();
     }
 
     private void SetupButtons(VisualElement menu)
