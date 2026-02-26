@@ -1479,7 +1479,7 @@ MonoBehaviour:
   m_Name: Sauerkraut verre...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 93b971f5daeae4164b5c7c846feb7487
-  Position: {x: -150.00003, y: 24.782917}
+  Position: {x: -150.00006, y: 26.43671}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -2002,10 +2002,10 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Ah, gut dass ich dich gleich erwische! Ich hab mir schon halb gedacht,
-    dass du da hinten bist. \nDu, ich muss dir was geben. Da, nimm mal.\nLippenstift,
-    Schl\xFCsselbund, Marmelade f\xFCr die Oma, die Rubbellose f\xFCr den Andi \u2026\nAlso,
+    dass du da hinten bist. Du, ich muss dir was geben. Da, nimm mal. Lippenstift,
+    Schl\xFCsselbund, Marmelade f\xFCr die Oma, die Rubbellose f\xFCr den Andi\u2026\nAlso,
     was wichtig ist: Du musst ihn regelm\xE4\xDFig f\xFCttern ach was sag ich, am
-    besten jeden Tag, gell. \nWo ist er denn jetzt eigentlich?"
+    besten jeden Tag, gell. Wo ist er denn jetzt eigentlich?"
   TextPreview: Ah, gut dass ich...
   AudioClip: {fileID: 8300000, guid: 25942dbed9891463cb324bab49d1813c, type: 3}
   ClipVolume: 1
@@ -2193,7 +2193,7 @@ MonoBehaviour:
   m_Name: Ah, da hat sich ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 1d92532dcd2b747e688ad23d6944446b
-  Position: {x: -150.00003, y: 417.7829}
+  Position: {x: -150.00006, y: 433.80353}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}

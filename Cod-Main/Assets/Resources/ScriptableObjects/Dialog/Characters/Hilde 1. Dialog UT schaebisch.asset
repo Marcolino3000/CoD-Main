@@ -2193,7 +2193,7 @@ MonoBehaviour:
   m_Name: Aaaaahh dahana h...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 1d92532dcd2b747e688ad23d6944446b
-  Position: {x: -150.00003, y: 417.7829}
+  Position: {x: -150, y: 432.2857}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
