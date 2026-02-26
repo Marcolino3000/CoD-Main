@@ -12,10 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 623fa79c384042e3bb49a575d178c3c0, type: 3}
   m_Name: Scene 2 - DialogWithHildeReaction
   m_EditorClassIdentifier: Assembly-CSharp::Core.Reaction
-  DialogTree: {fileID: 11400000, guid: 5250981cff96342089d694c7abc1691c, type: 2}
+  DialogTree: {fileID: 11400000, guid: 8a4af46434ed148929901a79b5f62cf2, type: 2}
   Interactable: {fileID: 0}
   ObjectToMoveIn: {fileID: 0}
   ObjectToMoveOut: {fileID: 0}
+  ObjectToMove: {fileID: 0}
+  TargetPosition: {x: 0, y: 0, z: 0}
   CancelCurrentDialog: 0
   DebugMessage: 
   ScriptedSequence: {fileID: 0}
+  InteractableToShow: {fileID: 0}

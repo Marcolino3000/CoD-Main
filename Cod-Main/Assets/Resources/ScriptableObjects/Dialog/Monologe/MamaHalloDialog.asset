@@ -21,7 +21,7 @@ MonoBehaviour:
   TextPreview: Mama? Hallo-o?
   AudioClip: {fileID: 8300000, guid: 1b16445b10f3e49d6887b92e324239dc, type: 3}
   ClipVolume: 1.5
-  PauseAfter: -1
+  PauseAfter: 0
   Children: []
   FallThrough: 0
   IsAvailable: 1

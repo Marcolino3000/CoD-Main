@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_Name: Hilde 1. Dialog UT hochdeutsch
   m_EditorClassIdentifier: cod.dialogbuilder::Tree.DialogTree
   StartNodes:
-  - {fileID: 6941936280635674382}
+  - {fileID: 5348820743433113756}
   nodes:
   - {fileID: 5348820743433113756}
   - {fileID: 289074022344142230}
@@ -2002,10 +2002,10 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Ah, gut dass ich dich gleich erwische! Ich hab mir schon halb gedacht,
-    dass du da hinten bist. \nDu, ich muss dir was geben. Da, nimm mal. Lippenstift,
+    dass du da hinten bist. \nDu, ich muss dir was geben. Da, nimm mal.\nLippenstift,
     Schl\xFCsselbund, Marmelade f\xFCr die Oma, die Rubbellose f\xFCr den Andi \u2026\nAlso,
-    was wichtig ist: Du musst ihn regelm\xE4\xDFig f\xFCttern \u2013 ach was sag
-    ich, am besten jeden Tag, gell. \nWo ist er denn jetzt eigentlich?"
+    was wichtig ist: Du musst ihn regelm\xE4\xDFig f\xFCttern ach was sag ich, am
+    besten jeden Tag, gell. \nWo ist er denn jetzt eigentlich?"
   TextPreview: Ah, gut dass ich...
   AudioClip: {fileID: 8300000, guid: 25942dbed9891463cb324bab49d1813c, type: 3}
   ClipVolume: 1
