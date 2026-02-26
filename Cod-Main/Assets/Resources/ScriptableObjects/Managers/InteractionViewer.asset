@@ -110,38 +110,6 @@ MonoBehaviour:
       HighPriority: 0
   - Trigger:
       TriggerType: 2
-      TriggeringInteractable: {fileID: 11400000, guid: 3cccce6c0c50e4ae2abf5322f6c19ce6, type: 2}
-      TriggeringDialogOption: {fileID: 0}
-    Prerequisites:
-    - Record:
-        InteractionToExecute: {fileID: 11400000, guid: 59378320ecb1e4faebe57eab6f8d7936, type: 2}
-        DialogOptionToUnlock: {fileID: 0}
-        TriggerType: 2
-        TriggeringInteractable: {fileID: 11400000, guid: 3cccce6c0c50e4ae2abf5322f6c19ce6, type: 2}
-        Conditions:
-        - RecordedState:
-            rid: 7734685593366430162
-          IsHardCondition: 1
-      Name: Scene 2 - SecondDialogWithHilde
-      HighPriority: 0
-  - Trigger:
-      TriggerType: 2
-      TriggeringInteractable: {fileID: 11400000, guid: 3cccce6c0c50e4ae2abf5322f6c19ce6, type: 2}
-      TriggeringDialogOption: {fileID: 0}
-    Prerequisites:
-    - Record:
-        InteractionToExecute: {fileID: 11400000, guid: ac0b489f3afeb41939ec1d286809d58c, type: 2}
-        DialogOptionToUnlock: {fileID: 0}
-        TriggerType: 2
-        TriggeringInteractable: {fileID: 11400000, guid: 3cccce6c0c50e4ae2abf5322f6c19ce6, type: 2}
-        Conditions:
-        - RecordedState:
-            rid: 7734685593366430163
-          IsHardCondition: 1
-      Name: Scene 2 - ThirdDialogWithHilde
-      HighPriority: 0
-  - Trigger:
-      TriggerType: 2
       TriggeringInteractable: {fileID: 11400000, guid: 44c62835661184c12aa2a5269232505d, type: 2}
       TriggeringDialogOption: {fileID: 0}
     Prerequisites:
@@ -269,7 +237,7 @@ MonoBehaviour:
         InteractionToExecute: {fileID: 11400000, guid: 451526fc10c6747a895ffb1c8f45d728, type: 2}
         DialogOptionToUnlock: {fileID: 0}
         TriggerType: 2
-        TriggeringInteractable: {fileID: 11400000, guid: 7c52adbf9bbc449c59424cdf4e67465f, type: 2}
+        TriggeringInteractable: {fileID: 0}
         Conditions: []
       Name: Tuerschild
       HighPriority: 0
@@ -295,7 +263,7 @@ MonoBehaviour:
         InteractionToExecute: {fileID: 11400000, guid: a992264c6d00946c09471ec5bac50e7a, type: 2}
         DialogOptionToUnlock: {fileID: 0}
         TriggerType: 2
-        TriggeringInteractable: {fileID: 11400000, guid: be99fcd60b66c4ef28bbee3b059b23f0, type: 2}
+        TriggeringInteractable: {fileID: 0}
         Conditions: []
       Name: Sessel
       HighPriority: 0
@@ -595,15 +563,3 @@ MonoBehaviour:
       data:
         Owner: {fileID: 11400000, guid: cd65d02928ae34289a4830c8f72b6446, type: 2}
         ToggleState: 0
-    - rid: 7734685593366430162
-      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
-      data:
-        Owner: {fileID: 11400000, guid: f3bbc6cd7bf3d402cad647550d928260, type: 2}
-        ThresholdReached: 1
-        IsRunning: 0
-    - rid: 7734685593366430163
-      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
-      data:
-        Owner: {fileID: 11400000, guid: 59378320ecb1e4faebe57eab6f8d7936, type: 2}
-        ThresholdReached: 1
-        IsRunning: 0
