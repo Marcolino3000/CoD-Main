@@ -16514,11 +16514,12 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  _dialogFollowOffset: {x: 0, y: 0, z: -3}
+  _dialogFollowOffset: {x: 0, y: 0, z: -4}
   _dialogTiltOffset: 10
   toggleOnDialog: 1
   panTilt: {fileID: 528970622}
   marleneTransform: {fileID: 299239213}
+  offsetToRight: 0.5
 --- !u!1 &539357414
 GameObject:
   m_ObjectHideFlags: 0

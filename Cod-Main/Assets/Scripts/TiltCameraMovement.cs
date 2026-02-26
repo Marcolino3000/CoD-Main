@@ -13,6 +13,7 @@ namespace DefaultNamespace
         [SerializeField] private bool toggleOnDialog = true;
         [SerializeField] private CinemachinePanTilt panTilt;
         [SerializeField] private Transform marleneTransform;
+        [SerializeField] private float offsetToRight;
         
         private Vector3 _followOffset;
         private float _tiltOffset;
@@ -52,9 +53,9 @@ namespace DefaultNamespace
                 float halfDistance = Vector3.Distance(mainTargetPosition, secondCharacterPosition) * 0.5f;
                 // float midpointX = ((mainTargetPosition.x + secondCharacterPosition.x) * 0.5f) + mainTargetPosition.x;
                 if(mainTargetPosition.x > secondCharacterPosition.x)
-                    _dialogFollowOffset = new Vector3(-halfDistance, _dialogFollowOffset.y, _dialogFollowOffset.z);
+                    _dialogFollowOffset = new Vector3(-halfDistance + offsetToRight, _dialogFollowOffset.y, _dialogFollowOffset.z);
                 else
-                    _dialogFollowOffset = new Vector3(halfDistance, _dialogFollowOffset.y, _dialogFollowOffset.z);
+                    _dialogFollowOffset = new Vector3(halfDistance + offsetToRight, _dialogFollowOffset.y, _dialogFollowOffset.z);
             }
 
             StartCoroutine(DoProgress());
