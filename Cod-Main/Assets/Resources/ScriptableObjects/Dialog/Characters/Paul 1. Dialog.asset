@@ -157,7 +157,7 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 0
+  answerType: 4
   _popularityModifier: 0
 --- !u!114 &-7590506583836445822
 MonoBehaviour:
@@ -561,11 +561,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 48bbb01b25fd6493aa9944052765da54
   Position: {x: 899.9999, y: 3365.5}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "*Reingehen und T\xFCr Schlie\xDFen*"
-  TextPreview: '*Reingehen und T...'
+  DialogLine: 
+  TextPreview: "*T\xFCr schlie\xDFen*"
   AudioClip: {fileID: 0}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_Name: Wow.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: ec29f7c7905554769945af7b206f5dfc
-  Position: {x: 150, y: 840}
+  Position: {x: 150.00002, y: 839.99994}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -639,7 +639,7 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 0
+  answerType: 4
   _popularityModifier: 0
 --- !u!114 &11400000
 MonoBehaviour:
