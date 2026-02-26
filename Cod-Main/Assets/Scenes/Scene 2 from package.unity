@@ -8301,7 +8301,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 242825006}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
@@ -15919,11 +15919,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_text
-      value: Subtitle text
+      value: "Subtitle text fljhj lhdilfpdhfl\xF6 as fklfhlkdflkh\xF6lkhdf\xF6df
+        l\xF6kahsfdfl\xF6df f\ndfdfkl\xF6 "
       objectReference: {fileID: 0}
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_fontSize
-      value: 55
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
+      propertyPath: m_margin.x
+      value: 79.55032
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
+      propertyPath: m_margin.z
+      value: 100.07172
       objectReference: {fileID: 0}
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_fontAsset
@@ -15943,7 +15952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_fontSizeBase
-      value: 55
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_sharedMaterial
