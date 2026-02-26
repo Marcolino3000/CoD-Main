@@ -11,9 +11,9 @@
                 <ui:Button name="Exit" class="button exitButton" style="width: 340px; height: 130px;" />
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="rightSideContainer" style="flex-grow: 5;">
-            <ui:VisualElement name="mapMenu" style="flex-grow: 1;" />
-            <ui:VisualElement name="journalMenu" style="flex-grow: 1; display: none;" />
+        <ui:VisualElement name="rightSideContainer" style="flex-grow: 5; display: none;">
+            <ui:VisualElement name="mapMenu" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/UI_Pause_Menu_abs_v01_tagebuch_lay01.png?fileID=2800000&amp;guid=fea42bac9b6f44b4591c02bdc3b3ae1f&amp;type=3#UI_Pause_Menu_abs_v01_tagebuch_lay01&quot;);" />
+            <ui:VisualElement name="journalMenu" style="flex-grow: 1; display: none; background-image: url(&quot;project://database/Assets/UI/UI_Pause_Menu_abs_v01_tagebuch_lay02.png?fileID=2800000&amp;guid=909995958bc774d39a5457ad77551738&amp;type=3#UI_Pause_Menu_abs_v01_tagebuch_lay02&quot;);" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
