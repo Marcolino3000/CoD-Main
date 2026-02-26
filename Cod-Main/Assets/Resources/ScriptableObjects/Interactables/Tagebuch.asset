@@ -17,7 +17,7 @@ MonoBehaviour:
   Interactable: {fileID: 0}
   Sprite: {fileID: 2800000, guid: 7a2144293408c47b5be0fc7813d26a1f, type: 3}
   AwarenessLevel: 1
-  ToggleState: 1
-  StatusDescription: Tagebuch gefunden!
+  ToggleState: 0
+  StatusDescription: Tagebuch noch nicht gefunden...
   StatusOn: Tagebuch gefunden!
   StatusOff: Tagebuch noch nicht gefunden...
