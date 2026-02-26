@@ -382,36 +382,6 @@ MonoBehaviour:
       TriggeringDialogOption: {fileID: 0}
     Prerequisites:
     - Record:
-        InteractionToExecute: {fileID: 11400000, guid: c2e8167266c1941f1b2811c37d0ee03d, type: 2}
-        DialogOptionToUnlock: {fileID: 0}
-        TriggerType: 2
-        TriggeringInteractable: {fileID: 11400000, guid: 39113deee2da14ef980feadf3041ab39, type: 2}
-        Conditions:
-        - RecordedState:
-            rid: 7734685591399826067
-          IsHardCondition: 1
-      Name: Scene 2 - SecondDialogWithPaul
-      HighPriority: 0
-    - Record:
-        InteractionToExecute: {fileID: 11400000, guid: 7126467d7428e4d41a57b8f813e5f666, type: 2}
-        DialogOptionToUnlock: {fileID: 0}
-        TriggerType: 2
-        TriggeringInteractable: {fileID: 11400000, guid: 39113deee2da14ef980feadf3041ab39, type: 2}
-        Conditions:
-        - RecordedState:
-            rid: 7734685640481310726
-          IsHardCondition: 1
-      Name: Scene 2 - ThirdDialogWithPaul
-      HighPriority: 0
-    - Record:
-        InteractionToExecute: {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}
-        DialogOptionToUnlock: {fileID: 0}
-        TriggerType: 2
-        TriggeringInteractable: {fileID: 11400000, guid: 39113deee2da14ef980feadf3041ab39, type: 2}
-        Conditions: []
-      Name: Scene 2 - DialogWithPaul
-      HighPriority: 0
-    - Record:
         InteractionToExecute: {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}
         DialogOptionToUnlock: {fileID: 0}
         TriggerType: 2
@@ -625,12 +595,6 @@ MonoBehaviour:
       data:
         Owner: {fileID: 11400000, guid: cd65d02928ae34289a4830c8f72b6446, type: 2}
         ToggleState: 0
-    - rid: 7734685591399826067
-      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
-      data:
-        Owner: {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}
-        ThresholdReached: 1
-        IsRunning: 0
     - rid: 7734685593366430162
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
@@ -641,11 +605,5 @@ MonoBehaviour:
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: 59378320ecb1e4faebe57eab6f8d7936, type: 2}
-        ThresholdReached: 1
-        IsRunning: 0
-    - rid: 7734685640481310726
-      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
-      data:
-        Owner: {fileID: 11400000, guid: c2e8167266c1941f1b2811c37d0ee03d, type: 2}
         ThresholdReached: 1
         IsRunning: 0

@@ -67862,7 +67862,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 289911960504880163, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 374905781463941829, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: m_fontSize
@@ -68456,7 +68456,7 @@ PrefabInstance:
       objectReference: {fileID: 1535295711}
     - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: IsUnlocked
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: treeRunner
