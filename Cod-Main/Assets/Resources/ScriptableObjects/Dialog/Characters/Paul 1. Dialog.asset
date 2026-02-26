@@ -639,7 +639,7 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 4
+  answerType: 0
   _popularityModifier: 0
 --- !u!114 &11400000
 MonoBehaviour:
