@@ -16472,6 +16472,8 @@ MonoBehaviour:
   camMovement: {fileID: 0}
   currentStatus: 0
   commentCharacter: {fileID: 11400000, guid: 388485b41120844eca5d0b4a8585948d, type: 2}
+  dialogToggleCooldown: 0.75
+  lastDialogToggleTime: -100
 --- !u!114 &528970622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68357,7 +68359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4810824117537372597, guid: 2c9be93860cae4c48b82e92b429d1f89, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.229
+      value: -27.771
       objectReference: {fileID: 0}
     - target: {fileID: 4810824117537372597, guid: 2c9be93860cae4c48b82e92b429d1f89, type: 3}
       propertyPath: m_LocalPosition.z

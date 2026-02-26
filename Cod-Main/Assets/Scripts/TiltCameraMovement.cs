@@ -43,7 +43,7 @@ namespace DefaultNamespace
         {
             if (!toggleOnDialog) return;
             
-            if (_isInDialogMode) return;
+            // if (_isInDialogMode) return;
 
             _isInDialogMode = isDialogRunning;
 
@@ -66,12 +66,12 @@ namespace DefaultNamespace
             while (_progress < 1.0f)
             {
                 _progress += Time.deltaTime / _duration;
-            
+
                 // onValueChanged?.Invoke(_progress);
                 TweenUpdate(_ease.Evaluate(_progress));
                 yield return _progress;
             }
-        
+
             _progress = 0.0f;
             _isInDialogMode = !_isInDialogMode;
         }

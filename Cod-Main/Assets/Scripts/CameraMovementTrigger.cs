@@ -10,6 +10,9 @@ public class CameraMovementTrigger : MonoBehaviour
     [SerializeField] private TiltCameraMovement camMovement;
     [SerializeField] private bool currentStatus;
     [SerializeField] private CharacterData commentCharacter;
+    [SerializeField] private float dialogToggleCooldown = 0.75f; // seconds
+    [SerializeField] private float lastDialogToggleTime = -100f;
+
     private void Awake()
     {
         camMovement = GetComponent<TiltCameraMovement>();
@@ -18,34 +21,36 @@ public class CameraMovementTrigger : MonoBehaviour
 
     private void OnDialogRunningStatusChanged(bool isRunning, DialogTree tree)
     {
-        if (currentStatus) return;
-        
+        if (Time.time - lastDialogToggleTime < dialogToggleCooldown)
+            return;
+        if (currentStatus && isRunning) return;
+
         if (tree.Blackboard.CharacterData == null)
         {
             Debug.LogError("CharacterData not set in blackboard!");
             return;
         }
-        
+
         if (tree.Blackboard.CharacterData == commentCharacter)
             return;
-        
+
         var interactable = tree.Blackboard.CharacterData.Interactable;
-        
-        if(interactable == null)
+
+        if (interactable == null)
         {
             Debug.LogError("Interactable not set in CharacterData!");
             return;
         }
-        
-        if(interactable is not InteractableState interactableState)
+
+        if (interactable is not InteractableState interactableState)
         {
             Debug.LogError("CharacterData interactable was not an interactableState");
             return;
         }
-        
-        if(currentStatus != isRunning)
-            camMovement.ToggleDialogMode(!isRunning, interactableState.Interactable.transform.position);
-        
+
+        // if(currentStatus != isRunning)
         currentStatus = isRunning;
+        camMovement.ToggleDialogMode(!isRunning, interactableState.Interactable.transform.position);
+        lastDialogToggleTime = Time.time;
     }
 }
