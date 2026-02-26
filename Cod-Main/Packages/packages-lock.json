@@ -24,7 +24,7 @@
       "dependencies": {
         "com.unity.textmeshpro": "3.0.6"
       },
-      "hash": "2426ea045b33424b9a87f891498a9c909df17dfc"
+      "hash": "1ccfc59b7e918b7a513abde0295f0445f73b27a7"
     },
     "com.cod.interactionbuilder": {
       "version": "https://github.com/Marcolino3000/InteractionBuilder-Package.git",
@@ -35,7 +35,7 @@
         "com.cod.dialog-builder": "0.9.3",
         "com.cod.playerinput": "1.0.0"
       },
-      "hash": "bdb2523c72447e70b79e8af60c9170a0a3646143"
+      "hash": "3926b579e318d7bbe22fae19427ff4f00421bcc5"
     },
     "com.cod.playerinput": {
       "version": "https://github.com/Marcolino3000/PlayerInput.git",
@@ -45,7 +45,7 @@
         "com.unity.cinemachine": "3.1.4",
         "com.unity.inputsystem": "1.14.2"
       },
-      "hash": "6b2fcad83f7f519f4b38bbd7a108f9c0b69c84a4"
+      "hash": "c50342f8939950fd2a8c2d554760a79846f439b2"
     },
     "com.unity.2d.animation": {
       "version": "12.0.3",

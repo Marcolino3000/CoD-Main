@@ -1,6 +1,5 @@
 using System.Collections;
 using Unity.Cinemachine;
-using Unity.Mathematics.Geometry;
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -30,8 +29,9 @@ namespace DefaultNamespace
     
         public void ToggleDialogMode(bool isDialogRunning)
         {
-            if (!toggleOnDialog)
-                return;
+            if (!toggleOnDialog) return;
+
+            if (_isInDialogMode) return;
 
             _isInDialogMode = isDialogRunning;
             
@@ -40,14 +40,15 @@ namespace DefaultNamespace
         
         public void ToggleDialogMode(bool isDialogRunning, Vector3 secondCharacterPosition)
         {
-            if (!toggleOnDialog)
-                return;
+            if (!toggleOnDialog) return;
+            
+            if (_isInDialogMode) return;
 
             _isInDialogMode = isDialogRunning;
 
             if (_follow != null && _follow.FollowTarget != null)
             {
-                Vector3 mainTargetPosition = marleneTransform.localPosition;
+                Vector3 mainTargetPosition = marleneTransform.position;
                 float halfDistance = Vector3.Distance(mainTargetPosition, secondCharacterPosition) * 0.5f;
                 // float midpointX = ((mainTargetPosition.x + secondCharacterPosition.x) * 0.5f) + mainTargetPosition.x;
                 if(mainTargetPosition.x > secondCharacterPosition.x)

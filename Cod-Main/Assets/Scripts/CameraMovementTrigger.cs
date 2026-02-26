@@ -18,6 +18,8 @@ public class CameraMovementTrigger : MonoBehaviour
 
     private void OnDialogRunningStatusChanged(bool isRunning, DialogTree tree)
     {
+        if (currentStatus) return;
+        
         if (tree.Blackboard.CharacterData == null)
         {
             Debug.LogError("CharacterData not set in blackboard!");
@@ -42,7 +44,7 @@ public class CameraMovementTrigger : MonoBehaviour
         }
         
         if(currentStatus != isRunning)
-            camMovement.ToggleDialogMode(!isRunning, interactableState.Interactable.transform.localPosition);
+            camMovement.ToggleDialogMode(!isRunning, interactableState.Interactable.transform.position);
         
         currentStatus = isRunning;
     }
