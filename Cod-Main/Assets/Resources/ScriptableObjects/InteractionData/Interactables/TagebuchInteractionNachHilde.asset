@@ -17,7 +17,7 @@ MonoBehaviour:
   Count: 0
   Threshold: 1
   OneTimeUse: 0
-  successReaction: {fileID: 11400000, guid: 5f487c0626dbe41efb04613aefc4ccba, type: 2}
+  successReaction: {fileID: 11400000, guid: ae831742708ff4d70887ec2ce01ba256, type: 2}
   failureReaction: {fileID: 0}
   ThresholdReached: 0
   IsRunning: 0
