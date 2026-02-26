@@ -5,6 +5,7 @@ using UnityEngine.UIElements;
 public class JournalMenu : MonoBehaviour
 {
     [SerializeField] private Raycaster raycaster;
+    [SerializeField] private Toggleable journalState;
     [SerializeField] private bool journalIsUnlocked;
 
     private UIDocument uiDocument;
@@ -94,22 +95,40 @@ public class JournalMenu : MonoBehaviour
         root.visible = true;
         raycaster.isDialogRunning = true;
         
-        rightSideContainer.style.display = journalIsUnlocked ? DisplayStyle.Flex : DisplayStyle.None;
-        journalMenu.style.display = journalIsUnlocked ? DisplayStyle.Flex : DisplayStyle.None;
+        rightSideContainer.style.display = journalState.ToggleState ? DisplayStyle.Flex : DisplayStyle.None;
     }
 
     public void ToggleMap()
     {
-        mapIsVisible = !mapIsVisible;
-        journalIsVisible = false;
+        if (!journalState.ToggleState)
+            return;
         
-        root.visible = journalIsVisible;
-        raycaster.isDialogRunning = journalIsVisible;
+        if(mapIsVisible)
+        {
+            mapIsVisible = false;
+            root.visible = false;
+            raycaster.isDialogRunning = false;
+        }
+
+        else
+        {
+            mapIsVisible = true;
+            root.visible = true;
+            raycaster.isDialogRunning = true;
+            rightSideContainer.style.display = DisplayStyle.Flex;
+            journalMenu.style.display = DisplayStyle.None;
+            mapMenu.style.display = DisplayStyle.Flex;   
+            
+            // mapMenu.style.visibility = Visibility.Hidden;
+        }
+
+        journalIsVisible = false;
+
     }
 
     public void ToggleJournal()
     {
-        if (!journalIsUnlocked)
+        if (!journalState.ToggleState)
             return;
         
         if(journalIsVisible)
