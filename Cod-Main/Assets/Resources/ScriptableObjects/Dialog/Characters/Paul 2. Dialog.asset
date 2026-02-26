@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Wann hast du das...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 65466ab20b8ab43a4886861b21581a67
-  Position: {x: 685.99994, y: 143.00003}
-  customPreview: 0
+  Position: {x: 757.6123, y: 143}
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: Wann hast du das letzte Mal meine Mutter gesehen?
-  TextPreview: Wann hast du das...
+  TextPreview: Wann hast du meine Mutter gesehen?
   AudioClip: {fileID: 8300000, guid: 72ae9aea6a07d4ee2800fad4224a27ba, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: Hi Marlene, und,...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 8760572c3ccfd4631b2f28e021f3e47f
-  Position: {x: 385.99997, y: -21.917004}
+  Position: {x: 386.00003, y: -20.84999}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -241,8 +241,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "\xE4h.. ne."
-  TextPreview: "\xE4h.. ne."
+  DialogLine: "\xC4h.. ne."
+  TextPreview: "\xC4h.. ne."
   AudioClip: {fileID: 8300000, guid: cc36ed86678804282ae810359169c113, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -265,14 +265,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: Und wohin war si...
+  m_Name: Wohin war sie un...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 6abaf513895e04c9a9385967a44e653b
-  Position: {x: 685.99994, y: 399.99997}
-  customPreview: 0
+  Position: {x: 686.00006, y: 400.00012}
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: Und wohin war sie unterwegs?
+  DialogLine: Wohin war sie unterwegs?
   TextPreview: Und wohin war si...
   AudioClip: {fileID: 8300000, guid: 6b05c90a20c344509ab5e413b1d820fd, type: 3}
   ClipVolume: 1
@@ -364,11 +364,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 437593e5976344245b4aac192ff88b5d
   Position: {x: 78.999954, y: 399.99994}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: Bruno Bixawurschd?
-  TextPreview: Bruno Bixawursch...
+  TextPreview: Bruno Bixawurschd?
   AudioClip: {fileID: 8300000, guid: cb91f1ea45ba04123819c75f9aa2e40f, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -458,11 +458,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 59feb3aa454204741b22663a760aa48a
   Position: {x: 78.71606, y: 143.00003}
-  customPreview: 0
+  customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: Welcher Schlager-Star kommt nochmal zur Hochzeit?
-  TextPreview: Welcher Schlager...
+  TextPreview: Wer kommt zur Hochzeit?
   AudioClip: {fileID: 8300000, guid: 0240c6d3566714be582f2bbbd227289c, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5

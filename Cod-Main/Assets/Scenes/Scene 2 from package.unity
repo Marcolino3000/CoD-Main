@@ -11427,6 +11427,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1079661720}
     m_Modifications:
+    - target: {fileID: 3568492791507700903, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_targetScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3568492791507700903, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_targetScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3568492791507700903, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_targetScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 5019913532360450867, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_Maskable
       value: 1
@@ -11472,6 +11484,18 @@ PrefabInstance:
       value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -11501,11 +11525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 169.2
+      value: 507
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 216.4
+      value: 415
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11521,7 +11545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_fontSize
-      value: 75
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_fontAsset
@@ -11532,8 +11556,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_lineSpacing
+      value: -22.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_fontSizeBase
-      value: 75
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_sharedMaterial
@@ -37192,6 +37220,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1079661720}
     m_Modifications:
+    - target: {fileID: 3568492791507700903, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_targetScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3568492791507700903, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_targetScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3568492791507700903, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_targetScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 5443841448203198553, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_Name
       value: SpeechBubble EmotionalTempVariant (2)
@@ -37229,6 +37269,18 @@ PrefabInstance:
       value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -37258,11 +37310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 304.94
+      value: 548
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -257.5
+      value: -129
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -37278,15 +37330,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_fontSize
-      value: 75
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 830084581a61f4dd6946b573ffabc63e, type: 2}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_lineSpacing
+      value: -22.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_fontSizeBase
-      value: 75
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_sharedMaterial
@@ -59387,6 +59443,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1079661720}
     m_Modifications:
+    - target: {fileID: 3568492791507700903, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_targetScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3568492791507700903, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_targetScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3568492791507700903, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_targetScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 5443841448203198553, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_Name
       value: SpeechBubble EmotionalTempVariant (1)
@@ -59424,6 +59492,18 @@ PrefabInstance:
       value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -59453,11 +59533,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 345.5
+      value: 645
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 153
       objectReference: {fileID: 0}
     - target: {fileID: 5882047844808784990, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -59473,15 +59553,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_fontSize
-      value: 75
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 830084581a61f4dd6946b573ffabc63e, type: 2}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
+      propertyPath: m_lineSpacing
+      value: -22.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_fontSizeBase
-      value: 75
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 7412020433761858227, guid: 90a6d5912135840d08e47723245bd65e, type: 3}
       propertyPath: m_sharedMaterial
@@ -67557,6 +67641,10 @@ PrefabInstance:
     - target: {fileID: 6489277684178909198, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6753411731801980371, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_ScaleFactor
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7693628905760827513, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: m_Pivot.x
