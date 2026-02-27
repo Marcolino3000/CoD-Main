@@ -120,6 +120,7 @@ Material:
     - _OutlineThickness: 20.21
     - _Outline_Thickness: 13.16
     - _Parallax: 0.005
+    - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _SampleCorners: 0
