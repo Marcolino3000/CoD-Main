@@ -986,7 +986,7 @@ MonoBehaviour:
   TextPreview: "Na ja \u2013 ich muss..."
   AudioClip: {fileID: 8300000, guid: 3ea80df7812d14bcba95638b9d34ae81, type: 3}
   ClipVolume: 1
-  PauseAfter: 0.5
+  PauseAfter: 2
   Children: []
   FallThrough: 0
   IsAvailable: 1
