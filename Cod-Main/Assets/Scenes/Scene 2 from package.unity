@@ -2137,9 +2137,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1677308ff823420f8e8812b292275b98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UI.Questlog
-  countdownUntilShow: 3
+  countdownUntilShow: 5
   showDuration: 5
+  animationDuration: 1.4
   logImage: {fileID: 822682938}
+  logRectTransform: {fileID: 822682935}
 --- !u!222 &76994403
 CanvasRenderer:
   m_ObjectHideFlags: 0
