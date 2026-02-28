@@ -36,6 +36,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 00f0041cde2ad4652a5a7d603a39ba19, type: 3}
     - {fileID: 8300000, guid: 87264863974264fafaa1dc368eccaab8, type: 3}
     - {fileID: 8300000, guid: 423226309dfdb4810ad92d03b37db095, type: 3}
+    - {fileID: 8300000, guid: c823b3e9935cf4d63a4e8654aa27e725, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -54,7 +55,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 20
+      Data: 21
     - Name: 
       Entry: 7
       Data: 
@@ -811,10 +812,47 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: 43|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 44|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 56
+    - Name: Sample
+      Entry: 3
+      Data: 38203
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
       Entry: 8
       Data: 
-  lastPlayheadSample: 1494016
-  nextId: 56
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  lastPlayheadSample: 442479
+  nextId: 57

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,11 +12,16 @@ namespace UI
         [SerializeField] private float animationDuration;
         [SerializeField] private Image logImage;
         [SerializeField] private RectTransform logRectTransform;
+        [SerializeField] private bool wasShown;
+        
         private Vector2 originalAnchoredPosition;
         private Vector2 offscreenAnchoredPosition;
+        private bool isLogVisible;
         
         private void Awake()
         {
+            JournalMenu.OnMenuToggled += HandleMenuToggled;
+            
             if (logRectTransform == null)
                 logRectTransform = logImage.GetComponent<RectTransform>();
             originalAnchoredPosition = logRectTransform.anchoredPosition;
@@ -23,21 +29,49 @@ namespace UI
             logRectTransform.anchoredPosition = offscreenAnchoredPosition;
         }
 
+        private void HandleMenuToggled(bool isMenuVisible)
+        {
+            if (isMenuVisible && isLogVisible) return;
+            
+            if (isMenuVisible && !isLogVisible)
+            {
+                Reset();
+                return;
+            }
+            if (!isMenuVisible && !isLogVisible)
+            {
+                Reset();
+                StartCoroutine(ShowQuestLog());
+            }
+        }
+
         private void Start()
         {
             StartCoroutine(ShowQuestLog());
         }
 
+        private void Reset()
+        {
+            StopAllCoroutines();
+            logRectTransform.anchoredPosition = offscreenAnchoredPosition;
+            isLogVisible = false;
+        }
+
         private IEnumerator ShowQuestLog()
         {
+            if (wasShown) yield break;
+            
             yield return StartCoroutine(StartCountdown(countdownUntilShow));
             yield return StartCoroutine(AnimateTransition(true));
             yield return StartCoroutine(StartCountdown(showDuration));
+            wasShown = true;
             yield return StartCoroutine(AnimateTransition(false));
         }
 
         private IEnumerator AnimateTransition(bool show)
         {
+            isLogVisible = show;
+            
             float elapsed = 0f;
             Vector2 startPos = show ? offscreenAnchoredPosition : originalAnchoredPosition;
             Vector2 endPos = show ? originalAnchoredPosition : offscreenAnchoredPosition;

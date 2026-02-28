@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: Verschlossen, ab...
+  m_Name: 'Verschlossen, '
   m_EditorClassIdentifier: DialogBuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 8ad611484a30f409e98d4fc270333d75
   Position: {x: 663.4286, y: 556.2857}

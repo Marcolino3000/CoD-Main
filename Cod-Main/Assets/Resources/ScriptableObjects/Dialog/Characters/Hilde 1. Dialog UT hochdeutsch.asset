@@ -369,12 +369,12 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Also wie gesagt: Du f\xFCtterst ihn jeden Tag. Achte einfach darauf,
-    dass es dem Sauerteig nicht zu warm und nicht zu kalt ist. Du hast wahrscheinlich
-    noch nie vorher einen Sauerteig angesetzt, oder? Also, von den Sauerteigen ist
+    dass es dem Sauerteig nicht zu warm und nicht zu kalt ist.\n Du hast wahrscheinlich
+    noch nie vorher einen Sauerteig angesetzt, oder?\nAlso, von den Sauerteigen ist
     das Gute \u2013 der ist ja schon angesetzt. Du musst nur gut aufpassen, dass
     er nicht eingeht.\nUnd wenn du Fragen hast, kannst du mich jederzeit fragen.
-    Hab ich noch etwas vergessen? Soll ich es dir lieber aufschreiben? Du musst dich
-    um ihn k\xFCmmern wie um so ein \u2026 wie hei\xDFen die noch? Tamagotchi?"
+    Hab ich noch etwas vergessen?\nSoll ich es dir lieber aufschreiben? Du musst
+    dich um ihn k\xFCmmern wie um so ein \u2026 wie hei\xDFen die noch? Tamagotchi?"
   TextPreview: Also wie gesagt:...
   AudioClip: {fileID: 8300000, guid: de78c991ebadf49cabefb225fd82d1dd, type: 3}
   ClipVolume: 1
@@ -2002,12 +2002,12 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Ah, gut dass ich dich gleich erwische! Ich hab mir schon halb gedacht,
-    dass du da hinten bist. Du, ich muss dir was geben. Da, nimm mal. Lippenstift,
-    Schl\xFCsselbund, Marmelade f\xFCr die Oma, die Rubbellose f\xFCr den Andi\u2026
-    \nAlso, was wichtig ist: Du musst ihn regelm\xE4\xDFig f\xFCttern ach was sag
-    ich, am besten jeden Tag, gell. Wo ist er denn jetzt eigentlich?"
+    dass du da hinten bist. Du, ich muss dir was geben. \nLippenstift, Schl\xFCsselbund,
+    Marmelade f\xFCr die Oma, die Rubbellose f\xFCr den Andi\u2026 \nAlso, was wichtig
+    ist: Du musst ihn regelm\xE4\xDFig f\xFCttern ach was sag ich, am besten jeden
+    Tag, gell. Wo ist er denn jetzt eigentlich?"
   TextPreview: Ah, gut dass ich...
-  AudioClip: {fileID: 8300000, guid: 25942dbed9891463cb324bab49d1813c, type: 3}
+  AudioClip: {fileID: 8300000, guid: fa3c31c00e0da4e0fb89feb49ecaca88, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
   Children:

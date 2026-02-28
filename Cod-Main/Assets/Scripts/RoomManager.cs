@@ -1,8 +1,11 @@
+using System;
 using UnityEngine;
 using System.Collections.Generic;
 
 public class RoomManager : MonoBehaviour
 {
+    public static event Action<bool> OnRoomChanged;
+    
     public GameObject outside;
     public List<GameObject> indoorRooms; // Hallway, Kitchen, Bathroom
 
@@ -29,6 +32,7 @@ public class RoomManager : MonoBehaviour
                 room.SetActive(true);
 
             kitchenOnlyObject.SetActive(false);
+            OnRoomChanged?.Invoke(true);
         }
         else
         {
@@ -40,6 +44,7 @@ public class RoomManager : MonoBehaviour
 
             // 🔥 Nur wenn Kitchen aktiv ist
             kitchenOnlyObject.SetActive(newRoom == kitchen);
+            OnRoomChanged?.Invoke(false);
         }
 
         currentRoom = newRoom;
