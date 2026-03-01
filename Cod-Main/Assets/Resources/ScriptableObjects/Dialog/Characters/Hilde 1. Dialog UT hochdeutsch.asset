@@ -49,7 +49,7 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Noch mehr tote M\xFCtter?"
-  TextPreview: Noch mehr tote M...
+  TextPreview: "Noch mehr tote M\xFCtter?"
   AudioClip: {fileID: 8300000, guid: eab088b84b2d343bfa5f0640ee7b6390, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: Hast du Lack ges...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: e3ab1cc42dc994807bde2bb786cfbb4a
-  Position: {x: -299.9999, y: 2616.2173}
+  Position: {x: -300.00006, y: 2616}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -190,8 +190,8 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 4
-  _popularityModifier: 0
+  answerType: 2
+  _popularityModifier: -5
 --- !u!114 &-7962924074311984988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,7 +440,7 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: Wieso hast du den?
-  TextPreview: Wieso hast du de...
+  TextPreview: Wieso hast du den?
   AudioClip: {fileID: 8300000, guid: f5c5ea6946e4348b1b2b3955953c4bbc, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -887,7 +887,7 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "M\xFCtter sterben doch nicht."
-  TextPreview: "M\xFCtter sterben d..."
+  TextPreview: "M\xFCtter sterben doch nicht."
   AudioClip: {fileID: 8300000, guid: 6b793118d67e44b73ade49a83dd47fd7, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -1111,8 +1111,8 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
+  answerType: 2
+  _popularityModifier: -5
 --- !u!114 &259334518230148051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1207,8 +1207,8 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
+  answerType: 2
+  _popularityModifier: -5
 --- !u!114 &554277992469360030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1283,7 +1283,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "Ich hob\u2019s bf\xFCrch..."
+  m_Name: "Ich hab\u2019s bef\xFCrc..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 5b0ba00262e004cb09e3a26663f3fe34
   Position: {x: -150, y: 1820}
@@ -2221,16 +2221,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: Ah, komisch.
+  m_Name: Ah, komisch...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 26e9f6a1ea4344ad7b78768e66a73d19
   Position: {x: -450, y: 1400}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Ah, komisch.
-  TextPreview: Ah, komisch.
-  AudioClip: {fileID: 8300000, guid: 0944ff30956574f28891d1d916b9a096, type: 3}
+  DialogLine: Ah, komisch...
+  TextPreview: Ah, komisch...
+  AudioClip: {fileID: 8300000, guid: 1a2ff002a09684161a0bbc3291052aaf, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
   Children:

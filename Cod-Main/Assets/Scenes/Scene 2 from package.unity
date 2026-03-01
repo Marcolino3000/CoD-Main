@@ -19856,7 +19856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_fontSize
-      value: 40
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_margin.x
@@ -19869,7 +19869,7 @@ PrefabInstance:
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 830084581a61f4dd6946b573ffabc63e, type: 2}
+      objectReference: {fileID: 11400000, guid: 704a0a6219b294733898bbdbca07d018, type: 2}
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_fontStyle
       value: 17
@@ -19884,12 +19884,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_fontSizeBase
-      value: 40
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 7413068116232490235, guid: 830084581a61f4dd6946b573ffabc63e, type: 2}
+      objectReference: {fileID: 7413068116232490235, guid: 704a0a6219b294733898bbdbca07d018, type: 2}
     - target: {fileID: 2369152321516030518, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: m_enableAutoSizing
       value: 0
