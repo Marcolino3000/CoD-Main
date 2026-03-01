@@ -1177,8 +1177,8 @@ Transform:
   m_GameObject: {fileID: 57148091}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.70710677, z: 0.70710677, w: 0}
-  m_LocalPosition: {x: -0.04, y: -3.35, z: 6.12}
-  m_LocalScale: {x: 0.2, y: 0.17162953, z: 5.133803}
+  m_LocalPosition: {x: -0.5769, y: -3.35, z: 6.12}
+  m_LocalScale: {x: 0.22946979, y: 0.17162953, z: 5.133803}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1865751729}
@@ -2139,7 +2139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UI.Questlog
   countdownUntilShow: 5
   showDuration: 5
-  animationDuration: 1.4
+  animationDuration: 3
   logImage: {fileID: 822682938}
   logRectTransform: {fileID: 822682935}
   wasShown: 0
@@ -7358,7 +7358,7 @@ Transform:
   m_GameObject: {fileID: 219284087}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5559103, y: -0.311, z: 1.7384205}
+  m_LocalPosition: {x: -0.5559103, y: -0.105, z: 1.557}
   m_LocalScale: {x: 0.19000001, y: 0.19000001, z: 0.19000001}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -15195,7 +15195,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 4434ace33e27c4a968c516c774ff70e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17757,7 +17757,7 @@ Transform:
   m_GameObject: {fileID: 456765364}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0.625, z: 2.1}
+  m_LocalPosition: {x: 0.5, y: 0.625, z: 1.81}
   m_LocalScale: {x: 0.14999999, y: 0.14999999, z: 0.14999999}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -19050,7 +19050,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 630f566c612255541a1742212ca770f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -28689,7 +28689,7 @@ PrefabInstance:
     - target: {fileID: -189824404144706576, guid: 4f2b232c34cfd40589141cfa1efbdf3b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8199f35df8d8948c4ae1e5f30de0ba76, type: 2}
+      objectReference: {fileID: 2100000, guid: adec5a310c0ba4cfd806930d03f305e7, type: 2}
     - target: {fileID: 2459043860723191969, guid: 4f2b232c34cfd40589141cfa1efbdf3b, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.21
@@ -33891,14 +33891,14 @@ RectTransform:
   m_GameObject: {fileID: 822682934}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.69065, y: 0.69065, z: 0.69065}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 76994400}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 575.9, y: 551.8}
+  m_AnchoredPosition: {x: 575.9, y: 460}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &822682937
@@ -62533,7 +62533,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  - {fileID: 2100000, guid: adec5a310c0ba4cfd806930d03f305e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -66017,7 +66017,7 @@ Transform:
   m_GameObject: {fileID: 2007673829}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2050095, y: 2.263, z: -2.499999}
+  m_LocalPosition: {x: -0.566, y: 2.263, z: -2.662}
   m_LocalScale: {x: 0.19, y: 0.19, z: 0.19}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -66416,7 +66416,7 @@ Transform:
   m_GameObject: {fileID: 2012218080}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.85, y: 1.33, z: 1.71}
+  m_LocalPosition: {x: -0.811, y: 1.33, z: 1.637}
   m_LocalScale: {x: 0.19000001, y: 0.19000001, z: 0.19000001}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -70175,6 +70175,10 @@ PrefabInstance:
       propertyPath: Sauerteig
       value: 
       objectReference: {fileID: 1358430843}
+    - target: {fileID: 4235021266416259701, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4621775145416303625, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.6
