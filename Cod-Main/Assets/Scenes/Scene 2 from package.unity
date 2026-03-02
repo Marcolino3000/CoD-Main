@@ -66400,6 +66400,7 @@ GameObject:
   - component: {fileID: 2012218081}
   - component: {fileID: 2012218083}
   - component: {fileID: 2012218082}
+  - component: {fileID: 2012218084}
   m_Layer: 0
   m_Name: Journal
   m_TagString: Untagged
@@ -66650,6 +66651,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2012218084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012218080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f152a68cf5799428a840be2dd1f5cf53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  findJournalReaction: {fileID: 11400000, guid: ae831742708ff4d70887ec2ce01ba256, type: 2}
+  renderer: {fileID: 2012218083}
+  collider: {fileID: 2012218082}
 --- !u!4 &2012294089 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2509432885043854717, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
@@ -70754,7 +70770,7 @@ PrefabInstance:
       objectReference: {fileID: 238622888}
     - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: awarenessLevel
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: levelAfterUnlock
