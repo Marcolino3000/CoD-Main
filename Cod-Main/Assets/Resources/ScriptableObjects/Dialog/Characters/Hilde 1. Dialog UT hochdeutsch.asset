@@ -364,7 +364,7 @@ MonoBehaviour:
   m_Name: Also wie gesagt:...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 0e8400e36b69f4579b2d0e35c587d46f
-  Position: {x: -149.99995, y: 993.0002}
+  Position: {x: -150, y: 993.5}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}

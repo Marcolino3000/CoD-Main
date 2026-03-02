@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "31763bc3002642691015ae37d36f51afa3d32dcd"
+      "hash": "83b46e420dc1b09c6fa48e7941986be1ec0a336d"
     },
     "com.cod.csvmanager": {
       "version": "https://github.com/Marcolino3000/CsvManager.git",
@@ -35,7 +35,7 @@
         "com.cod.dialog-builder": "0.9.3",
         "com.cod.playerinput": "1.0.0"
       },
-      "hash": "5a0150766c74e02d0cc180828347e2dec9e8ef19"
+      "hash": "f656b36910cb570a9ffdf304907c0f60184ec31e"
     },
     "com.cod.playerinput": {
       "version": "https://github.com/Marcolino3000/PlayerInput.git",

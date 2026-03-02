@@ -35,6 +35,7 @@ MonoBehaviour:
   - rid: 1719061721412010279
   - rid: 1719061741103480907
   - rid: 1719061741939982600
+  - rid: 5691031556246995224
   references:
     version: 2
     RefIds:
@@ -111,6 +112,12 @@ MonoBehaviour:
       type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: 3196b0e41505040d78829b5aee0163c9, type: 2}
+        ThresholdReached: 0
+        IsRunning: 0
+    - rid: 5691031556246995224
+      type: {class: InteractionData/InteractionStateData, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
+      data:
+        Owner: {fileID: 11400000, guid: d61ebb6d5c8be43699a50f5e33b89bc7, type: 2}
         ThresholdReached: 0
         IsRunning: 0
     - rid: 6889332720958177924

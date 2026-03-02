@@ -36,8 +36,8 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 388485b41120844eca5d0b4a8585948d, type: 2}
   DialogLine: "\u201EMarianne H\xE4berle! Liest du ungefragt mein altes Tagebuch!
-    \u2013 Ich hab immer wieder Seiten rausgerissen und wollte nochmal neu anfangen
-    zu schreiben. Irgendwann hab ich\u2019s dann gelassen.\u201C"
+    \nIch hab immer wieder Seiten rausgerissen und wollte nochmal neu anfangen zu
+    schreiben. Irgendwann hab ich\u2019s dann gelassen.\u201C"
   TextPreview: "\u201EMarianne H\xE4berl..."
   AudioClip: {fileID: 8300000, guid: 0f1ba8c5d3874495fbc5b6b973d25f73, type: 3}
   ClipVolume: 1

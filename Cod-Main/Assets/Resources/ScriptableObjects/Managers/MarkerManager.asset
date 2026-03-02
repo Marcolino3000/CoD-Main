@@ -37,6 +37,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 87264863974264fafaa1dc368eccaab8, type: 3}
     - {fileID: 8300000, guid: 423226309dfdb4810ad92d03b37db095, type: 3}
     - {fileID: 8300000, guid: c823b3e9935cf4d63a4e8654aa27e725, type: 3}
+    - {fileID: 8300000, guid: fa3c31c00e0da4e0fb89feb49ecaca88, type: 3}
+    - {fileID: 8300000, guid: de78c991ebadf49cabefb225fd82d1dd, type: 3}
+    - {fileID: 8300000, guid: 0f1ba8c5d3874495fbc5b6b973d25f73, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -55,7 +58,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 21
+      Data: 24
     - Name: 
       Entry: 7
       Data: 
@@ -823,16 +826,172 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 21
+    - Name: $v
+      Entry: 7
+      Data: 44|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 45|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 59
+    - Name: Sample
+      Entry: 3
+      Data: 376348
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 60
+    - Name: Sample
+      Entry: 3
+      Data: 787778
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 22
+    - Name: $v
+      Entry: 7
+      Data: 47|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 48|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 61
+    - Name: Sample
+      Entry: 3
+      Data: 436926
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 49|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 62
+    - Name: Sample
+      Entry: 3
+      Data: 633097
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 63
+    - Name: Sample
+      Entry: 3
+      Data: 1038815
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 51|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 64
+    - Name: Sample
+      Entry: 3
+      Data: 1353134
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 23
+    - Name: $v
+      Entry: 7
+      Data: 52|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
       Data: 1
     - Name: 
       Entry: 7
-      Data: 44|MarkerManager+Marker, com.audioplayer
+      Data: 53|MarkerManager+Marker, com.audioplayer
     - Name: Id
       Entry: 3
-      Data: 56
+      Data: 65
     - Name: Sample
       Entry: 3
-      Data: 38203
+      Data: 200366
     - Name: Type
       Entry: 3
       Data: 0
@@ -854,5 +1013,5 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  lastPlayheadSample: 442479
-  nextId: 57
+  lastPlayheadSample: 213067
+  nextId: 66

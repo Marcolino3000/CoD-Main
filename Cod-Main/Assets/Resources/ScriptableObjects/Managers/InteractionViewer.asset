@@ -559,19 +559,6 @@ MonoBehaviour:
         Conditions: []
       Name: Schneckenstock
       HighPriority: 0
-  - Trigger:
-      TriggerType: 2
-      TriggeringInteractable: {fileID: 11400000, guid: 31bbaa1d4963b433eaf50b28b594e86d, type: 2}
-      TriggeringDialogOption: {fileID: 0}
-    Prerequisites:
-    - Record:
-        InteractionToExecute: {fileID: 11400000, guid: 451526fc10c6747a895ffb1c8f45d728, type: 2}
-        DialogOptionToUnlock: {fileID: 0}
-        TriggerType: 2
-        TriggeringInteractable: {fileID: 11400000, guid: 31bbaa1d4963b433eaf50b28b594e86d, type: 2}
-        Conditions: []
-      Name: 
-      HighPriority: 0
   references:
     version: 2
     RefIds:
