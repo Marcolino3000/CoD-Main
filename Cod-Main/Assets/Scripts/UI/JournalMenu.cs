@@ -36,9 +36,11 @@ public class JournalMenu : MonoBehaviour
 
     public void SecondLog()
     {
-        journalMenu.style.display = DisplayStyle.None;
-        Debug.Log("SecondLog");
-        journalMenu = root.Q("journalMenu2");
+        // journalMenu.style.display = DisplayStyle.None;
+        // Debug.Log("SecondLog");
+        // journalMenu = root.Q("journalMenu2");
+
+        journalMenu.style.backgroundImage = secondLogImage;
         
         ToggleJournal();
     }

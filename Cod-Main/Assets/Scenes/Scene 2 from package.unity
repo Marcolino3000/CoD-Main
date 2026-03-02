@@ -190,7 +190,7 @@ MonoBehaviour:
   raycaster: {fileID: 1952575031}
   journalState: {fileID: 11400000, guid: 0b524a0c0dbe44756b23523e0acca0f7, type: 2}
   journalIsUnlocked: 0
-  secondLogImage: {fileID: 2800000, guid: 1466bd78b9652416885d9f4da049c658, type: 3}
+  secondLogImage: {fileID: 2800000, guid: 371c1fd30024948cbae86bf0608e268a, type: 3}
 --- !u!1 &12051212
 GameObject:
   m_ObjectHideFlags: 0
