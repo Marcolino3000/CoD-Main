@@ -19,6 +19,7 @@ public class JournalMenu : MonoBehaviour
     private VisualElement startMenu;
     private VisualElement mapMenu;
     private VisualElement journalMenu;
+    private VisualElement journalMenu2;
 
     private VisualElement rightSideContainer;
 
@@ -33,12 +34,21 @@ public class JournalMenu : MonoBehaviour
     private bool journalIsVisible;
     private bool mapIsVisible;
 
+    public void SecondLog()
+    {
+        journalMenu.style.display = DisplayStyle.None;
+        Debug.Log("SecondLog");
+        journalMenu = root.Q("journalMenu2");
+        
+        ToggleJournal();
+    }
+
     private void Start()
     {
         SetupElements();
         ShowMenu();
     }
-    
+
     public void UnlockJournal()
     {
         journalIsUnlocked = true;
@@ -71,7 +81,7 @@ public class JournalMenu : MonoBehaviour
         resumeButton.clicked += ResumeGame;
         exitButton.clicked += ExitGame;
     }
-    
+
     private void StartGame()
     {
         HideMenu();
@@ -79,7 +89,7 @@ public class JournalMenu : MonoBehaviour
         startButton.SetEnabled(false);
         startButton.pickingMode = PickingMode.Ignore;
     }
-    
+
     private void ResumeGame()
     {
         HideMenu();
@@ -129,11 +139,6 @@ public class JournalMenu : MonoBehaviour
 
         journalIsVisible = false;
 
-    }
-
-    public void SecondLog()
-    {
-        journalMenu.style.backgroundImage = Background.FromTexture2D(secondLogImage);
     }
 
     public void ToggleJournal()

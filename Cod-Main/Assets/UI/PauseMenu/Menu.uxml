@@ -12,8 +12,8 @@
             </ui:VisualElement>
         </ui:VisualElement>
         <ui:VisualElement name="rightSideContainer" style="flex-grow: 5; display: none;">
-            <ui:VisualElement name="mapMenu" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/UI_Pause_Menu_abs_v01_tagebuch_lay01.png?fileID=2800000&amp;guid=fea42bac9b6f44b4591c02bdc3b3ae1f&amp;type=3#UI_Pause_Menu_abs_v01_tagebuch_lay01&quot;);" />
-            <ui:VisualElement name="journalMenu" style="flex-grow: 1; display: none; background-image: url(&quot;project://database/Assets/UI/Questlog/Quest_Log_vorher.png?fileID=2800000&amp;guid=89fc21fd55b3649ca9421347f4409b57&amp;type=3#Quest_Log_vorher&quot;);" />
+            <ui:VisualElement name="mapMenu" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/UI_Pause_Menu_abs_v01_tagebuch_lay01.png?fileID=2800000&amp;guid=fea42bac9b6f44b4591c02bdc3b3ae1f&amp;type=3#UI_Pause_Menu_abs_v01_tagebuch_lay01&quot;); display: none;" />
+            <ui:VisualElement name="journalMenu" style="flex-grow: 1; display: none; background-image: url(&quot;project://database/Assets/UI/UI_Pause_Menu_abs_v01_tagebuch_lay01.png?fileID=2800000&amp;guid=fea42bac9b6f44b4591c02bdc3b3ae1f&amp;type=3#UI_Pause_Menu_abs_v01_tagebuch_lay01&quot;);" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
