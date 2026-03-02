@@ -190,6 +190,7 @@ MonoBehaviour:
   raycaster: {fileID: 1952575031}
   journalState: {fileID: 11400000, guid: 0b524a0c0dbe44756b23523e0acca0f7, type: 2}
   journalIsUnlocked: 0
+  secondLogImage: {fileID: 2800000, guid: 1466bd78b9652416885d9f4da049c658, type: 3}
 --- !u!1 &12051212
 GameObject:
   m_ObjectHideFlags: 0
@@ -5382,6 +5383,14 @@ PrefabInstance:
     - target: {fileID: 7230633856241153375, guid: 65f468906282d42c591efd5861655e23, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7808593401541080161, guid: 65f468906282d42c591efd5861655e23, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7808593401541080161, guid: 65f468906282d42c591efd5861655e23, type: 3}
+      propertyPath: m_FlipY
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7808593401541080161, guid: 65f468906282d42c591efd5861655e23, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -48465,15 +48474,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.435471
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.05810512
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 47.476418
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
       propertyPath: m_LocalRotation.w
@@ -66096,7 +66105,6 @@ GameObject:
   - component: {fileID: 2012218081}
   - component: {fileID: 2012218083}
   - component: {fileID: 2012218082}
-  - component: {fileID: 2012218084}
   m_Layer: 0
   m_Name: Journal
   m_TagString: Untagged
@@ -66347,21 +66355,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2012218084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2012218080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f152a68cf5799428a840be2dd1f5cf53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  findJournalReaction: {fileID: 11400000, guid: ae831742708ff4d70887ec2ce01ba256, type: 2}
-  renderer: {fileID: 2012218083}
-  collider: {fileID: 2012218082}
 --- !u!4 &2012294089 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2509432885043854717, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
@@ -69821,15 +69814,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 209482210421413983, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: emotionalWiggleCount
-      value: 8
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 209482210421413983, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: emotionalWiggleAmount
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 209482210421413983, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: emotionalWiggleDuration
-      value: 0.7
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 209482210421413983, guid: 6dc746a2d8ee745d591b915989764b1d, type: 3}
       propertyPath: 'interactablesThatDontTriggerWiggle.Array.data[0]'
@@ -70310,6 +70303,14 @@ PrefabInstance:
     - target: {fileID: 362900808026290562, guid: 2c9be93860cae4c48b82e92b429d1f89, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.7391469
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217169734943085702, guid: 2c9be93860cae4c48b82e92b429d1f89, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217169734943085702, guid: 2c9be93860cae4c48b82e92b429d1f89, type: 3}
+      propertyPath: m_FlipY
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1217169734943085702, guid: 2c9be93860cae4c48b82e92b429d1f89, type: 3}
       propertyPath: m_Enabled
@@ -71199,6 +71200,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
+      propertyPath: OnToggleZweitesLog.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1952575031}
@@ -71263,6 +71268,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9870522}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
+      propertyPath: OnToggleZweitesLog.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnMouseClickEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1952575031}
@@ -71282,6 +71291,10 @@ PrefabInstance:
       propertyPath: OnInteractEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
+      propertyPath: OnToggleZweitesLog.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 9870522}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnInteractEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnInteract
@@ -71331,6 +71344,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9870522}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
+      propertyPath: OnToggleZweitesLog.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
+      propertyPath: OnToggleZweitesLog.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SecondLog
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnActivateRadarEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -71375,6 +71396,10 @@ PrefabInstance:
       value: JournalMenu, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
+      propertyPath: OnToggleZweitesLog.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: JournalMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnActivateRadarEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: Runtime.Scripts.Interactables.Sauerteig, cod.interactionbuilder
       objectReference: {fileID: 0}
@@ -71408,6 +71433,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnToggleMenuEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
+      propertyPath: OnToggleZweitesLog.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}

@@ -2,6 +2,7 @@ using System;
 using Runtime.Scripts.Interactables;
 using UnityEngine;
 using UnityEngine.UIElements;
+using Image = UnityEngine.UI.Image;
 
 public class JournalMenu : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class JournalMenu : MonoBehaviour
     [SerializeField] private Raycaster raycaster;
     [SerializeField] private Toggleable journalState;
     [SerializeField] private bool journalIsUnlocked;
+    [SerializeField] private Texture2D secondLogImage;
 
     private UIDocument uiDocument;
     private VisualElement root;
@@ -127,6 +129,11 @@ public class JournalMenu : MonoBehaviour
 
         journalIsVisible = false;
 
+    }
+
+    public void SecondLog()
+    {
+        journalMenu.style.backgroundImage = Background.FromTexture2D(secondLogImage);
     }
 
     public void ToggleJournal()
