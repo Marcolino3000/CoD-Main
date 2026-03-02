@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "Das Geld h\xE4ttest..."
+  m_Name: "Der Schrein f\xFCr ..."
   m_EditorClassIdentifier: DialogBuilder::Nodes.Decorator.NpcDialogOption
   Guid: f69dc534b9dd949be8716b7acb14989b
   Position: {x: 616.84247, y: 852.5025}
@@ -20,7 +20,8 @@ MonoBehaviour:
   DialogLine: "Der Schrein f\xFCr meinen Erfolg als Autorin. Funktioniert ja richtig
     gut, Mama!\u201C"
   TextPreview: "Der Schrein f\xFCr ..."
-  AudioClip: {fileID: 8300000, guid: c4405d8dc3c0943798c0ec9b81c64853, type: 3}
+  AudioClip: {fileID: 8300000, guid: 97c5d8f6babcf43379a1f565dd9fa75e, type: 3}
+  ClipVolume: 1
   PauseAfter: 0.5
   Children: []
   FallThrough: 0

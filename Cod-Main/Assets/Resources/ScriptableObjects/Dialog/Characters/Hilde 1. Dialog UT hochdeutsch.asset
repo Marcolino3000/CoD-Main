@@ -1997,7 +1997,7 @@ MonoBehaviour:
   m_Name: Ah, gut dass ich...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: dcb2abafaaf0d426f9ef09e4d2b0f3da
-  Position: {x: 214.99997, y: -282.24933}
+  Position: {x: 215, y: -282}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}

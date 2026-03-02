@@ -19,7 +19,7 @@ MonoBehaviour:
     CharacterData: {fileID: 0}
   DialogLine: Ich hab schon fast vergessen wie er aussieht.
   TextPreview: Ich hab schon fa...
-  AudioClip: {fileID: 8300000, guid: 67396692141c04d239698ecddd8b7b2a, type: 3}
+  AudioClip: {fileID: 8300000, guid: 200c6a9be1a924b1db2b51b6a4920dd2, type: 3}
   ClipVolume: 1
   PauseAfter: -0.5
   Children: []
