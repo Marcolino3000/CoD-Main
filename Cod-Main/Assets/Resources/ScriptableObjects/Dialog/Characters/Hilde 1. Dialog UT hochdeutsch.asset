@@ -1866,12 +1866,12 @@ MonoBehaviour:
   m_Name: Ach, wusstest du...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 9db5461dffe9c49be95e3cc532683884
-  Position: {x: -449.9999, y: 2784.5}
+  Position: {x: -450.00003, y: 2784.9993}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Ach, wusstest du das wirklich gar nicht? Ja, sie ist tot. Ich hatte
-    mich schon gefragt, warum du nicht zur Beerdigung gekommen bist. Umso wichtiger
+    mich schon gefragt, warum du nicht zur Beerdigung gekommen bist. \nUmso wichtiger
     ist es, dass du den Sauerteig bekommst \u2026 pack ihn am besten ein."
   TextPreview: Ach, wusstest du...
   AudioClip: {fileID: 8300000, guid: b2c5a6808431544c6a4d98166c375223, type: 3}

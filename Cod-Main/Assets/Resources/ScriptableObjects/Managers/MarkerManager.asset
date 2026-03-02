@@ -40,6 +40,8 @@ MonoBehaviour:
     - {fileID: 8300000, guid: fa3c31c00e0da4e0fb89feb49ecaca88, type: 3}
     - {fileID: 8300000, guid: de78c991ebadf49cabefb225fd82d1dd, type: 3}
     - {fileID: 8300000, guid: 0f1ba8c5d3874495fbc5b6b973d25f73, type: 3}
+    - {fileID: 8300000, guid: b2c5a6808431544c6a4d98166c375223, type: 3}
+    - {fileID: 8300000, guid: 14551678a11cc4ee78912e5f4cbd7a02, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -58,7 +60,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 24
+      Data: 26
     - Name: 
       Entry: 7
       Data: 
@@ -1008,10 +1010,99 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 24
+    - Name: $v
+      Entry: 7
+      Data: 54|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 55|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 66
+    - Name: Sample
+      Entry: 3
+      Data: 416728
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
       Entry: 8
       Data: 
-  lastPlayheadSample: 213067
-  nextId: 66
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 25
+    - Name: $v
+      Entry: 7
+      Data: 56|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 57|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 67
+    - Name: Sample
+      Entry: 3
+      Data: 302642
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 68
+    - Name: Sample
+      Entry: 3
+      Data: 632328
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  lastPlayheadSample: 1114491
+  nextId: 69
