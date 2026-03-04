@@ -1,12 +1,17 @@
+using System;
 using Runtime.Scripts.Interactables;
 using UnityEngine;
 using UnityEngine.UIElements;
+using Image = UnityEngine.UI.Image;
 
 public class JournalMenu : MonoBehaviour
 {
+    public static event Action<bool> OnMenuToggled;
+    
     [SerializeField] private Raycaster raycaster;
     [SerializeField] private Toggleable journalState;
     [SerializeField] private bool journalIsUnlocked;
+    [SerializeField] private Texture2D secondLogImage;
 
     private UIDocument uiDocument;
     private VisualElement root;
@@ -14,6 +19,7 @@ public class JournalMenu : MonoBehaviour
     private VisualElement startMenu;
     private VisualElement mapMenu;
     private VisualElement journalMenu;
+    private VisualElement journalMenu2;
 
     private VisualElement rightSideContainer;
 
@@ -28,11 +34,23 @@ public class JournalMenu : MonoBehaviour
     private bool journalIsVisible;
     private bool mapIsVisible;
 
+    public void SecondLog()
+    {
+        // journalMenu.style.display = DisplayStyle.None;
+        // Debug.Log("SecondLog");
+        // journalMenu = root.Q("journalMenu2");
+
+        journalMenu.style.backgroundImage = secondLogImage;
+        
+        ToggleJournal();
+    }
+
     private void Start()
     {
         SetupElements();
+        ShowMenu();
     }
-    
+
     public void UnlockJournal()
     {
         journalIsUnlocked = true;
@@ -53,8 +71,6 @@ public class JournalMenu : MonoBehaviour
         rightSideContainer.style.display = DisplayStyle.None;
 
         SetupButtons(startMenu);
-        
-        ShowMenu();
     }
 
     private void SetupButtons(VisualElement menu)
@@ -67,7 +83,7 @@ public class JournalMenu : MonoBehaviour
         resumeButton.clicked += ResumeGame;
         exitButton.clicked += ExitGame;
     }
-    
+
     private void StartGame()
     {
         HideMenu();
@@ -75,7 +91,7 @@ public class JournalMenu : MonoBehaviour
         startButton.SetEnabled(false);
         startButton.pickingMode = PickingMode.Ignore;
     }
-    
+
     private void ResumeGame()
     {
         HideMenu();
@@ -88,12 +104,16 @@ public class JournalMenu : MonoBehaviour
 
     private void HideMenu()
     {
+        OnMenuToggled?.Invoke(false);
+        
         root.visible = false;
         raycaster.isDialogRunning = false;
     }
 
     public void ShowMenu()
     {
+        OnMenuToggled?.Invoke(true);
+        
         root.visible = true;
         raycaster.isDialogRunning = true;
         
@@ -108,20 +128,15 @@ public class JournalMenu : MonoBehaviour
         if(mapIsVisible)
         {
             mapIsVisible = false;
-            root.visible = false;
-            raycaster.isDialogRunning = false;
+            HideMenu();
         }
 
         else
         {
             mapIsVisible = true;
-            root.visible = true;
-            raycaster.isDialogRunning = true;
-            rightSideContainer.style.display = DisplayStyle.Flex;
+            ShowMenu();
             journalMenu.style.display = DisplayStyle.None;
             mapMenu.style.display = DisplayStyle.Flex;   
-            
-            // mapMenu.style.visibility = Visibility.Hidden;
         }
 
         journalIsVisible = false;
@@ -136,20 +151,15 @@ public class JournalMenu : MonoBehaviour
         if(journalIsVisible)
         {
             journalIsVisible = false;
-            root.visible = false;
-            raycaster.isDialogRunning = false;
+            HideMenu();
         }
 
         else
         {
             journalIsVisible = true;
-            root.visible = true;
-            raycaster.isDialogRunning = true;
-            rightSideContainer.style.display = DisplayStyle.Flex;
+            ShowMenu();
             journalMenu.style.display = DisplayStyle.Flex;
             mapMenu.style.display = DisplayStyle.None;   
-            
-            // mapMenu.style.visibility = Visibility.Hidden;
         }
 
         mapIsVisible = false;

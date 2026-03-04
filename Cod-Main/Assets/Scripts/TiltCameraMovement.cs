@@ -18,8 +18,8 @@ namespace DefaultNamespace
         private Vector3 _followOffset;
         private float _tiltOffset;
         private CinemachineFollow _follow;
-        private bool _isInDialogMode;
-        private float _progress;
+        [SerializeField] private bool _isInDialogMode;
+        [SerializeField] private float _progress;
 
         private void Awake()
         {
@@ -35,14 +35,14 @@ namespace DefaultNamespace
             if (_isInDialogMode) return;
 
             _isInDialogMode = isDialogRunning;
-            
+
             StartCoroutine(DoProgress());
         }
         
         public void ToggleDialogMode(bool isDialogRunning, Vector3 secondCharacterPosition)
         {
             if (!toggleOnDialog) return;
-            
+
             // if (_isInDialogMode) return;
 
             _isInDialogMode = isDialogRunning;
@@ -73,19 +73,19 @@ namespace DefaultNamespace
             }
 
             _progress = 0.0f;
-            _isInDialogMode = !_isInDialogMode;
+            // _isInDialogMode = !_isInDialogMode;
         }
 
         private void TweenUpdate(float progress)
         {
-            _follow.FollowOffset = _isInDialogMode ? 
-                Vector3.Lerp(_dialogFollowOffset, _followOffset, progress) : 
+            _follow.FollowOffset = _isInDialogMode ?
+                Vector3.Lerp(_dialogFollowOffset, _followOffset, progress) :
                 Vector3.Lerp(_followOffset, _dialogFollowOffset, progress);
-         
-            panTilt.TiltAxis.Value = _isInDialogMode ? 
-                Mathf.Lerp(_dialogTiltOffset, _tiltOffset, progress) : 
+
+            panTilt.TiltAxis.Value = _isInDialogMode ?
+                Mathf.Lerp(_dialogTiltOffset, _tiltOffset, progress) :
                 Mathf.Lerp(_tiltOffset, _dialogTiltOffset, progress);
-                
+
         }
 
         private void OnGUI()

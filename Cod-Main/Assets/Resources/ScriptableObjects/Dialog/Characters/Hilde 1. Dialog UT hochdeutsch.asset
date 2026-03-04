@@ -49,7 +49,7 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Noch mehr tote M\xFCtter?"
-  TextPreview: Noch mehr tote M...
+  TextPreview: "Noch mehr tote M\xFCtter?"
   AudioClip: {fileID: 8300000, guid: eab088b84b2d343bfa5f0640ee7b6390, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Name: Hast du Lack ges...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: e3ab1cc42dc994807bde2bb786cfbb4a
-  Position: {x: -299.9999, y: 2616.2173}
+  Position: {x: -300.00006, y: 2616}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -190,8 +190,8 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 4
-  _popularityModifier: 0
+  answerType: 2
+  _popularityModifier: -5
 --- !u!114 &-7962924074311984988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,17 +364,17 @@ MonoBehaviour:
   m_Name: Also wie gesagt:...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 0e8400e36b69f4579b2d0e35c587d46f
-  Position: {x: -149.99995, y: 993.0002}
+  Position: {x: -150, y: 993.5}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Also wie gesagt: Du f\xFCtterst ihn jeden Tag. Achte einfach darauf,
-    dass es dem Sauerteig nicht zu warm und nicht zu kalt ist. Du hast wahrscheinlich
-    noch nie vorher einen Sauerteig angesetzt, oder? Also, von den Sauerteigen ist
+    dass es dem Sauerteig nicht zu warm und nicht zu kalt ist.\n Du hast wahrscheinlich
+    noch nie vorher einen Sauerteig angesetzt, oder?\nAlso, von den Sauerteigen ist
     das Gute \u2013 der ist ja schon angesetzt. Du musst nur gut aufpassen, dass
     er nicht eingeht.\nUnd wenn du Fragen hast, kannst du mich jederzeit fragen.
-    Hab ich noch etwas vergessen? Soll ich es dir lieber aufschreiben? Du musst dich
-    um ihn k\xFCmmern wie um so ein \u2026 wie hei\xDFen die noch? Tamagotchi?"
+    Hab ich noch etwas vergessen?\nSoll ich es dir lieber aufschreiben? Du musst
+    dich um ihn k\xFCmmern wie um so ein \u2026 wie hei\xDFen die noch? Tamagotchi?"
   TextPreview: Also wie gesagt:...
   AudioClip: {fileID: 8300000, guid: de78c991ebadf49cabefb225fd82d1dd, type: 3}
   ClipVolume: 1
@@ -440,7 +440,7 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: Wieso hast du den?
-  TextPreview: Wieso hast du de...
+  TextPreview: Wieso hast du den?
   AudioClip: {fileID: 8300000, guid: f5c5ea6946e4348b1b2b3955953c4bbc, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -887,7 +887,7 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "M\xFCtter sterben doch nicht."
-  TextPreview: "M\xFCtter sterben d..."
+  TextPreview: "M\xFCtter sterben doch nicht."
   AudioClip: {fileID: 8300000, guid: 6b793118d67e44b73ade49a83dd47fd7, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -986,7 +986,7 @@ MonoBehaviour:
   TextPreview: "Na ja \u2013 ich muss..."
   AudioClip: {fileID: 8300000, guid: 3ea80df7812d14bcba95638b9d34ae81, type: 3}
   ClipVolume: 1
-  PauseAfter: 0.5
+  PauseAfter: 2
   Children: []
   FallThrough: 0
   IsAvailable: 1
@@ -1111,8 +1111,8 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
+  answerType: 2
+  _popularityModifier: -5
 --- !u!114 &259334518230148051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1207,8 +1207,8 @@ MonoBehaviour:
   IsBondingOption: 0
   RequiredNodes: []
   BlockerNodes: []
-  answerType: 0
-  _popularityModifier: 0
+  answerType: 2
+  _popularityModifier: -5
 --- !u!114 &554277992469360030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1283,7 +1283,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2818dd0c5b404dfe8aedaf83b49ab7b1, type: 3}
-  m_Name: "Ich hob\u2019s bf\xFCrch..."
+  m_Name: "Ich hab\u2019s bef\xFCrc..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 5b0ba00262e004cb09e3a26663f3fe34
   Position: {x: -150, y: 1820}
@@ -1866,12 +1866,12 @@ MonoBehaviour:
   m_Name: Ach, wusstest du...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 9db5461dffe9c49be95e3cc532683884
-  Position: {x: -449.9999, y: 2784.5}
+  Position: {x: -450.00003, y: 2784.9993}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Ach, wusstest du das wirklich gar nicht? Ja, sie ist tot. Ich hatte
-    mich schon gefragt, warum du nicht zur Beerdigung gekommen bist. Umso wichtiger
+    mich schon gefragt, warum du nicht zur Beerdigung gekommen bist. \nUmso wichtiger
     ist es, dass du den Sauerteig bekommst \u2026 pack ihn am besten ein."
   TextPreview: Ach, wusstest du...
   AudioClip: {fileID: 8300000, guid: b2c5a6808431544c6a4d98166c375223, type: 3}
@@ -1997,17 +1997,17 @@ MonoBehaviour:
   m_Name: Ah, gut dass ich...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: dcb2abafaaf0d426f9ef09e4d2b0f3da
-  Position: {x: 215, y: -281}
+  Position: {x: 215, y: -282}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
   DialogLine: "Ah, gut dass ich dich gleich erwische! Ich hab mir schon halb gedacht,
-    dass du da hinten bist. Du, ich muss dir was geben. Da, nimm mal. Lippenstift,
-    Schl\xFCsselbund, Marmelade f\xFCr die Oma, die Rubbellose f\xFCr den Andi\u2026
-    \nAlso, was wichtig ist: Du musst ihn regelm\xE4\xDFig f\xFCttern ach was sag
-    ich, am besten jeden Tag, gell. Wo ist er denn jetzt eigentlich?"
+    dass du da hinten bist. Du, ich muss dir was geben. \nLippenstift, Schl\xFCsselbund,
+    Marmelade f\xFCr die Oma, die Rubbellose f\xFCr den Andi\u2026 \nAlso, was wichtig
+    ist: Du musst ihn regelm\xE4\xDFig f\xFCttern ach was sag ich, am besten jeden
+    Tag, gell. Wo ist er denn jetzt eigentlich?"
   TextPreview: Ah, gut dass ich...
-  AudioClip: {fileID: 8300000, guid: 25942dbed9891463cb324bab49d1813c, type: 3}
+  AudioClip: {fileID: 8300000, guid: fa3c31c00e0da4e0fb89feb49ecaca88, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
   Children:
@@ -2221,16 +2221,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: Ah, komisch.
+  m_Name: Ah, komisch...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 26e9f6a1ea4344ad7b78768e66a73d19
   Position: {x: -450, y: 1400}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
-  DialogLine: Ah, komisch.
-  TextPreview: Ah, komisch.
-  AudioClip: {fileID: 8300000, guid: 0944ff30956574f28891d1d916b9a096, type: 3}
+  DialogLine: Ah, komisch...
+  TextPreview: Ah, komisch...
+  AudioClip: {fileID: 8300000, guid: 1a2ff002a09684161a0bbc3291052aaf, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
   Children:

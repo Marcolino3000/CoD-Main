@@ -39,7 +39,7 @@ MonoBehaviour:
     \u201EDas steife Kind\u201C, \u201EDas verspannte Kind\u201C, \u201EDas zappelige
     Kind\u201C ... Kein Wunder dass ich so geworden bin."
   TextPreview: "\u201EMein Kind ist u..."
-  AudioClip: {fileID: 8300000, guid: c7f3492c1f48a428abf1c5f2c1b5911d, type: 3}
+  AudioClip: {fileID: 8300000, guid: 1ae7e25ad459f4c9f9e89cc2c4331215, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
   Children: []
