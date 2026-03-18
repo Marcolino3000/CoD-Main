@@ -27,31 +27,18 @@ namespace DefaultNamespace
             _followOffset = _follow.FollowOffset;
             _tiltOffset = panTilt.TiltAxis.Value;
         }
-    
-        public void ToggleDialogMode(bool isDialogRunning)
-        {
-            if (!toggleOnDialog) return;
 
-            if (_isInDialogMode) return;
-
-            _isInDialogMode = isDialogRunning;
-
-            StartCoroutine(DoProgress());
-        }
-        
         public void ToggleDialogMode(bool isDialogRunning, Vector3 secondCharacterPosition)
         {
             if (!toggleOnDialog) return;
-
-            // if (_isInDialogMode) return;
-
+            
             _isInDialogMode = isDialogRunning;
 
-            if (_follow != null && _follow.FollowTarget != null)
+            if (isDialogRunning && _follow != null && _follow.FollowTarget != null)
             {
                 Vector3 mainTargetPosition = marleneTransform.position;
                 float halfDistance = Vector3.Distance(mainTargetPosition, secondCharacterPosition) * 0.5f;
-                // float midpointX = ((mainTargetPosition.x + secondCharacterPosition.x) * 0.5f) + mainTargetPosition.x;
+                
                 if(mainTargetPosition.x > secondCharacterPosition.x)
                     _dialogFollowOffset = new Vector3(-halfDistance + offsetToRight, _dialogFollowOffset.y, _dialogFollowOffset.z);
                 else
@@ -79,13 +66,24 @@ namespace DefaultNamespace
         private void TweenUpdate(float progress)
         {
             _follow.FollowOffset = _isInDialogMode ?
-                Vector3.Lerp(_dialogFollowOffset, _followOffset, progress) :
-                Vector3.Lerp(_followOffset, _dialogFollowOffset, progress);
+                Vector3.Lerp(_followOffset, _dialogFollowOffset, progress):
+                Vector3.Lerp(_dialogFollowOffset, _followOffset, progress);
 
-            panTilt.TiltAxis.Value = _isInDialogMode ?
-                Mathf.Lerp(_dialogTiltOffset, _tiltOffset, progress) :
-                Mathf.Lerp(_tiltOffset, _dialogTiltOffset, progress);
+            panTilt.TiltAxis.Value = _isInDialogMode
+                ? Mathf.Lerp(_tiltOffset, _dialogTiltOffset, progress)
+                : Mathf.Lerp(_dialogTiltOffset, _tiltOffset, progress);
 
+        }
+
+        private void ToggleDialogMode(bool isDialogRunning)
+        {
+            if (!toggleOnDialog) return;
+
+            if (_isInDialogMode) return;
+
+            _isInDialogMode = isDialogRunning;
+
+            StartCoroutine(DoProgress());
         }
 
         private void OnGUI()

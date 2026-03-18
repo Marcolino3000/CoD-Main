@@ -21,9 +21,17 @@ public class CameraMovementTrigger : MonoBehaviour
 
     private void OnDialogRunningStatusChanged(bool isRunning, DialogTree tree)
     {
-        if (Time.time - lastDialogToggleTime < dialogToggleCooldown)
+        // if (Time.time - lastDialogToggleTime < dialogToggleCooldown)
+        //     return;
+        
+        if (currentStatus && isRunning) 
             return;
-        if (currentStatus && isRunning) return;
+
+        if (tree == null)
+        {
+            Debug.LogWarning("No Tree Set. Returning early");
+            return;
+        }
 
         if (tree.Blackboard.CharacterData == null)
         {
@@ -50,7 +58,7 @@ public class CameraMovementTrigger : MonoBehaviour
 
         // if(currentStatus != isRunning)
         currentStatus = isRunning;
-        camMovement.ToggleDialogMode(!isRunning, interactableState.Interactable.transform.position);
+        camMovement.ToggleDialogMode(isRunning, interactableState.Interactable.transform.position);
         lastDialogToggleTime = Time.time;
     }
 }

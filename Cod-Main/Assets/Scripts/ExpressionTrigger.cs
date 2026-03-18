@@ -21,7 +21,7 @@ namespace DefaultNamespace
 
         private void TriggerExpression(MarkerManager.MarkerType type)
         {
-            Debug.Log("triggered expression: " + type);
+            // Debug.Log("triggered expression: " + type);
             
             if (type == MarkerManager.MarkerType.Paragraph)
                 return;
