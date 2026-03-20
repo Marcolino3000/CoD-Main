@@ -1,8 +1,4 @@
-using System;
-using DefaultNamespace;
 using Runtime.Scripts.PlayerInput;
-using Unity.Mathematics;
-// using Unity.Mathematics;
 using UnityEngine;
 
 public class AnimationTrigger : MonoBehaviour

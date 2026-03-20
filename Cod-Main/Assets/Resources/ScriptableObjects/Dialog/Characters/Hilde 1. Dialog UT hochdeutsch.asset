@@ -914,7 +914,7 @@ MonoBehaviour:
   m_Name: "Merkur war r\xFCckl..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 418ee9e064c4e4a2bb4775195c84a8b5
-  Position: {x: 174.77997, y: 1820}
+  Position: {x: 150.00003, y: 1818.9999}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
@@ -2256,7 +2256,7 @@ MonoBehaviour:
   m_Name: Kindchen... setz...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 8c8f21a67c8b8411badaa4536617d20d
-  Position: {x: 150, y: 1570.72}
+  Position: {x: 150.00002, y: 1540.0002}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 62b539070ac644f6eb8e8be906c4d929, type: 2}
