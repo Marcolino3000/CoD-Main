@@ -13,7 +13,7 @@ public class AnimationTrigger : MonoBehaviour
     }
 
     [ContextMenu("Trigger Animation")]
-    private void TriggerAnimation(bool isMoving, MoveDirection moveDirection)
+    private void TriggerAnimation(MoveDirection moveDirection)
     {
         animator.SetBool("isWalking", true);
         

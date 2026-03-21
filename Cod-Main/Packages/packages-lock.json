@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "83b46e420dc1b09c6fa48e7941986be1ec0a336d"
+      "hash": "1b90ef2a1b45dfe51fd260d5fc72ce36c4fc89cd"
     },
     "com.cod.csvmanager": {
       "version": "https://github.com/Marcolino3000/CsvManager.git",
@@ -35,7 +35,7 @@
         "com.cod.dialog-builder": "0.9.3",
         "com.cod.playerinput": "1.0.0"
       },
-      "hash": "72f644fdd50b25259da09b00ba4b68d34c3f76fd"
+      "hash": "17a3f18d678598346f9274c37e466b6d188b4f1b"
     },
     "com.cod.playerinput": {
       "version": "https://github.com/Marcolino3000/PlayerInput.git",
@@ -45,7 +45,7 @@
         "com.unity.cinemachine": "3.1.4",
         "com.unity.inputsystem": "1.14.2"
       },
-      "hash": "6d6633a7dc1d3dfcdbad85784947b420e8c8ff5e"
+      "hash": "b10d075e90afd77b646dedf183b812c80d38abaf"
     },
     "com.unity.2d.animation": {
       "version": "12.0.3",
