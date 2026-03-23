@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af0c1358df4435a8f39b6140b2c528d, type: 3}
   m_Name: PaulKnockCounter
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Interactables.InteractionsCounter
-  isActive: 1
+  debugLogs: 1
+  isActive: 0
   requiredInteraction: {fileID: 0}
   interactionWasTriggered: 1
   interactionsCountBeforePaul: 3
-  currentInteractionsCount: 2
+  currentInteractionsCount: 4
   unlockToggle: {fileID: 11400000, guid: 31e661c722feb4d8bad94cf9a076f107, type: 2}
   startCountingInteraction: {fileID: 0}
   stopCountingInteraction: {fileID: 11400000, guid: 051377556450546dd9756f2d3fb66dd2, type: 2}
   countedReactions:
-  - {fileID: 11400000, guid: 5f487c0626dbe41efb04613aefc4ccba, type: 2}
-  - {fileID: 11400000, guid: ae831742708ff4d70887ec2ce01ba256, type: 2}
+  - {fileID: 11400000, guid: 46a3d7b81dc804e5194011893f6080be, type: 2}
+  - {fileID: 11400000, guid: 99b2901db596a46c29ebb00e795ce847, type: 2}
+  - {fileID: 11400000, guid: e25aa32822939416f9c3793c77c8e1e5, type: 2}
+  - {fileID: 11400000, guid: fa2edec9508e84ccaad3188482fcf46b, type: 2}
