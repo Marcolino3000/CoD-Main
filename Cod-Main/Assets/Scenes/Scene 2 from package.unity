@@ -5420,7 +5420,6 @@ Transform:
   - {fileID: 1925188354}
   - {fileID: 1514811193}
   - {fileID: 881162080}
-  - {fileID: 278125341}
   - {fileID: 655389774}
   - {fileID: 2061720309}
   - {fileID: 1164703184}
@@ -8223,6 +8222,9 @@ GameObject:
   m_Component:
   - component: {fileID: 278125341}
   - component: {fileID: 278125342}
+  - component: {fileID: 278125345}
+  - component: {fileID: 278125344}
+  - component: {fileID: 278125343}
   m_Layer: 0
   m_Name: "Haust\xFCr Kontur"
   m_TagString: Untagged
@@ -8239,11 +8241,11 @@ Transform:
   m_GameObject: {fileID: 278125340}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.57, y: 0.67, z: -20.35}
+  m_LocalPosition: {x: -2.20193, y: -1.79562, z: -0.12104988}
   m_LocalScale: {x: 0.19, y: 0.17, z: 0.17}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 134180469}
+  m_Father: {fileID: 1865751729}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &278125342
 SpriteRenderer:
@@ -8303,6 +8305,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!135 &278125343
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278125340}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 10.015
+  m_Center: {x: -0.0000019073486, y: 0, z: 0}
+--- !u!114 &278125344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278125340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03148bf44efdf424ea64768b95c8012c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Interactables.TriggerArea
+--- !u!114 &278125345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278125340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17f2320cc3cba4cc78b9cb2a0e44847f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: InteractionBuilder::Runtime.Scripts.Interactables.TransparencyPerDistance
+  objectFadesWhenClose: 0
+  currentTransparency: 0
+  player: {fileID: 0}
+  playerIsNear: 0
+  triggerArea: {fileID: 0}
+  doorRenderer: {fileID: 0}
 --- !u!1 &278709500
 GameObject:
   m_ObjectHideFlags: 0
@@ -30675,17 +30728,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &979372768 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8877886890819902770, guid: abdfc0e5b45334364ae696e093f04c7d, type: 3}
-  m_PrefabInstance: {fileID: 3120014489397698633}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03148bf44efdf424ea64768b95c8012c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TriggerArea
 --- !u!1 &985970616
 GameObject:
   m_ObjectHideFlags: 0
@@ -50146,6 +50188,7 @@ Transform:
   - {fileID: 1545885910}
   - {fileID: 1451375921}
   - {fileID: 1292772394}
+  - {fileID: 278125341}
   - {fileID: 134180469}
   - {fileID: 281670483}
   - {fileID: 1850488779}
@@ -51060,7 +51103,7 @@ GameObject:
   - component: {fileID: 1895037932}
   - component: {fileID: 1895037933}
   m_Layer: 0
-  m_Name: "Haust\xFCr Kontur"
+  m_Name: "K\xFCche T\xFCr Kontur"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58231,9 +58274,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1613087333839219736, guid: abdfc0e5b45334364ae696e093f04c7d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3120014489397698638}
-    - targetCorrespondingSourceObject: {fileID: 1613087333839219736, guid: abdfc0e5b45334364ae696e093f04c7d, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 3120014489397698644}
     - targetCorrespondingSourceObject: {fileID: 1613087333839219736, guid: abdfc0e5b45334364ae696e093f04c7d, type: 3}
       insertIndex: -1
@@ -58247,24 +58287,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5721676862055115558, guid: abdfc0e5b45334364ae696e093f04c7d, type: 3}
   m_PrefabInstance: {fileID: 3120014489397698633}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3120014489397698638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973947009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0596e7adc9b2438c98f03c9daea251d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: InteractionBuilder::Runtime.Scripts.Interactables.TransparencyPerDistance
-  triggerArea: {fileID: 979372768}
-  player: {fileID: 0}
-  playerIsNear: 0
-  doorRenderer: {fileID: 0}
-  currentTransparency: 0
-  distanceMultiplier: 1
 --- !u!212 &3120014489397698644
 SpriteRenderer:
   m_ObjectHideFlags: 0
