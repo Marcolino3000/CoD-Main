@@ -7,6 +7,8 @@ public class TransparencyPerDistance : MonoBehaviour
 {
     [Header("Settings")] 
     [SerializeField] private bool objectFadesWhenClose;
+    // [SerializeField] private float maxTransparancyThreshold;
+    [SerializeField] private float colliderEnabledThreshold;
     
     [Header("Debug")]
     [SerializeField] private float currentTransparency;
@@ -14,6 +16,8 @@ public class TransparencyPerDistance : MonoBehaviour
     [SerializeField] private bool playerIsNear;
 
     [Header("References")]
+    // [SerializeField] private Interactable interactable;
+    [SerializeField] private Collider collider;
     [SerializeField] private TriggerArea triggerArea;
     [SerializeField] private SpriteRenderer doorRenderer;
 
@@ -73,6 +77,24 @@ public class TransparencyPerDistance : MonoBehaviour
         color.a = alpha;
         currentTransparency = alpha;
         doorRenderer.color = color;
+        
+        // if(interactable != null)
+        // {
+        //     if (alpha < minTransparancyThreshold)
+        //         interactable.enabled = false;
+        //
+        //     if (alpha > minTransparancyThreshold)
+        //         interactable.enabled = true;
+        // }
+        
+        if(collider != null)
+        {
+            if (alpha < colliderEnabledThreshold)
+                collider.enabled = false;
+
+            if (alpha > colliderEnabledThreshold)
+                collider.enabled = true;
+        }
     }
     
 

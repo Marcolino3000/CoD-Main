@@ -8226,7 +8226,7 @@ GameObject:
   - component: {fileID: 278125344}
   - component: {fileID: 278125343}
   m_Layer: 0
-  m_Name: "Haust\xFCr Kontur"
+  m_Name: "Haust\xFCr Kontur Door frame"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8272,7 +8272,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8199f35df8d8948c4ae1e5f30de0ba76, type: 2}
+  - {fileID: 2100000, guid: adec5a310c0ba4cfd806930d03f305e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8351,9 +8351,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: InteractionBuilder::Runtime.Scripts.Interactables.TransparencyPerDistance
   objectFadesWhenClose: 0
+  maxTransparancyThreshold: 0.8
+  minTransparancyThreshold: 0.1
   currentTransparency: 0
   player: {fileID: 0}
   playerIsNear: 0
+  interactable: {fileID: 2059309328}
+  collider: {fileID: 3120014489397698645}
   triggerArea: {fileID: 0}
   doorRenderer: {fileID: 0}
 --- !u!1 &278709500
