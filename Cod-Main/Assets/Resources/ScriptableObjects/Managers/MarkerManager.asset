@@ -42,6 +42,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 0f1ba8c5d3874495fbc5b6b973d25f73, type: 3}
     - {fileID: 8300000, guid: b2c5a6808431544c6a4d98166c375223, type: 3}
     - {fileID: 8300000, guid: 14551678a11cc4ee78912e5f4cbd7a02, type: 3}
+    - {fileID: 8300000, guid: 46e3bf62b5a8148f3adbdf6fe7f6867f, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -60,7 +61,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 26
+      Data: 27
     - Name: 
       Entry: 7
       Data: 
@@ -108,6 +109,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -123,6 +127,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -160,6 +167,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 3
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -197,6 +207,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 3
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -234,6 +247,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 6
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -271,6 +287,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 6
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -308,6 +327,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 3
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -323,6 +345,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 9
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -360,6 +385,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 8
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -397,6 +425,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 9
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -456,6 +487,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 9
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -493,6 +527,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 9
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -530,6 +567,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 3
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -567,6 +607,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 8
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -604,6 +647,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 8
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -641,6 +687,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 3
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -656,6 +705,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 7
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -693,6 +745,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 6
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -730,6 +785,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 2
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -767,6 +825,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 1
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -804,6 +865,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 3
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -863,6 +927,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -878,6 +945,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -915,6 +985,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -930,6 +1003,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -945,6 +1021,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -960,6 +1039,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -997,6 +1079,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1034,6 +1119,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1071,6 +1159,9 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1086,6 +1177,49 @@ MonoBehaviour:
     - Name: Type
       Entry: 3
       Data: 0
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 26
+    - Name: $v
+      Entry: 7
+      Data: 59|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 60|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 69
+    - Name: Sample
+      Entry: 3
+      Data: 186486
+    - Name: Type
+      Entry: 3
+      Data: 8
+    - Name: CharacterToAnimate
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -1104,5 +1238,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  lastPlayheadSample: 1114491
-  nextId: 69
+  CharacterNames:
+  - Marlene
+  - Paul
+  - Hilde
+  lastPlayheadSample: 0
+  nextId: 70

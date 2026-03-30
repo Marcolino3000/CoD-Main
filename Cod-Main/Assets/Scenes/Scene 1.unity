@@ -2467,7 +2467,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293513018}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e5598b8174aec0439a7f825b5675ab5, type: 3}
   m_Name: 
@@ -4218,7 +4218,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485975249}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9da9751d82561d34b85a06d01956aa75, type: 3}
   m_Name: 
@@ -4234,7 +4234,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485975249}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 062a2baca504f314587deea850792c07, type: 3}
   m_Name: 
@@ -4258,7 +4258,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485975249}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!114 &485975257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4271,7 +4271,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67708758ffbc24a72a0c25528ea70293, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraMovementFirstScene
-  camera: {fileID: 0}
+  targetPosition: {x: 0, y: 0, z: 0}
+  duration: 0
+  countdown: {fileID: 0}
 --- !u!1 &509048405
 GameObject:
   m_ObjectHideFlags: 0
