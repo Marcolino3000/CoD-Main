@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Core.Reaction
   DialogTree: {fileID: 0}
   Interactable: {fileID: 11400000, guid: da8bf1620221d4f8ca7e6d70d8390836, type: 2}
+  TriggerInteractableAfterReactionFinished: 0
   ObjectToMoveIn: {fileID: 0}
   ObjectToMoveOut: {fileID: 0}
   ObjectToMove: {fileID: 0}
   TargetPosition: {x: 0, y: 0, z: 0}
   CancelCurrentDialog: 0
-  DebugMessage: 
   ScriptedSequence: {fileID: 0}
   InteractableToShow: {fileID: 0}
   InteractableDisappearsAutomatically: 0

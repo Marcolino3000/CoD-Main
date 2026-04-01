@@ -585,18 +585,7 @@ MonoBehaviour:
         Conditions:
         - RecordedState:
             rid: 4678523165181214803
-          IsHardCondition: 1
-      Name: HallwayDoorLeft
-      HighPriority: 0
-    - Record:
-        InteractionToExecute: {fileID: 11400000, guid: cf1557e104a4e451baf5167fe9b30acd, type: 2}
-        DialogOptionToUnlock: {fileID: 0}
-        TriggerType: 2
-        TriggeringInteractable: {fileID: 11400000, guid: da8bf1620221d4f8ca7e6d70d8390836, type: 2}
-        Conditions:
-        - RecordedState:
-            rid: 4678523165181214808
-          IsHardCondition: 1
+          IsHardCondition: 0
       Name: HallwayDoorLeft
       HighPriority: 0
   references:
@@ -677,11 +666,6 @@ MonoBehaviour:
         ThresholdReached: 0
         IsRunning: 0
     - rid: 4678523165181214803
-      type: {class: Toggleable/ToggleableStateDate, ns: Runtime.Scripts.Interactables, asm: cod.interactionbuilder}
-      data:
-        Owner: {fileID: 11400000, guid: e033e13c574d64c19bad48e1ecba97ff, type: 2}
-        ToggleState: 1
-    - rid: 4678523165181214808
       type: {class: Toggleable/ToggleableStateDate, ns: Runtime.Scripts.Interactables, asm: cod.interactionbuilder}
       data:
         Owner: {fileID: 11400000, guid: e033e13c574d64c19bad48e1ecba97ff, type: 2}

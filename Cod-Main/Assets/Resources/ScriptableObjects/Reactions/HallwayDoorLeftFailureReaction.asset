@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.Reaction
   DialogTree: {fileID: 0}
   Interactable: {fileID: 11400000, guid: e033e13c574d64c19bad48e1ecba97ff, type: 2}
+  TriggerInteractableAfterReactionFinished: 0
   ObjectToMoveIn: {fileID: 0}
   ObjectToMoveOut: {fileID: 0}
   ObjectToMove: {fileID: 0}
   TargetPosition: {x: 0, y: 0, z: 0}
   CancelCurrentDialog: 0
-  DebugMessage: 
   ScriptedSequence: {fileID: 11400000, guid: ae9080ca482cd43e6a3c78880e706c94, type: 2}
   InteractableToShow: {fileID: 0}
   InteractableDisappearsAutomatically: 0
