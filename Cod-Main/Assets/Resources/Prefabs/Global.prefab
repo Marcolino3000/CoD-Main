@@ -2434,7 +2434,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: logHits
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: cursorSize
@@ -2534,6 +2534,7 @@ MonoBehaviour:
     SerializationNodes: []
   animator: {fileID: 7605252354346719108}
   markerManager: {fileID: 11400000, guid: 8dd0ce52eed7143b8843a27084d2fc5e, type: 2}
+  characterName: 
 --- !u!114 &2079606205300953983
 MonoBehaviour:
   m_ObjectHideFlags: 0

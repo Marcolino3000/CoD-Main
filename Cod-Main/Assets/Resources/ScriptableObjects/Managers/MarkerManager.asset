@@ -168,8 +168,8 @@ MonoBehaviour:
       Entry: 3
       Data: 3
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -1242,5 +1242,5 @@ MonoBehaviour:
   - Marlene
   - Paul
   - Hilde
-  lastPlayheadSample: 0
+  lastPlayheadSample: 174985
   nextId: 70

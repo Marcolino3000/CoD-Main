@@ -35,15 +35,15 @@ namespace DefaultNamespace
             
         }
 
-        private bool CheckForCharacter(string name)
+        private bool CheckForCharacter(string characterNameArg)
         {
-            if (name.IsNullOrWhitespace())
+            if (characterNameArg.IsNullOrWhitespace())
             {
                 Debug.LogError("CharacterName was not set!");
                 return false;
             }
 
-            return characterName == name;
+            return characterName == characterNameArg;
         }
     }
 }
