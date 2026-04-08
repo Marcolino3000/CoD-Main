@@ -42174,7 +42174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Animation.Rotator
   pivot: {fileID: 1477536936}
-  duration: 0.5
+  duration: 0.4
   angle: 75
   interactable: {fileID: 1328700453}
   _collider: {fileID: 0}
@@ -42218,7 +42218,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 15.7, y: 1.6}
+  m_Offset: {x: 31.781738, y: 2.0138464}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -42228,7 +42228,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 42.57, y: 21}
+  m_Size: {x: 97.704666, y: 21.827692}
   m_EdgeRadius: 0
 --- !u!1 &1479501414
 GameObject:
