@@ -6,6 +6,7 @@ namespace DefaultNamespace
 {
     public class TiltCameraMovement : MonoBehaviour
     {
+        [Header("Settings")]
         [SerializeField] private float _duration;
         [SerializeField] private AnimationCurve _ease;
         [SerializeField] private Vector3 _dialogFollowOffset;
@@ -15,11 +16,14 @@ namespace DefaultNamespace
         [SerializeField] private Transform marleneTransform;
         [SerializeField] private float offsetToRight;
         
-        private Vector3 _followOffset;
-        private float _tiltOffset;
-        private CinemachineFollow _follow;
+        [Header("Debug")]
+        [SerializeField] private bool showDebugButtons;
         [SerializeField] private bool _isInDialogMode;
         [SerializeField] private float _progress;
+        
+        private CinemachineFollow _follow;
+        private Vector3 _followOffset;
+        private float _tiltOffset;
 
         private void Awake()
         {
@@ -88,6 +92,9 @@ namespace DefaultNamespace
 
         private void OnGUI()
         {
+            if(!showDebugButtons)
+                return;
+            
             if (GUI.Button(new Rect(500, 10, 140, 30), "Toggle Cam DialogMode"))
             {
                 _isInDialogMode = !_isInDialogMode;

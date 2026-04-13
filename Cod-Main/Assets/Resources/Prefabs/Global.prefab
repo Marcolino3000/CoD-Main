@@ -638,6 +638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: InteractionBuilder::Runtime.Scripts.Interactables.SceneSetup
   countdownDuration: 1
   UseCountdownTrigger: 1
+  showDebugButtons: 0
 --- !u!1 &2494613028022421066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2677,6 +2678,18 @@ PrefabInstance:
       propertyPath: raycaster
       value: 
       objectReference: {fileID: 5747816080230149823}
+    - target: {fileID: 1577158627867581283, guid: 64b6dc8575f3049adad4db834ebcc55f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 830084581a61f4dd6946b573ffabc63e, type: 2}
+    - target: {fileID: 1577158627867581283, guid: 64b6dc8575f3049adad4db834ebcc55f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7413068116232490235, guid: 830084581a61f4dd6946b573ffabc63e, type: 2}
+    - target: {fileID: 1577158627867581283, guid: 64b6dc8575f3049adad4db834ebcc55f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3167727172074049827, guid: 64b6dc8575f3049adad4db834ebcc55f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.72857
