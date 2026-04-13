@@ -10,6 +10,16 @@
 								<Property Name="InitialValue" Type="Real64" Value="100"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="VOL_Master" ID="{EE20CFC9-D64D-4E20-A6D0-FF2AD54FBD8A}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="VOL_SFX" ID="{01A87EFA-4C9E-42C7-9232-21000F808BE7}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="PROPS" ID="{41FC85CA-2EEF-40DE-8B8E-1310A216EB7F}" ShortID="367483727">
