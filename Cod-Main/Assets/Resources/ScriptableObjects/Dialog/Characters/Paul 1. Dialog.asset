@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Also ja oder ja?...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: cdab60928e7a64463a1e0b02b7e1301d
-  Position: {x: -449.9999, y: 1120}
+  Position: {x: 326.82742, y: 1071.0436}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: (AWKWARD PAUSE)
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 5a96dbf70abea457297ec5b94868ed8d
-  Position: {x: -450, y: 980}
+  Position: {x: 326.82742, y: 931.04364}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Name: Ist es nicht sch...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: e9e184520f6cb4121ae8dc54b63516b2
-  Position: {x: 0.0000038146973, y: 141.08635}
+  Position: {x: 521.82733, y: 92.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Name: Hey Marlene, sch...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 8cd187a2444f2487293afe6cb8e7b404
-  Position: {x: 0, y: 10.114288}
+  Position: {x: 521.82733, y: -38.95649}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: Du warst schon i...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 3d298aa735d0c47499d65ac85e508895
-  Position: {x: 447, y: 840}
+  Position: {x: 968.82733, y: 791.0436}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Name: Ne.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: de6f09c7e0a3c499295433079ea7bdec
-  Position: {x: 1.5209036, y: 280}
+  Position: {x: 523.8274, y: 231.04355}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Name: "Ich h\xE4tte gedach..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: dad3da50f402f4516bfc9ad19bbad66d
-  Position: {x: 748, y: 560}
+  Position: {x: 1272, y: 510.99997}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Name: 10 Jahre, 4 Mona...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: fa4bb34ba45f24061885eed88681940f
-  Position: {x: 300, y: 420}
+  Position: {x: 821.8274, y: 371.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -434,7 +434,7 @@ MonoBehaviour:
   m_Name: Ich heirate jetz...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 6030516efb14a491da55d161f3e0549f
-  Position: {x: 149.99998, y: 700}
+  Position: {x: 671.8273, y: 651.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -466,7 +466,7 @@ MonoBehaviour:
   m_Name: Und ich wollte d...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 9028bbecfa1594113be2854192384bbd
-  Position: {x: 150, y: 1260}
+  Position: {x: 671.8273, y: 1211.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -498,7 +498,7 @@ MonoBehaviour:
   m_Name: Bitte gib mir no...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 3879bcb9f13af4d278b53f0dc0926d58
-  Position: {x: -300, y: 280}
+  Position: {x: 175.82735, y: 231.04355}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Name: Hat sich ja gar ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: ee8512cb2a1b44317a81df43ed8c14d6
-  Position: {x: 450.00006, y: 1120}
+  Position: {x: 971.8274, y: 1071.0436}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Name: (Nickt stolz.)
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 9d77a596a49014890b6d9feba2bf0b00
-  Position: {x: 450.00006, y: 700}
+  Position: {x: 971.8274, y: 651.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_Name: Wow.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: ec29f7c7905554769945af7b206f5dfc
-  Position: {x: 150.00002, y: 839.99994}
+  Position: {x: 671.8273, y: 791.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -723,7 +723,7 @@ MonoBehaviour:
   m_Name: Wenn ich irgendw...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 9d41b100e47b0461596f33fc20ae1d2c
-  Position: {x: -600, y: 700}
+  Position: {x: 176.8273, y: 651.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -757,7 +757,7 @@ MonoBehaviour:
   m_Name: "Du hast doch fr\xFC..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 71f119f3b55ef49f3b055cfac4c9bd67
-  Position: {x: 150, y: 981}
+  Position: {x: 671.8273, y: 932.04364}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -856,7 +856,7 @@ MonoBehaviour:
   m_Name: Okay. Cool.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: f672bbcad597f47a9b40a500f355c44a
-  Position: {x: 150, y: 560}
+  Position: {x: 671.8273, y: 511.04364}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Name: "\xC4h\u2026 also ich hab..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 9bb3d6091b472419dafe2508935190b6
-  Position: {x: -300, y: 420}
+  Position: {x: 175.82735, y: 371.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -986,7 +986,7 @@ MonoBehaviour:
   m_Name: Ich heirate jetz...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 4bf45eebe0a604c198901ffeb350e7a8
-  Position: {x: 677, y: 1543}
+  Position: {x: 1027, y: 1499.2996}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1018,7 +1018,7 @@ MonoBehaviour:
   m_Name: Willst du Betina...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 24da70570fb8b41118b69901e3146ee5
-  Position: {x: -450, y: 840}
+  Position: {x: 326.82742, y: 791.0436}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1050,7 +1050,7 @@ MonoBehaviour:
   m_Name: Da hast du aber ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 0e4954c1e736f453abbdc00e29a34b22
-  Position: {x: 449.99988, y: 559.99976}
+  Position: {x: 971.8274, y: 511.04364}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_Name: Ah.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 78c6ff388a8564efd975c8bf72ca665c
-  Position: {x: 150, y: 1120}
+  Position: {x: 671.8273, y: 1071.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1147,7 +1147,7 @@ MonoBehaviour:
   m_Name: Schade, dass du ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 8714e3216fce8479dac72379c4398126
-  Position: {x: 750, y: 700}
+  Position: {x: 1271.8274, y: 651.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1191,8 +1191,8 @@ MonoBehaviour:
   ClipVolume: 1
   PauseAfter: 0.5
   Children:
-  - {fileID: 6875389852493755261}
   - {fileID: 7850994930647803619}
+  - {fileID: 6875389852493755261}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -1213,7 +1213,7 @@ MonoBehaviour:
   m_Name: "W\xFCrg."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: f6ed546e8d2cd40a592ea471bea88c2c
-  Position: {x: -750.00006, y: 840}
+  Position: {x: 26.827332, y: 791.0436}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1245,7 +1245,7 @@ MonoBehaviour:
   m_Name: "\u201EHa haha.\u201C"
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 83b7bd3a300d54f12a882317b81d640a
-  Position: {x: -749.9999, y: 980.0001}
+  Position: {x: 26.827332, y: 931.04364}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1308,7 +1308,7 @@ MonoBehaviour:
   m_Name: Das war nur iron...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 25188e503e5bd447d981b1cc80a337e5
-  Position: {x: -601, y: 560}
+  Position: {x: 175.82735, y: 511.04364}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1340,7 +1340,7 @@ MonoBehaviour:
   m_Name: Ich wollte dich ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 3db766beed35345b097dbff482176832
-  Position: {x: 600, y: 1820}
+  Position: {x: 950.00006, y: 1776.2994}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1373,7 +1373,7 @@ MonoBehaviour:
   m_Name: Wenn ich irgendw...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: a8eee34d19a7b467084977b8f2b171e5
-  Position: {x: 449.99994, y: 1260}
+  Position: {x: 971.8274, y: 1211.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1384,8 +1384,8 @@ MonoBehaviour:
   PauseAfter: 0.5
   Children:
   - {fileID: 7490700113216988996}
-  - {fileID: 6360827891949690812}
   - {fileID: -6774432438998130026}
+  - {fileID: 6360827891949690812}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -1406,7 +1406,7 @@ MonoBehaviour:
   m_Name: Passt.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 9ef51b850183b4f51bb9865d70514fa8
-  Position: {x: 766.5, y: 1400}
+  Position: {x: 1117, y: 1356.2996}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1438,7 +1438,7 @@ MonoBehaviour:
   m_Name: Mensch Paul. Wie...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 16b96fe1d9f24467f88fa1cef3df7082
-  Position: {x: 300, y: 280}
+  Position: {x: 821.8274, y: 231.04355}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_Name: Ich hab da so ne...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 378071cd53d8c4855b41545b62b09726
-  Position: {x: 450, y: 1400}
+  Position: {x: 800, y: 1356.2996}
   customPreview: 1
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1632,7 +1632,7 @@ MonoBehaviour:
   m_Name: Haha Hahaha... H...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 1731b337217e94f91b265846086df34d
-  Position: {x: -450, y: 1260}
+  Position: {x: 326.82742, y: 1211.0436}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
@@ -1662,7 +1662,7 @@ MonoBehaviour:
   m_Name: Wow.
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: b25704d10d225476e8f5c3670681befb
-  Position: {x: 600, y: 1684.5}
+  Position: {x: 950.00006, y: 1641.2996}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
