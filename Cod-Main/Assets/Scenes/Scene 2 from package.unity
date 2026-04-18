@@ -4749,7 +4749,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8199f35df8d8948c4ae1e5f30de0ba76, type: 2}
+  - {fileID: 2100000, guid: adec5a310c0ba4cfd806930d03f305e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33789,6 +33789,10 @@ PrefabInstance:
       propertyPath: Data
       value: 
       objectReference: {fileID: 11400000, guid: cd65d02928ae34289a4830c8f72b6446, type: 2}
+    - target: {fileID: 6772914947027453193, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 102363399}
     - target: {fileID: 8873758076070795167, guid: af10d5b363b08468082fb93188628d24, type: 3}
       propertyPath: m_Name
       value: Interactable
@@ -58233,6 +58237,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6223779332585130471, guid: af10d5b363b08468082fb93188628d24, type: 3}
       propertyPath: Spawned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6772914947027453193, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6772914947027453193, guid: af10d5b363b08468082fb93188628d24, type: 3}
