@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Audio;
 using Nodes;
 using Nodes.Decorator;
 using Tree;
@@ -10,13 +11,15 @@ namespace DefaultNamespace
 {
     public class AudioClipPlayer : MonoBehaviour
     {
-        public static event Action FinishedPlaying; 
-        
+        public static event Action FinishedPlaying;
+
+        [Header("References")]
         [SerializeField] private AudioSource audioSource;
         [SerializeField] private AudioMixer mixer;
         [SerializeField] private AudioClip paulTalksThroughDoorClip;
         [SerializeField] private MarkerManager markerManager;
-        
+        [SerializeField] private InGameAudioSettings audioSettings;
+
         private Coroutine clipWatcher;
 
         private void Update()
@@ -52,7 +55,7 @@ namespace DefaultNamespace
             }
             
             audioSource.volume = node is PlayerDialogOption ? 0.25f : 0.125f;
-            audioSource.volume *= node.ClipVolume;
+            audioSource.volume *= node.ClipVolume * audioSettings.GetDialogVolume();
             
             audioSource.clip = node.AudioClip;
             

@@ -17,17 +17,12 @@ namespace Audio
         
         [Range(0f, 1f)]
         [SerializeField] private float dialogVolume = 1f;
-
-        private void OnValidate()
+        
+        public float GetDialogVolume()
         {
-            UpdateWwiseRTPCs();
+            return dialogVolume * masterVolume;
         }
-
-        private void OnEnable()
-        {
-            UpdateWwiseRTPCs();
-        }
-
+        
         public void SetMasterVolume(float value)
         {
             masterVolume = value;
@@ -57,5 +52,17 @@ namespace Audio
             AkUnitySoundEngine.SetRTPCValue("VOL_Music", musicVolume);
             AkUnitySoundEngine.SetRTPCValue("VOL_SFX", sfxVolume);
         }
+
+        #region Setup
+        private void OnValidate()
+        {
+            UpdateWwiseRTPCs();
+        }
+
+        private void OnEnable()
+        {
+            UpdateWwiseRTPCs();
+        }
+        #endregion
     }
 }

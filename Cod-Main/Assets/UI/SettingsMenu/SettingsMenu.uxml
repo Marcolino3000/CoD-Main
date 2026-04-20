@@ -2,8 +2,9 @@
     <Style src="project://database/Assets/MenuStyle.uss?fileID=7433441132597879392&amp;guid=a747a1371a8ed494dbebb750309ee9f3&amp;type=3#MenuStyle" />
     <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgb(0, 0, 0);">
         <ui:Label text="Sound Settings" name="soundSettings" style="-unity-text-align: upper-center; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Fancy-Regular.otf?fileID=12800000&amp;guid=37567676b964d4408b499bb1e061114a&amp;type=3#Fancy-Regular&quot;); -unity-font-style: bold; font-size: 36px;" />
-        <ui:Slider label="Master" name="masterVolume" high-value="100" value="100" />
-        <ui:Slider label="Dialog" value="100" high-value="100" name="dialogVolume" />
-        <ui:Slider label="Music" value="100" high-value="100" name="musicVolume" />
+        <ui:Slider label="Master" name="masterVolume" high-value="1" value="100" />
+        <ui:Slider label="Dialog" value="1" high-value="1" name="dialogVolume" />
+        <ui:Slider label="Music" value="100" high-value="1" name="musicVolume" />
+        <ui:Slider label="SFX" value="100" high-value="1" name="sfxVolume" />
     </ui:VisualElement>
 </ui:UXML>
