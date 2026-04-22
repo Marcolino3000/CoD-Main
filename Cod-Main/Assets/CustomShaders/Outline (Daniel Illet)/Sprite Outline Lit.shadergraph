@@ -184,9 +184,6 @@
             "m_Id": "fdd1d4e7b105476dbda8bd7916e107ae"
         },
         {
-            "m_Id": "f2a864abedf34d1c97a506b5fea100c5"
-        },
-        {
             "m_Id": "35375b230f254b69b0ceb5e1e2588c93"
         },
         {
@@ -983,9 +980,6 @@
                 "m_Id": "09d96cc535204f988491934a8b325f9f"
             },
             {
-                "m_Id": "f2a864abedf34d1c97a506b5fea100c5"
-            },
-            {
                 "m_Id": "35375b230f254b69b0ceb5e1e2588c93"
             },
             {
@@ -1482,21 +1476,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "22ebd026f28a49b1b268e3edd3145360",
-    "m_Id": 0,
-    "m_DisplayName": "Alpha Clip Threshold",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "AlphaClipThreshold",
-    "m_StageCapability": 2,
-    "m_Value": 0.10000000149011612,
-    "m_DefaultValue": 0.5,
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "24cab4c3e6144d6fb11988ea00c237cf",
     "m_Id": 1,
@@ -1745,7 +1724,7 @@
     "m_AllowMaterialOverride": false,
     "m_SurfaceType": 1,
     "m_ZTestMode": 4,
-    "m_ZWriteControl": 1,
+    "m_ZWriteControl": 0,
     "m_AlphaMode": 0,
     "m_RenderFace": 2,
     "m_AlphaClip": false,
@@ -2275,8 +2254,8 @@
     "m_ObjectId": "41569dc8247c49b7b66ad8ac1d914f59",
     "m_Title": "1,0",
     "m_Position": {
-        "x": -1997.0001220703125,
-        "y": 498.9999694824219
+        "x": -1996.999755859375,
+        "y": 499.0
     }
 }
 
@@ -2310,7 +2289,7 @@
     "m_ObjectId": "4521be63bcbe43bab8b5b97665f7cfb6",
     "m_Title": "-1,0",
     "m_Position": {
-        "x": -1999.0001220703125,
+        "x": -1998.999755859375,
         "y": 1007.0
     }
 }
@@ -2965,8 +2944,8 @@
     "m_ObjectId": "617c2c53ec1945eba61c2bef71e6a4aa",
     "m_Title": "1,1",
     "m_Position": {
-        "x": -1995.0001220703125,
-        "y": 1312.9998779296875
+        "x": -1994.999755859375,
+        "y": 1313.0
     }
 }
 
@@ -3479,8 +3458,8 @@
     "m_ObjectId": "788faaaea8fd494380ce253e0bd70353",
     "m_Title": "0,-1",
     "m_Position": {
-        "x": -1989.0001220703125,
-        "y": 780.9998168945313
+        "x": -1988.999755859375,
+        "y": 780.9999389648438
     }
 }
 
@@ -4079,8 +4058,8 @@
     "m_ObjectId": "9fcefc324f174e80b87caec6fbaaf4ca",
     "m_Title": "-1,1",
     "m_Position": {
-        "x": -1989.0001220703125,
-        "y": 1835.0003662109375
+        "x": -1988.999755859375,
+        "y": 1835.0
     }
 }
 
@@ -5160,8 +5139,8 @@
     "m_ObjectId": "d572ba1ca08c40148d702b610fd4df6a",
     "m_Title": "-1,-1",
     "m_Position": {
-        "x": -1999.0001220703125,
-        "y": 2061.000244140625
+        "x": -1998.999755859375,
+        "y": 2061.0
     }
 }
 
@@ -5815,40 +5794,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
-    "m_ObjectId": "f2a864abedf34d1c97a506b5fea100c5",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "SurfaceDescription.AlphaClipThreshold",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "22ebd026f28a49b1b268e3edd3145360"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_SerializedDescriptor": "SurfaceDescription.AlphaClipThreshold"
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "f2e78784d7a54968b18cc9638676d757",
     "m_Id": 1,
@@ -5962,8 +5907,8 @@
     "m_ObjectId": "fa28d0adc4a04a9b9119bde9dda4d9f5",
     "m_Title": "0,1",
     "m_Position": {
-        "x": -1995.0001220703125,
-        "y": 258.9999694824219
+        "x": -1994.999755859375,
+        "y": 259.0000305175781
     }
 }
 
@@ -5997,8 +5942,8 @@
     "m_ObjectId": "fbbd9d48aef14251b1edf4a8f6439582",
     "m_Title": "1,-1",
     "m_Position": {
-        "x": -1997.0001220703125,
-        "y": 1552.9998779296875
+        "x": -1996.999755859375,
+        "y": 1553.0
     }
 }
 

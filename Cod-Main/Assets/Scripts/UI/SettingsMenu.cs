@@ -1,4 +1,5 @@
 using Audio;
+using Runtime.Scripts.Interactables;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -6,7 +7,9 @@ namespace UI
 {
     public class SettingsMenu : MonoBehaviour
     {
+        [Header("References")]
         [SerializeField] InGameAudioSettings audioSettings;
+        [SerializeField] private Raycaster raycaster;
         
         private Slider masterVolume;
         private Slider dialogVolume;
@@ -16,10 +19,39 @@ namespace UI
         private UIDocument uiDocument;
         private VisualElement root;
 
+        public void ToggleMenu()
+        {
+            if (root.visible)
+            {
+                HideMenu();
+            }
+            else
+            {
+                ShowMenu();
+            }
+        }
+        
+        #region Helpers
+        private void ShowMenu()
+        {
+            root.visible = true;
+            raycaster.isDialogRunning = true;
+        }
+        private void HideMenu()
+        {
+            root.visible = false;
+            raycaster.isDialogRunning = false;
+        }
+        
+        #endregion
+        
+        #region Setup
+        
         private void Start()
         {
             GetElements();
             SetupEvents();
+            HideMenu();
         }
 
         private void GetElements()
@@ -59,5 +91,7 @@ namespace UI
                     audioSettings.SetSfxVolume(evt.newValue);
                 });
         }
+        
+        #endregion
     }
 }
