@@ -6,6 +6,8 @@ namespace Audio
     [CreateAssetMenu(menuName = "Settings/InGameAudioSettings")]
     public class InGameAudioSettings : ScriptableObject
     {
+        public event Action<float> OnDialogVolumeChanged;
+        
         [Range(0f, 1f)]
         [SerializeField] private float masterVolume = 1f;
         
@@ -27,6 +29,7 @@ namespace Audio
         {
             masterVolume = value;
             UpdateWwiseRTPCs();
+            OnDialogVolumeChanged?.Invoke(value * masterVolume);
         }
 
         public void SetMusicVolume(float value)
@@ -44,13 +47,14 @@ namespace Audio
         public void SetDialogVolume(float value)
         {
             dialogVolume = value;
+            OnDialogVolumeChanged?.Invoke(value * masterVolume);
         }
 
         private void UpdateWwiseRTPCs()
         {
-            AkUnitySoundEngine.SetRTPCValue("VOL_Master", masterVolume);
-            AkUnitySoundEngine.SetRTPCValue("VOL_Music", musicVolume);
-            AkUnitySoundEngine.SetRTPCValue("VOL_SFX", sfxVolume);
+            AkUnitySoundEngine.SetRTPCValue("VOL_Master", masterVolume * 100f);
+            AkUnitySoundEngine.SetRTPCValue("VOL_Music", musicVolume * 100f * masterVolume);
+            AkUnitySoundEngine.SetRTPCValue("VOL_SFX", sfxVolume * 100f * masterVolume);
         }
 
         #region Setup

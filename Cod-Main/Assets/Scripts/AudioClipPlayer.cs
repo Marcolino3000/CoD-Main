@@ -20,6 +20,7 @@ namespace DefaultNamespace
         [SerializeField] private MarkerManager markerManager;
         [SerializeField] private InGameAudioSettings audioSettings;
 
+        private float currentClipVolume;
         private Coroutine clipWatcher;
 
         private void Update()
@@ -55,7 +56,9 @@ namespace DefaultNamespace
             }
             
             audioSource.volume = node is PlayerDialogOption ? 0.25f : 0.125f;
-            audioSource.volume *= node.ClipVolume * audioSettings.GetDialogVolume();
+            currentClipVolume = node.ClipVolume;
+            audioSource.volume = currentClipVolume;
+            // audioSource.volume *= node.ClipVolume * audioSettings.GetDialogVolume();
             
             audioSource.clip = node.AudioClip;
             
@@ -82,7 +85,13 @@ namespace DefaultNamespace
         private void Awake()
         {
             DialogTreeRunner.DialogNodeSelected += PlayClip;
+            audioSettings.OnDialogVolumeChanged += SetDialogVolume;
             // markerManager.OnMarkerReached += OnMarkerReached;
+        }
+
+        private void SetDialogVolume(float volume)
+        {
+            audioSource.volume = volume * currentClipVolume;
         }
 
         // private static void OnMarkerReached(MarkerType markerType)
