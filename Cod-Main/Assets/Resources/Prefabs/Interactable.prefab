@@ -46,9 +46,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Interactable.InteractableDisplay
   cooldownActive: 0
   currentOpacity: 0
-  fadeDuration: 0.05
+  standardOutlineFadeDuration: 0.05
   minOpacity: 0
   maxOpacity: 0.8
+  specialOutlineFadeDuration: 2
   cooldownBetweenHovers: 0
   specialInteractablesColor: {r: 1, g: 0.84313726, b: 0, a: 1}
   standardInteractablesColor: {r: 1, g: 1, b: 1, a: 1}

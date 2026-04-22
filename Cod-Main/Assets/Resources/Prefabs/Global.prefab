@@ -259,7 +259,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3073940004212380121
 Transform:
   m_ObjectHideFlags: 0
@@ -1179,6 +1179,7 @@ MonoBehaviour:
   mixer: {fileID: 24100000, guid: 39708bea6aa144f9bacffac7d9e55828, type: 2}
   paulTalksThroughDoorClip: {fileID: 8300000, guid: 14551678a11cc4ee78912e5f4cbd7a02, type: 3}
   markerManager: {fileID: 11400000, guid: 8dd0ce52eed7143b8843a27084d2fc5e, type: 2}
+  audioSettings: {fileID: 11400000, guid: 5685ad64b194a4618a4b1997bb6806c3, type: 2}
 --- !u!1 &5490530911912891434
 GameObject:
   m_ObjectHideFlags: 0
