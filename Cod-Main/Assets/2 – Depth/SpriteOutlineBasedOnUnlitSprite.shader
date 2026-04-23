@@ -8,7 +8,7 @@ Shader "Universal Render Pipeline/Unlit Sprite Outline From Default Shader"
         _MainTex("Texture", 2D) = "white" {}
         _Cutoff("Alpha Cutout", Range(0.0, 1.0)) = 0.5
         _OutlineColor("Outline Color", Color) = (0, 0, 0, 1)
-        _OutlineThickness("Outline Width (Texels)", Range(0.0, 8.0)) = 1.0
+        _OutlineThickness("Outline Width (Texels)", Range(0.0, 100.0)) = 1.0
 
         // BlendMode
         [HideInInspector] _Surface("__surface", Float) = 0.0
