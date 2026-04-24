@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: DoorHallwayKitchenFailureReaction
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.Reaction
   DialogTree: {fileID: 0}
-  Interactable: {fileID: 0}
+  Interactable: {fileID: 11400000, guid: 6c661981f39bd48d4aca24cd5a422230, type: 2}
   TriggerInteractableAfterReactionFinished: 0
   ObjectToMoveIn: {fileID: 0}
   ObjectToMoveOut: {fileID: 0}
   ObjectToMove: {fileID: 0}
   TargetPosition: {x: 0, y: 0, z: 0}
   CancelCurrentDialog: 0
-  ScriptedSequence: {fileID: 0}
+  ScriptedSequence: {fileID: 11400000, guid: 630e1956f992c408e81a04db0b568790, type: 2}
   InteractableToShow: {fileID: 0}
   InteractableDisappearsAutomatically: 0
   SceneToLoad: 
