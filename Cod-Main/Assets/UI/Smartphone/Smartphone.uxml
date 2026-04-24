@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="smartphoneRoot" picking-mode="Ignore" style="flex-grow: 1; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0.6);">
+        <ui:VisualElement name="phoneContainer" style="width: 400px; height: 800px; position: relative; align-items: center; justify-content: center;">
+            <ui:VisualElement name="phoneScreen" style="width: 351px; height: 624px; background-color: rgb(245, 245, 245); align-items: center; justify-content: center; overflow: hidden;">
+                <ui:Label text="Hello World" name="helloLabel" style="font-size: 42px; color: rgb(25, 25, 30); -unity-font-style: bold;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="phoneOverlay" picking-mode="Ignore" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(&quot;project://database/Assets/UI/Smartphone/PhoneOverlay_Placeholder.png?fileID=2800000&amp;guid=a958bbd14bc0448fa92a9bd2416faea4&amp;type=3#PhoneOverlay_Placeholder&quot;); -unity-background-scale-mode: scale-to-fit;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
