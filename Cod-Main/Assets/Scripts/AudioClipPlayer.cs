@@ -22,6 +22,7 @@ namespace DefaultNamespace
 
         private float currentClipVolume;
         private Coroutine clipWatcher;
+        private float playerOptionFactor = 0.125f;
 
         private void Update()
         {
@@ -55,9 +56,9 @@ namespace DefaultNamespace
                 }
             }
             
-            audioSource.volume = node is PlayerDialogOption ? 0.25f : 0.125f;
+            playerOptionFactor = node is PlayerDialogOption ? 0.25f : 0.125f;
             currentClipVolume = node.ClipVolume;
-            audioSource.volume = currentClipVolume;
+            audioSource.volume = currentClipVolume * audioSettings.GetDialogVolume() ;
             // audioSource.volume *= node.ClipVolume * audioSettings.GetDialogVolume();
             
             audioSource.clip = node.AudioClip;

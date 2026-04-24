@@ -1,5 +1,6 @@
 using Audio;
 using Runtime.Scripts.Interactables;
+using UnityEditor.SettingsManagement;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -51,6 +52,7 @@ namespace UI
         {
             GetElements();
             SetupEvents();
+            SetSlidersToCurrentValues();
             HideMenu();
         }
 
@@ -90,6 +92,14 @@ namespace UI
                 {
                     audioSettings.SetSfxVolume(evt.newValue);
                 });
+        }
+        
+        private void SetSlidersToCurrentValues()
+        {
+            masterVolume.value = audioSettings.masterVolume;
+            dialogVolume.value = audioSettings.dialogVolume;
+            musicVolume.value = audioSettings.musicVolume;
+            sfxVolume.value = audioSettings.sfxVolume;
         }
         
         #endregion

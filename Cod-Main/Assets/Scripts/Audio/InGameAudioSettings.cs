@@ -9,16 +9,16 @@ namespace Audio
         public event Action<float> OnDialogVolumeChanged;
         
         [Range(0f, 1f)]
-        [SerializeField] private float masterVolume = 1f;
+        public float masterVolume = 1f;
         
         [Range(0f, 1f)]
-        [SerializeField] private float musicVolume = 1f;
+        public float musicVolume = 1f;
         
         [Range(0f, 1f)]
-        [SerializeField] private float sfxVolume = 1f;
+        public float sfxVolume = 1f;
         
         [Range(0f, 1f)]
-        [SerializeField] private float dialogVolume = 1f;
+        public float dialogVolume = 1f;
         
         public float GetDialogVolume()
         {
@@ -67,6 +67,7 @@ namespace Audio
         {
             UpdateWwiseRTPCs();
         }
+
         #endregion
     }
 }
