@@ -1,8 +1,41 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:VisualElement name="smartphoneRoot" picking-mode="Ignore" style="flex-grow: 1; align-items: center; justify-content: center; background-color: rgba(0, 0, 0, 0.6);">
         <ui:VisualElement name="phoneContainer" style="width: 400px; height: 800px; position: relative; align-items: center; justify-content: center;">
-            <ui:VisualElement name="phoneScreen" style="width: 351px; height: 624px; background-color: rgb(245, 245, 245); align-items: center; justify-content: center; overflow: hidden;">
-                <ui:Label text="Hello World" name="helloLabel" style="font-size: 42px; color: rgb(25, 25, 30); -unity-font-style: bold;" />
+            <ui:VisualElement name="phoneScreen" style="width: 351px; height: 624px; background-color: rgb(256, 256, 256); flex-direction: column; overflow: hidden; -unity-font-definition: url(&quot;project://database/Assets/Fonts/Fancy-Regular.otf?fileID=12800000&amp;guid=37567676b964d4408b499bb1e061114a&amp;type=3#Fancy-Regular&quot;);">
+                <ui:VisualElement name="statusBar" style="flex-direction: row; align-items: center; height: 40px; padding-left: 12px; padding-right: 12px; flex-shrink: 0;">
+                    <ui:VisualElement name="statusLeft" style="flex-grow: 1; flex-basis: 0; flex-direction: row; align-items: center; justify-content: flex-start;">
+                        <ui:VisualElement name="cellularIcon" picking-mode="Ignore" style="width: 22px; height: 15px; background-image: url(&quot;project://database/Assets/UI/Smartphone/Cellular.png?fileID=2800000&amp;guid=6052542a82274761a16b3bb8bbbe0406&amp;type=3#Cellular&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                        <ui:Label text="3G" name="cellularLabel" style="font-size: 18px; color: rgb(25, 25, 30); -unity-font-style: bold; margin-left: 4px;" />
+                    </ui:VisualElement>
+                    <ui:Label text="10:40" name="timeLabel" style="flex-grow: 1; flex-basis: 0; font-size: 24px; color: rgb(25, 25, 30); -unity-font-style: bold; -unity-text-align: middle-center;" />
+                    <ui:VisualElement name="statusRight" style="flex-grow: 1; flex-basis: 0; flex-direction: row; align-items: center; justify-content: flex-end;">
+                        <ui:VisualElement name="batteryIcon" picking-mode="Ignore" style="width: 32px; height: 15px; background-image: url(&quot;project://database/Assets/UI/Smartphone/Battery.png?fileID=2800000&amp;guid=0307685f8e3447e49f502ee0943e6be8&amp;type=3#Battery&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="screenContent" style="flex-grow: 1; flex-direction: column;">
+                    <ui:VisualElement name="chatsHeader" style="padding-top: 4px; padding-left: 16px; padding-right: 16px; padding-bottom: 12px;">
+                        <ui:Label text="Chats" name="chatsHeadline" style="font-size: 36px; color: rgb(25, 25, 30); -unity-font-style: bold; align-self: flex-start;" />
+                        <ui:VisualElement name="searchBar" picking-mode="Ignore" style="margin-top: 4px; height: 34px; background-color: rgb(227, 227, 232); border-top-left-radius: 17px; border-top-right-radius: 17px; border-bottom-left-radius: 17px; border-bottom-right-radius: 17px; flex-direction: row; align-items: center; padding-left: 10px; padding-right: 10px;">
+                            <ui:VisualElement name="searchIcon" picking-mode="Ignore" style="width: 16px; height: 16px; background-image: url(&quot;project://database/Assets/UI/Smartphone/SearchIcon.png?fileID=2800000&amp;guid=a5e40a7260c64a5f8173150c495c91df&amp;type=3#SearchIcon&quot;); -unity-background-scale-mode: scale-to-fit; -unity-background-image-tint-color: rgb(142, 142, 147);" />
+                            <ui:Label text="Suche" name="searchPlaceholder" style="font-size: 18px; color: rgb(60, 60, 65); margin-left: 4px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="chatsDivider" style="height: 1px; background-color: rgb(220, 220, 220); flex-shrink: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="navBar" style="flex-direction: row; height: 64px; background-color: rgb(246, 246, 246); border-top-width: 1px; border-top-color: rgb(220, 220, 220); flex-shrink: 0;">
+                    <ui:VisualElement name="navCalls" class="navItem" style="flex-grow: 1; flex-basis: 0; align-items: center; justify-content: center;">
+                        <ui:VisualElement name="callsIcon" picking-mode="Ignore" style="width: 28px; height: 28px; background-image: url(&quot;project://database/Assets/UI/Smartphone/PhoneIcon.png?fileID=2800000&amp;guid=b523a4f706cc465cbb70a25e9f5c8d65&amp;type=3#PhoneIcon&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                        <ui:Label text="ANRUFE" style="font-size: 11px; color: rgb(60, 60, 65); -unity-font-style: bold; margin-top: 4px; letter-spacing: 1px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="navChats" class="navItem" style="flex-grow: 1; flex-basis: 0; align-items: center; justify-content: center;">
+                        <ui:VisualElement name="chatsIcon" picking-mode="Ignore" style="width: 28px; height: 28px; background-image: url(&quot;project://database/Assets/UI/Smartphone/ChatIcon.png?fileID=2800000&amp;guid=358cc703f06c4554bdeef79ea50b8381&amp;type=3#ChatIcon&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                        <ui:Label text="CHATS" style="font-size: 11px; color: rgb(60, 60, 65); -unity-font-style: bold; margin-top: 4px; letter-spacing: 1px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="navProfile" class="navItem" style="flex-grow: 1; flex-basis: 0; align-items: center; justify-content: center;">
+                        <ui:VisualElement name="profileIcon" picking-mode="Ignore" style="width: 28px; height: 28px; background-color: rgb(199, 199, 204); border-top-left-radius: 14px; border-top-right-radius: 14px; border-bottom-left-radius: 14px; border-bottom-right-radius: 14px;" />
+                        <ui:Label text="PROFIL" style="font-size: 11px; color: rgb(60, 60, 65); -unity-font-style: bold; margin-top: 4px; letter-spacing: 1px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement name="phoneOverlay" picking-mode="Ignore" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(&quot;project://database/Assets/UI/Smartphone/PhoneOverlay_Placeholder.png?fileID=2800000&amp;guid=a958bbd14bc0448fa92a9bd2416faea4&amp;type=3#PhoneOverlay_Placeholder&quot;); -unity-background-scale-mode: scale-to-fit;" />
         </ui:VisualElement>
