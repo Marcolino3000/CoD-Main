@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BIKE_CLICK = 2930347891U;
+        static const AkUniqueID CLICK = 1584507803U;
         static const AkUniqueID DOOR_HOUSE_INSIDE_CLOSE = 3073992842U;
         static const AkUniqueID DOOR_HOUSE_INSIDE_OPEN = 2909751214U;
         static const AkUniqueID DOOR_HOUSE_OUTSIDE_CLOSE = 2371375953U;

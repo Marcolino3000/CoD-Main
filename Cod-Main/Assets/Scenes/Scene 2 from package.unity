@@ -42538,9 +42538,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 351d1f0650874c55b5c335d4b2304a4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Animation.Rotator
-  pivot: {fileID: 1477536936}
+  disableColliderWhileRotating: 0
   duration: 0.4
   angle: 75
+  pivot: {fileID: 1477536936}
   interactable: {fileID: 1328700453}
   _collider: {fileID: 0}
   audioSource: {fileID: 0}
