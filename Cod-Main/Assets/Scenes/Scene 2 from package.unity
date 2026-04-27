@@ -5545,7 +5545,6 @@ Transform:
   - {fileID: 154502242}
   - {fileID: 165539792}
   - {fileID: 1403811875}
-  - {fileID: 1169730056}
   - {fileID: 316662425}
   - {fileID: 625528771}
   - {fileID: 16668902}
@@ -8614,6 +8613,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1169730056}
   - {fileID: 747608292}
   - {fileID: 161006861}
   - {fileID: 1671813679}
@@ -34697,8 +34697,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1169730056}
   - component: {fileID: 1169730057}
+  - component: {fileID: 1169730058}
   m_Layer: 0
-  m_Name: Schuhe
+  m_Name: Schuhe Birkenstocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34713,12 +34714,13 @@ Transform:
   m_GameObject: {fileID: 1169730055}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.47704, y: -0.62, z: -16.29553}
+  m_LocalPosition: {x: 1.8981098, y: -0.96668005, z: 4.0750003}
   m_LocalScale: {x: 0.21, y: 0.25, z: 0.21}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1560716785}
   - {fileID: 681461423}
-  m_Father: {fileID: 134180469}
+  m_Father: {fileID: 281670483}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1169730057
 SpriteRenderer:
@@ -34778,6 +34780,106 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &1169730058
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169730055}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.79, y: 2.04}
+    newSize: {x: 2.79, y: 2.04}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.355, y: 0.049999997}
+      - {x: 1.385, y: 0.19}
+      - {x: 1.395, y: 0.24}
+      - {x: 1.395, y: 0.29}
+      - {x: 1.155, y: 0.53}
+      - {x: 1.055, y: 0.53}
+      - {x: 0.905, y: 0.51}
+      - {x: 0.84499997, y: 0.45999998}
+      - {x: 0.48499998, y: 0.13}
+      - {x: 0.33499998, y: 0.12}
+      - {x: 0.185, y: 0.03}
+      - {x: 0.114999995, y: -0.04}
+      - {x: 0.095, y: -0.16}
+      - {x: -0.024999999, y: -0.17999999}
+      - {x: -0.065, y: -0.26}
+      - {x: -0.074999996, y: -0.51}
+      - {x: -0.114999995, y: -0.59}
+      - {x: -0.13499999, y: -0.65}
+      - {x: -0.13499999, y: -0.65999997}
+      - {x: 0.024999999, y: -0.89}
+      - {x: 0.074999996, y: -0.96}
+      - {x: 0.13499999, y: -1.02}
+      - {x: 0.255, y: -1.02}
+      - {x: 0.565, y: -1}
+      - {x: 0.645, y: -0.96}
+      - {x: 0.815, y: -0.82}
+    - - {x: 0.685, y: 0.68}
+      - {x: 0.685, y: 0.72999996}
+      - {x: 0.565, y: 0.96}
+      - {x: 0.435, y: 0.96}
+      - {x: 0.195, y: 0.97999996}
+      - {x: 0.16499999, y: 0.96999997}
+      - {x: -0.024999999, y: 0.88}
+      - {x: -0.125, y: 1.02}
+      - {x: -0.315, y: 1.02}
+      - {x: -0.355, y: 1}
+      - {x: -0.465, y: 0.9}
+      - {x: -0.66499996, y: 0.9}
+      - {x: -0.775, y: 0.81}
+      - {x: -0.85499996, y: 0.66999996}
+      - {x: -0.935, y: 0.55}
+      - {x: -0.92499995, y: 0.5}
+      - {x: -1.225, y: 0.38}
+      - {x: -1.305, y: 0.29}
+      - {x: -1.305, y: 0.19}
+      - {x: -1.295, y: 0.14}
+      - {x: -1.275, y: 0.03}
+      - {x: -1.135, y: -0.17}
+      - {x: -0.885, y: -0.25}
+      - {x: -0.78499997, y: -0.25}
+      - {x: -0.555, y: -0.19}
+      - {x: 0.345, y: 0.31}
+      - {x: 0.60499996, y: 0.57}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1172702162
 GameObject:
   m_ObjectHideFlags: 0
@@ -44407,6 +44509,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1560716784
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1169730056}
+    m_Modifications:
+    - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7050965
+      objectReference: {fileID: 0}
+    - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -12.799999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.119049
+      objectReference: {fileID: 0}
+    - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223779332585130471, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: Data
+      value: 
+      objectReference: {fileID: 11400000, guid: a14b4a3781a2544079181dc125c638c6, type: 2}
+    - target: {fileID: 8873758076070795167, guid: af10d5b363b08468082fb93188628d24, type: 3}
+      propertyPath: m_Name
+      value: Interactable
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: af10d5b363b08468082fb93188628d24, type: 3}
+--- !u!4 &1560716785 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2459043860723191969, guid: af10d5b363b08468082fb93188628d24, type: 3}
+  m_PrefabInstance: {fileID: 1560716784}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1562895747
 GameObject:
   m_ObjectHideFlags: 0
@@ -55758,6 +55926,7 @@ GameObject:
   - component: {fileID: 2012218081}
   - component: {fileID: 2012218083}
   - component: {fileID: 2012218082}
+  - component: {fileID: 2012218084}
   m_Layer: 0
   m_Name: Journal
   m_TagString: Untagged
@@ -56008,6 +56177,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2012218084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012218080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f152a68cf5799428a840be2dd1f5cf53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HideJournalWhenFound
+  findJournalReaction: {fileID: 11400000, guid: ae831742708ff4d70887ec2ce01ba256, type: 2}
+  renderer: {fileID: 2012218083}
+  collider: {fileID: 2012218082}
 --- !u!1 &2012486125
 GameObject:
   m_ObjectHideFlags: 0

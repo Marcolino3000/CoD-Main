@@ -1,10 +1,13 @@
+using System;
 using Runtime.Scripts.Interactables;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField] private Raycaster raycaster;
+    public event Action OnStartGame;
+    public event Action OnResumeGame;
+    public bool IsVisible => root.visible;
     
     private Button startButton;
     private Button resumeButton;
@@ -13,10 +16,10 @@ public class MainMenu : MonoBehaviour
     private UIDocument uiDocument;
     private VisualElement root;
     
-    private void Start()
+    public void Setup()
     {
         SetupElements();
-        ShowMenu();
+        Show();
     }
 
     private void SetupElements()
@@ -35,15 +38,14 @@ public class MainMenu : MonoBehaviour
 
     private void StartGame()
     {
-        HideMenu();
-        
         startButton.SetEnabled(false);
         startButton.pickingMode = PickingMode.Ignore;
+        OnStartGame?.Invoke();
     }
 
     private void ResumeGame()
     {
-        HideMenu();
+        OnResumeGame?.Invoke();
     }
 
     private void ExitGame()
@@ -51,15 +53,13 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-    private void HideMenu()
+    public void Hide()
     {
         root.visible = false;
-        raycaster.isDialogRunning = false;
     }
 
-    public void ShowMenu()
+    public void Show()
     {
         root.visible = true;
-        raycaster.isDialogRunning = true;
     }
 }

@@ -20,7 +20,7 @@ namespace UI
         
         private void Awake()
         {
-            JournalMenu.OnMenuToggled += HandleMenuToggled;
+            // JournalMenu.OnMenuToggled += HandleMenuToggled;
             
             if (logRectTransform == null)
                 logRectTransform = logImage.GetComponent<RectTransform>();
