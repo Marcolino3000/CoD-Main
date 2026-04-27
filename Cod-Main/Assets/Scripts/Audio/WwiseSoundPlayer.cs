@@ -11,9 +11,20 @@ namespace Audio
         [Header("References")]
         [SerializeField] private Raycaster raycaster;
 
-        public void Play()
+
+        private void Start()
         {
-            clickEvent.Post(gameObject);
+            Setup();
+        }
+
+        private void Setup()
+        {
+            raycaster.OnClick += () => Play(clickEvent);
+        }
+
+        private void Play(AK.Wwise.Event eventToPlay)
+        {
+            eventToPlay.Post(gameObject);
         }
     }
 }

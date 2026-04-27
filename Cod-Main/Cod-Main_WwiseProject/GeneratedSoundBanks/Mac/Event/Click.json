@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{C9DD5E97-8AC7-4C99-A088-06885588AF96}",
     "Language": "SFX",
-    "Hash": "{0888C2CB-A68B-92B3-04C8-E218EB1D95B0}",
+    "Hash": "{4693035C-4D86-3B7D-0DB8-C99E7779795E}",
     "ObjectPath": "Click",
     "ShortName": "Click",
     "Path": "Event/Click.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{682A57D1-F9E2-01EE-5E9C-9D5A5CA15DE9}"
+  "FileHash": "{162064E5-8760-C623-8B7B-030CFFAB2B73}"
  }
 }
