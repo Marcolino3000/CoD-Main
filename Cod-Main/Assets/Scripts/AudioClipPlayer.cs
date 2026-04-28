@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using Audio;
 using Nodes;
 using Nodes.Decorator;
 using Tree;
@@ -10,14 +11,18 @@ namespace DefaultNamespace
 {
     public class AudioClipPlayer : MonoBehaviour
     {
-        public static event Action FinishedPlaying; 
-        
+        public static event Action FinishedPlaying;
+
+        [Header("References")]
         [SerializeField] private AudioSource audioSource;
         [SerializeField] private AudioMixer mixer;
         [SerializeField] private AudioClip paulTalksThroughDoorClip;
         [SerializeField] private MarkerManager markerManager;
-        
+        [SerializeField] private InGameAudioSettings audioSettings;
+
+        private float currentClipVolume;
         private Coroutine clipWatcher;
+        private float playerOptionFactor = 0.125f;
 
         private void Update()
         {
@@ -51,8 +56,10 @@ namespace DefaultNamespace
                 }
             }
             
-            audioSource.volume = node is PlayerDialogOption ? 0.25f : 0.125f;
-            audioSource.volume *= node.ClipVolume;
+            playerOptionFactor = node is PlayerDialogOption ? 0.25f : 0.125f;
+            currentClipVolume = node.ClipVolume;
+            audioSource.volume = currentClipVolume * audioSettings.GetDialogVolume() ;
+            // audioSource.volume *= node.ClipVolume * audioSettings.GetDialogVolume();
             
             audioSource.clip = node.AudioClip;
             
@@ -79,7 +86,13 @@ namespace DefaultNamespace
         private void Awake()
         {
             DialogTreeRunner.DialogNodeSelected += PlayClip;
+            audioSettings.OnDialogVolumeChanged += SetDialogVolume;
             // markerManager.OnMarkerReached += OnMarkerReached;
+        }
+
+        private void SetDialogVolume(float volume)
+        {
+            audioSource.volume = volume * currentClipVolume;
         }
 
         // private static void OnMarkerReached(MarkerType markerType)

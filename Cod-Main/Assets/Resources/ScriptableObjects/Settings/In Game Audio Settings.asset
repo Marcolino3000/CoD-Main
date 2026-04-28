@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: In Game Audio Settings
   m_EditorClassIdentifier: Assembly-CSharp::Audio.InGameAudioSettings
   masterVolume: 1
-  musicVolume: 1
+  musicVolume: 0.139
   sfxVolume: 1
   dialogVolume: 1

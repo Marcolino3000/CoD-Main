@@ -2,7 +2,6 @@ using Runtime.Scripts.Interactables;
 using Runtime.Scripts.PlayerInput;
 using UnityEngine;
 
-[RequireComponent(typeof(TriggerArea))]
 public class TransparencyPerDistance : MonoBehaviour
 {
     [Header("Settings")] 
@@ -29,7 +28,9 @@ public class TransparencyPerDistance : MonoBehaviour
     {
         doorRenderer = GetComponent<SpriteRenderer>();
             
-        triggerArea = gameObject.GetComponentInChildren<TriggerArea>();
+        if(triggerArea == null)
+            triggerArea = gameObject.GetComponentInChildren<TriggerArea>();
+        
         colliderRadius = triggerArea.GetComponent<SphereCollider>().radius;
         triggerArea.OnPlayerEntered += HandlePlayerEntered;
         triggerArea.OnPlayerExited += HandlePlayerExited;

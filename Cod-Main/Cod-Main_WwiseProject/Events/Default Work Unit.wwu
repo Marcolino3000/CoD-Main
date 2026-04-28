@@ -243,6 +243,21 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Interactions" ID="{E71BA2F8-92DE-4A6C-8159-7CC201258782}" ShortID="511684483">
+					<ChildrenList>
+						<Event Name="Click" ID="{C9DD5E97-8AC7-4C99-A088-06885588AF96}">
+							<ChildrenList>
+								<Action Name="" ID="{9DB6BC8E-4E3D-459A-BC8F-9279F6E77C0A}" ShortID="719231025">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Click" ID="{27EEC2F5-2C97-4B79-96BD-9D2142FFA6C1}" WorkUnitID="{331C5A2D-5E44-47C6-8867-BBE8320DCFA5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -6,32 +6,30 @@ namespace Audio
     [CreateAssetMenu(menuName = "Settings/InGameAudioSettings")]
     public class InGameAudioSettings : ScriptableObject
     {
-        [Range(0f, 1f)]
-        [SerializeField] private float masterVolume = 1f;
+        public event Action<float> OnDialogVolumeChanged;
         
         [Range(0f, 1f)]
-        [SerializeField] private float musicVolume = 1f;
+        public float masterVolume = 1f;
         
         [Range(0f, 1f)]
-        [SerializeField] private float sfxVolume = 1f;
+        public float musicVolume = 1f;
         
         [Range(0f, 1f)]
-        [SerializeField] private float dialogVolume = 1f;
-
-        private void OnValidate()
+        public float sfxVolume = 1f;
+        
+        [Range(0f, 1f)]
+        public float dialogVolume = 1f;
+        
+        public float GetDialogVolume()
         {
-            UpdateWwiseRTPCs();
+            return dialogVolume * masterVolume;
         }
-
-        private void OnEnable()
-        {
-            UpdateWwiseRTPCs();
-        }
-
+        
         public void SetMasterVolume(float value)
         {
             masterVolume = value;
             UpdateWwiseRTPCs();
+            OnDialogVolumeChanged?.Invoke(value * masterVolume);
         }
 
         public void SetMusicVolume(float value)
@@ -49,13 +47,27 @@ namespace Audio
         public void SetDialogVolume(float value)
         {
             dialogVolume = value;
+            OnDialogVolumeChanged?.Invoke(value * masterVolume);
         }
 
         private void UpdateWwiseRTPCs()
         {
-            AkUnitySoundEngine.SetRTPCValue("VOL_Master", masterVolume);
-            AkUnitySoundEngine.SetRTPCValue("VOL_Music", musicVolume);
-            AkUnitySoundEngine.SetRTPCValue("VOL_SFX", sfxVolume);
+            AkUnitySoundEngine.SetRTPCValue("VOL_Master", masterVolume * 100f);
+            AkUnitySoundEngine.SetRTPCValue("VOL_Music", musicVolume * 100f * masterVolume);
+            AkUnitySoundEngine.SetRTPCValue("VOL_SFX", sfxVolume * 100f * masterVolume);
         }
+
+        #region Setup
+        private void OnValidate()
+        {
+            UpdateWwiseRTPCs();
+        }
+
+        private void OnEnable()
+        {
+            UpdateWwiseRTPCs();
+        }
+
+        #endregion
     }
 }

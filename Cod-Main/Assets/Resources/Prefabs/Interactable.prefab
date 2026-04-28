@@ -46,13 +46,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Interactable.InteractableDisplay
   cooldownActive: 0
   currentOpacity: 0
-  fadeDuration: 0.7
-  minOpacity: 0.2
-  maxOpacity: 0.7
+  standardOutlineFadeDuration: 0.05
+  minOpacity: 0
+  maxOpacity: 0.8
+  specialOutlineFadeDuration: 0.5
   cooldownBetweenHovers: 0
+  specialInteractablesColor: {r: 1, g: 0.84313726, b: 0, a: 1}
+  standardInteractablesColor: {r: 1, g: 1, b: 1, a: 1}
   interactable: {fileID: 6223779332585130471}
   triggerArea: {fileID: 1617824163739068085}
-  shaderColorPropertyRef: 
+  shaderColorPropertyRef: _OutlineColor
   outlineAlphaRef: _OutlineAlpha
   spriteRenderer: {fileID: 0}
 --- !u!1 &3184193633181000552
