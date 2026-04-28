@@ -1730,7 +1730,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.SequenceOutputDispatcher
   moveSpeed: 1
   waypointThreshold: 0.2
-  disableColliderDuringSequence: 0
+  disableColliderDuringSequence: 1
   boxCollider: {fileID: 5387536864685530869}
   isSequenceRunning: 0
   playerController: {fileID: 860814231863369485}

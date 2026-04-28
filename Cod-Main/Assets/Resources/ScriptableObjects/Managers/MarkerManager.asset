@@ -43,6 +43,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: b2c5a6808431544c6a4d98166c375223, type: 3}
     - {fileID: 8300000, guid: 14551678a11cc4ee78912e5f4cbd7a02, type: 3}
     - {fileID: 8300000, guid: 46e3bf62b5a8148f3adbdf6fe7f6867f, type: 3}
+    - {fileID: 8300000, guid: b2c591320716c429ba7053626b310b98, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -61,7 +62,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 27
+      Data: 28
     - Name: 
       Entry: 7
       Data: 
@@ -1233,6 +1234,46 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 27
+    - Name: $v
+      Entry: 7
+      Data: 61|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 62|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 71
+    - Name: Sample
+      Entry: 3
+      Data: 53905
+    - Name: Type
+      Entry: 3
+      Data: 3
+    - Name: CharacterToAnimate
+      Entry: 1
+      Data: Marlene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -1242,5 +1283,5 @@ MonoBehaviour:
   - Marlene
   - Paul
   - Hilde
-  lastPlayheadSample: 550591
-  nextId: 70
+  lastPlayheadSample: 82298
+  nextId: 72
