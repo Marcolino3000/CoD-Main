@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 623fa79c384042e3bb49a575d178c3c0, type: 3}
   m_Name: HallwayDoorLeftSuccessReaction
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.Reaction
-  DialogTree: {fileID: 0}
-  Interactable: {fileID: 11400000, guid: e033e13c574d64c19bad48e1ecba97ff, type: 2}
+  DialogTree: {fileID: 11400000, guid: f8e8e98787d4e41739ce82719e83b979, type: 2}
+  Interactable: {fileID: 0}
   TriggerInteractableAfterReactionFinished: 0
   ObjectToMoveIn: {fileID: 0}
   ObjectToMoveOut: {fileID: 0}
   ObjectToMove: {fileID: 0}
   TargetPosition: {x: 0, y: 0, z: 0}
   CancelCurrentDialog: 0
-  ScriptedSequence: {fileID: 11400000, guid: c921c68d3d6b942e7b883ba3d8090787, type: 2}
+  ScriptedSequence: {fileID: 0}
   InteractableToShow: {fileID: 0}
   InteractableDisappearsAutomatically: 0
   SceneToLoad: 
