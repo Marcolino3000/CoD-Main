@@ -545,8 +545,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 4.98489, y: 1, z: 1}
+  m_Center: {x: -1.8305104, y: 0, z: 0}
 --- !u!23 &43403671
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7739,8 +7739,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 14.635335, y: 11.39, z: 10.729508}
-  m_Center: {x: -4.8423357, y: 5.695, z: -4.8322973}
+  m_Size: {x: 7.926485, y: 11.39, z: 0.65143085}
+  m_Center: {x: -1.4879129, y: 5.695, z: 0.20674115}
 --- !u!1 &239437171
 GameObject:
   m_ObjectHideFlags: 0
@@ -10087,7 +10087,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 347771186}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -13636,8 +13636,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 15.38, y: 30.55127, z: 9.66019}
-  m_Center: {x: -13.6, y: 15.275635, z: -4.946782}
+  m_Size: {x: 13.82096, y: 30.551268, z: 0.61477005}
+  m_Center: {x: -14.3795185, y: 15.275634, z: -0.4240725}
 --- !u!65 &351976491
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13657,8 +13657,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 14.039128, y: 30.551268, z: 9.66019}
-  m_Center: {x: 13.030435, y: 15.275634, z: -4.946782}
+  m_Size: {x: 12.510945, y: 30.551268, z: 1.1411985}
+  m_Center: {x: 13.794527, y: 15.275634, z: -0.6872868}
 --- !u!1001 &353704604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18268,6 +18268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 526388173}
   - component: {fileID: 526388174}
+  - component: {fileID: 526388175}
   m_Layer: 0
   m_Name: Beet 2
   m_TagString: Untagged
@@ -18348,6 +18349,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &526388175
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526388172}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 17.665907, y: 18.580006, z: 15.838233}
+  m_Center: {x: -0.5016256, y: 9.290002, z: -7.8191137}
 --- !u!1 &527398516
 GameObject:
   m_ObjectHideFlags: 0
@@ -23416,6 +23438,70 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &667984822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 667984824}
+  - component: {fileID: 667984823}
+  m_Layer: 0
+  m_Name: NavMesh Surface
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &667984823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667984822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshSurface
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 1
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: a9c18978e28f24e4fa6c505f22cd6e1f, type: 2}
+  m_BuildHeightMesh: 1
+--- !u!4 &667984824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667984822}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.94283, y: 2.86136, z: -2.05006}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &668544792
 GameObject:
   m_ObjectHideFlags: 0
@@ -28391,6 +28477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 755246402}
   - component: {fileID: 755246403}
+  - component: {fileID: 755246404}
   m_Layer: 0
   m_Name: Treppe
   m_TagString: Untagged
@@ -28471,6 +28558,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &755246404
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755246401}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.54, y: 4.21, z: 3.65}
+  m_Center: {x: 0.0000019073486, y: 2.104999, z: 1.47}
 --- !u!1 &761779284
 GameObject:
   m_ObjectHideFlags: 0
@@ -36324,8 +36432,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 21.792557, y: 71.46, z: 8.558962}
-  m_Center: {x: 9.42753, y: 35.73, z: -4.1794868}
+  m_Size: {x: 21.72, y: 61, z: 1.6}
+  m_Center: {x: 12.1, y: 30.86, z: -0.62}
 --- !u!1 &1185792207
 GameObject:
   m_ObjectHideFlags: 0
@@ -39420,8 +39528,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 8.212295, y: 19.970001, z: 8.256768}
-  m_Center: {x: 0.68887776, y: 9.985001, z: -6.232732}
+  m_Size: {x: 3.3, y: 19.970001, z: 0.74}
+  m_Center: {x: -0.20790537, y: 9.985001, z: 1.42}
 --- !u!1 &1326350898
 GameObject:
   m_ObjectHideFlags: 0
@@ -54705,6 +54813,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1913439516}
   - component: {fileID: 1913439517}
+  - component: {fileID: 1913439518}
+  - component: {fileID: 1913439519}
   m_Layer: 0
   m_Name: Wiese
   m_TagString: Untagged
@@ -54785,6 +54895,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!64 &1913439518
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913439515}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
+--- !u!64 &1913439519
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913439515}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1913785392
 GameObject:
   m_ObjectHideFlags: 0
@@ -59809,7 +59963,7 @@ Transform:
   m_GameObject: {fileID: 2091347225}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: -1.54846, y: 2.08458, z: 0.77967095}
+  m_LocalPosition: {x: -1.54846, y: 2.08, z: 0.77967095}
   m_LocalScale: {x: 10, y: 10, z: 11}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -61622,3 +61776,4 @@ SceneRoots:
   - {fileID: 748172745}
   - {fileID: 500793766}
   - {fileID: 497828461}
+  - {fileID: 667984824}
