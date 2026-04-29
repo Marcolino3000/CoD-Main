@@ -2775,9 +2775,9 @@ MonoBehaviour:
   interactionCursorSize: 36
   standardCursor: {fileID: 2800000, guid: ecea31359dab04503a91a3234e96f376, type: 3}
   handCursor: {fileID: 2800000, guid: 9f66a8fabf32141d4965479afd898e5b, type: 3}
-  inspectCursor: {fileID: 2800000, guid: ecea31359dab04503a91a3234e96f376, type: 3}
-  moveCursor: {fileID: 2800000, guid: 523a56ec1def44296bb3db87cebf32af, type: 3}
-  goThroughDoorCursor: {fileID: 2800000, guid: 8ccc360b0ed61e54ba5d8fa329ca8988, type: 3}
+  inspectCursor: {fileID: 2800000, guid: 0c76c44aa47fc4416875263f95401074, type: 3}
+  moveCursor: {fileID: 2800000, guid: 2d81197cf4ca14d60bc32316d038ebf6, type: 3}
+  goThroughDoorCursor: {fileID: 2800000, guid: 5862e2745105849ea9ea2e1592752cfc, type: 3}
 --- !u!1 &2047475649783191184 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2589033447177786605, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
@@ -2844,7 +2844,7 @@ NavMeshAgent:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047475649783191184}
-  m_Enabled: 1
+  m_Enabled: 0
   m_AgentTypeID: 0
   m_Radius: 0.5
   m_Speed: 3.5
