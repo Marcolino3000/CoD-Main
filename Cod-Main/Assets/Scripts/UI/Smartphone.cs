@@ -30,10 +30,31 @@ namespace UI
         private void Start()
         {
             uiDocument = GetComponent<UIDocument>();
+            LoadContacts();
+            BindRoot(initial: true);
+        }
+
+        private void Update()
+        {
+            // UI Toolkit Live Reload rebuilds the panel tree whenever the
+            // source UXML/USS reimports during Play mode. The cached refs
+            // become stale and the new ListView has no makeItem/bindItem.
+            // Detect via reference change and re-bind.
+            if (uiDocument == null) return;
+            var current = uiDocument.rootVisualElement;
+            if (current != null && current != root)
+            {
+                BindRoot(initial: false);
+            }
+        }
+
+        private void BindRoot(bool initial)
+        {
             root = uiDocument.rootVisualElement;
             if (root == null)
             {
-                Debug.LogError("Smartphone: UIDocument.rootVisualElement is null. Is the source asset assigned?", this);
+                if (initial)
+                    Debug.LogError("Smartphone: UIDocument.rootVisualElement is null. Is the source asset assigned?", this);
                 return;
             }
 
@@ -42,9 +63,8 @@ namespace UI
             chatListView = root.Q<ListView>("chatListView");
 
             ApplyStatusBar();
-            LoadContacts();
             BindChatList();
-            SetVisible(false);
+            SetVisible(initial ? false : isOpen);
         }
 
         public void SetTime(string value)

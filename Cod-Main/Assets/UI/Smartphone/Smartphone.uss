@@ -41,6 +41,7 @@
     color: rgb(245, 245, 247);
     -unity-font-style: bold;
     -unity-text-align: middle-center;
+    letter-spacing: 1px;
 }
 
 /* ---------- Headline / search ---------- */
@@ -69,6 +70,7 @@
     font-size: 18px;
     color: rgb(142, 142, 147);
     margin-left: 4px;
+    letter-spacing: 1px;
 }
 
 /* ---------- Divider ---------- */
@@ -122,6 +124,8 @@
     padding-bottom: 10px;
     padding-left: 14px;
     height: 64px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(56, 56, 58);
 }
 
 .avatar {
@@ -156,13 +160,10 @@
 }
 
 .chat-card__status-icon {
-    width: 12px;
-    height: 12px;
-    background-color: rgb(142, 142, 147);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
+    width: 16px;
+    height: 10px;
+    background-image: url("project://database/Assets/UI/Smartphone/Status_Delivered.png?fileID=2800000&guid=828c6ae5feca411b9fc0723367fe808b&type=3#Status_Delivered");
+    -unity-background-scale-mode: scale-to-fit;
     flex-shrink: 0;
     margin-right: 4px;
 }
@@ -184,28 +185,37 @@
 }
 
 .chat-card__time {
-    font-size: 11px;
+    font-size: 14px;
     color: rgb(142, 142, 147);
 }
 
 /* ---------- Badge ---------- */
 .badge {
-    min-width: 20px;
-    height: 20px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: rgb(255, 59, 48);
+    width: 22px;
+    height: 22px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    background-color: rgb(245, 245, 247);
     align-items: center;
     justify-content: center;
     margin-top: 4px;
-    padding-left: 6px;
-    padding-right: 6px;
 }
 
 .badge__text {
-    font-size: 11px;
-    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    align-self: stretch;
+    font-size: 16px;
+    color: rgb(25, 25, 30);
     -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
 }
