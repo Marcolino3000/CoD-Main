@@ -1,3 +1,4 @@
+using Runtime.Scripts.Core;
 using Runtime.Scripts.PlayerInput;
 using UnityEngine;
 
@@ -5,11 +6,15 @@ public class AnimationTrigger : MonoBehaviour
 {
     [SerializeField] private Animator animator;
     [SerializeField] private PlayerController _playerController;
+    [SerializeField] private MoveByClick moveByClick;
 
     private void OnEnable()
     {
         _playerController.OnMovementStarted += TriggerAnimation;
         _playerController.OnMovementEnded += StopAnimation;
+        
+        moveByClick.OnNavMeshMovementStarted += TriggerAnimation;
+        moveByClick.OnNavMeshMovementEnded += StopAnimation;
     }
 
     [ContextMenu("Trigger Animation")]

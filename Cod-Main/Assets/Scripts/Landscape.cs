@@ -4,7 +4,7 @@ namespace DefaultNamespace
 {
     public class Landscape : MonoBehaviour
     {
-        [SerializeField,Range(0.1f, 10)] private float speed;
+        [SerializeField,Range(0.01f, 1)] private float speed;
         [SerializeField] private MeshRenderer meshRenderer;
         //Texture2D und wrap mode: repeat
 
