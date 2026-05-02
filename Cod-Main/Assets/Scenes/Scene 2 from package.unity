@@ -28889,15 +28889,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5093247226440023091, guid: 5982d01fe7cd54284ba799294081b0c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.82
+      value: -2.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 5093247226440023091, guid: 5982d01fe7cd54284ba799294081b0c4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.25
       objectReference: {fileID: 0}
     - target: {fileID: 7788706274668219964, guid: 5982d01fe7cd54284ba799294081b0c4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -23.32
+      value: -2.87
       objectReference: {fileID: 0}
     - target: {fileID: 7788706274668219964, guid: 5982d01fe7cd54284ba799294081b0c4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.65
+      value: -11.94
       objectReference: {fileID: 0}
     - target: {fileID: 8080453692142049709, guid: 5982d01fe7cd54284ba799294081b0c4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34971,15 +34975,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2459043860723191969, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.29
+      value: -12.28
       objectReference: {fileID: 0}
     - target: {fileID: 2459043860723191969, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.11
+      value: -0.78
       objectReference: {fileID: 0}
     - target: {fileID: 2459043860723191969, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.71
+      value: -6.03
       objectReference: {fileID: 0}
     - target: {fileID: 2459043860723191969, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -35011,7 +35015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2872073155054400692, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: m_Radius
-      value: 6.63
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 6223779332585130471, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: Data
@@ -35019,7 +35023,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 69eecbeb3b3fb406482237d5e608525f, type: 2}
     - target: {fileID: 6223779332585130471, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: triggerAreaRadius
-      value: 6.63
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: 8873758076070795167, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: m_Name
@@ -40143,7 +40147,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 517548956}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
