@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{331C5A2D-5E44-47C6-8867-BBE8320DCFA5}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Marc" ID="{331C5A2D-5E44-47C6-8867-BBE8320DCFA5}" PersistMode="Standalone">
+			<ChildrenList>
+				<PropertyContainer Name="Interactions" ID="{050FCAD3-46B3-4622-8554-E6B22D5807C3}" ShortID="878904844">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC8C3FD2-3676-4122-94FC-894608C0FAB7}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{FECD4348-B230-4BB9-9FE4-DD2AEA7CBD8D}" WorkUnitID="{EC92CC9D-A8F6-411F-8068-0FB1D8936D77}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Click" ID="{27EEC2F5-2C97-4B79-96BD-9D2142FFA6C1}" ShortID="851266270">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC8C3FD2-3676-4122-94FC-894608C0FAB7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC92CC9D-A8F6-411F-8068-0FB1D8936D77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Mouse Click" ID="{E90870B9-D1CB-4C93-8430-0E407768E060}">
+									<Language>SFX</Language>
+									<AudioFile>Mouse Click.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="22704999"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Mouse Click" ID="{E90870B9-D1CB-4C93-8430-0E407768E060}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</PropertyContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

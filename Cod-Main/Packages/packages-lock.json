@@ -35,7 +35,7 @@
         "com.cod.dialog-builder": "0.9.3",
         "com.cod.playerinput": "1.0.0"
       },
-      "hash": "240577fa9b6758d3a4863f893ea6c01d0b9b3ea5"
+      "hash": "1dd5aa2561b18a8b076ab5e0ea88f7bc9314e22a"
     },
     "com.cod.playerinput": {
       "version": "https://github.com/Marcolino3000/PlayerInput.git",
@@ -122,7 +122,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ai.navigation": {
-      "version": "2.0.8",
+      "version": "2.0.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
