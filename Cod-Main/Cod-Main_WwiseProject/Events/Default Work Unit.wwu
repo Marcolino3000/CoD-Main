@@ -258,6 +258,338 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Ambience" ID="{1E5ED86A-371A-47F4-81A0-71999F05CB64}" ShortID="489415006">
+					<ChildrenList>
+						<Event Name="Ambience_House_Outside" ID="{22B26334-93AA-488B-BF60-4A7BCC7806DA}">
+							<ChildrenList>
+								<Action Name="" ID="{183E8351-47B6-4D2C-AFB7-474D0281B00C}" ShortID="628652095">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_House_Outside-01_TS" ID="{4100C158-9FC0-4806-A4F4-5FE2A7332634}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{97AAB9D0-B812-481E-8AFC-899F70A831BD}" ShortID="589689999">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_distant_plane" ID="{D61E0AF5-064F-40DC-BD2E-5952709817C5}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6FD7D67E-5835-4CA9-ACB1-AE5BEEEB8BD2}" ShortID="130346770">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Dog" ID="{55F8AEF1-8BDD-4126-8425-599CE18D4D55}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{79F3E35B-A192-4442-B730-DB553F97DD1A}" ShortID="108136925">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Rooster" ID="{10E83E8D-49DB-4A44-A705-95D870E4A48A}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AC44CA98-2768-498F-B84B-C50D24E73622}" ShortID="327800502">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Atmo_Birds" ID="{4A1EE7ED-20F8-48B5-BC4E-A604B18038CF}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{345DB26B-B01F-43BE-9C40-706A7314F037}" ShortID="451681367">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Atmo_Birds_2" ID="{F49CB9A2-1B1C-41E1-825E-0C93E48D51EA}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5BF70059-BE55-4669-AC0D-90608C7E022E}" ShortID="552166429">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Atmo_Birds_3" ID="{67131DBE-D5B3-4435-BBD5-4268C33B12E3}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{63971BA1-9B6B-4777-A25F-8F3AFB588CC0}" ShortID="1061166051">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Atmo_Birds_4" ID="{3E3E1866-1FF9-4806-BF58-17DD5EE02402}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_House_Outside_Stop" ID="{57D098F9-9A72-41BD-900F-F3EF04147A41}">
+							<ChildrenList>
+								<Action Name="" ID="{A5018B25-0266-467C-A53C-D8556F7CBC0D}" ShortID="635571444">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_House_Outside-01_TS" ID="{4100C158-9FC0-4806-A4F4-5FE2A7332634}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{44146BDC-9F49-40DD-9A97-9C6840C22C15}" ShortID="554622200">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_distant_plane" ID="{D61E0AF5-064F-40DC-BD2E-5952709817C5}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DC919FA3-9074-4569-BA7A-3860543872B4}" ShortID="641800764">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Dog" ID="{55F8AEF1-8BDD-4126-8425-599CE18D4D55}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7618E41E-2297-4AA0-8A7F-83B7AA52E4BB}" ShortID="573872446">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Rooster" ID="{10E83E8D-49DB-4A44-A705-95D870E4A48A}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BD27FA55-7205-4E4B-9167-2FB1CCC109BD}" ShortID="291661614">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Atmo_Birds" ID="{4A1EE7ED-20F8-48B5-BC4E-A604B18038CF}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DC67CAF3-7E89-4FC2-8720-DE6E664D2236}" ShortID="203936360">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Atmo_Birds_2" ID="{F49CB9A2-1B1C-41E1-825E-0C93E48D51EA}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{860520AA-6EF4-4C7C-BCCC-ADBF666665F9}" ShortID="40636646">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Atmo_Birds_3" ID="{67131DBE-D5B3-4435-BBD5-4268C33B12E3}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{21DC0E35-F112-4DBC-BEEA-EA163F5BE6E4}" ShortID="260882239">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Atmo_Birds_4" ID="{3E3E1866-1FF9-4806-BF58-17DD5EE02402}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_House_Inside" ID="{7C74ABDB-85BA-4E53-BFF7-646CDCC8C47C}">
+							<ChildrenList>
+								<Action Name="" ID="{DA860DC7-D201-4B29-9F58-A7B1615C3B35}" ShortID="220066886">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_House-01_TS" ID="{77483B5C-EFC8-41CD-8E96-BDFF2490EB2B}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_House_Inside_Stop" ID="{6B65690A-13EB-4505-BE4B-B9A136371320}">
+							<ChildrenList>
+								<Action Name="" ID="{1B312895-FEAD-4647-9EE9-AFFD0BCD176E}" ShortID="328407384">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_House-01_TS" ID="{77483B5C-EFC8-41CD-8E96-BDFF2490EB2B}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Path" ID="{5967264A-7346-44D9-851F-40CBCDA35B7C}">
+							<ChildrenList>
+								<Action Name="" ID="{3DBEAFE4-C35E-4FE4-AB57-91B3856E01E7}" ShortID="78394472">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Path-01_TS" ID="{7252633C-A1C5-4384-8A2B-DB8957A0B8C0}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Path_Stop" ID="{2290AB78-6448-4C3C-A6DB-A2BF280D1DE1}">
+							<ChildrenList>
+								<Action Name="" ID="{479E4C51-7B84-4242-A831-59AF70CA77EB}" ShortID="900792651">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Path-01_TS" ID="{7252633C-A1C5-4384-8A2B-DB8957A0B8C0}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Train" ID="{C60E18D7-383E-4179-B1F6-C47CF22F9C3B}">
+							<ChildrenList>
+								<Action Name="" ID="{F17FBD3C-5E28-4636-AF56-925AB6C094ED}" ShortID="338180353">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Train_TS-01" ID="{28E74E7F-C1BC-4C4C-9B45-A8CE3137A1A6}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5F95960A-39FC-4D05-8797-E75037A5F3AB}" ShortID="756170849">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Train_Railrumble" ID="{226D84C4-24DE-4720-AE00-C06CDE3AD167}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D33FE8CE-6A61-4C04-A2DD-6B9F4BECF1F5}" ShortID="407704404">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Train_Door" ID="{D848E871-9CA3-45A0-915F-FFE7C15FB433}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Train_Stop" ID="{57DAF0F2-2A22-4FA2-A775-D9E6047502E1}">
+							<ChildrenList>
+								<Action Name="" ID="{67A25388-584F-47A5-B088-CD941DD768A4}" ShortID="931550445">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Amb_Train_TS-01" ID="{28E74E7F-C1BC-4C4C-9B45-A8CE3137A1A6}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7A0A1735-EF28-42CD-92EB-C8C72D7DDB08}" ShortID="205663995">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Train_Door" ID="{D848E871-9CA3-45A0-915F-FFE7C15FB433}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{81A19F27-1FE8-4B6A-8B2F-FF06DE91BBDC}" ShortID="757346824">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Train_Railrumble" ID="{226D84C4-24DE-4720-AE00-C06CDE3AD167}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Tree_1" ID="{3ED22419-7042-4A1F-9702-DD38A8D73955}">
+							<ChildrenList>
+								<Action Name="" ID="{216FE438-DCFF-4461-BBBD-5942E2C6312B}" ShortID="906830470">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Tree-01_TS" ID="{FFF1B055-96D1-4E18-886F-CB35241070CE}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Tree_2" ID="{DB5E3AB6-EE26-4812-BECA-C481CC2425B0}">
+							<ChildrenList>
+								<Action Name="" ID="{B42E0A09-5919-4A58-A8FA-4B52AC2104F1}" ShortID="71018720">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Tree-02_TS" ID="{0C60DA02-A00E-42F4-BFEF-185B0DDF074B}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Tree_3" ID="{8D4EB545-4C19-4CCB-B2C3-742666BE3FB5}">
+							<ChildrenList>
+								<Action Name="" ID="{AA962851-B523-4F21-96F3-678648711833}" ShortID="191933822">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Tree-03_TS" ID="{57648F30-FDA5-4978-BEA9-FF30CE9BF127}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Tree_1_Stop" ID="{8BE4DD09-136C-44F7-A623-0FA9B2CEE85D}">
+							<ChildrenList>
+								<Action Name="" ID="{604643A5-B18E-4710-9335-80294ED14047}" ShortID="700028796">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Tree-01_TS" ID="{FFF1B055-96D1-4E18-886F-CB35241070CE}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Tree_2_Stop" ID="{45958C6F-0F27-465E-B7D4-54A5FB9255BB}">
+							<ChildrenList>
+								<Action Name="" ID="{EE2F30FF-7577-4941-8636-F60925605ADC}" ShortID="269415582">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Tree-02_TS" ID="{0C60DA02-A00E-42F4-BFEF-185B0DDF074B}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ambience_Tree_3_Stop" ID="{99BA9B91-CB56-4001-A557-631884AB157E}">
+							<ChildrenList>
+								<Action Name="" ID="{26144821-A437-4B13-84B0-7BED74C27B66}" ShortID="350638692">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Tree-03_TS" ID="{57648F30-FDA5-4978-BEA9-FF30CE9BF127}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
