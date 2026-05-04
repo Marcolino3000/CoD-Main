@@ -1075,7 +1075,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5349883384185565329}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.003949522, w: 0.9999922}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0036720778, w: 0.9999933}
   m_LocalPosition: {x: 1.18, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1289,7 +1289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5579262170267892553}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.0100913625, w: 0.99994916}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0028032695, w: 0.9999961}
   m_LocalPosition: {x: 1.24, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1385,7 +1385,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7119565197228532784}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.009415079, w: 0.9999557}
+  m_LocalRotation: {x: -0, y: -0, z: -0.008695308, w: 0.9999623}
   m_LocalPosition: {x: 1.27, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1728,10 +1728,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bc4bef034544ba6abc4175956fa2056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.SequenceOutputDispatcher
+  useNavMeshMovement: 0
   moveSpeed: 1
   waypointThreshold: 0.2
   disableColliderDuringSequence: 1
   boxCollider: {fileID: 5387536864685530869}
+  navMeshAgent: {fileID: 0}
   isSequenceRunning: 0
   playerController: {fileID: 860814231863369485}
   Waypoints:
@@ -4039,6 +4041,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7433976083841653713, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2241211357323447940}
+    - targetCorrespondingSourceObject: {fileID: 7433976083841653713, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6987135780929464298}
   m_SourcePrefab: {fileID: 100100000, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
 --- !u!4 &185443572139275055 stripped
 Transform:
@@ -4190,6 +4195,22 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
+--- !u!114 &6987135780929464298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4410089863099125070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5075415cad12647e39dec28bc01ff04e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  stepEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 434e13519f6b1435bb0fb82fc86516d9, type: 2}
 --- !u!4 &5702258011487022556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1529954981052791619, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
