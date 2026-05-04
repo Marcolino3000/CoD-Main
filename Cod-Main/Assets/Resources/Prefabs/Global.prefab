@@ -1728,12 +1728,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bc4bef034544ba6abc4175956fa2056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.SequenceOutputDispatcher
-  useNavMeshMovement: 0
   moveSpeed: 1
   waypointThreshold: 0.2
   disableColliderDuringSequence: 1
   boxCollider: {fileID: 5387536864685530869}
-  navMeshAgent: {fileID: 5341875135353417208}
+  useProximityCheck: 1
   isSequenceRunning: 0
   playerController: {fileID: 860814231863369485}
   Waypoints:
@@ -1741,6 +1740,8 @@ MonoBehaviour:
     WaitTime: 0
     ReactionAtStart: {fileID: 0}
     ReactionAtStop: {fileID: 0}
+  navMeshAgent: {fileID: 5341875135353417208}
+  moveByClick: {fileID: 893281625413660920}
 --- !u!1 &9120773234336444136
 GameObject:
   m_ObjectHideFlags: 0
