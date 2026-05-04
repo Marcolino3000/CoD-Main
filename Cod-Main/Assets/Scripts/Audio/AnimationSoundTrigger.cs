@@ -7,6 +7,6 @@ public class AnimationSoundTrigger : MonoBehaviour
 
     public void PlayStepSound()
     {
-        stepEvent.Post(gameObject);
+        stepEvent?.Post(gameObject);
     }
 }

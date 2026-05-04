@@ -1075,7 +1075,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5349883384185565329}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.0036720778, w: 0.9999933}
+  m_LocalRotation: {x: -0, y: -0, z: -0.003949522, w: 0.9999922}
   m_LocalPosition: {x: 1.18, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1289,7 +1289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5579262170267892553}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.0028032695, w: 0.9999961}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0100913625, w: 0.99994916}
   m_LocalPosition: {x: 1.24, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1385,7 +1385,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7119565197228532784}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.008695308, w: 0.9999623}
+  m_LocalRotation: {x: -0, y: -0, z: -0.009415079, w: 0.9999557}
   m_LocalPosition: {x: 1.27, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1733,7 +1733,7 @@ MonoBehaviour:
   waypointThreshold: 0.2
   disableColliderDuringSequence: 1
   boxCollider: {fileID: 5387536864685530869}
-  navMeshAgent: {fileID: 0}
+  navMeshAgent: {fileID: 5341875135353417208}
   isSequenceRunning: 0
   playerController: {fileID: 860814231863369485}
   Waypoints:
