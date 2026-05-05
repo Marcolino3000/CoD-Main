@@ -7279,6 +7279,7 @@ MonoBehaviour:
   cellularLabel: 3G
   contactsJson: {fileID: 4900000, guid: 10b127a9b371c43cf9d4c2dca6678b31, type: 3}
   chatCardTemplate: {fileID: 9197481963319205126, guid: f5ee971144d3f4471b8c80e965353c22, type: 3}
+  messageBubbleTemplate: {fileID: 9197481963319205126, guid: 88d7931ed5f74a1a9200efafa0e23f7b, type: 3}
 --- !u!114 &843732847
 MonoBehaviour:
   m_ObjectHideFlags: 0
