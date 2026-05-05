@@ -45,6 +45,8 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 46e3bf62b5a8148f3adbdf6fe7f6867f, type: 3}
     - {fileID: 8300000, guid: b2c591320716c429ba7053626b310b98, type: 3}
     - {fileID: 8300000, guid: c59fd9fa6311f4b12bb942fb57fd3e3e, type: 3}
+    - {fileID: 8300000, guid: 578a24a1eebee43bc88b4f091283c90c, type: 3}
+    - {fileID: 8300000, guid: 2274a1ad3cc824affbb523812fcf31e3, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -63,7 +65,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 29
+      Data: 31
     - Name: 
       Entry: 7
       Data: 
@@ -1351,6 +1353,86 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 29
+    - Name: $v
+      Entry: 7
+      Data: 67|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 68|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 75
+    - Name: Sample
+      Entry: 3
+      Data: 171780
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: CharacterToAnimate
+      Entry: 1
+      Data: Paul
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 30
+    - Name: $v
+      Entry: 7
+      Data: 69|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 70|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 76
+    - Name: Sample
+      Entry: 3
+      Data: 291346
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: CharacterToAnimate
+      Entry: 1
+      Data: Paul
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -1360,5 +1442,5 @@ MonoBehaviour:
   - Marlene
   - Paul
   - Hilde
-  lastPlayheadSample: 435792
-  nextId: 75
+  lastPlayheadSample: 0
+  nextId: 77
