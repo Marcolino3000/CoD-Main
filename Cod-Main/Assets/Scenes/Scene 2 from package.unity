@@ -1353,6 +1353,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 520331299}
+  - {fileID: 1594873667}
   m_Father: {fileID: 1857850041}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &68925180
@@ -8377,7 +8378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &278125341
 Transform:
   m_ObjectHideFlags: 0
@@ -9369,6 +9370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 329699694}
   - component: {fileID: 329699695}
+  - component: {fileID: 329699696}
   m_Layer: 0
   m_Name: Stehlampe
   m_TagString: Untagged
@@ -9449,6 +9451,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &329699696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329699693}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.03, y: 22.35207, z: 0.001}
+  m_Center: {x: 0.0000019073486, y: 11.176035, z: -0.0000038146973}
 --- !u!1 &336036716
 GameObject:
   m_ObjectHideFlags: 0
@@ -14073,8 +14096,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 7.410701, y: 5.708571, z: 0.5347891}
-  m_Center: {x: 6.7426753, y: 2.3295639, z: -0.23260546}
+  m_Size: {x: 7.410701, y: 5.708571, z: 0.001}
+  m_Center: {x: 7.22, y: 2.3295639, z: 0.1}
 --- !u!65 &371462997
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14094,8 +14117,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.18359423, y: 5.8529906, z: 3.244359}
-  m_Center: {x: -1.3505638, y: 2.411712, z: -1.6174889}
+  m_Size: {x: 0, y: 5.8529906, z: 3.244359}
+  m_Center: {x: -1.2587667, y: 2.411712, z: -1.6174889}
 --- !u!65 &371462998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14115,8 +14138,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.769958, y: 7.0997934, z: 0.1}
-  m_Center: {x: 0.120673895, y: 3.0337605, z: 0}
+  m_Size: {x: 2.2237253, y: 7.0997934, z: 0.001}
+  m_Center: {x: -0.15244246, y: 3.0337605, z: 0}
 --- !u!65 &371462999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19352,6 +19375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 551980397}
   - component: {fileID: 551980398}
+  - component: {fileID: 551980399}
   m_Layer: 0
   m_Name: Couchtisch
   m_TagString: Untagged
@@ -19432,6 +19456,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &551980399
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551980396}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.8, y: 20.425104, z: 0.0001}
+  m_Center: {x: 0.00000035061555, y: 8.407448, z: 0.0000076293923}
 --- !u!1 &554824160
 GameObject:
   m_ObjectHideFlags: 0
@@ -20226,6 +20271,59 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &568996240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 568996241}
+  - component: {fileID: 568996242}
+  m_Layer: 0
+  m_Name: Regal Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &568996241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568996240}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.02, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1931493138}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &568996242
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568996240}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.487226, y: 26.484072, z: 0.001}
+  m_Center: {x: 0.0924656, y: 12.742034, z: -0.053701267}
 --- !u!1 &569081455
 GameObject:
   m_ObjectHideFlags: 0
@@ -23241,8 +23339,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.0218644, y: 1.1758456, z: 1.4423761}
-  m_Center: {x: -0.6769769, y: 0.08792281, z: -1.1550145}
+  m_Size: {x: 1.4210949, y: 5.307426, z: 1.053931}
+  m_Center: {x: -0.7375641, y: 2.153713, z: -1.1878542}
 --- !u!1 &660118763
 GameObject:
   m_ObjectHideFlags: 0
@@ -24192,8 +24290,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.7496402, y: 2.8041518, z: 0.76715493}
-  m_Center: {x: 0.15608285, y: 0.7741841, z: 0.24643728}
+  m_Size: {x: 1.4238523, y: 3.6997964, z: 0.6682561}
+  m_Center: {x: 0.004182697, y: 1.2220064, z: 0.29589167}
 --- !u!1 &707221407
 GameObject:
   m_ObjectHideFlags: 0
@@ -24788,6 +24886,59 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &724415699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724415700}
+  - component: {fileID: 724415701}
+  m_Layer: 0
+  m_Name: Sessel Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &724415700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724415699}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1594456898}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &724415701
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724415699}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.339576, y: 32.41353, z: 0}
+  m_Center: {x: -0.2946332, y: 8.361767, z: 0.5}
 --- !u!1 &726481882
 GameObject:
   m_ObjectHideFlags: 0
@@ -29879,6 +30030,59 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &815319187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 815319188}
+  - component: {fileID: 815319189}
+  m_Layer: 0
+  m_Name: Fernseher Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &815319188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815319187}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.44}
+  m_LocalScale: {x: 7.6923084, y: 7.6923084, z: 7.6923084}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2064675925}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &815319189
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815319187}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.982383, y: 3.9457316, z: 0.001}
+  m_Center: {x: 0.15252364, y: 1.4728658, z: 0}
 --- !u!1 &822725363
 GameObject:
   m_ObjectHideFlags: 0
@@ -33182,8 +33386,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.044738088, y: 0.020000001, z: 0.03906246}
-  m_Center: {x: -0.0063081873, y: 0.00000001142952, z: -0.010443464}
+  m_Size: {x: 0.044738088, y: 0.017799348, z: 0.03906246}
+  m_Center: {x: -0.0063081873, y: -0.0011003274, z: -0.010443465}
 --- !u!1 &1024433473
 GameObject:
   m_ObjectHideFlags: 0
@@ -33464,6 +33668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1049196010}
   - component: {fileID: 1049196011}
+  - component: {fileID: 1049196012}
   m_Layer: 0
   m_Name: Stehlampe (1)
   m_TagString: Untagged
@@ -33544,6 +33749,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1049196012
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049196009}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.7678, y: 22.349545, z: 0}
+  m_Center: {x: -0.16970435, y: 11.174772, z: 0.0000038146973}
 --- !u!1 &1053611192
 GameObject:
   m_ObjectHideFlags: 0
@@ -34370,8 +34596,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.88095915, y: 1, z: 0.9999986}
+  m_Center: {x: -0.059520606, y: 0, z: 0}
 --- !u!1 &1078211416
 GameObject:
   m_ObjectHideFlags: 0
@@ -36038,8 +36264,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 67.66001, y: 55.370193, z: 2.3211648}
-  m_Center: {x: 0.0000037199911, y: 27.685097, z: -0.35815418}
+  m_Size: {x: 67.66001, y: 55.370193, z: 0.3397339}
+  m_Center: {x: 0.0000037199911, y: 27.685097, z: 0.632562}
 --- !u!1 &1169730055
 GameObject:
   m_ObjectHideFlags: 0
@@ -43683,6 +43909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1461359112}
   - component: {fileID: 1461359113}
+  - component: {fileID: 1461359114}
   m_Layer: 0
   m_Name: Sofa 1
   m_TagString: Untagged
@@ -43763,6 +43990,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!65 &1461359114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461359111}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.286878, y: 24.205982, z: 0}
+  m_Center: {x: -0.9335651, y: 12.102994, z: 0}
 --- !u!1 &1464372415
 GameObject:
   m_ObjectHideFlags: 0
@@ -47144,6 +47392,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1218218490}
+  - {fileID: 724415700}
   m_Father: {fileID: 1857850041}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1594456899
@@ -47361,6 +47610,59 @@ PolygonCollider2D:
       - {x: 6.265, y: 0.22}
       - {x: 6.275, y: 0.44}
   m_UseDelaunayMesh: 0
+--- !u!1 &1594873666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1594873667}
+  - component: {fileID: 1594873668}
+  m_Layer: 0
+  m_Name: Schrein Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1594873667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594873666}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 68925179}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1594873668
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594873666}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.9973135, y: 15.3252535, z: 0}
+  m_Center: {x: -0.46615958, y: 7.162628, z: 1.01}
 --- !u!1 &1595860318
 GameObject:
   m_ObjectHideFlags: 0
@@ -51990,8 +52292,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.83686286, y: 1, z: 1}
+  m_Center: {x: 0.081568226, y: 0, z: 0}
 --- !u!1 &1798491189
 GameObject:
   m_ObjectHideFlags: 0
@@ -55969,6 +56271,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 544469886}
+  - {fileID: 568996241}
   m_Father: {fileID: 1857850041}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &1931493139
@@ -59437,7 +59740,8 @@ Transform:
   m_LocalPosition: {x: 2.7409, y: 0.9, z: -2.469}
   m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 815319188}
   m_Father: {fileID: 210314250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2064675926
@@ -61956,7 +62260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1613087333839219736, guid: abdfc0e5b45334364ae696e093f04c7d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3510845994988109454, guid: abdfc0e5b45334364ae696e093f04c7d, type: 3}
       propertyPath: spriteRenderer
