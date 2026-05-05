@@ -289,6 +289,10 @@ MonoBehaviour:
   audioSource: {fileID: 6963395911094465831}
   outsideAmbience: {fileID: 8300000, guid: 968d084afe3cf4d57a8b43f1f9c725cc, type: 3}
   insideAmbience: {fileID: 8300000, guid: bfea7c5b7061c48b991038b5f7d6a58f, type: 3}
+  gardenAmbience:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   fadeDuration: 2
 --- !u!1 &1618922703460164710
 GameObject:
@@ -604,6 +608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1409293258689518385}
   - component: {fileID: 7517081902591483814}
+  - component: {fileID: 7433944268963321729}
   m_Layer: 0
   m_Name: SceneManagement
   m_TagString: Untagged
@@ -640,6 +645,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneManagement.SceneSwapManager
   fadeDuration: 2
+--- !u!114 &7433944268963321729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2457230077716780555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230a86b0c55f48aa935b28136a7faa3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DefaultNamespace.TitleSequenceTrigger
+  durationBeforeTitleScreen: 2
+  titleScreenDuration: 5
+  marianneSprachiReaction: {fileID: 11400000, guid: 42b8291c75a954e01bded361270bcc98, type: 2}
+  sceneFader: {fileID: 0}
+  sceneSwapManager: {fileID: 0}
+  titleScreenImage: {fileID: 0}
 --- !u!1 &2492284283714345769
 GameObject:
   m_ObjectHideFlags: 0

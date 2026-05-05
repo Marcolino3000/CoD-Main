@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace DefaultNamespace
 {
-    public class TitelSequenceTrigger : MonoBehaviour
+    public class TitleSequenceTrigger : MonoBehaviour
     {
         [Header("Settings")]
         [SerializeField] private float durationBeforeTitleScreen;
@@ -14,8 +14,6 @@ namespace DefaultNamespace
 
         [Header("References")]
         [SerializeField] private Reaction marianneSprachiReaction;
-        [SerializeField] private SceneFader sceneFader;
-        [SerializeField] private SceneSwapManager sceneSwapManager;
         [SerializeField] private UnityEngine.UI.Image titleScreenImage;
 
         private void Awake()
@@ -44,7 +42,7 @@ namespace DefaultNamespace
             
             yield return new WaitForSeconds(titleScreenDuration);
             
-            sceneSwapManager.ChangeScene("Scene 2");
+            SceneSwapManager.ChangeScene("Scene 2");
         }
 
         private void TogglePlayButton()
