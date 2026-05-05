@@ -36343,7 +36343,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2459043860723191969, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.28
+      value: -14.9
       objectReference: {fileID: 0}
     - target: {fileID: 2459043860723191969, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -36383,7 +36383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2872073155054400692, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: m_Radius
-      value: 3.6
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 6223779332585130471, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: Data
@@ -36391,7 +36391,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 69eecbeb3b3fb406482237d5e608525f, type: 2}
     - target: {fileID: 6223779332585130471, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: triggerAreaRadius
-      value: 3.6
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 8873758076070795167, guid: 103fff18e44c343b090b4928e416cd4a, type: 3}
       propertyPath: m_Name

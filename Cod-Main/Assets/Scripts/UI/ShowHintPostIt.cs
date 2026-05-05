@@ -29,17 +29,22 @@ namespace UI
 
         private void Setup()
         {
-            if (logRectTransform == null)
-                // logRectTransform = logImage.GetComponent<RectTransform>();
             originalAnchoredPosition = logRectTransform.anchoredPosition;
-            offscreenAnchoredPosition = new Vector2(originalAnchoredPosition.x, originalAnchoredPosition.y + logRectTransform.rect.height + 100f);
+            offscreenAnchoredPosition = new Vector2(originalAnchoredPosition.x, originalAnchoredPosition.y + 400f);
             logRectTransform.anchoredPosition = offscreenAnchoredPosition;
         }
         private void OnReactionFinished(bool completed)
         {
-            throw new System.NotImplementedException();
+            StartCoroutine(ShowHint());
         }
-        
+
+        private IEnumerator ShowHint()
+        {
+            yield return StartCoroutine(AnimateTransition(true));
+            yield return StartCoroutine(StartCountdown(showDuration));
+            yield return StartCoroutine(AnimateTransition(false));
+        }
+
         private IEnumerator AnimateTransition(bool show)
         {
             isLogVisible = show;
@@ -62,6 +67,11 @@ namespace UI
 
             // if (!show)
             //     logImage.enabled = false;
+        }
+        
+        private IEnumerator StartCountdown(float waitTime)
+        {
+            yield return new WaitForSeconds(waitTime);
         }
     }
 }
