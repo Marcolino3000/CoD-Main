@@ -15,7 +15,7 @@ namespace UI
         
         [Header("References")]
         [SerializeField] private Reaction reaction;
-        [SerializeField] private TextMeshPro text;
+        [SerializeField] private TextMeshProUGUI text;
 
         private Vector2 originalAnchoredPosition;
         private Vector2 offscreenAnchoredPosition;
