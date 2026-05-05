@@ -31,7 +31,7 @@ MonoBehaviour:
   m_Name: "Meine weirde r\xFCc..."
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: df8c37cf1cba04bd2a49cc016e8e3845
-  Position: {x: 878, y: 736}
+  Position: {x: 879.4286, y: 736}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 0}

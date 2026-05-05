@@ -7,6 +7,7 @@ namespace Audio
         [SerializeField] private AudioSource audioSource;
         [SerializeField] private AudioClip outsideAmbience;
         [SerializeField] private AudioClip insideAmbience;
+        [SerializeField] private AK.Wwise.Event gardenAmbience;
 
         private Coroutine fadeCoroutine;
         [SerializeField] private float fadeDuration = 1.0f;
