@@ -6,163 +6,107 @@ using Image = UnityEngine.UI.Image;
 
 public class JournalMenu : MonoBehaviour
 {
-    public static event Action<bool> OnMenuToggled;
+    public bool IsVisible => root.visible;
     
-    [SerializeField] private Raycaster raycaster;
-    [SerializeField] private Toggleable journalState;
-    [SerializeField] private bool journalIsUnlocked;
-    [SerializeField] private Texture2D secondLogImage;
-
     private UIDocument uiDocument;
     private VisualElement root;
 
-    private VisualElement startMenu;
-    private VisualElement mapMenu;
-    private VisualElement journalMenu;
-    private VisualElement journalMenu2;
-
-    private VisualElement rightSideContainer;
-
-    private VisualElement map;
-    private VisualElement journal;
-
-    private Button startButton;
-    private Button resumeButton;
-    private Button exitButton;
-
-
-    private bool journalIsVisible;
-    private bool mapIsVisible;
-
-    public void SecondLog()
+    public void Hide()
     {
-        // journalMenu.style.display = DisplayStyle.None;
-        // Debug.Log("SecondLog");
-        // journalMenu = root.Q("journalMenu2");
-
-        journalMenu.style.backgroundImage = secondLogImage;
+        // OnMenuToggled?.Invoke(false);
         
-        ToggleJournal();
+        root.visible = false;
     }
 
-    private void Start()
+    public void Show()
     {
-        SetupElements();
-        ShowMenu();
+        // OnMenuToggled?.Invoke(true);
+        
+        root.visible = true;
     }
 
-    public void UnlockJournal()
-    {
-        journalIsUnlocked = true;
-        rightSideContainer.style.display = DisplayStyle.Flex;
-    }
-
-    private void SetupElements()
+    public void Setup()
     {
         uiDocument = GetComponent<UIDocument>();
         root = uiDocument.rootVisualElement;
-
-        startMenu = root.Q("startMenu");
-        rightSideContainer = root.Q("rightSideContainer");
-        journalMenu = root.Q("journalMenu");
-        mapMenu = root.Q("mapMenu");
-
-        startMenu.style.display = DisplayStyle.Flex;
-        rightSideContainer.style.display = DisplayStyle.None;
-
-        SetupButtons(startMenu);
-    }
-
-    private void SetupButtons(VisualElement menu)
-    {
-        startButton = menu.Q<Button>("Start");
-        resumeButton = menu.Q<Button>("Resume");
-        exitButton = menu.Q<Button>("Exit");
         
-        startButton.clicked += StartGame;
-        resumeButton.clicked += ResumeGame;
-        exitButton.clicked += ExitGame;
+        // journalMenu = root.Q("journalMenu");
     }
 
-    private void StartGame()
-    {
-        HideMenu();
-        
-        startButton.SetEnabled(false);
-        startButton.pickingMode = PickingMode.Ignore;
-    }
+    // private void SetupButtons(VisualElement menu)
 
-    private void ResumeGame()
-    {
-        HideMenu();
-    }
+    // {
 
-    private void ExitGame()
-    {
-        Application.Quit();
-    }
+    //     startButton = menu.Q<Button>("Start");
 
-    private void HideMenu()
-    {
-        OnMenuToggled?.Invoke(false);
-        
-        root.visible = false;
-        raycaster.isDialogRunning = false;
-    }
+    //     resumeButton = menu.Q<Button>("Resume");
 
-    public void ShowMenu()
-    {
-        OnMenuToggled?.Invoke(true);
-        
-        root.visible = true;
-        raycaster.isDialogRunning = true;
-        
-        rightSideContainer.style.display = journalState.ToggleState ? DisplayStyle.Flex : DisplayStyle.None;
-    }
+    //     exitButton = menu.Q<Button>("Exit");
 
-    public void ToggleMap()
-    {
-        if (!journalState.ToggleState)
-            return;
-        
-        if(mapIsVisible)
-        {
-            mapIsVisible = false;
-            HideMenu();
-        }
+    //     
 
-        else
-        {
-            mapIsVisible = true;
-            ShowMenu();
-            journalMenu.style.display = DisplayStyle.None;
-            mapMenu.style.display = DisplayStyle.Flex;   
-        }
+    //     startButton.clicked += StartGame;
 
-        journalIsVisible = false;
+    //     resumeButton.clicked += ResumeGame;
 
-    }
+    //     exitButton.clicked += ExitGame;
 
-    public void ToggleJournal()
-    {
-        if (!journalState.ToggleState)
-            return;
-        
-        if(journalIsVisible)
-        {
-            journalIsVisible = false;
-            HideMenu();
-        }
+    // }
 
-        else
-        {
-            journalIsVisible = true;
-            ShowMenu();
-            journalMenu.style.display = DisplayStyle.Flex;
-            mapMenu.style.display = DisplayStyle.None;   
-        }
 
-        mapIsVisible = false;
+    // public void UnlockJournal()
 
-    }
+    // {
+
+    //     journalIsUnlocked = true;
+
+    //     rightSideContainer.style.display = DisplayStyle.Flex;
+
+    // }
+
+    // public void ToggleMap()
+    // {
+    //     if (!journalState.ToggleState)
+    //         return;
+    //     
+    //     if(mapIsVisible)
+    //     {
+    //         mapIsVisible = false;
+    //         Hide();
+    //     }
+    //
+    //     else
+    //     {
+    //         mapIsVisible = true;
+    //         ShowMenu();
+    //         journalMenu.style.display = DisplayStyle.None;
+    //         mapMenu.style.display = DisplayStyle.Flex;   
+    //     }
+    //
+    //     journalIsVisible = false;
+    //
+    // }
+    //
+    // public void ToggleJournal()
+    // {
+    //     if (!journalState.ToggleState)
+    //         return;
+    //     
+    //     if(journalIsVisible)
+    //     {
+    //         journalIsVisible = false;
+    //         Hide();
+    //     }
+    //
+    //     else
+    //     {
+    //         journalIsVisible = true;
+    //         ShowMenu();
+    //         journalMenu.style.display = DisplayStyle.Flex;
+    //         mapMenu.style.display = DisplayStyle.None;   
+    //     }
+    //
+    //     mapIsVisible = false;
+    //
+    // }
 }

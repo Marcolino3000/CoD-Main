@@ -43,6 +43,10 @@ MonoBehaviour:
     - {fileID: 8300000, guid: b2c5a6808431544c6a4d98166c375223, type: 3}
     - {fileID: 8300000, guid: 14551678a11cc4ee78912e5f4cbd7a02, type: 3}
     - {fileID: 8300000, guid: 46e3bf62b5a8148f3adbdf6fe7f6867f, type: 3}
+    - {fileID: 8300000, guid: b2c591320716c429ba7053626b310b98, type: 3}
+    - {fileID: 8300000, guid: c59fd9fa6311f4b12bb942fb57fd3e3e, type: 3}
+    - {fileID: 8300000, guid: 578a24a1eebee43bc88b4f091283c90c, type: 3}
+    - {fileID: 8300000, guid: 2274a1ad3cc824affbb523812fcf31e3, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -61,7 +65,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 27
+      Data: 31
     - Name: 
       Entry: 7
       Data: 
@@ -110,8 +114,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -128,8 +132,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -208,8 +212,8 @@ MonoBehaviour:
       Entry: 3
       Data: 3
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -248,8 +252,8 @@ MonoBehaviour:
       Entry: 3
       Data: 6
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -288,8 +292,8 @@ MonoBehaviour:
       Entry: 3
       Data: 6
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -328,8 +332,8 @@ MonoBehaviour:
       Entry: 3
       Data: 3
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -346,8 +350,8 @@ MonoBehaviour:
       Entry: 3
       Data: 9
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -386,8 +390,8 @@ MonoBehaviour:
       Entry: 3
       Data: 8
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -426,8 +430,8 @@ MonoBehaviour:
       Entry: 3
       Data: 9
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -488,8 +492,8 @@ MonoBehaviour:
       Entry: 3
       Data: 9
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -528,8 +532,8 @@ MonoBehaviour:
       Entry: 3
       Data: 9
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -568,8 +572,8 @@ MonoBehaviour:
       Entry: 3
       Data: 3
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -608,8 +612,8 @@ MonoBehaviour:
       Entry: 3
       Data: 8
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -648,8 +652,8 @@ MonoBehaviour:
       Entry: 3
       Data: 8
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -688,8 +692,8 @@ MonoBehaviour:
       Entry: 3
       Data: 3
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -706,8 +710,8 @@ MonoBehaviour:
       Entry: 3
       Data: 7
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -746,8 +750,8 @@ MonoBehaviour:
       Entry: 3
       Data: 6
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -786,8 +790,8 @@ MonoBehaviour:
       Entry: 3
       Data: 2
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -986,8 +990,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -1004,8 +1008,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -1022,8 +1026,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -1040,8 +1044,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -1120,8 +1124,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: CharacterToAnimate
-      Entry: 6
-      Data: 
+      Entry: 1
+      Data: Marlene
     - Name: 
       Entry: 8
       Data: 
@@ -1218,8 +1222,204 @@ MonoBehaviour:
       Entry: 3
       Data: 8
     - Name: CharacterToAnimate
-      Entry: 6
+      Entry: 1
+      Data: Marlene
+    - Name: 
+      Entry: 8
       Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 27
+    - Name: $v
+      Entry: 7
+      Data: 61|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 62|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 71
+    - Name: Sample
+      Entry: 3
+      Data: 53905
+    - Name: Type
+      Entry: 3
+      Data: 3
+    - Name: CharacterToAnimate
+      Entry: 1
+      Data: Marlene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 28
+    - Name: $v
+      Entry: 7
+      Data: 63|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 64|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 72
+    - Name: Sample
+      Entry: 3
+      Data: 228278
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: CharacterToAnimate
+      Entry: 1
+      Data: Marlene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 65|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 73
+    - Name: Sample
+      Entry: 3
+      Data: 425353
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: CharacterToAnimate
+      Entry: 1
+      Data: Marlene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 74
+    - Name: Sample
+      Entry: 3
+      Data: 688941
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: CharacterToAnimate
+      Entry: 1
+      Data: Marlene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 29
+    - Name: $v
+      Entry: 7
+      Data: 67|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 68|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 75
+    - Name: Sample
+      Entry: 3
+      Data: 171780
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: CharacterToAnimate
+      Entry: 1
+      Data: Paul
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 30
+    - Name: $v
+      Entry: 7
+      Data: 69|System.Collections.Generic.List`1[[MarkerManager+Marker, com.audioplayer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 70|MarkerManager+Marker, com.audioplayer
+    - Name: Id
+      Entry: 3
+      Data: 76
+    - Name: Sample
+      Entry: 3
+      Data: 291346
+    - Name: Type
+      Entry: 3
+      Data: 0
+    - Name: CharacterToAnimate
+      Entry: 1
+      Data: Paul
     - Name: 
       Entry: 8
       Data: 
@@ -1242,5 +1442,5 @@ MonoBehaviour:
   - Marlene
   - Paul
   - Hilde
-  lastPlayheadSample: 550591
-  nextId: 70
+  lastPlayheadSample: 0
+  nextId: 77

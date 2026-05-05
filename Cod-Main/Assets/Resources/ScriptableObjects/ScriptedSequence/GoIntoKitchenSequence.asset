@@ -21,14 +21,14 @@ MonoBehaviour:
     - rid: 4678523685029281991
       type: {class: Waypoint, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
-        Position: {x: -2.85, y: 4.69, z: 2.9900002}
+        Position: {x: -2.85, y: 4.69, z: 4.7}
         WaitTime: 0
         ReactionAtStart: {fileID: 0}
         ReactionAtStop: {fileID: 0}
     - rid: 4678523685029281992
       type: {class: Waypoint, ns: Runtime.Scripts.Core, asm: cod.interactionbuilder}
       data:
-        Position: {x: -2.85, y: 4.69, z: 5.56}
+        Position: {x: -2.85, y: 4.69, z: 8.42}
         WaitTime: 0
         ReactionAtStart: {fileID: 0}
         ReactionAtStop: {fileID: 0}

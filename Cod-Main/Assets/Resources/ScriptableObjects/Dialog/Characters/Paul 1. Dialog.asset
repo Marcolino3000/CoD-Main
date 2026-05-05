@@ -926,7 +926,7 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "Die Betina ist ja auch Autorin. \u201EVerloren im Kuss der Sehnsucht\u201C
-    vielleicht hast du davon schon mal geh\xF6rt. Gibt\u2019s sogar im L\xE4dle.
+    vielleicht hast du davon schon mal geh\xF6rt.\nGibt\u2019s sogar im L\xE4dle.
     Wie l\xE4uft\u2019s bei dir?"
   TextPreview: Die Betina ist j...
   AudioClip: {fileID: 8300000, guid: 2274a1ad3cc824affbb523812fcf31e3, type: 3}
@@ -1191,8 +1191,8 @@ MonoBehaviour:
   ClipVolume: 1
   PauseAfter: 0.5
   Children:
-  - {fileID: 7850994930647803619}
   - {fileID: 6875389852493755261}
+  - {fileID: 7850994930647803619}
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0
@@ -1276,11 +1276,11 @@ MonoBehaviour:
   m_Name: Ja also ich hab ...
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.NpcDialogOption
   Guid: 828ad34cdbd4f404d85e8783de98c1c3
-  Position: {x: 899.9999, y: 2665.512}
+  Position: {x: 900, y: 2673.1428}
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
-  DialogLine: "Ja also ich hab son \xDCberwachungsprogramm geschrieben. Das erkennt
+  DialogLine: "Ja also ich hab son \xDCberwachungsprogramm geschrieben. \nDas erkennt
     dein Gesicht und verfolgt dich mit den Kameras in der Stadt."
   TextPreview: Ja also ich hab ...
   AudioClip: {fileID: 8300000, guid: 578a24a1eebee43bc88b4f091283c90c, type: 3}
