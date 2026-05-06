@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 623fa79c384042e3bb49a575d178c3c0, type: 3}
   m_Name: MarianneSprachiReaction
   m_EditorClassIdentifier: cod.interactionbuilder::Runtime.Scripts.Core.Reaction
-  DialogTree: {fileID: 11400000, guid: ad9e6e7e326ab4749b243c5f81b3130d, type: 2}
+  DialogTree: {fileID: 11400000, guid: fcc5078c23e3043019fd6cc6473ace87, type: 2}
   Interactable: {fileID: 0}
   TriggerInteractableAfterReactionFinished: 0
   ObjectToMoveIn: {fileID: 0}
