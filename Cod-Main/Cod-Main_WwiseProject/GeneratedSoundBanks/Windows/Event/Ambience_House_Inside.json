@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "970864311",
+    "Type": "Event",
+    "GUID": "{7C74ABDB-85BA-4E53-BFF7-646CDCC8C47C}",
+    "Language": "SFX",
+    "Hash": "{C18F0813-9150-B43E-8F9C-5282E7CF438A}",
+    "ObjectPath": "Ambience_House_Inside",
+    "ShortName": "Ambience_House_Inside",
+    "Path": "Event/Ambience_House_Inside.bnk",
+    "Media": [
+     {
+      "Id": "158721046",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_House-01_TS.wav",
+      "Path": "Media/158721046.wem",
+      "CachePath": "DA/{DA214D7C-678D-2869-955D-7284CCEF22B6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "970864311",
+      "Name": "Ambience_House_Inside",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Ambience_House_Inside",
+      "GUID": "{7C74ABDB-85BA-4E53-BFF7-646CDCC8C47C}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "158721046"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9C68C89C-A8BA-3D44-536A-5AA33DEFABF8}"
+ }
+}

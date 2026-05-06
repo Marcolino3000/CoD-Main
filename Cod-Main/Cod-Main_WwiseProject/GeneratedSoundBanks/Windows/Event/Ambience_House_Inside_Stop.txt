@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	705040018	Ambience_House_Inside_Stop			\Default Work Unit\Ambience\Ambience_House_Inside_Stop	
+

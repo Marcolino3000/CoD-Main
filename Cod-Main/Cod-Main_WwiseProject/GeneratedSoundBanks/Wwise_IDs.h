@@ -13,6 +13,20 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIENCE_HOUSE_INSIDE = 970864311U;
+        static const AkUniqueID AMBIENCE_HOUSE_INSIDE_STOP = 705040018U;
+        static const AkUniqueID AMBIENCE_HOUSE_OUTSIDE = 1924000420U;
+        static const AkUniqueID AMBIENCE_HOUSE_OUTSIDE_STOP = 3685744579U;
+        static const AkUniqueID AMBIENCE_PATH = 1915309737U;
+        static const AkUniqueID AMBIENCE_PATH_STOP = 415482524U;
+        static const AkUniqueID AMBIENCE_TRAIN = 1704181138U;
+        static const AkUniqueID AMBIENCE_TRAIN_STOP = 1085875505U;
+        static const AkUniqueID AMBIENCE_TREE_1 = 3629413736U;
+        static const AkUniqueID AMBIENCE_TREE_1_STOP = 3762886727U;
+        static const AkUniqueID AMBIENCE_TREE_2 = 3629413739U;
+        static const AkUniqueID AMBIENCE_TREE_2_STOP = 967978662U;
+        static const AkUniqueID AMBIENCE_TREE_3 = 3629413738U;
+        static const AkUniqueID AMBIENCE_TREE_3_STOP = 1675484121U;
         static const AkUniqueID BIKE_CLICK = 2930347891U;
         static const AkUniqueID CLICK = 1584507803U;
         static const AkUniqueID DOOR_HOUSE_INSIDE_CLOSE = 3073992842U;

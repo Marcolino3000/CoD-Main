@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3629413738",
+    "Type": "Event",
+    "GUID": "{8D4EB545-4C19-4CCB-B2C3-742666BE3FB5}",
+    "Language": "SFX",
+    "Hash": "{04DA4288-3CC1-90B6-15AC-E9D1318B2DFB}",
+    "ObjectPath": "Ambience_Tree_3",
+    "ShortName": "Ambience_Tree_3",
+    "Path": "Event/Ambience_Tree_3.bnk",
+    "Media": [
+     {
+      "Id": "565024190",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Tree\\AMB_Tree-03_TS.wav",
+      "Path": "Media/565024190.wem",
+      "CachePath": "7C/{7C4C6BCC-BF4A-3F61-BE7A-4737A139EE94}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3629413738",
+      "Name": "Ambience_Tree_3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Ambience_Tree_3",
+      "GUID": "{8D4EB545-4C19-4CCB-B2C3-742666BE3FB5}",
+      "MaxAttenuation": "25",
+      "DurationType": "OneShot",
+      "DurationMin": "66",
+      "DurationMax": "66",
+      "MediaRefs": [
+       {
+        "Id": "565024190"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{04E4310E-7DA9-33B9-6B52-7F4BD5152CFD}"
+ }
+}

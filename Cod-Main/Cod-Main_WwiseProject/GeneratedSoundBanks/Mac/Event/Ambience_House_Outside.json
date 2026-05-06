@@ -1,0 +1,538 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1924000420",
+    "Type": "Event",
+    "GUID": "{22B26334-93AA-488B-BF60-4A7BCC7806DA}",
+    "Language": "SFX",
+    "Hash": "{F59F121B-B347-6205-63EC-F53419FE23EC}",
+    "ObjectPath": "Ambience_House_Outside",
+    "ShortName": "Ambience_House_Outside",
+    "Path": "Event/Ambience_House_Outside.bnk",
+    "Media": [
+     {
+      "Id": "119153787",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds\\AMB_Atmo_Birds-04_TS.wav",
+      "Path": "Media/119153787.wem",
+      "CachePath": "14/{143B0218-AEFA-4FD6-B11B-36B411ABC4E0}.wem"
+     },
+     {
+      "Id": "136527102",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_2\\AMB_Atmo_Birds_2-08_TS.wav",
+      "Path": "Media/136527102.wem",
+      "CachePath": "96/{96151335-E481-CE9D-1D01-EA1BC2180AB5}.wem"
+     },
+     {
+      "Id": "220182228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_2\\AMB_Atmo_Birds_2-03_TS.wav",
+      "Path": "Media/220182228.wem",
+      "CachePath": "39/{397DE70B-94CA-5A2C-F5E6-902ED036ACE0}.wem"
+     },
+     {
+      "Id": "264498175",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_4\\AMB_Atmo_Birds_4_02_TS.wav",
+      "Path": "Media/264498175.wem",
+      "CachePath": "D7/{D7684615-DF68-4365-C880-A2BFF681702B}.wem"
+     },
+     {
+      "Id": "279134519",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Rooster\\AMB_Rooster-05_TS.wav",
+      "Path": "Media/279134519.wem",
+      "CachePath": "E5/{E575129B-67CB-0CD2-D982-270D65A3824E}.wem"
+     },
+     {
+      "Id": "297960168",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_3\\AMB_Atmo_Birds_3-06_TS.wav",
+      "Path": "Media/297960168.wem",
+      "CachePath": "A1/{A1212F82-A3BB-6003-AFD4-3888BE8B68D2}.wem"
+     },
+     {
+      "Id": "314714674",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_distant_plane\\AMB_distant_plane-01_TS.wav",
+      "Path": "Media/314714674.wem",
+      "CachePath": "0C/{0C84B826-7051-C35D-11D2-D95E6F3C4096}.wem"
+     },
+     {
+      "Id": "390172031",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_2\\AMB_Atmo_Birds_2-02_TS.wav",
+      "Path": "Media/390172031.wem",
+      "CachePath": "28/{2842AE3A-8684-7FCB-A55F-C5FEABA503FA}.wem"
+     },
+     {
+      "Id": "397261874",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_distant_plane\\AMB_distant_plane-03_TS.wav",
+      "Path": "Media/397261874.wem",
+      "CachePath": "10/{10FD868C-FB23-4AAA-1B6A-B59191C816C3}.wem"
+     },
+     {
+      "Id": "409737220",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_4\\AMB_Atmo_Birds_4-05_TS.wav",
+      "Path": "Media/409737220.wem",
+      "CachePath": "81/{8168739F-C273-18F3-2FFA-9B22E83C1CBD}.wem"
+     },
+     {
+      "Id": "424176459",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_4\\AMB_Atmo_Birds_4-03_TS.wav",
+      "Path": "Media/424176459.wem",
+      "CachePath": "92/{926E0302-4BE6-EEC7-47FB-DAA6CE3AC370}.wem"
+     },
+     {
+      "Id": "481753233",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_4\\AMB_Atmo_Birds_4-06_TS.wav",
+      "Path": "Media/481753233.wem",
+      "CachePath": "A1/{A1F1F479-616F-5FB6-D7E6-50BEB0249E87}.wem"
+     },
+     {
+      "Id": "493947431",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_4\\AMB_Atmo_Birds_4_01_TS.wav",
+      "Path": "Media/493947431.wem",
+      "CachePath": "F5/{F56354FA-3930-00BA-565A-843C5C0983D7}.wem"
+     },
+     {
+      "Id": "503000491",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_3\\AMB_Atmo_Birds_3-05_TS.wav",
+      "Path": "Media/503000491.wem",
+      "CachePath": "42/{42CBEC0C-D7AE-D884-64F8-B21DF7A9AF28}.wem"
+     },
+     {
+      "Id": "559654465",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Dog\\AMB_Dog-03_TS.wav",
+      "Path": "Media/559654465.wem",
+      "CachePath": "75/{7539CAB9-17E4-952B-298D-3817D206E2D8}.wem"
+     },
+     {
+      "Id": "561302320",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Rooster\\AMB_Rooster-03_TS.wav",
+      "Path": "Media/561302320.wem",
+      "CachePath": "40/{40FE3A4A-A37E-C8E7-913F-13B8FC1A33CA}.wem"
+     },
+     {
+      "Id": "574806936",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Rooster\\AMB_Rooster-02_TS.wav",
+      "Path": "Media/574806936.wem",
+      "CachePath": "8E/{8EAFC6C8-ECD2-97F6-0D73-8A03C3D1594C}.wem"
+     },
+     {
+      "Id": "577779875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Dog\\AMB_Dog-01_TS.wav",
+      "Path": "Media/577779875.wem",
+      "CachePath": "50/{5072A6B1-33A3-6CBF-2BF2-999CD8873486}.wem"
+     },
+     {
+      "Id": "617386270",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Dog\\AMB_Dog-02_TS.wav",
+      "Path": "Media/617386270.wem",
+      "CachePath": "E8/{E8638A80-F477-871D-C06F-9C7399D1DA0B}.wem"
+     },
+     {
+      "Id": "640555322",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_3\\AMB_Atmo_Birds_3-04_TS.wav",
+      "Path": "Media/640555322.wem",
+      "CachePath": "5A/{5A3EB719-3FC6-C641-F796-74762EB72121}.wem"
+     },
+     {
+      "Id": "656393937",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_2\\AMB_Atmo_Birds_2-06_TS.wav",
+      "Path": "Media/656393937.wem",
+      "CachePath": "B6/{B61D010A-7910-B786-D56B-2C7562DDB432}.wem"
+     },
+     {
+      "Id": "657427524",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_2\\AMB_Atmo_Birds_2-04_TS.wav",
+      "Path": "Media/657427524.wem",
+      "CachePath": "85/{85488C0D-EBA5-4A21-42EB-EF676B687DA0}.wem"
+     },
+     {
+      "Id": "660797727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Dog\\AMB_Dog-04_TS.wav",
+      "Path": "Media/660797727.wem",
+      "CachePath": "32/{32CF301B-C668-C926-4BAC-9B33B88F30FB}.wem"
+     },
+     {
+      "Id": "668049266",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_3\\AMB_Atmo_Birds_3-03_TS.wav",
+      "Path": "Media/668049266.wem",
+      "CachePath": "5F/{5F1A5736-E87F-9A98-950C-52190F2F3F06}.wem"
+     },
+     {
+      "Id": "674527213",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_3\\AMB_Atmo_Birds_3-02_TS.wav",
+      "Path": "Media/674527213.wem",
+      "CachePath": "78/{7811D1A3-36DE-B181-D89B-E87F810EC14B}.wem"
+     },
+     {
+      "Id": "691200339",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Dog\\AMB_Dog-06_TS.wav",
+      "Path": "Media/691200339.wem",
+      "CachePath": "F0/{F0A828E0-E954-7C32-CD9D-E6E827436B1B}.wem"
+     },
+     {
+      "Id": "711719295",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_2\\AMB_Atmo_Birds_2-07_TS.wav",
+      "Path": "Media/711719295.wem",
+      "CachePath": "B3/{B3BE145F-B0D7-CB5D-D8D7-7C83ED213CBC}.wem"
+     },
+     {
+      "Id": "736303942",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_4\\AMB_Atmo_Birds_4-04_TS.wav",
+      "Path": "Media/736303942.wem",
+      "CachePath": "E3/{E3639492-5ADD-0CAE-CAE2-90708E64180F}.wem"
+     },
+     {
+      "Id": "753784836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds\\AMB_Atmo_Birds-06_TS.wav",
+      "Path": "Media/753784836.wem",
+      "CachePath": "4B/{4BA34511-B81B-552C-75B3-FBF55409CD7E}.wem"
+     },
+     {
+      "Id": "791812313",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Dog\\AMB_Dog-05_TS.wav",
+      "Path": "Media/791812313.wem",
+      "CachePath": "A7/{A7453D0D-A600-24AF-3C7D-32E8CA895EE6}.wem"
+     },
+     {
+      "Id": "792801076",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds\\AMB_Atmo_Birds-01_TS.wav",
+      "Path": "Media/792801076.wem",
+      "CachePath": "9B/{9BD95273-5293-D21B-A000-F78EABBBB5C9}.wem"
+     },
+     {
+      "Id": "798600468",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Rooster\\AMB_Rooster-01_TS.wav",
+      "Path": "Media/798600468.wem",
+      "CachePath": "AC/{AC596B35-E9D3-4771-4375-B8E2A2184766}.wem"
+     },
+     {
+      "Id": "804564388",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_distant_plane\\AMB_distant_plane-02_TS.wav",
+      "Path": "Media/804564388.wem",
+      "CachePath": "9B/{9B20E67E-9C93-E181-4D34-0B0DCC56171C}.wem"
+     },
+     {
+      "Id": "924481452",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_2\\AMB_Atmo_Birds_2-05_TS.wav",
+      "Path": "Media/924481452.wem",
+      "CachePath": "62/{62007326-1E01-1407-D09C-ADBF138107FC}.wem"
+     },
+     {
+      "Id": "958355617",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds\\AMB_Atmo_Birds-02_TS.wav",
+      "Path": "Media/958355617.wem",
+      "CachePath": "83/{83840D76-603A-65AE-F176-1BFDA6C638F0}.wem"
+     },
+     {
+      "Id": "971172810",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_4\\AMB_Atmo_Birds_4-07_TS.wav",
+      "Path": "Media/971172810.wem",
+      "CachePath": "C9/{C9FD19A4-BD5B-5E6C-F4AE-0B274F50C04E}.wem"
+     },
+     {
+      "Id": "974248131",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Rooster\\AMB_Rooster-04_TS.wav",
+      "Path": "Media/974248131.wem",
+      "CachePath": "D0/{D0E99E0C-43FD-911D-DCF8-C563793671CD}.wem"
+     },
+     {
+      "Id": "990688800",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_3\\AMB_Atmo_Birds_3-01_TS.wav",
+      "Path": "Media/990688800.wem",
+      "CachePath": "51/{511A1023-821B-2FE2-E82D-6D827894CEA6}.wem"
+     },
+     {
+      "Id": "1024931346",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds\\AMB_Atmo_Birds-05_TS.wav",
+      "Path": "Media/1024931346.wem",
+      "CachePath": "12/{12F98667-44E4-217C-DDF9-F53643E9D4D8}.wem"
+     },
+     {
+      "Id": "1031662282",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_House_Outside-01_TS.wav",
+      "Path": "Media/1031662282.wem",
+      "CachePath": "9F/{9F85B42D-9ABA-A77B-F80C-E5466122FAB8}.wem"
+     },
+     {
+      "Id": "1039506203",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds_2\\AMB_Atmo_Birds_2-01_TS.wav",
+      "Path": "Media/1039506203.wem",
+      "CachePath": "4D/{4D1D908E-24F5-08C5-EF63-6920F7A1A764}.wem"
+     },
+     {
+      "Id": "1063339722",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Atmo_Birds\\AMB_Atmo_Birds-03_TS.wav",
+      "Path": "Media/1063339722.wem",
+      "CachePath": "B7/{B7BAF22D-B16C-C2C9-F32B-B01A1F1312E2}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1924000420",
+      "Name": "Ambience_House_Outside",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Ambience_House_Outside",
+      "GUID": "{22B26334-93AA-488B-BF60-4A7BCC7806DA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "119153787"
+       },
+       {
+        "Id": "136527102"
+       },
+       {
+        "Id": "220182228"
+       },
+       {
+        "Id": "264498175"
+       },
+       {
+        "Id": "279134519"
+       },
+       {
+        "Id": "297960168"
+       },
+       {
+        "Id": "314714674"
+       },
+       {
+        "Id": "390172031"
+       },
+       {
+        "Id": "397261874"
+       },
+       {
+        "Id": "409737220"
+       },
+       {
+        "Id": "424176459"
+       },
+       {
+        "Id": "481753233"
+       },
+       {
+        "Id": "493947431"
+       },
+       {
+        "Id": "503000491"
+       },
+       {
+        "Id": "559654465"
+       },
+       {
+        "Id": "561302320"
+       },
+       {
+        "Id": "574806936"
+       },
+       {
+        "Id": "577779875"
+       },
+       {
+        "Id": "617386270"
+       },
+       {
+        "Id": "640555322"
+       },
+       {
+        "Id": "656393937"
+       },
+       {
+        "Id": "657427524"
+       },
+       {
+        "Id": "660797727"
+       },
+       {
+        "Id": "668049266"
+       },
+       {
+        "Id": "674527213"
+       },
+       {
+        "Id": "691200339"
+       },
+       {
+        "Id": "711719295"
+       },
+       {
+        "Id": "736303942"
+       },
+       {
+        "Id": "753784836"
+       },
+       {
+        "Id": "791812313"
+       },
+       {
+        "Id": "792801076"
+       },
+       {
+        "Id": "798600468"
+       },
+       {
+        "Id": "804564388"
+       },
+       {
+        "Id": "924481452"
+       },
+       {
+        "Id": "958355617"
+       },
+       {
+        "Id": "971172810"
+       },
+       {
+        "Id": "974248131"
+       },
+       {
+        "Id": "990688800"
+       },
+       {
+        "Id": "1024931346"
+       },
+       {
+        "Id": "1031662282"
+       },
+       {
+        "Id": "1039506203"
+       },
+       {
+        "Id": "1063339722"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8ADB7654-6175-B183-0176-0DB67277DF52}"
+ }
+}

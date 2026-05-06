@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1085875505",
+    "Type": "Event",
+    "GUID": "{57DAF0F2-2A22-4FA2-A775-D9E6047502E1}",
+    "Language": "SFX",
+    "Hash": "{A855C0C5-AC27-EA58-BAED-63AD19A99D4D}",
+    "ObjectPath": "Ambience_Train_Stop",
+    "ShortName": "Ambience_Train_Stop",
+    "Path": "Event/Ambience_Train_Stop.bnk",
+    "Events": [
+     {
+      "Id": "1085875505",
+      "Name": "Ambience_Train_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Ambience_Train_Stop",
+      "GUID": "{57DAF0F2-2A22-4FA2-A775-D9E6047502E1}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D3B86841-63B5-D115-8E1C-FCC4B8C189A2}"
+ }
+}

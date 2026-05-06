@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "967978662",
+    "Type": "Event",
+    "GUID": "{45958C6F-0F27-465E-B7D4-54A5FB9255BB}",
+    "Language": "SFX",
+    "Hash": "{6DD511E3-C860-A447-4685-5A2D17BECDC1}",
+    "ObjectPath": "Ambience_Tree_2_Stop",
+    "ShortName": "Ambience_Tree_2_Stop",
+    "Path": "Event/Ambience_Tree_2_Stop.bnk",
+    "Events": [
+     {
+      "Id": "967978662",
+      "Name": "Ambience_Tree_2_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Ambience_Tree_2_Stop",
+      "GUID": "{45958C6F-0F27-465E-B7D4-54A5FB9255BB}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{43C06A69-907B-AAA0-5EF1-171013701818}"
+ }
+}

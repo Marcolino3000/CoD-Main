@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3685744579",
+    "Type": "Event",
+    "GUID": "{57D098F9-9A72-41BD-900F-F3EF04147A41}",
+    "Language": "SFX",
+    "Hash": "{86438B28-89A8-1120-C481-4119CC514BF0}",
+    "ObjectPath": "Ambience_House_Outside_Stop",
+    "ShortName": "Ambience_House_Outside_Stop",
+    "Path": "Event/Ambience_House_Outside_Stop.bnk",
+    "Events": [
+     {
+      "Id": "3685744579",
+      "Name": "Ambience_House_Outside_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Ambience_House_Outside_Stop",
+      "GUID": "{57D098F9-9A72-41BD-900F-F3EF04147A41}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A927B3DD-9A59-AF4C-5218-ED7E6BD608A9}"
+ }
+}
