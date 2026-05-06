@@ -23,6 +23,7 @@ namespace UI
         [SerializeField] private VisualTreeAsset messageBubbleTemplate;
 
         [SerializeField] private TitleSequenceTrigger titleSequenceTrigger;
+        [SerializeField] private bool sprachiWasTriggered;
 
         private UIDocument uiDocument;
         private VisualElement root;
@@ -254,6 +255,9 @@ namespace UI
 
         private void ToggleVoicePlayback(MessageBubbleRefs refs)
         {
+            if (sprachiWasTriggered)
+                return;
+            
             if (refs?.CurrentVoiceKey == null) return;
             // Single-track playback: starting one memo stops any other.
             playingVoiceKey = playingVoiceKey == refs.CurrentVoiceKey ? null : refs.CurrentVoiceKey;
@@ -262,6 +266,7 @@ namespace UI
             messagesListView?.RefreshItems();
             
             titleSequenceTrigger.StartSprachiDialog();
+            sprachiWasTriggered = true;
         }
 
         private void ApplyVoicePlayingClass(MessageBubbleRefs refs)

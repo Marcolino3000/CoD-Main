@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace UI
@@ -20,13 +21,19 @@ namespace UI
         
         private void Awake()
         {
-            // JournalMenu.OnMenuToggled += HandleMenuToggled;
-            
             if (logRectTransform == null)
                 logRectTransform = logImage.GetComponent<RectTransform>();
             originalAnchoredPosition = logRectTransform.anchoredPosition;
             offscreenAnchoredPosition = new Vector2(originalAnchoredPosition.x, originalAnchoredPosition.y + logRectTransform.rect.height + 100f);
             logRectTransform.anchoredPosition = offscreenAnchoredPosition;
+
+            SceneManager.sceneLoaded += OnSceneLoaded;
+        }
+
+        private void OnSceneLoaded(Scene scene, LoadSceneMode loadMode)
+        {
+            if(scene.name == "Scene 2 from package")
+                StartCoroutine(ShowQuestLog());
         }
 
         private void HandleMenuToggled(bool isMenuVisible)
@@ -43,11 +50,6 @@ namespace UI
                 Reset();
                 StartCoroutine(ShowQuestLog());
             }
-        }
-
-        private void Start()
-        {
-            StartCoroutine(ShowQuestLog());
         }
 
         private void Reset()

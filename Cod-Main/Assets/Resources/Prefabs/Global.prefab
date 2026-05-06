@@ -645,6 +645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SceneManagement.SceneSwapManager
   fadeDuration: 2
   sceneSetup: {fileID: 76444320551996143}
+  marlene: {fileID: 2047475649783191184}
 --- !u!1 &2492284283714345769
 GameObject:
   m_ObjectHideFlags: 0

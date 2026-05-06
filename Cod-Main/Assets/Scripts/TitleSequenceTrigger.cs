@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Runtime.Scripts.Core;
 using SceneManagement;
+using UI;
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -15,7 +16,7 @@ namespace DefaultNamespace
         [Header("References")]
         [SerializeField] private Reaction marianneSprachiReaction;
         [SerializeField] private UnityEngine.UI.Image titleScreenImage;
-        // [SerializeField] private GameObject marlene;
+        [SerializeField] private Smartphone smartphone;
 
         public void StartSprachiDialog()
         {
@@ -24,8 +25,6 @@ namespace DefaultNamespace
         
         private void Awake()
         {
-            // marlene?.SetActive(false);
-            
             // marianneSprachiReaction.OnStartDialog += TogglePlayButton;
             // marianneSprachiReaction.OnStopDialog += TogglePlayButton;
             marianneSprachiReaction.OnReactionFinished += OnSprachiFinished;
@@ -39,6 +38,8 @@ namespace DefaultNamespace
         private IEnumerator TriggerTitleScreenAndScene2()
         {
             yield return new WaitForSeconds(durationBeforeTitleScreen);
+            
+            smartphone.Close();
             
             while(SceneFader.Instance.IsFadingOut)
                 yield return null;
