@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "705040018",
+    "Type": "Event",
+    "GUID": "{6B65690A-13EB-4505-BE4B-B9A136371320}",
+    "Language": "SFX",
+    "Hash": "{0851F0AA-1C62-FCDF-68F1-06CEB0E8351D}",
+    "ObjectPath": "Ambience_House_Inside_Stop",
+    "ShortName": "Ambience_House_Inside_Stop",
+    "Path": "Event/Ambience_House_Inside_Stop.bnk",
+    "Events": [
+     {
+      "Id": "705040018",
+      "Name": "Ambience_House_Inside_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Ambience_House_Inside_Stop",
+      "GUID": "{6B65690A-13EB-4505-BE4B-B9A136371320}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1C509654-EC4A-FAAB-E7D6-EFB48100C678}"
+ }
+}

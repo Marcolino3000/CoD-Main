@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1915309737",
+    "Type": "Event",
+    "GUID": "{5967264A-7346-44D9-851F-40CBCDA35B7C}",
+    "Language": "SFX",
+    "Hash": "{F3F9062B-416B-A361-71F9-E18842F45F91}",
+    "ObjectPath": "Ambience_Path",
+    "ShortName": "Ambience_Path",
+    "Path": "Event/Ambience_Path.bnk",
+    "Media": [
+     {
+      "Id": "945400375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Path-01_TS.wav",
+      "Path": "Media/945400375.wem",
+      "CachePath": "DB/{DBD646B1-B5C8-AD31-42C8-9215BED1B9ED}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1915309737",
+      "Name": "Ambience_Path",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Ambience_Path",
+      "GUID": "{5967264A-7346-44D9-851F-40CBCDA35B7C}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "945400375"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5361AA5E-6302-B44A-EB22-2A08BD76E8E7}"
+ }
+}

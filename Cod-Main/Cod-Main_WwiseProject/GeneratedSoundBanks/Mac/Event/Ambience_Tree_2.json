@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3629413739",
+    "Type": "Event",
+    "GUID": "{DB5E3AB6-EE26-4812-BECA-C481CC2425B0}",
+    "Language": "SFX",
+    "Hash": "{3EFC8731-FBBA-A24E-0FA7-93C8CDD4EDE8}",
+    "ObjectPath": "Ambience_Tree_2",
+    "ShortName": "Ambience_Tree_2",
+    "Path": "Event/Ambience_Tree_2.bnk",
+    "Media": [
+     {
+      "Id": "166277734",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Tree\\AMB_Tree-02_TS.wav",
+      "Path": "Media/166277734.wem",
+      "CachePath": "74/{74FFCC2C-D61E-584A-60E9-E98805452BAC}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3629413739",
+      "Name": "Ambience_Tree_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Ambience\\Ambience_Tree_2",
+      "GUID": "{DB5E3AB6-EE26-4812-BECA-C481CC2425B0}",
+      "MaxAttenuation": "25",
+      "DurationType": "OneShot",
+      "DurationMin": "67",
+      "DurationMax": "67",
+      "MediaRefs": [
+       {
+        "Id": "166277734"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{76439763-464F-4C80-77F3-8C3CAAA15C6F}"
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1675484121	Ambience_Tree_3_Stop			\Default Work Unit\Ambience\Ambience_Tree_3_Stop	
+
