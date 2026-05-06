@@ -83,8 +83,7 @@ MonoBehaviour:
   AudioClip: {fileID: 8300000, guid: f0725d6c0c1ec47f9b5459f5d8aa2802, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
-  Children:
-  - {fileID: 606817746667205507}
+  Children: []
   FallThrough: 0
   IsAvailable: 1
   IsTrustOption: 0

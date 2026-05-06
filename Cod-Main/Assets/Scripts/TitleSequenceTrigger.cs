@@ -17,12 +17,17 @@ namespace DefaultNamespace
         [SerializeField] private UnityEngine.UI.Image titleScreenImage;
         // [SerializeField] private GameObject marlene;
 
+        public void StartSprachiDialog()
+        {
+            marianneSprachiReaction.Execute();
+        }
+        
         private void Awake()
         {
             // marlene?.SetActive(false);
             
-            marianneSprachiReaction.OnStartDialog += TogglePlayButton;
-            marianneSprachiReaction.OnStopDialog += TogglePlayButton;
+            // marianneSprachiReaction.OnStartDialog += TogglePlayButton;
+            // marianneSprachiReaction.OnStopDialog += TogglePlayButton;
             marianneSprachiReaction.OnReactionFinished += OnSprachiFinished;
         }
 
@@ -38,7 +43,7 @@ namespace DefaultNamespace
             while(SceneFader.Instance.IsFadingOut)
                 yield return null;
             
-            titleScreenImage.enabled = true;
+            // titleScreenImage.enabled = true;
             
             while (SceneFader.Instance.IsFadingIn)
                 yield return null;
@@ -47,12 +52,7 @@ namespace DefaultNamespace
             
             // marlene?.SetActive(true);
             
-            SceneSwapManager.ChangeScene("Scene 2");
-        }
-
-        private void TogglePlayButton()
-        {
-            throw new NotImplementedException();
+            SceneSwapManager.ChangeScene("Scene 2 from package");
         }
     }
 }

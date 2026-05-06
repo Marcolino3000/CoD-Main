@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using DefaultNamespace;
+using Runtime.Scripts.Core;
 using Runtime.Scripts.Interactables;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -19,6 +21,8 @@ namespace UI
         [SerializeField] private TextAsset contactsJson;
         [SerializeField] private VisualTreeAsset chatCardTemplate;
         [SerializeField] private VisualTreeAsset messageBubbleTemplate;
+
+        [SerializeField] private TitleSequenceTrigger titleSequenceTrigger;
 
         private UIDocument uiDocument;
         private VisualElement root;
@@ -256,6 +260,8 @@ namespace UI
             // Re-bind every visible row so the previously-playing memo (if any)
             // reverts its icon. Cheap — only ~10 rows are realised at a time.
             messagesListView?.RefreshItems();
+            
+            titleSequenceTrigger.StartSprachiDialog();
         }
 
         private void ApplyVoicePlayingClass(MessageBubbleRefs refs)
