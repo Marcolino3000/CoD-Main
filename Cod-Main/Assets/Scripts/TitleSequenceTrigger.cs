@@ -15,9 +15,12 @@ namespace DefaultNamespace
         [Header("References")]
         [SerializeField] private Reaction marianneSprachiReaction;
         [SerializeField] private UnityEngine.UI.Image titleScreenImage;
+        // [SerializeField] private GameObject marlene;
 
         private void Awake()
         {
+            // marlene?.SetActive(false);
+            
             marianneSprachiReaction.OnStartDialog += TogglePlayButton;
             marianneSprachiReaction.OnStopDialog += TogglePlayButton;
             marianneSprachiReaction.OnReactionFinished += OnSprachiFinished;
@@ -41,6 +44,8 @@ namespace DefaultNamespace
                 yield return null;
             
             yield return new WaitForSeconds(titleScreenDuration);
+            
+            // marlene?.SetActive(true);
             
             SceneSwapManager.ChangeScene("Scene 2");
         }

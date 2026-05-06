@@ -24,7 +24,7 @@ namespace Audio
 
         private void Play(AK.Wwise.Event eventToPlay)
         {
-            eventToPlay.Post(gameObject);
+            // eventToPlay.Post(gameObject);
         }
     }
 }
