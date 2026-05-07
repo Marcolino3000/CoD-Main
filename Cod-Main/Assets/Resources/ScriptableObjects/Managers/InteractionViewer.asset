@@ -583,7 +583,7 @@ MonoBehaviour:
   - Trigger:
       TriggerType: 4
       TriggeringInteractable: {fileID: 0}
-      TriggeringDialogOption: {fileID: -2424162952369334189, guid: 7e3eadde007054bccb029b49c622e857, type: 2}
+      TriggeringDialogOption: {fileID: -5474534662591268192, guid: 7e3eadde007054bccb029b49c622e857, type: 2}
     Prerequisites:
     - Record:
         InteractionToExecute: {fileID: 11400000, guid: 69c4dc946e7cf46b39336c3f60512622, type: 2}
