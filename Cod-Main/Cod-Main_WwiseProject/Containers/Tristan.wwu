@@ -3566,6 +3566,186 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<RandomSequenceContainer Name="AMB_Anouncements_no_Reverb" ID="{7DAD12CA-950B-4B4E-AD95-49D27A35A575}" ShortID="719662049">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="30">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D025A498-F52C-4DC8-88C0-95CB03E8C479}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC8C3FD2-3676-4122-94FC-894608C0FAB7}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC92CC9D-A8F6-411F-8068-0FB1D8936D77}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Train_Announcement-01_TS" ID="{ECB063D1-FDCF-46C9-877D-05E56DE765C6}" ShortID="506614630">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC8C3FD2-3676-4122-94FC-894608C0FAB7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC92CC9D-A8F6-411F-8068-0FB1D8936D77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Train_Announcement-01_TS" ID="{85A62608-3994-4C35-A540-BDCD0E185AF7}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Anouncements_no_Reverb\AMB_Train_Announcement-01_TS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="692066806"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Train_Announcement-01_TS" ID="{85A62608-3994-4C35-A540-BDCD0E185AF7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Train_Announcement-02_TS" ID="{4141D27A-055A-4E39-AD99-FB0AAF5D9EFA}" ShortID="835257869">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC8C3FD2-3676-4122-94FC-894608C0FAB7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC92CC9D-A8F6-411F-8068-0FB1D8936D77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Train_Announcement-02_TS" ID="{5A28A679-9433-422F-BCB0-8E197A173440}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Anouncements_no_Reverb\AMB_Train_Announcement-02_TS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="838425571"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Train_Announcement-02_TS" ID="{5A28A679-9433-422F-BCB0-8E197A173440}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Train_Announcement-03_TS" ID="{1BC90D34-7C3D-4A50-8A2B-B578669FF03C}" ShortID="126666879">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC8C3FD2-3676-4122-94FC-894608C0FAB7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC92CC9D-A8F6-411F-8068-0FB1D8936D77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Train_Announcement-03_TS" ID="{6A32BF04-4857-45B8-8B7C-50EB30746AF1}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Anouncements_no_Reverb\AMB_Train_Announcement-03_TS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="56953700"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Train_Announcement-03_TS" ID="{6A32BF04-4857-45B8-8B7C-50EB30746AF1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Train_Announcement-04_TS" ID="{1B87863D-1EDE-420A-9210-CC8F0147930B}" ShortID="427971448">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC8C3FD2-3676-4122-94FC-894608C0FAB7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC92CC9D-A8F6-411F-8068-0FB1D8936D77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Train_Announcement-04_TS" ID="{4B4E6F1D-8B14-4B0C-8251-B49F69FD208C}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Anouncements_no_Reverb\AMB_Train_Announcement-04_TS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="318628937"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Train_Announcement-04_TS" ID="{4B4E6F1D-8B14-4B0C-8251-B49F69FD208C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Train_Announcement-05_TS" ID="{79899870-E095-4C83-AD8E-D9A2B26F13E9}" ShortID="232894057">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC8C3FD2-3676-4122-94FC-894608C0FAB7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC92CC9D-A8F6-411F-8068-0FB1D8936D77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Train_Announcement-05_TS" ID="{672B478E-E234-4774-98D7-D32F23E34FDF}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Anouncements_no_Reverb\AMB_Train_Announcement-05_TS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="849256650"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Train_Announcement-05_TS" ID="{672B478E-E234-4774-98D7-D32F23E34FDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Train_Announcement-06_TS" ID="{78CADFE9-7AB5-4ABC-8310-8F2BB2710E37}" ShortID="747377373">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC8C3FD2-3676-4122-94FC-894608C0FAB7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{EC92CC9D-A8F6-411F-8068-0FB1D8936D77}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Train_Announcement-06_TS" ID="{FC6FDD6C-B10C-480C-A993-E45189C0C1D4}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Anouncements_no_Reverb\AMB_Train_Announcement-06_TS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1005277957"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Train_Announcement-06_TS" ID="{FC6FDD6C-B10C-480C-A993-E45189C0C1D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{CF5BF0DF-978D-4F03-A7C6-732B3BC73C45}" ShortID="667101105">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+												<ObjectRef Name="Small_Wooden_Room1" ID="{F7CBE859-36A8-4174-B553-AE32A7FE95FA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</PropertyContainer>
 				<PropertyContainer Name="Footsteps" ID="{19ED9AE4-2BA3-46B3-B1B5-155BA09F800A}" ShortID="412870079">
