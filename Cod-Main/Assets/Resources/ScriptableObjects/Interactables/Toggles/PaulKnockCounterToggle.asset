@@ -17,7 +17,8 @@ MonoBehaviour:
   Interactable: {fileID: 0}
   Sprite: {fileID: 0}
   AwarenessLevel: 0
-  ToggleState: 0
+  InteractionType: 2
+  ToggleState: 1
   StatusDescription: 
   StatusOn: 
   StatusOff: 

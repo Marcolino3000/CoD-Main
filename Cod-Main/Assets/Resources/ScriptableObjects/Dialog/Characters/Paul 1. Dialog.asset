@@ -117,7 +117,7 @@ MonoBehaviour:
   TextPreview: Hey Marlene, sch...
   AudioClip: {fileID: 8300000, guid: b2c591320716c429ba7053626b310b98, type: 3}
   ClipVolume: 1
-  PauseAfter: 4
+  PauseAfter: 2
   Children:
   - {fileID: -8245545863014915247}
   FallThrough: 0

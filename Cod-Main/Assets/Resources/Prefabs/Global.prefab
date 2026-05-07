@@ -694,7 +694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: InteractionBuilder::Runtime.Scripts.Interactables.SceneSetup
   countdownDuration: 1
   UseCountdownTrigger: 1
-  showDebugButtons: 1
+  showDebugButtons: 0
 --- !u!1 &2494613028022421066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2890,7 +2890,7 @@ PrefabInstance:
       objectReference: {fileID: 2070886167436908142}
     - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: IsUnlocked
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: treeRunner
@@ -2914,16 +2914,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: showDebugButtons
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: unlockDialogOption
       value: 
-      objectReference: {fileID: 6941936280635674382, guid: 8a4af46434ed148929901a79b5f62cf2, type: 2}
+      objectReference: {fileID: 6941936280635674382, guid: bc689ba2b132b4afc86f49dbb9efefbd, type: 2}
     - target: {fileID: 1710563624349036428, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: emotionalReactionDialogOption
       value: 
-      objectReference: {fileID: -8480787863510619017, guid: 8a4af46434ed148929901a79b5f62cf2, type: 2}
+      objectReference: {fileID: -8480787863510619017, guid: bc689ba2b132b4afc86f49dbb9efefbd, type: 2}
     - target: {fileID: 2321437970008440394, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.32
@@ -3335,6 +3335,10 @@ PrefabInstance:
       propertyPath: sourceAsset
       value: 
       objectReference: {fileID: 9197481963319205126, guid: d1bd1b51aedbb4725bbabad192f9603c, type: 3}
+    - target: {fileID: 6450482133553684738, guid: 64b6dc8575f3049adad4db834ebcc55f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6786803073600260256, guid: 64b6dc8575f3049adad4db834ebcc55f, type: 3}
       propertyPath: m_Name
       value: UI
@@ -3541,7 +3545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1505215982733416512, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: showDebugButtons
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2062893418243403057, guid: 60f64bdf8e6e9415882c1841cb8eb32f, type: 3}
       propertyPath: Tree
@@ -4412,9 +4416,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7433976083841653713, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2241211357323447940}
-    - targetCorrespondingSourceObject: {fileID: 7433976083841653713, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6987135780929464298}
   m_SourcePrefab: {fileID: 100100000, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}
 --- !u!4 &185443572139275055 stripped
 Transform:
@@ -4566,22 +4567,6 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
---- !u!114 &6987135780929464298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4410089863099125070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5075415cad12647e39dec28bc01ff04e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  stepEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 434e13519f6b1435bb0fb82fc86516d9, type: 2}
 --- !u!4 &5702258011487022556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1529954981052791619, guid: d4932a53326b2a64eac5531d63a7554f, type: 3}

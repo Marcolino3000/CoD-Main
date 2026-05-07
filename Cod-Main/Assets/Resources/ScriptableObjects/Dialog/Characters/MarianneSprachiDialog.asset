@@ -36,10 +36,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 388485b41120844eca5d0b4a8585948d, type: 2}
-  DialogLine: "Also auch nochmal wenn du das jetzt einfach nicht verstehst. \n\xC4h
-    \u2013 es ist super wichtig, dass du den Sauerteig ansetzt, damit k\xF6nnen wir
-    unseren Familienfluch brechen."
-  TextPreview: Also auch nochma...
+  DialogLine: xxx
+  TextPreview: xxx
   AudioClip: {fileID: 8300000, guid: ded349968e3f946ed9d894a6e7a2c9d9, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
@@ -69,17 +67,8 @@ MonoBehaviour:
   customPreview: 0
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 388485b41120844eca5d0b4a8585948d, type: 2}
-  DialogLine: "Ja Hallo hier ist Mama, also erst einmal hoffe ich, es geht dir gut
-    soweit. Ich hoffe, das mit deinem Job ist besser geworden. Ich hab n Schrein
-    f\xFCr deinen Job gebaut. \nWir haben uns ja jetzt auch schon mehrere Tage nicht
-    gesprochen und ich geh mal davon aus, dass bei dir auch total viel los war und
-    bei mir n\xE4mlich jetzt auch es war jetzt in den letzten tagen auch nochmal
-    ultra hektisch und stressig. \nIch war viel in der Natur und habe neue Geister
-    gesp\xFCrt. Die Energie in diesem Ort ist nicht gut. \nGenau jedenfalls hab ich
-    die ganze Zeit ganz intensiv an dich gedacht und war in Gedanken \xE4h bei dir.
-    \nAlso eine Sache w\xE4r mir ganz wichtig, dass du den Sauerteig \u2013 ich hab
-    dir n Paket geschickt."
-  TextPreview: Ja Hallo hier is...
+  DialogLine: xxx
+  TextPreview: xxx
   AudioClip: {fileID: 8300000, guid: f0725d6c0c1ec47f9b5459f5d8aa2802, type: 3}
   ClipVolume: 1
   PauseAfter: 0.5
