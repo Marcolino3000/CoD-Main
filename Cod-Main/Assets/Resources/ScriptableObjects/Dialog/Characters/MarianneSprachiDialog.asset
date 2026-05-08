@@ -29,7 +29,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: Also auch nochma...
+  m_Name: xxx
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 48f583fa86a394358b41644ec28f880f
   Position: {x: 767, y: 761.0002}
@@ -39,7 +39,7 @@ MonoBehaviour:
   DialogLine: xxx
   TextPreview: xxx
   AudioClip: {fileID: 8300000, guid: ded349968e3f946ed9d894a6e7a2c9d9, type: 3}
-  ClipVolume: 1
+  ClipVolume: 0.5
   PauseAfter: 0.5
   Children: []
   FallThrough: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c0bd1f85e094e118b634ba4dd916b80, type: 3}
-  m_Name: Ja Hallo hier is...
+  m_Name: xxx
   m_EditorClassIdentifier: cod.dialogbuilder::Nodes.Decorator.PlayerDialogOption
   Guid: 5dab6455a7a1a438e8d397caca4b1855
   Position: {x: 766.5, y: 611.5714}
@@ -70,7 +70,7 @@ MonoBehaviour:
   DialogLine: xxx
   TextPreview: xxx
   AudioClip: {fileID: 8300000, guid: f0725d6c0c1ec47f9b5459f5d8aa2802, type: 3}
-  ClipVolume: 1
+  ClipVolume: 0.5
   PauseAfter: 0.5
   Children:
   - {fileID: 606817746667205507}

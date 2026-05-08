@@ -893,8 +893,7 @@ MonoBehaviour:
   Blackboard:
     CharacterData: {fileID: 11400000, guid: 67e6c4e2e200e4e43a4811bd56319965, type: 2}
   DialogLine: "\xC4h\u2026 also ich hab jetzt schon die Betina gefragt und die hat
-    \u201EJa\u201C gesagt\u2026. Oh mannnn, du tust mir soo leid, ey.  Du tust mir
-    so leid."
+    \u201EJa\u201C gesagt\u2026."
   TextPreview: "\xC4h\u2026 also ich hab..."
   AudioClip: {fileID: 8300000, guid: e6fa9e8f09c4340c29bc3c20969b8a0d, type: 3}
   ClipVolume: 1

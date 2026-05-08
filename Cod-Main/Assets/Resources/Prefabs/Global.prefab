@@ -3085,6 +3085,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 9f66a8fabf32141d4965479afd898e5b, type: 3}
     - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
+      propertyPath: disableMovementDuringDialog
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8088561924093029570, guid: ae810c491498a4bf0b3e1dced4c86654, type: 3}
       propertyPath: interactablesLayerMask.m_Bits
       value: 64
       objectReference: {fileID: 0}
