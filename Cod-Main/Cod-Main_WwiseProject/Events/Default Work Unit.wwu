@@ -477,6 +477,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{902F8550-B377-4C01-A345-3D6852485912}" ShortID="218889586">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_Anouncements_no_Reverb" ID="{7DAD12CA-950B-4B4E-AD95-49D27A35A575}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Ambience_Train_Stop" ID="{57DAF0F2-2A22-4FA2-A775-D9E6047502E1}">
@@ -583,6 +590,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="AMB_Tree-03_TS" ID="{57648F30-FDA5-4978-BEA9-FF30CE9BF127}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Footsteps" ID="{7DB41D08-AA12-4A4C-9B38-8AEDC993EBED}">
+							<ChildrenList>
+								<Action Name="" ID="{85DF996C-5729-40A4-8CC9-18294B40D38C}" ShortID="614553521">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FTS" ID="{49C5FD6A-D0AD-4FCE-BDCC-395D2D6BC599}" WorkUnitID="{186C3CE4-EAD0-467C-99B8-9ED99785DCB9}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
