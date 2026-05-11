@@ -2588,7 +2588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnMoveEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnToggleTagebuchEvent.m_PersistentCalls.m_Calls.Array.size
@@ -2632,7 +2632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnMoveEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MoveInDirection
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnToggleMenuEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2672,7 +2672,7 @@ PrefabInstance:
       objectReference: {fileID: 2462814331648706584}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnInteractEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnInteract
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1631956721632107451, guid: e0b4eddf2360e4685afe2089038a143e, type: 3}
       propertyPath: OnToggleMapEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
