@@ -35,7 +35,7 @@
         "com.cod.dialog-builder": "0.9.3",
         "com.cod.playerinput": "1.0.0"
       },
-      "hash": "a36a4e74e0d462c0aa25562c3a98729e73232bea"
+      "hash": "5bc821e3b8a93269e323718dccffe1b07a20a023"
     },
     "com.cod.playerinput": {
       "version": "https://github.com/Marcolino3000/PlayerInput.git",
@@ -46,6 +46,15 @@
         "com.unity.inputsystem": "1.14.2"
       },
       "hash": "284ee76d21191fa07bd5ca2cff183d523ef64c98"
+    },
+    "com.singularitygroup.hotreload": {
+      "version": "file:com.singularitygroup.hotreload",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
     },
     "com.unity.2d.animation": {
       "version": "12.0.3",
